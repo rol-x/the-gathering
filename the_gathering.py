@@ -5,122 +5,166 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
 
-def create_webdriver(url):
-    '''Return the Firefox webdriver in headless mode, started at the provided url.'''
+# Return the Firefox webdriver in headless mode.
+def create_webdriver():
+    '''Return the Firefox webdriver in headless mode.'''
     print('Opening the webdriver')
     options = Options()
     options.headless = True
     browser = webdriver.Firefox(options=options)
-    print(f'Navigating to {url}')
-    browser.get(url)
     return browser
 
 
-def get_card_sellers(browser, url):
-    '''Return all sellers that have an active offer on a card.'''
-    # Move to the specified card page
-    browser.get(url)
+# Extract information about a card from provided soup, into card dictionary.
+def add_card(card_soup, card_dict):
+    '''Extract information about a card from provided soup, into card dictionary.'''
 
-    # Load all sell offers
-    while True:
-        load_more_button = browser.find_element_by_xpath('//button[@id="loadMoreButton"]')
-        if load_more_button.text == "":
-            break
-        browser.execute_script("arguments[0].click();", load_more_button)
-        print('Extending the sellers view...')
-        sleep(0.5)
+    # Get rows from the card information table
+    card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
+    # Append the attributes
+    card_dict['card_ID'].append(len(card_dict['card_ID']) + 1)
+    card_dict['rarity'].append(card_info[0].find('span')['data-original-title'])
+    card_dict['available_items'].append(card_info[3].string)
+    card_dict['price_from'].append(card_info[4].string)
+    card_dict['30_avg_price'].append(card_info[6].string)
+    card_dict['7_avg_price'].append(card_info[7].string)
+    card_dict['1_avg_price'].append(card_info[8].string)
+    card_dict['expansion_name'].append(card_info[1].find('span')['data-original-title'])
+    card_dict['card_name'].append(str(card_soup.find("h1")).split('<')[1][3:])
 
-    # Find all names (better to find all rows and extract info from each row)
-    html_content = browser.page_source
-    soup = BeautifulSoup(html_content, "html.parser")
-    names = soup.findAll("span", {"class": "d-flex has-content-centered mr-1"})
-    conditions = soup.findAll("a", {"href": "/en/Magic/Help/CardCondition"})
-    # print(conditions[0].find("span")['data-original-title'])
-
-    # Add sellers names to a set
-    sellers = set()
-    for name in names:
-        if name.string in sellers:
-            print(name.string + ' already is in the set!')
-        else:
-            print(f'Adding {name.string} to card sellers')
-            sellers.add(name.string)
-
-    # Return the set of sellers
-    print(f'Returning all sellers of card {url.split("/")[-1]}')
-    # browser.close()
-    return sellers
+    # Console logging
+    print('Card added: ' + card_name)
 
 
-def get_all_sellers(expansion):
-    '''Return all sellers that have an active offer in the provided expansion.'''
-    # Open the webdriver
-    browser = create_webdriver('https://www.cardmarket.com/en/Magic/Products/Singles/' + expansion)
-    all_sellers = set()
-    page_no = 1
+# Extract information about a seller from provided soup, into seller dictionary.
+def add_seller(seller_soup, seller_dict):
+    '''Extract information about a seller from provided soup, into seller dictionary.'''
 
-    # Iterate through pages of card offers
-    while True:
-        # Open the next page
-        browser.get('https://www.cardmarket.com/en/Magic/Products/Singles/'
-                    + expansion + '?site=' + str(page_no))
+    # Get rows from the seller information table
+    seller_name = seller_soup.find("h1")
+    if seller_name is None:
+        sleep(1.618)
+        print('Seller dropped, last seller: ' + seller_dict['seller_name'][-1])
+        sleep(1.618)
+        return
+    if seller_name.string in seller_dict['seller_name']:
+        print(f'Seller {seller_name.string} already saved')
+        return
 
-        # Find all links to card offers
-        html_content = browser.page_source
-        soup = BeautifulSoup(html_content, 'html.parser')
-        urls = soup.findAll("div", {"class":
-                       "col-10 col-md-8 px-2 flex-column align-items-start justify-content-center"})
+    # Append the attributes
+    seller_dict['seller_ID'].append(len(seller_dict['seller_ID']) + 1)
+    seller_dict['seller_name'].append(seller_name.string)
+    seller_dict['type'].append(seller_soup.find("span", {"class": "ml-2 personalInfo-bold"}).string)
+    # Member since
+    seller_dict['member_since'].append((seller_soup.find("span",
+        {"class": "fonticon-info d-none d-md-inline ml-1 small text-muted"}))["title"])
+    # Country
+    country_div = seller_soup.find("div",
+        {"class": "col-12 col-md-6"}).find("span")
+    seller_dict['country'].append(country_div["data-original-title"])
+    # Address
+    address_div = seller_soup.find("div", {"class":
+         "d-flex align-items-center justify-content-start flex-wrap personalInfo col-8 col-md-9"}) \
+        .findAll("p")
+    address = ""
+    for line in address_div:
+        address = address + line.string + ', '
+    seller_dict['address'].append(address.strip(", "))
+    if seller_dict['address'][-1] == seller_dict['country'][-1]:
+        seller_dict['address'][-1] = None
 
-        # Exit the loop at the end of the list
-        if len(urls) == 0:
-            break
+    # Console logging
+    print('Seller added: ' + seller_name.string)
 
-        # Create a webdriver for single card sellers
-        mini_browser = create_webdriver('https://www.cardmarket.com')
-
-        # Get every seller from each offer link
-        for url in urls:
-            link = url.find('a', href=True)
-            if link is not None:
-                print('Getting sellers from ', link['href'])
-                # Have created browser and change the link to https://www.cardmarket.com + link['href]
-                this_card_sellers = get_card_sellers(mini_browser, 'https://www.cardmarket.com' + link['href'])
-                all_sellers.union(this_card_sellers)
-                print('All sellers set expanded\n')
-
-        # Increment the page counter
-        page_no += 1
-
-    mini_browser.close();
-
-    # Return the set of all sellers
-    return all_sellers
-
-
-def save_to_file(collection, filename):
-    '''Save a collection of items to a file.'''
-    with open(filename, 'w') as writer:
-        for item in collection:
-            writer.write(str(item) + ',')
-    print(f'Collection of type {type(collection)} saved to {filename} successfully.')
+# Add a dummy date.
+def add_date(date_dict):
+    '''Add a dummy date.'''
+    for key in date_dict.keys:
+        date_dict[key].append(0)
 
 
 if __name__ == "__main__":
-    # Getting a single card sellers
-    # SSEEK = 'Battlebond/Spellseeker'
-    # VIG = 'Battlebond/Vigor'
-    # sellers = get_card_sellers('https://www.cardmarket.com/en/Magic/Products/Singles/'
-    #                                       + SSEEK)
-    # common_sellers.intersection_update(get_card_sellers(
-     #   'https://www.cardmarket.com/en/Magic/Products/Singles/' + VIG))
 
-    # Test saving to file
-    # save_to_file(common_sellers, 'common_sellers.csv')
+    # Setup
+    base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
+    expansion_name = 'Battlebond'
+    driver = create_webdriver()
 
-    # Getting all sellers of cards in given expansion
-    EXPANSION = 'Battlebond'
-    bb_sellers = get_all_sellers(EXPANSION.replace(' ', '-'))
-    print(len(bb_sellers))
+    # Card pre-table
+    card_dict = {'card_ID': [],
+                 'card_name': [],
+                 'expansion_name': [],
+                 'rarity': [],
+                 'price_from': [],
+                 '30_avg_price': [],
+                 '7_avg_price': [],
+                 '1_avg_price': [],
+                 'available_items': []}
+    # Seller pre-table
+    seller_dict = {'seller_ID': [],
+                   'seller_name': [],
+                   'type': [],
+                   'member_since': [],
+                   'country': [],
+                   'address': []}
+    # Date pre-table
+    date_dict = {'date_ID': [],
+                 'day': [],
+                 'month': [],
+                 'year': [],
+                 'day_of_week': [],
+                 'time': []}
 
-    # Save the sellers to a .csv file
-    # save_to_file(kot_sellers, EXPANSION.replace('-', '') + '.csv')
+    # Sale offer pre-table
+    sale_offer_dict = {'seller_ID': [],
+                       'price': [],
+                       'card_ID': [],
+                       'card_condition': [],
+                       'is_foiled': [],
+                       'date_ID': []}
+
+    # Cards list iteration
+    page_no = 1
+    while True:
+        # Separate divs with card links and names
+        driver.get(base_url + expansion_name + '?site=' + str(page_no))
+        print(driver.current_url)
+        list_soup = BeautifulSoup(driver.page_source, 'html.parser')
+        card_elements = list_soup.findAll("div", {"class":
+                       "col-10 col-md-8 px-2 flex-column align-items-start justify-content-center"})
+        # After the last page, there are 0 cards per page
+        if len(card_elements) == 0:
+            print("Last page reached")
+            break
+        # We open the wanted site and pass the soupified html to extracting function
+        for card in card_elements:
+            if card.string == 'Name':
+                continue
+            card_name = card.string
+            card_url = base_url + expansion_name + '/' + card_name.replace(' ', '-')
+            driver.get(card_url)
+            print(driver.current_url)
+            while True:
+                load_more_button = driver.find_element_by_xpath('//button[@id="loadMoreButton"]')
+                if load_more_button.text == "":
+                    break
+                driver.execute_script("arguments[0].click();", load_more_button)
+                print('Extending the sellers view...')
+                sleep(0.618)
+
+            card_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            add_card(card_soup, card_dict)  # Card added to the dictionary
+
+            sellers = card_soup.findAll('span', {'class': 'd-flex has-content-centered mr-1'})
+            for seller in sellers:
+                seller_name = seller.find('a').string
+                driver.get('https://www.cardmarket.com/en/Magic/Users/' + seller_name)
+                sleep(1.618)
+                seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
+                add_seller(seller_soup, seller_dict)  # Seller added to the dictionary
+                print('Seller added: ' + seller_name)
+
+            add_date(date_dict)
+            print('Date added')
+
+        page_no += 1
