@@ -10,6 +10,13 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
 
+# Wait about mean_val seconds before proceeding to the rest of the code.
+def realistic_pause(mean_val):
+    '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
+    std_val = mean_val * random() * 0.25 + 0.15
+    sleep(abs(normalvariate(mean_val, std_val)) + 0.1)
+
+
 # Return the Firefox webdriver in headless mode.
 def create_webdriver():
     '''Return the Firefox webdriver in headless mode.'''
@@ -72,16 +79,16 @@ def add_card(card_soup, current_date_ID):
     print('Card added: ' + card_name)
 
 
-# Extract information about a seller from provided soup, into seller dictionary.
+# Extract information about a seller from provided soup.
 def add_seller(seller_soup):
-    '''Extract information about a seller from provided soup, into seller dictionary.'''
+    '''Extract information about a seller from provided soup.'''
 
     # Load the seller dataframe
     seller_df = load_df('seller')
 
     # Get rows from the seller information table on page
     seller_name = seller_soup.find("h1")
-    
+
     # User not loaded correctly
     if seller_name is None:
         realistic_pause(1.618)
@@ -94,20 +101,33 @@ def add_seller(seller_soup):
 
     # Seller ID
     seller_ID = len(seller_df.index) + 1
- 
+
     # Type
-    s_type = seller_soup.find("span", {"class": "ml-2 personalInfo-bold"}).string
-    
+    s_type = seller_soup.find("span",
+                              {"class":
+                               "ml-2 personalInfo-bold"}).string
+
     # Member since
-    member_since = seller_soup.find("span", {"class": "ml-1 personalInfo-light d-none d-md-block"}).string.split(' ')[-1]
-    
+    member_since = seller_soup.find("span",
+                                    {"class": "ml-1 "
+                                     + "personalInfo-light "
+                                     + "d-none "
+                                     + "d-md-block"}).string.split(' ')[-1]
+
     # Country
     country = seller_soup.find("div",
-        {"class": "col-12 col-md-6"}).find("span")["data-original-title"]
-    
+                               {"class":
+                                "col-12 col-md-6"}) \
+        .find("span")["data-original-title"]
+
     # Address
-    address_div = seller_soup.findAll("div", {"class":
-         "d-flex align-items-center justify-content-start flex-wrap personalInfo col-8 col-md-9"})[-1] \
+    address_div = seller_soup.findAll("div", {"class": "d-flex "
+                                              + "align-items-center "
+                                              + "justify-content-start "
+                                              + "flex-wrap "
+                                              + "personalInfo "
+                                              + "col-8 "
+                                              + "col-md-9"})[-1] \
         .findAll("p")
     address = ''
     for line in address_div:
@@ -145,10 +165,13 @@ def add_date():
     date_ID = len(date_df.index) + 1
 
     # Check for the same datetime record
-    same_date = date_df[(date_df['day'] == int(day)) & (date_df['month'] == int(month))
-                        & (date_df['year'] == int(year)) & (date_df['time'] == date_time[1])]['date_ID']
+    same_date = date_df[(date_df['day'] == int(day))
+                        & (date_df['month'] == int(month))
+                        & (date_df['year'] == int(year))
+                        & (date_df['time'] == date_time[1])]['date_ID']
     if(len(same_date) > 0):
-        print('Date [' + str(same_date.values[0]) + '] already saved: ' + date_time[0] + ' ' + date_time[1])
+        print('Date [' + str(same_date.values[0]) + '] already saved: '
+              + date_time[0] + ' ' + date_time[1])
         return same_date.values[0]
 
     # Save the date with its own ID to local file
@@ -161,7 +184,8 @@ def add_date():
         date_csv.write(date_time[1] + '\n')
 
     # Console logging
-    print('Date [' + str(date_ID) + '] added: ' + date_time[0] + ' ' + date_time[1])
+    print('Date [' + str(date_ID) + '] added: '
+          + date_time[0] + ' ' + date_time[1])
 
     # Return the current date ID
     return date_ID
@@ -174,14 +198,17 @@ def prepare_files():
     if os.path.getsize('seller.csv'):
         pass
     else:
-        seller_csv.write('seller_ID;seller_name;type;member_since;country;address\n')
+        seller_csv.write('seller_ID;seller_name;type'
+                         + ';member_since;country;address\n')
     seller_csv.close()
 
     card_csv = open('card.csv', 'a+')
     if os.path.getsize('card.csv'):
         pass
     else:
-        card_csv.write('card_ID;card_name;expansion_name;rarity;price_from;30_avg_price;7_avg_price;1_avg_price;available_items;date_ID\n')
+        card_csv.write('card_ID;card_name;expansion_name;rarity;price_from;'
+                       + '30_avg_price;7_avg_price;1_avg_price;available_items'
+                       + ';date_ID\n')
     card_csv.close()
 
     date_csv = open('date.csv', 'a+')
@@ -195,18 +222,12 @@ def prepare_files():
     if os.path.getsize('sale_offer.csv'):
         pass
     else:
-        sale_offer_csv.write('seller_ID;price;card_ID;card_condition;is_foiled;date_ID\n')
+        sale_offer_csv.write('seller_ID;price;card_ID;card_condition;'
+                             + 'is_foiled;date_ID\n')
     sale_offer_csv.close()
 
     # Console logging
     print('Local files ready')
-
-
-# Wait about mean_val seconds before proceeding to the rest of the code.
-def realistic_pause(mean_val):
-    '''Wait about mean_val seconds before proceeding to the rest of the code.'''
-    std_val = mean_val * random() * 0.25 + 0.15
-    sleep(abs(normalvariate(mean_val, std_val)))
 
 
 # TODO: Send a query to the database
@@ -216,11 +237,12 @@ def send_query_seller(conn):
     for ID in seller_df.index:
         print(seller_df.iloc[ID])
         break
-    #sql_query = "INSERT INTO seller (seller_name, type, country, address) VALUES ('"
-    #+ names[i].string + "', 0, '" + country[15:] + "')"
-    #try:
+    # sql_query = "INSERT INTO seller (seller_name, type, country, address)
+    # VALUES ('"
+    # + names[i].string + "', 0, '" + country[15:] + "')"
+    # try:
     #        # Executing the SQL command
-    #        cursor.execute(sql        
+    #        cursor.execute(sql
     #        # Commit your changes in the database
     #        conn.commit()
     #    except:
@@ -233,7 +255,8 @@ def send_query_seller(conn):
 # Connect to a local database of given name.
 def connect_to_local_db(database_name):
     '''Connect to a local database of given name.'''
-    conn = mysql.connector.connect(user='root', password='P@ssword', host='127.0.0.1', database=database_name)
+    conn = mysql.connector.connect(user='root', password='P@ssword',
+                                   host='127.0.0.1', database=database_name)
     cursor = conn.cursor()
     print("Database connection established")
     return conn, cursor
@@ -245,18 +268,18 @@ def console_log_url(url):
     print("URL change  ->  " + url)
 
 
-# Return whether a saller with the same name is present in the seller dataframe.
+# Return if a seller with the same name is present in the dataframe.
 def is_seller_saved(seller_name):
-    '''Return whether a saller with the same name is present in the seller dataframe.'''
+    '''Return if a seller with the same name is present in the dataframe.'''
     seller_df = load_df('seller')
     if seller_name in seller_df['seller_name'].values:
         return True
     return False
 
 
-# Return whether a card with the same name is saved during current hour.
+# Return whether a card with the same name is saved during this hour.
 def is_card_recently_saved(card_name, current_date_ID):
-    '''Return whether a card with the same name is saved during current hour.'''
+    '''Return whether a card with the same name is saved during this hour.'''
     card_df = load_df('card')
     date_df = load_df('date')
     date_IDs = card_df[(card_df['card_name'] == card_name)]['date_ID'].values
@@ -286,8 +309,11 @@ def get_all_cards(driver, list_url):
         driver.get(list_url + '?site=' + str(page_no))
         console_log_url(driver.current_url)
         list_soup = BeautifulSoup(driver.page_source, 'html.parser')
-        card_elements = list_soup.findAll("div", {"class":
-                       "col-10 col-md-8 px-2 flex-column align-items-start justify-content-center"})
+        card_elements = list_soup.findAll("div", {"class": "col-10 "
+                                                  + "col-md-8 "
+                                                  + "px-2 " + "flex-column "
+                                                  + "align-items-start "
+                                                  + "justify-content-center"})
 
         # Check if there are cards on the page
         if len(card_elements) == 0:
@@ -298,7 +324,7 @@ def get_all_cards(driver, list_url):
             # Ignore the table header
             if card.string == 'Name':
                 continue
-            
+
             # Append this card to all cards
             all_cards.append(str(card.string))
 
@@ -309,11 +335,12 @@ def get_all_cards(driver, list_url):
     return all_cards
 
 
-# Keep clicking the 'Load More' button to have a complete list of card sellers.
+# Deplete the Load More button to have a complete list of card sellers.
 def click_load_more_button(driver):
-    '''Keep clicking the 'Load More' button to have a complete list of card sellers.'''
+    '''Deplete the Load More button to have a complete list of card sellers.'''
     while True:
-        load_more_button = driver.find_element_by_xpath('//button[@id="loadMoreButton"]')
+        load_more_button = driver \
+            .find_element_by_xpath('//button[@id="loadMoreButton"]')
         if load_more_button.text == "":
             break
         driver.execute_script("arguments[0].click();", load_more_button)
@@ -324,15 +351,19 @@ def click_load_more_button(driver):
 # Return a list of all sellers found in a card page.
 def get_all_sellers(card_soup):
     '''Return a list of all sellers found in a card page.'''
-    names_map = map(lambda x: str(x.find('a').string), card_soup.findAll('span', {'class': 'd-flex has-content-centered mr-1'}))
+    names_map = map(lambda x: str(x.find("a").string),
+                    card_soup.findAll("span", {"class": "d-flex "
+                                      + "has-content-centered " + "mr-1"}))
     return list(names_map)
 
 
+# Main function
 if __name__ == "__main__":
 
     # Setup
     prepare_files()
     base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
+    users_url = 'https://www.cardmarket.com/en/Magic/Users/'
     expansion_name = 'Battlebond'
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
@@ -343,13 +374,14 @@ if __name__ == "__main__":
     for card_name in card_list:
 
         # Craft the card url and open it with the driver
-        card_url = base_url + expansion_name + '/' + card_name.replace(' ', '-')
+        card_url_name = card_name.replace(' ', '-')
+        card_url = base_url + expansion_name + '/' + card_url_name
         driver.get(card_url)
         console_log_url(driver.current_url)
 
         # Get the parsed page content and pass it to data extracting function
         card_soup = BeautifulSoup(driver.page_source, 'html.parser')
-        
+
         # Check if a recent record already exists
         if is_card_recently_saved(card_name, current_date_ID):
             print('Card ' + card_name + ' already in the file')
@@ -359,12 +391,12 @@ if __name__ == "__main__":
         # Get all sellers from the card page
         sellers = get_all_sellers(card_soup)
         for seller_name in sellers:
-            
+
             # Check if a recent record already exists
             if is_seller_saved(seller_name):
                 print('Seller ' + seller_name + ' already in the file')
             else:
-                driver.get('https://www.cardmarket.com/en/Magic/Users/' + seller_name)
+                driver.get(users_url + seller_name)
                 realistic_pause(1.5)
                 seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
                 add_seller(seller_soup)
