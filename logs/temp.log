@@ -1,0 +1,600 @@
+13:30:43: Accessing the date dataframe16:10:34: Accessing the date dataframe
+16:11:39: Accessing the date dataframe
+16:12:03: Accessing the date dataframe
+16:13:18: Accessing the date dataframe
+16:13:35: Accessing the date dataframe
+16:13:35: Another run logged to this file16:13:35: Opening the webdriver
+16:13:39: Webdriver ready
+16:13:39: Database connection established
+16:13:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:13:53: Accessing the date dataframe
+16:13:53: Another run logged to this file16:13:53: Opening the webdriver
+16:13:57: Webdriver ready
+16:13:57: Database connection established
+16:13:58: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:14:16: Accessing the date dataframe
+16:14:54: Accessing the date dataframe
+16:14:54: Another run logged to this file16:14:54: Opening the webdriver
+16:14:58: Webdriver ready
+16:14:58: Database connection established
+16:14:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:15:16: Accessing the date dataframe
+16:16:41: Accessing the date dataframe
+16:27:49: Accessing the date dataframe
+16:33:09: Accessing the date dataframe
+16:41:05: Accessing the date dataframe
+16:41:48: Accessing the date dataframe
+16:41:48: Another run logged to this file16:41:48: Opening the webdriver
+16:41:52: Webdriver ready
+16:41:52: Database connection established
+16:41:53: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:41:53: All card names already saved
+16:41:53: Sleeping for 1.4208970741263178 seconds
+16:41:55: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+16:41:55: Accessing the card dataframe
+16:41:55: Accessing the date dataframe
+16:41:55: Accessing the card dataframe
+16:41:55: Card added: Skyshroud Claim
+16:41:55: Accessing the seller dataframe
+16:41:55: Sleeping for 2.9501343756473184 seconds
+16:41:59: Accessing the seller dataframe
+16:41:59: Seller added to local file: PartyNator
+16:41:59: Accessing the seller dataframe
+16:41:59: Sleeping for 2.710261430897228 seconds
+16:42:02: Accessing the seller dataframe
+16:42:02: Seller added to local file: CValle
+16:42:02: Accessing the seller dataframe
+16:42:02: Sleeping for 2.6508290933298646 seconds
+16:42:05: Accessing the seller dataframe
+16:42:05: Seller added to local file: MarcoSanzin
+16:42:05: Accessing the seller dataframe
+16:42:05: Sleeping for 2.2612060445933615 seconds
+16:42:08: Accessing the seller dataframe
+16:42:08: Seller added to local file: MagicBivio
+16:42:08: Accessing the seller dataframe
+16:42:08: Sleeping for 3.068675231600638 seconds
+16:42:11: Accessing the seller dataframe
+16:42:11: Seller added to local file: Tezzeret84
+16:42:11: Accessing the seller dataframe
+16:42:11: Sleeping for 2.7259997715065394 seconds
+16:42:15: Accessing the seller dataframe
+16:42:15: Seller added to local file: Lordburka
+16:42:15: Accessing the seller dataframe
+16:42:15: Sleeping for 2.893596773583656 seconds
+16:42:18: Accessing the seller dataframe
+16:42:18: Seller added to local file: Lanowar69
+16:42:18: Accessing the seller dataframe
+16:42:18: Sleeping for 3.1903097245060645 seconds
+16:42:22: Accessing the seller dataframe
+16:42:22: Seller added to local file: Topdeckskills
+16:42:22: Accessing the seller dataframe
+16:42:22: Sleeping for 2.7515828561430524 seconds
+16:42:25: Accessing the seller dataframe
+16:42:25: Seller added to local file: magicpartcard
+16:42:25: Accessing the seller dataframe
+16:42:25: Sleeping for 3.074828973972636 seconds
+16:42:29: Accessing the seller dataframe
+16:42:29: Seller added to local file: stanislaf
+16:42:29: Accessing the seller dataframe
+16:42:29: Sleeping for 2.385094844856904 seconds
+16:42:31: Accessing the seller dataframe
+16:42:31: Seller added to local file: Thrymiir
+16:42:31: Accessing the seller dataframe
+16:42:31: Sleeping for 2.2590331794033602 seconds
+16:42:34: Accessing the seller dataframe
+16:42:34: Seller added to local file: daidojilaurent
+16:42:34: Accessing the seller dataframe
+16:42:34: Sleeping for 2.7799576533606856 seconds
+16:42:37: Accessing the seller dataframe
+16:42:37: Seller added to local file: sovmar
+16:42:37: Accessing the seller dataframe
+16:42:37: Sleeping for 2.4726487152406174 seconds
+16:42:40: Accessing the seller dataframe
+16:42:40: Seller added to local file: Ceribe
+16:42:40: Accessing the seller dataframe
+16:42:40: Sleeping for 2.564056223710057 seconds
+16:42:43: Accessing the seller dataframe
+16:42:43: Seller added to local file: Felixuco
+16:42:43: Accessing the seller dataframe
+16:42:43: Sleeping for 2.6817196379980492 seconds
+16:42:47: Accessing the seller dataframe
+16:42:47: Seller added to local file: Richaardi
+16:42:47: Accessing the seller dataframe
+16:42:47: Sleeping for 1.9288055779495155 seconds
+16:42:49: Accessing the seller dataframe
+16:42:49: Seller added to local file: diddos
+16:42:49: Accessing the seller dataframe
+16:42:49: Sleeping for 2.428504493251807 seconds
+16:42:52: Accessing the seller dataframe
+16:42:52: Seller added to local file: dakkon87
+16:42:52: Accessing the seller dataframe
+16:42:52: Sleeping for 2.5431243882252366 seconds
+16:42:55: Accessing the seller dataframe
+16:42:55: Seller added to local file: Mirikov
+16:42:55: Accessing the seller dataframe
+16:42:55: Sleeping for 3.058957155446999 seconds
+16:42:59: Accessing the seller dataframe
+16:42:59: Seller added to local file: BrandyBrand
+16:42:59: Accessing the seller dataframe
+16:42:59: Sleeping for 3.043056854316171 seconds
+16:43:02: Accessing the seller dataframe
+16:43:02: Seller added to local file: CommanderStaples
+16:43:02: Accessing the seller dataframe
+16:43:02: Sleeping for 2.202176866182167 seconds
+16:43:05: Accessing the seller dataframe
+16:43:05: Seller added to local file: BechaMecha
+16:43:05: Accessing the seller dataframe
+16:43:05: Sleeping for 2.444038707585127 seconds
+16:43:08: Accessing the seller dataframe
+16:43:08: Seller added to local file: MadridMagic
+16:43:08: Accessing the seller dataframe
+16:43:08: Sleeping for 2.4516265519376748 seconds
+16:43:11: Accessing the seller dataframe
+16:43:11: Seller added to local file: DombekTorun
+16:43:11: Accessing the seller dataframe
+16:43:11: Sleeping for 2.7568432301389136 seconds
+16:43:14: Accessing the seller dataframe
+16:43:14: Seller added to local file: BaukeS
+16:43:15: Accessing the seller dataframe
+16:43:15: Sleeping for 2.5618773327058504 seconds
+16:43:18: Accessing the seller dataframe
+16:43:18: Seller added to local file: plkfd
+16:43:18: Accessing the seller dataframe
+16:43:18: Sleeping for 1.3497321785646688 seconds
+16:43:19: Accessing the seller dataframe
+16:43:19: Seller added to local file: quasimoto
+16:43:19: Accessing the seller dataframe
+16:43:19: Sleeping for 2.950330030631951 seconds
+16:43:23: Accessing the seller dataframe
+16:43:23: Seller added to local file: Zoocomics
+16:43:23: Accessing the seller dataframe
+16:43:23: Sleeping for 2.3174515252979666 seconds
+16:43:26: Accessing the seller dataframe
+16:43:26: Seller added to local file: MTG-Prime
+16:43:26: Accessing the seller dataframe
+16:43:26: Sleeping for 3.3215469032081426 seconds
+16:43:30: Accessing the seller dataframe
+16:43:30: Seller added to local file: FrankvdWaals
+16:43:30: Accessing the seller dataframe
+16:43:30: Sleeping for 2.6077238960025 seconds
+16:43:33: Accessing the seller dataframe
+16:43:33: Seller added to local file: GunCha
+16:43:33: Accessing the seller dataframe
+16:43:33: Sleeping for 2.3065116618630372 seconds
+16:43:36: Accessing the seller dataframe
+16:43:36: Seller added to local file: OliverFarkash
+16:43:36: Accessing the seller dataframe
+16:43:36: Sleeping for 2.093440360349878 seconds
+16:43:38: Accessing the seller dataframe
+16:43:38: Seller added to local file: hobbitfred
+16:43:38: Accessing the seller dataframe
+16:43:38: Sleeping for 3.0596186509002057 seconds
+16:43:42: Accessing the seller dataframe
+16:43:42: Seller added to local file: Tyron-Heartz
+16:43:42: Accessing the seller dataframe
+16:43:42: Sleeping for 3.142989847006264 seconds
+16:43:46: Accessing the seller dataframe
+16:43:46: Seller added to local file: cultus
+16:43:46: Accessing the seller dataframe
+16:43:46: Sleeping for 2.1237614176260995 seconds
+16:43:48: Accessing the seller dataframe
+16:43:48: Seller added to local file: bendu71
+16:43:48: Accessing the seller dataframe
+16:43:48: Sleeping for 2.6891317619836292 seconds
+16:43:51: Accessing the seller dataframe
+16:43:51: Seller added to local file: Kungfupeet
+16:43:51: Accessing the seller dataframe
+16:43:51: Sleeping for 2.8203308450598326 seconds
+16:43:55: Accessing the seller dataframe
+16:43:55: Seller added to local file: TheCoonRises
+16:43:55: Accessing the seller dataframe
+16:43:55: Sleeping for 1.9561789273616212 seconds
+16:43:58: Accessing the seller dataframe
+16:43:58: Seller added to local file: kARNN
+16:43:58: Accessing the seller dataframe
+16:43:58: Sleeping for 2.048751979284056 seconds
+16:44:00: Accessing the seller dataframe
+16:44:00: Seller added to local file: RedDragonMagic
+16:44:00: Accessing the seller dataframe
+16:44:00: Sleeping for 2.4825199610034283 seconds
+16:44:03: Accessing the seller dataframe
+16:44:03: Seller added to local file: fuxxi
+16:44:03: Accessing the seller dataframe
+16:44:03: Sleeping for 3.175283517404285 seconds
+16:44:07: Accessing the seller dataframe
+16:44:07: Seller added to local file: maglaf88
+16:44:07: Accessing the seller dataframe
+16:44:07: Sleeping for 2.6848309125054666 seconds
+16:44:10: Accessing the seller dataframe
+16:44:10: Seller added to local file: antonio-muenster
+16:44:10: Accessing the seller dataframe
+16:44:10: Sleeping for 2.6235204425018477 seconds
+16:44:13: Accessing the seller dataframe
+16:44:13: Seller added to local file: Dinis
+16:44:13: Accessing the seller dataframe
+16:44:13: Sleeping for 2.672023283383906 seconds
+16:44:16: Accessing the seller dataframe
+16:44:16: Seller added to local file: Akroma44
+16:44:16: Accessing the seller dataframe
+16:44:16: Sleeping for 2.434836122400316 seconds
+16:44:19: Accessing the seller dataframe
+16:44:19: Seller added to local file: 38Shizo
+16:44:19: Accessing the seller dataframe
+16:44:19: Sleeping for 2.4486087054581525 seconds
+16:44:22: Accessing the seller dataframe
+16:44:22: Seller added to local file: Matze-KungFury
+16:44:22: Accessing the seller dataframe
+16:44:22: Sleeping for 2.6800323584110073 seconds
+16:44:25: Accessing the seller dataframe
+16:44:25: Seller added to local file: pantufas
+16:44:25: Accessing the seller dataframe
+16:44:25: Sleeping for 2.568942741668028 seconds
+16:44:28: Accessing the seller dataframe
+16:44:28: Seller added to local file: Loui0
+16:44:28: Accessing the seller dataframe
+16:44:28: Sleeping for 1.7186743848050279 seconds
+16:44:31: Accessing the seller dataframe
+16:44:31: Seller added to local file: tennlos
+16:44:31: Sleeping for 1.5043730795243557 seconds
+16:44:33: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+16:44:33: Accessing the card dataframe
+16:44:33: Accessing the date dataframe
+16:44:33: Accessing the card dataframe
+16:44:33: Card added: Impulse
+16:44:33: Accessing the seller dataframe
+16:44:33: Sleeping for 2.6974161994366264 seconds
+16:44:36: Accessing the seller dataframe
+16:44:36: Seller added to local file: replicart71
+16:44:36: Accessing the seller dataframe
+16:44:36: Sleeping for 1.9001743727417988 seconds
+16:44:38: Accessing the seller dataframe
+16:44:38: Seller added to local file: WhiteFoxThree
+16:44:38: Accessing the seller dataframe
+16:44:38: Sleeping for 2.6293233895733996 seconds
+16:44:42: Accessing the seller dataframe
+16:44:42: Seller added to local file: Jean-Claire
+16:44:42: Accessing the seller dataframe
+16:44:42: Seller Jean-Claire already in the file
+16:44:42: Accessing the seller dataframe
+16:44:42: Sleeping for 2.654001275458296 seconds
+16:44:45: Accessing the seller dataframe
+16:44:45: Seller added to local file: NuggetGaming
+16:44:45: Accessing the seller dataframe
+16:44:45: Sleeping for 2.1486532390539197 seconds
+16:44:47: Accessing the seller dataframe
+16:44:47: Seller added to local file: ctouya
+16:44:47: Accessing the seller dataframe
+16:44:47: Sleeping for 2.585544908543382 seconds
+16:44:50: Accessing the seller dataframe
+16:44:50: Seller added to local file: Giftsungiven
+16:44:51: Accessing the seller dataframe
+16:44:51: Sleeping for 3.2096325812694695 seconds
+16:44:54: Accessing the seller dataframe
+16:44:54: Seller added to local file: Emisary121
+16:44:54: Accessing the seller dataframe
+16:44:54: Sleeping for 2.3152661443135227 seconds
+16:44:57: Accessing the seller dataframe
+16:44:57: Seller added to local file: Espell
+16:44:57: Accessing the seller dataframe
+16:44:57: Sleeping for 2.6302433253511 seconds
+16:45:00: Accessing the seller dataframe
+16:45:00: Seller added to local file: ruben52
+16:45:00: Accessing the seller dataframe
+16:45:00: Sleeping for 2.2421715144221053 seconds
+16:45:03: Accessing the seller dataframe
+16:45:03: Seller added to local file: procards
+16:45:03: Accessing the seller dataframe
+16:45:03: Sleeping for 1.9110356565399678 seconds
+16:45:06: Accessing the seller dataframe
+16:45:06: Seller added to local file: ludovic1968
+16:45:06: Accessing the seller dataframe
+16:45:06: Sleeping for 2.755847533924256 seconds
+16:45:09: Accessing the seller dataframe
+16:45:09: Seller added to local file: valis
+16:45:09: Accessing the seller dataframe
+16:45:09: Seller antonio-muenster already in the file
+16:45:09: Accessing the seller dataframe
+16:45:09: Sleeping for 2.1569216057062124 seconds
+16:45:12: Accessing the seller dataframe
+16:45:12: Seller added to local file: NoDrummer
+16:45:12: Accessing the seller dataframe
+16:45:12: Sleeping for 2.7912331192219546 seconds
+16:45:15: Accessing the seller dataframe
+16:45:15: Seller added to local file: Styliann
+16:45:15: Accessing the seller dataframe
+16:45:15: Sleeping for 2.7912079571268174 seconds
+16:45:18: Accessing the seller dataframe
+16:45:18: Seller added to local file: yannloison13
+16:45:18: Accessing the seller dataframe
+16:45:18: Sleeping for 2.4370363835238003 seconds
+16:45:21: Accessing the seller dataframe
+16:45:21: Seller added to local file: masistuta
+16:45:21: Accessing the seller dataframe
+16:45:21: Sleeping for 2.6776446929107878 seconds
+16:45:24: Accessing the seller dataframe
+16:45:24: Seller added to local file: Trade-Secrets
+16:45:24: Accessing the seller dataframe
+16:45:24: Sleeping for 2.323031190181288 seconds
+16:45:27: Accessing the seller dataframe
+16:45:27: Seller added to local file: phagma
+16:45:27: Accessing the seller dataframe
+16:45:27: Sleeping for 2.377233727595964 seconds
+16:45:30: Accessing the seller dataframe
+16:45:30: Seller added to local file: Gautch
+16:45:30: Accessing the seller dataframe
+16:45:30: Sleeping for 2.478862042024866 seconds
+16:45:34: Accessing the seller dataframe
+16:45:34: Seller added to local file: txbcards
+16:45:34: Accessing the seller dataframe
+16:45:34: Sleeping for 2.599185015718532 seconds
+16:45:37: Accessing the seller dataframe
+16:45:37: Seller added to local file: Knightnight
+16:45:37: Accessing the seller dataframe
+16:45:37: Sleeping for 2.26766961480426 seconds
+16:45:39: Accessing the seller dataframe
+16:45:39: Seller added to local file: karasofr
+16:45:39: Accessing the seller dataframe
+16:45:39: Sleeping for 2.658793366914869 seconds
+16:45:43: Accessing the seller dataframe
+16:45:43: Seller added to local file: Pa-t-ch
+16:45:43: Accessing the seller dataframe
+16:45:43: Sleeping for 2.746392222106101 seconds
+16:45:46: Accessing the seller dataframe
+16:45:46: Seller added to local file: rogiol
+16:45:46: Accessing the seller dataframe
+16:45:46: Sleeping for 2.5708448649576168 seconds
+16:45:49: Accessing the seller dataframe
+16:45:49: Seller added to local file: danieldisco
+16:45:49: Accessing the seller dataframe
+16:45:49: Sleeping for 3.5518210193576407 seconds
+16:45:53: Accessing the seller dataframe
+16:45:53: Seller added to local file: Admiral-Haze
+16:45:53: Accessing the seller dataframe
+16:45:53: Sleeping for 2.550288292060787 seconds
+16:45:56: Accessing the seller dataframe
+16:45:56: Seller added to local file: aleeuwen1
+16:45:56: Accessing the seller dataframe
+16:45:56: Sleeping for 2.22378317456488 seconds
+16:45:59: Accessing the seller dataframe
+16:45:59: Seller added to local file: Geek-Corner
+16:45:59: Accessing the seller dataframe
+16:45:59: Sleeping for 2.493294962576654 seconds
+16:46:02: Accessing the seller dataframe
+16:46:02: Seller added to local file: Stefouch
+16:46:02: Accessing the seller dataframe
+16:46:02: Seller MarcoSanzin already in the file
+16:46:02: Accessing the seller dataframe
+16:46:02: Seller PartyNator already in the file
+16:46:02: Accessing the seller dataframe
+16:46:02: Sleeping for 2.4807567051084796 seconds
+16:46:05: Accessing the seller dataframe
+16:46:05: Seller added to local file: pisqnek
+16:46:05: Accessing the seller dataframe
+16:46:05: Sleeping for 2.6487493073745783 seconds
+16:46:09: Accessing the seller dataframe
+16:46:09: Seller added to local file: Goodlookgamer
+16:46:09: Accessing the seller dataframe
+16:46:09: Sleeping for 1.912789829507242 seconds
+16:46:11: Accessing the seller dataframe
+16:46:11: Seller added to local file: TopdeckDK
+16:46:11: Accessing the seller dataframe
+16:46:11: Sleeping for 2.7818936960230127 seconds
+16:46:14: Accessing the seller dataframe
+16:46:14: Seller added to local file: sedehiMTG
+16:46:14: Accessing the seller dataframe
+16:46:14: Sleeping for 3.7222330898013607 seconds
+16:46:19: Accessing the seller dataframe
+16:46:19: Seller added to local file: Magiccardshop
+16:46:19: Accessing the seller dataframe
+16:46:19: Sleeping for 2.0213781653901886 seconds
+16:46:22: Accessing the seller dataframe
+16:46:22: Seller added to local file: TCGWarehouse
+16:46:22: Accessing the seller dataframe
+16:46:22: Sleeping for 3.2895505435365564 seconds
+16:46:26: Accessing the seller dataframe
+16:46:26: Seller added to local file: helpoemer
+16:46:26: Accessing the seller dataframe
+16:46:26: Sleeping for 2.374643298498379 seconds
+16:46:29: Accessing the seller dataframe
+16:46:29: Seller added to local file: Nerd-Shop
+16:46:29: Accessing the seller dataframe
+16:46:29: Sleeping for 2.6737600362897602 seconds
+16:46:32: Accessing the seller dataframe
+16:46:32: Seller added to local file: Andycards
+16:46:32: Accessing the seller dataframe
+16:46:32: Sleeping for 2.712240204012946 seconds
+16:46:36: Accessing the seller dataframe
+16:46:36: Seller added to local file: weißer-Lotus
+16:46:36: Accessing the seller dataframe
+16:46:36: Sleeping for 2.7578719066579946 seconds
+16:46:39: Accessing the seller dataframe
+16:46:39: Seller added to local file: sanjic
+16:46:39: Accessing the seller dataframe
+16:46:39: Sleeping for 2.275682494922053 seconds
+16:46:42: Accessing the seller dataframe
+16:46:42: Seller added to local file: MagusDoVinhedo
+16:46:42: Accessing the seller dataframe
+16:46:42: Sleeping for 3.313416216853431 seconds
+16:46:45: Accessing the seller dataframe
+16:46:45: Seller added to local file: Wintereinbruch
+16:46:46: Accessing the seller dataframe
+16:46:46: Sleeping for 3.8140548833057424 seconds
+16:46:50: Accessing the seller dataframe
+16:46:50: Seller added to local file: Kissmaiass
+16:46:50: Accessing the seller dataframe
+16:46:50: Sleeping for 2.658751735356094 seconds
+16:46:53: Accessing the seller dataframe
+16:46:53: Seller added to local file: thewirtschaftswunder
+16:46:53: Accessing the seller dataframe
+16:46:53: Seller BaukeS already in the file
+16:46:53: Accessing the seller dataframe
+16:46:53: Sleeping for 2.9030713442355 seconds
+16:46:56: Accessing the seller dataframe
+16:46:56: Seller added to local file: Blackbolt
+16:46:56: Sleeping for 1.6176498274319795 seconds
+16:46:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+16:46:59: Accessing the card dataframe
+16:46:59: Accessing the date dataframe
+16:46:59: Accessing the card dataframe
+16:46:59: Card added: Zndrsplt, Eye of Wisdom
+16:46:59: Accessing the seller dataframe
+16:46:59: Sleeping for 2.279665005433139 seconds
+16:47:01: Accessing the seller dataframe
+16:47:02: Seller added to local file: aleplm98
+16:47:02: Accessing the seller dataframe
+16:47:02: Sleeping for 2.480850837981911 seconds
+16:47:05: Accessing the seller dataframe
+16:47:05: Seller added to local file: GoodPool
+16:47:05: Accessing the seller dataframe
+16:47:05: Sleeping for 2.5390510947519456 seconds
+16:47:08: Accessing the seller dataframe
+16:47:08: Seller added to local file: Foransa
+16:47:08: Accessing the seller dataframe
+16:47:08: Sleeping for 2.24128993375382 seconds
+16:47:10: Accessing the seller dataframe
+16:47:10: Seller added to local file: PanBzoch
+16:47:10: Accessing the seller dataframe
+16:47:10: Sleeping for 2.2305210657863817 seconds
+16:47:13: Accessing the seller dataframe
+16:47:13: Seller added to local file: Colabier
+16:47:13: Accessing the seller dataframe
+16:47:13: Sleeping for 3.0031371526045456 seconds
+16:47:17: Accessing the seller dataframe
+16:47:17: Seller added to local file: moneymaker
+16:47:17: Accessing the seller dataframe
+16:47:17: Sleeping for 2.8343343705674986 seconds
+16:47:20: Accessing the seller dataframe
+16:47:20: Seller added to local file: Noah471
+16:47:20: Accessing the seller dataframe
+16:47:20: Sleeping for 2.657137778317766 seconds
+16:47:23: Accessing the seller dataframe
+16:47:23: Seller added to local file: Cohnjollins
+16:47:23: Accessing the seller dataframe
+16:47:23: Sleeping for 3.476177897574077 seconds
+16:47:27: Accessing the seller dataframe
+16:47:27: Seller added to local file: LeonPonce
+16:47:27: Accessing the seller dataframe
+16:47:27: Sleeping for 3.5482109027396063 seconds
+16:47:31: Accessing the seller dataframe
+16:47:31: Seller added to local file: sytsnas
+16:47:31: Accessing the seller dataframe
+16:47:31: Sleeping for 2.5227094928537155 seconds
+16:47:34: Accessing the seller dataframe
+16:47:34: Seller added to local file: noisia
+16:47:34: Accessing the seller dataframe
+16:47:34: Sleeping for 2.5740804033125126 seconds
+16:47:37: Accessing the seller dataframe
+16:47:37: Seller added to local file: Greenskull
+16:47:37: Accessing the seller dataframe
+16:47:37: Sleeping for 1.8287933807735528 seconds
+16:47:39: Accessing the seller dataframe
+16:47:39: Seller added to local file: Danedeluxe
+16:47:39: Accessing the seller dataframe
+16:47:39: Sleeping for 2.5953451021643135 seconds
+16:47:42: Accessing the seller dataframe
+16:47:42: Seller added to local file: babylon
+16:47:42: Accessing the seller dataframe
+16:47:42: Sleeping for 2.4870822059428526 seconds
+16:47:45: Accessing the seller dataframe
+16:47:45: Seller added to local file: McFreud
+16:47:46: Accessing the seller dataframe
+16:47:46: Sleeping for 2.4101368958544107 seconds
+16:47:48: Accessing the seller dataframe
+16:47:48: Seller added to local file: muse99
+16:47:48: Accessing the seller dataframe
+16:47:48: Sleeping for 2.1095570840607256 seconds
+16:47:51: Accessing the seller dataframe
+16:47:51: Seller added to local file: Bellota95
+16:47:51: Accessing the seller dataframe
+16:47:51: Sleeping for 2.832261438059079 seconds
+16:47:54: Accessing the seller dataframe
+16:47:54: Seller added to local file: BBG66
+16:47:54: Accessing the seller dataframe
+16:47:54: Sleeping for 2.219918985692576 seconds
+16:47:57: Accessing the seller dataframe
+16:47:57: Seller added to local file: Marsupisalami
+16:47:57: Accessing the seller dataframe
+16:47:57: Sleeping for 2.496108168114158 seconds
+16:48:00: Accessing the seller dataframe
+16:48:00: Seller added to local file: Murasame
+16:48:00: Accessing the seller dataframe
+16:48:00: Seller stanislaf already in the file
+16:48:00: Accessing the seller dataframe
+16:48:00: Sleeping for 2.533973884663736 seconds
+16:48:03: Accessing the seller dataframe
+16:48:03: Seller added to local file: cardvictim
+16:48:03: Accessing the seller dataframe
+16:48:03: Sleeping for 2.4312156453244884 seconds
+16:48:06: Accessing the seller dataframe
+16:48:06: Seller added to local file: atlas222
+16:48:06: Accessing the seller dataframe
+16:48:06: Sleeping for 2.870268064420137 seconds
+16:48:09: Accessing the seller dataframe
+16:48:09: Seller added to local file: Torako
+16:48:09: Accessing the seller dataframe
+16:48:09: Seller MadridMagic already in the file
+16:48:09: Accessing the seller dataframe
+16:48:09: Sleeping for 3.017762521149343 seconds
+16:48:13: Accessing the seller dataframe
+16:48:13: Seller added to local file: cloudpostBA
+16:48:13: Accessing the seller dataframe
+16:48:13: Sleeping for 2.415478452962587 seconds
+16:48:16: Accessing the seller dataframe
+16:48:16: Seller added to local file: bouzekry
+16:48:16: Accessing the seller dataframe
+16:48:16: Sleeping for 2.5264451722137338 seconds
+16:48:19: Accessing the seller dataframe
+16:48:19: Seller added to local file: Hgjlesv
+16:48:19: Accessing the seller dataframe
+16:48:19: Sleeping for 2.1675087277374625 seconds
+16:48:22: Accessing the seller dataframe
+16:48:22: Seller added to local file: stahlkarnickel2
+16:48:22: Accessing the seller dataframe
+16:48:22: Sleeping for 2.4804832733605533 seconds
+16:48:25: Accessing the seller dataframe
+16:48:25: Seller added to local file: TimD
+16:48:25: Accessing the seller dataframe
+16:48:25: Sleeping for 2.575228301840257 seconds
+16:48:28: Accessing the seller dataframe
+16:48:28: Seller added to local file: PowerMagicstar
+16:48:28: Accessing the seller dataframe
+16:48:28: Seller CommanderStaples already in the file
+16:48:28: Accessing the seller dataframe
+16:48:28: Sleeping for 2.9072896360185787 seconds
+16:48:32: Accessing the seller dataframe
+16:48:32: Seller added to local file: kartenschmiede
+16:48:32: Accessing the seller dataframe
+16:48:32: Sleeping for 2.5923266374327887 seconds
+16:48:35: Accessing the seller dataframe
+16:48:35: Seller added to local file: theNecromancer
+16:48:35: Accessing the seller dataframe
+16:48:35: Sleeping for 3.128139214573284 seconds
+16:49:08: Accessing the date dataframe
+20:41:34: Accessing the date dataframe
+20:43:58: Accessing the date dataframe
+20:44:28: Accessing the date dataframe
+20:48:20: Accessing the date dataframe
+20:48:31: Accessing the date dataframe
+20:48:31: Another run logged to this file
+20:48:31: Opening the webdriver
+20:48:36: Webdriver ready
+20:48:36: Database connection established
+20:48:37: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:48:37: All card names already saved
+20:48:37: Sleeping for 1.6626089013997385 seconds
+20:48:39: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+20:48:39: Accessing the card dataframe
+20:48:39: Accessing the date dataframe
+20:48:39: Card Skyshroud Claim saved recently (20:41)
+20:48:39: Card Skyshroud Claim already in the file
+
+20:48:39: Error tokenizing data. C error: Expected 6 fields in line 274, saw 11
+
+20:48:39: Please check the correctness of data in seller.csv!
+
+20:49:39: Accessing the date dataframe
+20:59:30: Accessing the date dataframe
+21:06:37: [read date]
+21:08:46: [read date]
+21:11:44: [read date]
+21:11:44: [write date]

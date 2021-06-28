@@ -1,0 +1,19 @@
+20:44:28: Date [28/06/2021 20:44] added: date_ID=18
+20:44:28: Another run logged to this file
+20:44:28: Opening the webdriver
+20:44:32: Webdriver ready
+20:44:32: Database connection established
+20:44:33: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:44:33: All card names already saved
+
+20:44:33: Sleeping for 1.5246556693151034 seconds
+20:44:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+20:44:36: Accessing the card dataframe
+20:44:36: Accessing the date dataframe
+20:44:36: Card Skyshroud Claim saved recently (20:41)
+20:44:36: Card Skyshroud Claim already in the file
+
+20:44:36: Error tokenizing data. C error: Expected 6 fields in line 274, saw 11
+
+20:44:36: Please check the correctness of data in seller.csv!
+

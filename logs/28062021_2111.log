@@ -1,0 +1,425 @@
+21:11:44: Date [28/06/2021 21:11] added: date_ID=24
+21:11:44: Another run logged to this file
+21:11:44: Opening the webdriver
+21:11:49: Webdriver ready
+21:11:49: Database connection established
+21:11:50: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+21:11:50: All card names already saved
+21:11:50: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+21:11:50: Sleeping for 1.669650171089876 seconds
+21:11:52: Sleeping for 0.37458717113233486 seconds
+21:11:52: Extending the sellers view...
+21:11:52: Sleeping for 0.672646406816039 seconds
+21:11:53: Extending the sellers view...
+21:11:53: Sleeping for 0.5041195101890185 seconds
+21:11:54: Extending the sellers view...
+21:11:54: Sleeping for 0.6267707878530359 seconds
+21:11:54: Extending the sellers view...
+21:11:54: Sleeping for 0.7533807499209355 seconds
+21:11:56: [read card]
+21:11:56: [read date]
+21:11:56: Card Skyshroud Claim saved recently (21:06)
+21:11:56: Not saving
+
+21:11:56: [read seller]
+21:11:56: Not saving: PartyNator (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: CValle (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: MarcoSanzin (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: MagicBivio (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Tezzeret84 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Lordburka (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Lanowar69 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Topdeckskills (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: magicpartcard (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: stanislaf (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Thrymiir (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: daidojilaurent (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: sovmar (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Ceribe (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Felixuco (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Richaardi (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: diddos (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: dakkon87 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Mirikov (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: BrandyBrand (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: CommanderStaples (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: BechaMecha (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: MadridMagic (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: DombekTorun (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: BaukeS (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: plkfd (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: quasimoto (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zoocomics (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: MTG-Prime (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: FrankvdWaals (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: GunCha (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: hobbitfred (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Tyron-Heartz (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: cultus (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: bendu71 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Kungfupeet (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: TheCoonRises (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: kARNN (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: RedDragonMagic (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: fuxxi (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: maglaf88 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: antonio-muenster (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Dinis (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Akroma44 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: 38Shizo (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Matze-KungFury (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: pantufas (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Loui0 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: tennlos (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: MagicNexus (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: SimonJack88 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: JohnWizard (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Rarehuntershop (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: CardStoreAlcamo (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Brenag (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Magicdealer-patte-de (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Magicshop2000 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: DiamondValley (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: maglaf88 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Kartenkoenig (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zaki23 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: kfranklin12 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: hespacc (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Mirrankreuzritter (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: matiasgabarron (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: HiveGames (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: mtg-discounter24 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Athabasca (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Twoshop (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: DHGames (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: ishotya (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: DagonX (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: landshome279 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: satirobcn (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Bigs77 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: gambo (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: stamosm (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Bruce7506 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: rakerone (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Mintcardgem (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: AdrianMC (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Skiski (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: rockardist (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: DrDkt666 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zoios (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Kuduce (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Mavado-Vemos (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Colovia (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: K40crew (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: michaldurovic (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Muttonium (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Adway (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Carioca9987 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: maxsilver (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: pbjoker (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: pbjoker (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Ghostlo (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Magicshop2000 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: CrazyComicsAndGames (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Abdelbach (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: heckman (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zloch (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Ceribe (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: deathhenker (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: OutpostBrussels (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zakk67 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: zalakke (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: CardCastle (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Admiral-Haze (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Moltras (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Moltras (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: masa (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: roughy (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: cornelius59 (already saved)
+
+21:11:56: [read seller]
+21:11:56: Not saving: Zoocomics (already saved)
+
+21:11:56: [read seller]
+21:11:57: Extracting seller info: seagel
+21:11:57: Sleeping for 2.497440245873517 seconds
+21:11:59: [read seller]
+21:11:59: [write seller]
+21:11:59: Seller added:	seagel
+
+21:11:59: [read seller]
+21:12:00: Extracting seller info: D-Insane
+21:12:00: Sleeping for 2.353005614342953 seconds
+21:12:02: [read seller]
+21:12:02: [write seller]
+21:12:02: Seller added:	D-Insane
+
+21:12:02: [read seller]
+21:12:03: Extracting seller info: elliot1990pl
+21:12:03: Sleeping for 2.8676829954199756 seconds
+21:12:06: [read seller]
+21:12:06: [write seller]
+21:12:06: Seller added:	elliot1990pl
+
+21:12:06: [read seller]
+21:12:07: Extracting seller info: evertk
+21:12:07: Sleeping for 2.2804081569754024 seconds
+21:12:09: [read seller]
+21:12:09: [write seller]
+21:12:09: Seller added:	evertk
+
+21:12:09: [read seller]
+21:12:10: Extracting seller info: matic
+21:12:10: Sleeping for 2.3852666199565387 seconds
+21:12:12: [read seller]
+21:12:12: [write seller]
+21:12:12: Seller added:	matic
+
+21:12:12: [read seller]
+21:12:13: Extracting seller info: dommedag
+21:12:13: Sleeping for 3.1893670811056247 seconds
+21:12:16: [read seller]
+21:12:16: [write seller]
+21:12:16: Seller added:	dommedag
+
+21:12:16: [read seller]
+21:12:16: Extracting seller info: Quilombero
+21:12:16: Sleeping for 2.8422491895796385 seconds
+21:12:19: [read seller]
+21:12:19: [write seller]
+21:12:19: Seller added:	Quilombero
+
+21:12:19: [read seller]
+21:12:19: Extracting seller info: TizziTizzi
+21:12:19: Sleeping for 3.439324862064559 seconds
+21:12:23: [read seller]
+21:12:23: [write seller]
+21:12:23: Seller added:	TizziTizzi
+
+21:12:23: [read seller]

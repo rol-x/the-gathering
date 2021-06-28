@@ -1,0 +1,277 @@
+20:59:30: Date [28/06/2021 20:59] added: date_ID=21
+20:59:30: Another run logged to this file
+20:59:30: Opening the webdriver
+20:59:34: Webdriver ready
+20:59:34: Database connection established
+20:59:35: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:59:35: All card names already saved
+20:59:35: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:59:35: Sleeping for 1.5508206819890995 seconds
+20:59:37: Sleeping for 0.5478032535737217 seconds
+20:59:38: Extending the sellers view...
+20:59:38: Sleeping for 0.46107269266135864 seconds
+20:59:38: Extending the sellers view...
+20:59:38: Sleeping for 0.4188180621778773 seconds
+20:59:39: Extending the sellers view...
+20:59:39: Sleeping for 0.8077573882544272 seconds
+20:59:40: Extending the sellers view...
+20:59:40: Sleeping for 0.6412632219152791 seconds
+20:59:41: Accessing the card dataframe
+20:59:41: Accessing the date dataframe
+20:59:41: Card Skyshroud Claim saved recently (20:41)
+20:59:41: Not saving
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller PartyNator already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller CValle already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller MarcoSanzin already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller MagicBivio already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Tezzeret84 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Lordburka already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Lanowar69 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Topdeckskills already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller magicpartcard already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller stanislaf already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Thrymiir already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller daidojilaurent already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller sovmar already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Ceribe already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Felixuco already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Richaardi already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller diddos already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller dakkon87 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Mirikov already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller BrandyBrand already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller CommanderStaples already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller BechaMecha already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller MadridMagic already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller DombekTorun already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller BaukeS already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller plkfd already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller quasimoto already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Zoocomics already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller MTG-Prime already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller FrankvdWaals already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller GunCha already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller hobbitfred already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Tyron-Heartz already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller cultus already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller bendu71 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Kungfupeet already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller TheCoonRises already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller kARNN already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller RedDragonMagic already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller fuxxi already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller maglaf88 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller antonio-muenster already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Dinis already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Akroma44 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller 38Shizo already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Matze-KungFury already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller pantufas already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller Loui0 already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller tennlos already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Seller MagicNexus already in the file
+
+20:59:41: Accessing the seller dataframe
+20:59:41: Sleeping for 2.5952779303066884 seconds
+20:59:44: Accessing the seller dataframe
+20:59:44: Seller added:	SimonJack88
+
+20:59:44: Accessing the seller dataframe
+20:59:44: Sleeping for 2.804822681896072 seconds
+20:59:47: Accessing the seller dataframe
+20:59:47: Seller added:	JohnWizard
+
+20:59:47: Accessing the seller dataframe
+20:59:47: Seller Rarehuntershop already in the file
+
+20:59:47: Accessing the seller dataframe
+20:59:47: Sleeping for 3.237330713972515 seconds
+20:59:51: Accessing the seller dataframe
+20:59:51: Seller added:	CardStoreAlcamo
+
+20:59:51: Accessing the seller dataframe
+20:59:51: Sleeping for 2.6378553416924695 seconds
+20:59:54: Accessing the seller dataframe
+20:59:54: Seller added:	Brenag
+
+20:59:54: Accessing the seller dataframe
+20:59:54: Sleeping for 1.9343093093833972 seconds
+20:59:57: Accessing the seller dataframe
+20:59:57: Seller added:	Magicdealer-patte-de
+
+20:59:57: Accessing the seller dataframe
+20:59:57: Sleeping for 2.9631188206123147 seconds
+21:00:00: Accessing the seller dataframe
+21:00:00: Seller added:	Magicshop2000
+
+21:00:00: Accessing the seller dataframe
+21:00:00: Seller DiamondValley already in the file
+
+21:00:00: Accessing the seller dataframe
+21:00:00: Seller maglaf88 already in the file
+
+21:00:00: Accessing the seller dataframe
+21:00:00: Sleeping for 2.3775436852554037 seconds
+21:00:03: Accessing the seller dataframe
+21:00:03: Seller added:	Kartenkoenig
+
+21:00:03: Accessing the seller dataframe
+21:00:03: Sleeping for 3.3022001070761124 seconds
+21:00:07: Accessing the seller dataframe
+21:00:07: Seller added:	Zaki23
+
+21:00:07: Accessing the seller dataframe
+21:00:07: Sleeping for 2.912957463965763 seconds
+21:00:11: Accessing the seller dataframe
+21:00:11: Seller added:	kfranklin12
+
+21:00:11: Accessing the seller dataframe
+21:00:11: Sleeping for 2.592439876911675 seconds
+21:00:14: Accessing the seller dataframe
+21:00:14: Seller added:	hespacc
+
+21:00:14: Accessing the seller dataframe
+21:00:14: Sleeping for 3.3853467281746155 seconds
+21:00:18: Accessing the seller dataframe
+21:00:18: Seller added:	Mirrankreuzritter
+
+21:00:18: Accessing the seller dataframe
+21:00:18: Sleeping for 2.5616615460563548 seconds
+21:00:21: Accessing the seller dataframe
+21:00:21: Seller added:	matiasgabarron
+
+21:00:21: Accessing the seller dataframe
+21:00:21: Sleeping for 2.0462550512157085 seconds
+21:00:23: Accessing the seller dataframe
+21:00:23: Seller added:	HiveGames
+
+21:00:23: Accessing the seller dataframe
+21:00:23: Seller mtg-discounter24 already in the file
+
+21:00:23: Accessing the seller dataframe
+21:00:23: Sleeping for 2.847723385981251 seconds
+21:00:27: Accessing the seller dataframe
+21:00:27: Seller added:	Athabasca
+
+21:00:27: Accessing the seller dataframe
+21:00:27: Sleeping for 2.2555278809811217 seconds
+21:00:31: Accessing the seller dataframe
+21:00:31: Seller added:	Twoshop
+
+21:00:31: Accessing the seller dataframe
+21:00:31: Sleeping for 2.0966500168054716 seconds
+21:00:34: Accessing the seller dataframe
+21:00:34: Seller added:	DHGames
+
+21:00:34: Accessing the seller dataframe
+21:00:34: Sleeping for 2.629475123744361 seconds
+21:00:39: Accessing the seller dataframe
+21:00:39: Seller added:	ishotya
+
+21:00:39: Accessing the seller dataframe
+21:00:39: Sleeping for 2.5960382794917396 seconds
+21:00:45: Accessing the seller dataframe
+21:00:45: Seller added:	DagonX
+
+21:00:46: Accessing the seller dataframe
+21:00:46: Sleeping for 2.4699250778615394 seconds
