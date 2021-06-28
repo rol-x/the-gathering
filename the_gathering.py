@@ -2,7 +2,7 @@
 import os
 from time import sleep
 from datetime import datetime
-from random import normalvariate, random
+from random import normalvariate, random, sample
 import pandas as pd
 import mysql.connector
 from bs4 import BeautifulSoup
@@ -13,7 +13,7 @@ from selenium.webdriver.firefox.options import Options
 # Wait about mean_val seconds before proceeding to the rest of the code.
 def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
-    std_val = mean_val * random() * 0.25 + 0.15
+    std_val = mean_val * random() * 0.25 + 0.05
     sleep_time = abs(normalvariate(mean_val, std_val)) + 0.1
     print(f'Sleeping for {sleep_time} seconds')
     sleep(sleep_time)
@@ -33,7 +33,7 @@ def create_webdriver():
 def load_df(entity_name):
     '''Try to return a dataframe from the respective .csv file.'''
     try:
-        df = pd.read_csv(entity_name + '.csv', sep=';')
+        df = pd.read_csv('data/' + entity_name + '.csv', sep=';')
     except pd.errors.EmptyDataError as empty:
         print(empty)
         print(f'Please prepare the headers in {entity_name}.csv!\n')
@@ -50,7 +50,7 @@ def add_card(card_soup, current_date_ID):
     # Get rows from the card information table
     card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
     if len(card_info) == 0:
-        print('Card dropped')
+        print('No card info found on current page')
         return
 
     # Get the attributes
@@ -65,7 +65,7 @@ def add_card(card_soup, current_date_ID):
     avg_1_price = card_info[8].string.string[:-2].replace(',', '.')
 
     # Save the card in local file
-    with open('card.csv', 'a') as card_csv:
+    with open('data/card.csv', 'a') as card_csv:
         card_csv.write(str(card_ID) + ';')
         card_csv.write(str(card_name) + ';')
         card_csv.write(str(expansion_name) + ';')
@@ -139,7 +139,7 @@ def add_seller(seller_soup):
         address = ''
 
     # Save the seller in local file
-    with open('seller.csv', 'a') as seller_csv:
+    with open('data/seller.csv', 'a') as seller_csv:
         seller_csv.write(str(seller_ID) + ';')
         seller_csv.write(seller_name + ';')
         seller_csv.write(s_type + ';')
@@ -151,9 +151,9 @@ def add_seller(seller_soup):
     print('Seller added to local file: ' + seller_name)
 
 
-# Add the current date.
+# Add the current date, return the date ID and its log file name.
 def add_date():
-    '''Add the current date.'''
+    '''Add the current date, return the date ID and its log file name.'''
 
     # Load the date dataframe
     date_df = load_df('date')
@@ -172,12 +172,12 @@ def add_date():
                         & (date_df['year'] == int(year))
                         & (date_df['time'] == date_time[1])]['date_ID']
     if(len(same_date) > 0):
-        print('Date [' + str(same_date.values[0]) + '] already saved: '
-              + date_time[0] + ' ' + date_time[1])
+        print('Date [' + date_time[0] + ' ' + date_time[1]
+              + '] already added: date_ID=' + str(same_date.values[0]))
         return same_date.values[0]
 
     # Save the date with its own ID to local file
-    with open('date.csv', 'a') as date_csv:
+    with open('data/date.csv', 'a') as date_csv:
         date_csv.write(str(date_ID) + ';')
         date_csv.write(day + ';')
         date_csv.write(month + ';')
@@ -186,11 +186,15 @@ def add_date():
         date_csv.write(date_time[1] + '\n')
 
     # Console logging
-    print('Date [' + str(date_ID) + '] added: '
-          + date_time[0] + ' ' + date_time[1])
+    print('Date [' + date_time[0] + ' ' + date_time[1]
+          + '] added: date_ID=' + str(date_ID))
+
+    # Create a log filename from the datetime
+    log_filename = day + month + year + "_" \
+        + date_time[1][:2] + date_time[1][3:5] + ".log"
 
     # Return the current date ID
-    return date_ID
+    return [date_ID, log_filename]
 
 
 # Extract information about the offers from provided card soup.
@@ -234,16 +238,20 @@ def add_offers(card_page):
 # Prepare .csv files for storing the scraped data locally
 def prepare_files():
     '''Prepare .csv files for storing the scraped data locally.'''
-    seller_csv = open('seller.csv', 'a+')
-    if os.path.getsize('seller.csv'):
+    if not os.path.exists('data'):
+        os.mkdir('data')
+        print("Data directory created")
+
+    seller_csv = open('data/seller.csv', 'a+')
+    if os.path.getsize('data/seller.csv'):
         pass
     else:
         seller_csv.write('seller_ID;seller_name;type'
                          + ';member_since;country;address\n')
     seller_csv.close()
 
-    card_csv = open('card.csv', 'a+')
-    if os.path.getsize('card.csv'):
+    card_csv = open('data/card.csv', 'a+')
+    if os.path.getsize('data/card.csv'):
         pass
     else:
         card_csv.write('card_ID;card_name;expansion_name;rarity;price_from;'
@@ -251,15 +259,15 @@ def prepare_files():
                        + ';date_ID\n')
     card_csv.close()
 
-    date_csv = open('date.csv', 'a+')
-    if os.path.getsize('date.csv'):
+    date_csv = open('data/date.csv', 'a+')
+    if os.path.getsize('data/date.csv'):
         pass
     else:
         date_csv.write('date_ID;day;month;year;day_of_week;time\n')
     date_csv.close()
 
-    sale_offer_csv = open('sale_offer.csv', 'a+')
-    if os.path.getsize('sale_offer.csv'):
+    sale_offer_csv = open('data/sale_offer.csv', 'a+')
+    if os.path.getsize('data/sale_offer.csv'):
         pass
     else:
         sale_offer_csv.write('seller_ID;price;card_ID;card_condition;'
@@ -268,6 +276,25 @@ def prepare_files():
 
     # Console logging
     print('Local files ready')
+
+
+# Prepare the local log file.
+def prepare_log_file(log_filename):
+    '''Prepare the local log file.'''
+    if not os.path.exists('logs'):
+        os.mkdir('logs')
+        print("Logs directory created")
+
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    local_log = open('logs/' + log_filename, 'a+')
+    if os.path.getsize('logs/' + log_filename):
+        local_log.write(timestamp + ": Another run logged to this file")
+    else:
+        local_log.write(timestamp + ": Created this file")
+    local_log.close()
+
+    # Console logging
+    print('Log file ready')
 
 
 # TODO: Send a query to the database
@@ -399,7 +426,7 @@ def get_all_sellers(card_soup):
 
 
 # Return the name of the card from the url, like 'Spell-Snare'.
-def get_carl_url(card_name):
+def get_card_url(card_name):
     '''Return the name of the card from the url, like 'Spell-Snare'.'''
     card_url_name = card_name.replace("'", "")       # Remove apostrophes
     card_url_name = card_url_name.replace("(", "")
@@ -412,17 +439,50 @@ def get_carl_url(card_name):
     return card_url_name
 
 
+# Return whether the parsed page contains card info and offers info.
+def is_valid_card_page(card_soup):
+    '''Return whether the parsed page contains card info and offers info.'''
+    card_name = card_soup.find("h1")
+    card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
+    table = card_soup.find("div", {"class": "table "
+                                   + "article-table "
+                                   + "table-striped"})
+    print(len(card_info))
+    print(type(table))
+    # For proper pages the execution ends here
+    if len(card_info) > 0 and table is not None:
+        return True
+    if len(card_info) == 0:
+        print("No card info found on page!")
+    if table is None:
+        print("No offers found on page!")
+
+    # Output for debugging
+    if card_name is not None:
+        print("Card name: " + str(card_name.string))
+    return False
+
+
+# Log a message to a local file corresponding to a single run.
+def local_log(msg, log_filename):
+    '''Log a message to a local file corresponding to a single run.'''
+    with open('logs/' + log_filename, 'a') as logfile:
+        timestamp = datetime.now.strftime("%H:%M:%S")
+        logfile.write(timestamp + ": " + msg)
+
+
 # Main function
 if __name__ == "__main__":
 
     # Setup
     prepare_files()
+    [current_date_ID, log_filename] = add_date()
+    prepare_log_file(log_filename)
     base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
     users_url = 'https://www.cardmarket.com/en/Magic/Users/'
     expansion_name = 'Battlebond'
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
-    current_date_ID = add_date()
     cached_pages = []
 
     # Loop over every card name
@@ -430,7 +490,7 @@ if __name__ == "__main__":
     for card_name in card_list:
 
         # Craft the card url and open it with the driver
-        card_url_name = get_carl_url(card_name)
+        card_url_name = get_card_url(card_name)
         card_url = base_url + expansion_name + '/' + card_url_name
         driver.get(card_url)
         console_log_url(driver.current_url)
@@ -438,9 +498,12 @@ if __name__ == "__main__":
 
         # Add the parsed page content to the list for later use
         card_soup = BeautifulSoup(driver.page_source, 'html.parser')
-        cached_pages.append(card_soup)
-        continue  # Add making sure that I dont just request the contents
-        # and go on with my day
+        if is_valid_card_page(card_soup):
+            cached_pages.append(card_soup)
+        else:
+            print('No valid card page under ' + driver.current_url)
+            input()
+        continue
 
         # Check if a recent record already exists
         if is_card_recently_saved(card_name, current_date_ID):

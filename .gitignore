@@ -1,4 +1,5 @@
-*.log
+geckodriver.log
 *.pyproj
-.vscode/ 
+.vscode
+.vscode/settings.json 
  
