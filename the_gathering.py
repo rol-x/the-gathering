@@ -14,7 +14,9 @@ from selenium.webdriver.firefox.options import Options
 def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
     std_val = mean_val * random() * 0.25 + 0.15
-    sleep(abs(normalvariate(mean_val, std_val)) + 0.1)
+    sleep_time = abs(normalvariate(mean_val, std_val)) + 0.1
+    print(f'Sleeping for {sleep_time} seconds')
+    sleep(sleep_time)
 
 
 # Return the Firefox webdriver in headless mode.
@@ -191,6 +193,44 @@ def add_date():
     return date_ID
 
 
+# Extract information about the offers from provided card soup.
+def add_offers(card_page):
+    '''Extract information about the offers from provided card soup.'''
+    card_name = card_page.find("h1").string
+    table = card_page.find("div", {"class": "table"
+                                   + "article-table "
+                                   + "table-striped"})
+    if table is None:
+        print("No offers found on page!")
+        print(card_page)
+        return
+
+    seller_names = table.findAll("span", {"class": "d-flex"
+                                          + "has-content-centered"
+                                          + "mr-1"})
+    attrs = table.findAll("div", {"class": "product-attributes col"})
+    for attr in attrs:
+        icons = attr.findAll("span")
+        condition = icons[0]["data-original-title"]
+        card_lang = icons[1]["data-original-title"]
+        other = attrs.find("span", {"class": "icon st_SpecialIcon mr-1"})
+        if len(other) > 0:
+            if other["data-original-title"] == 'Foil':
+                is_foiled = True
+            else:
+                is_foiled = False
+    price = table.findAll("span", {"class": "font-weight-bold color-primary"
+                                   + "small text-right text-nowrap"})
+    quantity = table.findAll("span", {"class": "item-count small text-right"})
+    print('\nCard ' + card_name)
+    print('Sellers: ' + len(seller_names))
+    print(seller_names)
+    print('Condition: ' + condition)
+    print('Language: ' + card_lang)
+    print('Is foiled: ' + is_foiled)
+    input()
+
+
 # Prepare .csv files for storing the scraped data locally
 def prepare_files():
     '''Prepare .csv files for storing the scraped data locally.'''
@@ -330,6 +370,7 @@ def get_all_cards(driver, list_url):
 
         # Advance to the next page
         page_no += 1
+        realistic_pause(0.5)
 
     # Return the complete cards list
     return all_cards
@@ -357,6 +398,20 @@ def get_all_sellers(card_soup):
     return list(names_map)
 
 
+# Return the name of the card from the url, like 'Spell-Snare'.
+def get_carl_url(card_name):
+    '''Return the name of the card from the url, like 'Spell-Snare'.'''
+    card_url_name = card_name.replace("'", "")       # Remove apostrophes
+    card_url_name = card_url_name.replace("(", "")
+    card_url_name = card_url_name.replace(")", "")   # Remove brackets
+    card_url_name = card_url_name.replace("-", "")   # Remove dashes
+    card_url_name = card_url_name.replace("/", "")   # Remove slashes
+    card_url_name = card_url_name.replace(",", "")   # Remove commas
+    card_url_name = card_url_name.replace(".", " ")  # Reduce periods
+    card_url_name = card_url_name.replace(" ", "-")  # Change spaces to dashes
+    return card_url_name
+
+
 # Main function
 if __name__ == "__main__":
 
@@ -368,19 +423,24 @@ if __name__ == "__main__":
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
     current_date_ID = add_date()
+    cached_pages = []
 
     # Loop over every card name
     card_list = get_all_cards(driver, base_url + expansion_name)
     for card_name in card_list:
 
         # Craft the card url and open it with the driver
-        card_url_name = card_name.replace(' ', '-')
+        card_url_name = get_carl_url(card_name)
         card_url = base_url + expansion_name + '/' + card_url_name
         driver.get(card_url)
         console_log_url(driver.current_url)
+        realistic_pause(1.0)
 
-        # Get the parsed page content and pass it to data extracting function
+        # Add the parsed page content to the list for later use
         card_soup = BeautifulSoup(driver.page_source, 'html.parser')
+        cached_pages.append(card_soup)
+        continue  # Add making sure that I dont just request the contents
+        # and go on with my day
 
         # Check if a recent record already exists
         if is_card_recently_saved(card_name, current_date_ID):
@@ -397,9 +457,13 @@ if __name__ == "__main__":
                 print('Seller ' + seller_name + ' already in the file')
             else:
                 driver.get(users_url + seller_name)
-                realistic_pause(1.5)
                 seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
                 add_seller(seller_soup)
+                realistic_pause(2.0)
+
+    # Iterate through saved card pages for offers data
+    for card_page in cached_pages:
+        add_offers(card_page)
 
     # Close the webdriver
     driver.close()
