@@ -1,39 +1,33 @@
 card_ID;card_name;expansion_name;rarity;price_from;30_avg_price;7_avg_price;1_avg_price;available_items;date_ID
-1;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;14
-2;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;14
-3;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;14
-4;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;15
-5;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;15
-6;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.63;2177;15
-7;Fertile Ground;Battlebond;Common;0.01;0.09;0.11;0.10;4611;15
-8;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;16
-9;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;16
-10;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;20
-11;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;20
-12;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;20
-13;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.63;2177;20
-14;Fertile Ground;Battlebond;Common;0.01;0.09;0.11;0.10;4611;20
-15;Azra Oddsmaker;Battlebond;Uncommon;0.02;0.28;0.32;0.32;1337;20
-16;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;22
-17;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;25
-18;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;25
-19;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;25
-20;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;25
-21;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.63;2177;25
-22;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;26
-23;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;26
-24;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;26
-25;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;26
-26;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;26
-27;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;27
-28;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;31
-29;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;31
-30;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;33
-31;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;33
-32;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;35
-33;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;35
-34;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;35
-35;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;35
-36;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;35
-37;Luxury Suite;Battlebond;Rare;10.00;16.30;15.83;15.96;203;36
-38;Kor Spiritdancer;Battlebond;Rare;1.48;2.47;2.50;1.90;432;36
+1;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.61;0.53;1658;1
+2;Impulse;Battlebond;Common;0.02;0.20;0.16;0.11;2634;1
+3;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.32;0.36;1575;1
+4;Chain Lightning;Battlebond;Uncommon;0.95;1.99;2.06;2.12;384;1
+5;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.33;0.29;0.33;1465;1
+6;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.61;0.53;1658;2
+7;Impulse;Battlebond;Common;0.02;0.20;0.16;0.11;2634;2
+8;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.32;0.36;1575;2
+9;Chain Lightning;Battlebond;Uncommon;0.95;1.99;2.06;2.12;384;2
+10;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.33;0.29;0.33;1465;2
+11;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.80;2177;2
+12;Fertile Ground;Battlebond;Common;0.01;0.09;0.10;0.09;4607;2
+13;Azra Oddsmaker;Battlebond;Uncommon;0.02;0.28;0.32;0.19;1337;2
+14;Mindblade Render;Battlebond;Rare;0.10;0.77;0.79;0.36;528;2
+15;Virtus's Maneuver;Battlebond;Rare;0.10;0.40;0.47;1.49;1082;2
+16;Greater Good;Battlebond;Rare;1.40;2.69;2.54;2.34;456;2
+17;Pir, Imaginative Rascal;Battlebond;Rare;3.99;5.86;5.95;6.02;294;2
+18;Swords to Plowshares;Battlebond;Uncommon;0.90;1.85;1.89;2.05;383;2
+19;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.61;0.53;1658;3
+20;Impulse;Battlebond;Common;0.02;0.20;0.16;0.11;2625;3
+21;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.32;0.36;1575;3
+22;Chain Lightning;Battlebond;Uncommon;0.95;1.99;2.06;2.12;384;3
+23;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.33;0.29;0.33;1465;3
+24;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.80;2173;3
+25;Fertile Ground;Battlebond;Common;0.01;0.09;0.10;0.09;4607;3
+26;Azra Oddsmaker;Battlebond;Uncommon;0.02;0.28;0.32;0.19;1337;3
+27;Mindblade Render;Battlebond;Rare;0.10;0.77;0.79;0.36;528;3
+28;Virtus's Maneuver;Battlebond;Rare;0.10;0.40;0.47;1.49;1082;3
+29;Greater Good;Battlebond;Rare;1.40;2.69;2.54;2.34;456;3
+30;Pir, Imaginative Rascal;Battlebond;Rare;3.99;5.86;5.95;6.02;294;3
+31;Swords to Plowshares;Battlebond;Uncommon;0.90;1.85;1.89;2.05;383;3
+32;Virtus the Veiled;Battlebond;Rare;0.10;0.33;0.35;0.40;1290;3

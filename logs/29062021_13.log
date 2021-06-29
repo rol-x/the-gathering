@@ -1,0 +1,171 @@
+13:21:12: Creation of this file
+13:21:12: 
+== Add date ==
+13:21:12: Date: 			29/06/2021
+13:21:12: Hour: 			13
+13:21:12: Date ID: 			1
+13:21:21: Webdriver ready
+13:21:21: Database connection established
+13:21:21: Compiling a list of all card names in current expansion
+13:21:21: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+13:21:23: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=2
+13:21:24: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=3
+13:21:25: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=4
+13:21:27: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=5
+13:21:28: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=6
+13:21:29: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=7
+13:21:30: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=8
+13:21:32: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=9
+13:21:33: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=10
+13:21:34: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=11
+13:21:35: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=12
+13:21:37: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=13
+13:21:38: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=14
+13:21:39: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=15
+13:21:39: Last page reached
+13:21:39: 
+URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+13:21:45: Updating sellers list
+13:21:46: Extracting seller info: PartyNator
+13:21:48: Extracting seller info: CValle
+13:21:52: Extracting seller info: MarcoSanzin
+13:21:55: Extracting seller info: MagicBivio
+13:21:57: Extracting seller info: Tezzeret84
+13:22:00: Extracting seller info: Lordburka
+13:22:04: Extracting seller info: Lanowar69
+13:22:07: Extracting seller info: Topdeckskills
+13:22:10: Extracting seller info: magicpartcard
+13:22:13: Extracting seller info: stanislaf
+13:22:17: Seller dropped!
+13:22:17: Bad page soup dumped to logs/soups/547607.log
+
+13:22:21: Seller dropped!
+13:22:21: Bad page soup dumped to logs/soups/216309.log
+
+13:22:25: Seller dropped!
+13:22:25: Bad page soup dumped to logs/soups/636988.log
+
+13:22:28: Extracting seller info: Ceribe
+13:22:31: Extracting seller info: Felixuco
+13:22:36: Extracting seller info: Richaardi
+13:22:38: Extracting seller info: diddos
+13:22:41: Extracting seller info: dakkon87
+13:22:44: Extracting seller info: Mirikov
+13:22:48: Extracting seller info: CommanderStaples
+13:22:50: Extracting seller info: BechaMecha
+13:22:54: Extracting seller info: MadridMagic
+13:22:57: Extracting seller info: DombekTorun
+13:23:00: Extracting seller info: BaukeS
+13:23:03: Extracting seller info: plkfd
+13:23:06: Extracting seller info: quasimoto
+13:23:09: Extracting seller info: Zoocomics
+13:23:13: Extracting seller info: MTG-Prime
+13:23:16: Extracting seller info: FrankvdWaals
+13:23:19: Extracting seller info: GunCha
+13:23:21: Extracting seller info: hobbitfred
+13:23:24: Extracting seller info: Tyron-Heartz
+13:23:27: Extracting seller info: cultus
+13:23:30: Extracting seller info: bendu71
+13:23:34: Extracting seller info: Kungfupeet
+13:23:36: Extracting seller info: TheCoonRises
+13:23:39: Extracting seller info: kARNN
+13:23:42: Extracting seller info: RedDragonMagic
+13:23:45: Extracting seller info: fuxxi
+13:23:48: Extracting seller info: maglaf88
+13:23:51: Extracting seller info: antonio-muenster
+13:23:54: Extracting seller info: Dinis
+13:23:58: Extracting seller info: Akroma44
+13:24:01: Extracting seller info: 38Shizo
+13:24:03: Extracting seller info: Matze-KungFury
+13:24:06: Extracting seller info: pantufas
+13:24:09: Extracting seller info: Loui0
+13:24:13: Extracting seller info: tennlos
+13:24:16: Extracting seller info: MagicNexus
+13:24:19: Extracting seller info: SimonJack88
+13:24:22: Extracting seller info: JohnWizard
+13:24:25: Extracting seller info: Rarehuntershop
+13:24:28: Extracting seller info: CardStoreAlcamo
+13:24:31: Extracting seller info: Brenag
+13:24:35: Extracting seller info: Magicdealer-patte-de
+13:24:37: Extracting seller info: Magicshop2000
+13:24:40: Extracting seller info: DiamondValley
+13:24:44: Extracting seller info: Kartenkoenig
+13:24:47: Extracting seller info: Zaki23
+13:24:49: Extracting seller info: kfranklin12
+13:24:52: Extracting seller info: hespacc
+13:24:55: Extracting seller info: Mirrankreuzritter
+13:24:58: Extracting seller info: matiasgabarron
+13:25:01: Extracting seller info: HiveGames
+13:25:04: Extracting seller info: mtg-discounter24
+13:25:07: Extracting seller info: Athabasca
+13:25:11: Extracting seller info: Twoshop
+13:25:14: Extracting seller info: DHGames
+13:25:17: Extracting seller info: ishotya
+13:25:19: Extracting seller info: DagonX
+13:25:23: Extracting seller info: landshome279
+13:25:26: Extracting seller info: satirobcn
+13:25:28: Extracting seller info: Bigs77
+13:25:32: Extracting seller info: gambo
+13:25:35: Extracting seller info: stamosm
+13:25:38: Extracting seller info: Bruce7506
+13:25:41: Extracting seller info: rakerone
+13:25:45: Extracting seller info: Mintcardgem
+13:25:47: Extracting seller info: AdrianMC
+13:25:50: Extracting seller info: Skiski
+13:25:53: Extracting seller info: rockardist
+13:25:56: Extracting seller info: DrDkt666
+13:25:59: Extracting seller info: Zoios
+13:26:02: Extracting seller info: Kuduce
+13:26:05: Extracting seller info: Colovia
+13:26:09: Extracting seller info: Mavado-Vemos
+13:26:12: Extracting seller info: K40crew
+13:26:16: Extracting seller info: michaldurovic
+13:26:19: Extracting seller info: Muttonium
+13:26:22: Extracting seller info: Adway
+13:26:25: Extracting seller info: Carioca9987
+13:26:28: Extracting seller info: maxsilver
+13:26:31: Extracting seller info: pbjoker
+13:26:34: Extracting seller info: Ghostlo
+13:26:37: Extracting seller info: CrazyComicsAndGames
+13:26:40: Extracting seller info: Abdelbach
+13:26:44: Extracting seller info: heckman
+13:26:47: Extracting seller info: Zloch
+13:26:50: Extracting seller info: deathhenker
+13:26:53: Extracting seller info: OutpostBrussels
+13:26:56: Extracting seller info: Zakk67
+13:27:00: Extracting seller info: zalakke
+13:27:03: Extracting seller info: CardCastle
+13:27:06: Extracting seller info: Admiral-Haze
+13:27:10: Extracting seller info: Moltras
+13:27:13: Extracting seller info: masa
+13:27:16: Extracting seller info: roughy
+13:27:19: Extracting seller info: cornelius59
+13:27:22: Extracting seller info: seagel
+13:27:25: Extracting seller info: D-Insane
+13:27:29: Extracting seller info: elliot1990pl
+13:27:32: Extracting seller info: evertk
+13:27:35: Extracting seller info: matic
+13:27:37: Extracting seller info: dommedag
+13:27:40: Extracting seller info: Quilombero
+13:27:43: Extracting seller info: TizziTizzi
+13:27:46: Extracting seller info: leonin
+13:27:50: Extracting seller info: Lorena
+13:27:53: Extracting seller info: JJ-Finkleton
+13:27:56: Extracting seller info: Boromol
+13:27:59: Extracting seller info: flosiii
+13:28:02: Extracting seller info: jerome34

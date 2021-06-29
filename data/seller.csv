@@ -9,1109 +9,1752 @@ seller_ID;seller_name;type;member_since;country;address
 8;Topdeckskills;Professional;2012;Ireland;13 O'Brien Park, V14 AC65 Shannon, Co. Clare, Ireland
 9;magicpartcard;Private;2017;Netherlands;
 10;stanislaf;Private;2013;Belgium;
-11;Thrymiir;Private;2020;France;
-12;daidojilaurent;Private;2013;France;
-13;sovmar;Private;2013;Portugal;
-14;Ceribe;Private;2015;Poland;
-15;Felixuco;Private;2015;Spain;
-16;Richaardi;Private;2015;Portugal;
-17;diddos;Private;2012;Belgium;
-18;dakkon87;Private;2011;Italy;
-19;Mirikov;Private;2021;Germany;
-20;BrandyBrand;Professional;2018;Germany;Auf dem Halmburger 6, 35043 Marburg, Germany
-21;CommanderStaples;Private;2019;Finland;
-22;BechaMecha;Private;2015;Italy;
-23;MadridMagic;Private;2016;Spain;
-24;DombekTorun;Private;2016;Poland;
-25;BaukeS;Private;2018;Netherlands;
-26;plkfd;Private;2018;France;
-27;quasimoto;Private;2015;Germany;
-28;Zoocomics;Professional;2018;Norway;Anders baars veg 25b, 3737 Skien, Norway
-29;MTG-Prime;Professional;2018;France;34 rue Combanaire, 36000 Ch�teauroux, France
-30;FrankvdWaals;Private;2015;Netherlands;
-31;GunCha;Private;2018;Latvia;
-32;OliverFarkash;Private;2020;Netherlands;
-33;hobbitfred;Private;2015;France;
-34;Tyron-Heartz;Private;2016;Portugal;
-35;cultus;Private;2016;Spain;
-36;bendu71;Private;2016;France;
-37;Kungfupeet;Private;2019;Netherlands;
-38;TheCoonRises;Powerseller;2016;Germany;Neue Stra�e 46, 89073 Ulm, Germany
-39;kARNN;Private;2015;France;
-40;RedDragonMagic;Private;2012;Spain;
-41;fuxxi;Private;2013;Germany;
-42;maglaf88;Private;2014;France;
-43;antonio-muenster;Private;2013;Germany;
-44;Dinis;Private;2014;Portugal;
-45;Akroma44;Private;2011;Germany;
-46;38Shizo;Private;2019;Germany;
-47;Matze-KungFury;Private;2019;Germany;
-48;pantufas;Private;2013;Portugal;
-49;Loui0;Private;2018;Germany;
-50;tennlos;Professional;2020;Poland;Rakowicka 20b/57, 31-510 Krak�w, Poland
-51;replicart71;Powerseller;2017;France;9 jardin de Florence , 01340 Montrevel en bresse, France
-52;WhiteFoxThree;Private;2017;Netherlands;
-53;Jean-Claire;Private;2017;France;
-54;NuggetGaming;Private;2020;United Kingdom;
-55;ctouya;Private;2014;France;
-56;Giftsungiven;Private;2013;Portugal;
-57;Emisary121;Private;2019;Netherlands;
-58;Espell;Private;2015;Italy;
-59;ruben52;Private;2011;Netherlands;
-60;procards;Professional;2015;Germany;Baiersdorfer Stra�e 6a, 91341 R�ttenbach , Germany
-61;ludovic1968;Private;2012;France;
-62;valis;Private;2011;Finland;
-63;NoDrummer;Private;2014;Germany;
-64;Styliann;Private;2011;France;
-65;yannloison13;Private;2019;France;
-66;masistuta;Private;2012;Netherlands;
-67;Trade-Secrets;Private;2014;Netherlands;
-68;phagma;Private;2014;France;
-69;Gautch;Private;2017;France;
-70;txbcards;Professional;2020;Austria;Ketteringstra�e 10, 4400 Steyr, Austria
-71;Knightnight;Private;2019;Netherlands;
-72;karasofr;Private;2019;France;
-73;Pa-t-ch;Private;2016;Italy;
-74;rogiol;Private;2018;Czech Republic;
-75;danieldisco;Private;2020;Belgium;
-76;Admiral-Haze;Private;2012;Germany;
-77;aleeuwen1;Private;2019;Netherlands;
-78;Geek-Corner;Professional;2017;United Kingdom;Regency Mall West 15, TS18 1EF Stockton On Tees, United Kingdom
-79;Stefouch;Private;2013;Belgium;
-80;pisqnek;Professional;2009;Poland;Gen. Wl. Andersa 38, 7 pietro, 15-113 Bialystok, Poland
-81;Goodlookgamer;Professional;2018;Netherlands;Maarland Noordzijde 7, 3231CE Brielle, Netherlands
-82;TopdeckDK;Professional;2016;Denmark;Carlsbergvej 32B, 3400 Hiller�d, Denmark
-83;sedehiMTG;Private;2011;Germany;
-84;Magiccardshop;Powerseller;2014;Germany;L�ssweg 10, 82418 Murnau, Germany
-85;TCGWarehouse;Professional;2013;Germany;Gutenbergplatz 1, 04103 Leipzig, Germany
-86;helpoemer;Private;2015;Germany;
-87;Nerd-Shop;Professional;2017;Germany;Kaiserstra�e 50, 66849 Landstuhl, Germany
-88;Andycards;Professional;2014;Italy;Viale dei Navigatori 4/a, 48122 Punta Marina Terme (RA), Italy
-89;wei�er-Lotus;Professional;2009;Germany;Friedhofsweg 18, 61197 Florstadt, Germany
-90;sanjic;Private;2012;France;
-91;MagusDoVinhedo;Private;2012;Portugal;
-92;Wintereinbruch;Private;2010;Germany;
-93;Kissmaiass;Private;2014;Spain;
-94;thewirtschaftswunder;Private;2015;Germany;
-95;Blackbolt;Professional;2012;Portugal;Rua da Juncosa 228, 3465-123 Tondela, Portugal
-96;aleplm98;Private;2019;Italy;
-97;GoodPool;Private;2019;Spain;
-98;Foransa;Private;2019;Sweden;
-99;PanBzoch;Private;2016;Czech Republic;
-100;Colabier;Private;2012;Germany;
-101;moneymaker;Private;2011;Germany;
-102;Noah471;Private;2019;Austria;
-103;Cohnjollins;Private;2015;Ireland;
-104;LeonPonce;Private;2014;Spain;
-105;sytsnas;Private;2019;Germany;
-106;noisia;Private;2015;Spain;
-107;Greenskull;Private;2018;Sweden;
-108;Danedeluxe;Private;2017;Denmark;
-109;babylon;Private;2014;Germany;
-110;McFreud;Private;2015;Portugal;
-111;muse99;Private;2013;Netherlands;
-112;Bellota95;Private;2019;Spain;
-113;BBG66;Private;2021;Germany;
-114;Marsupisalami;Private;2016;Germany;
-115;Murasame;Private;2015;Netherlands;
-116;cardvictim;Private;2020;Germany;
-117;atlas222;Private;2018;Austria;
-118;Torako;Private;2016;Germany;
-119;cloudpostBA;Powerseller;2015;Slovakia;Trencianska 47, 82109 Bratislava, Slovakia
-120;bouzekry;Private;2010;France;
-121;Hgjlesv;Private;2017;Finland;
-122;stahlkarnickel2;Professional;2018;Germany;Ernst-Reuter Stra�e 10, 97080 W�rzburg, Germany
-123;TimD;Private;2009;Germany;
-124;PowerMagicstar;Professional;2021;Sweden;Tullgatan 2c, 25269 R��, Sweden
-125;kartenschmiede;Powerseller;2015;Germany;Rote-Tor-Str. 18, 76661 Philippsburg, Germany
-126;theNecromancer;Professional;2019;Austria;Oberer Ulmenweg 8a, 8073 Feldkirchen bei Graz, Austria
-127;wei�er-Lotus;Professional;2009;Germany;Friedhofsweg 18, 61197 Florstadt, Germany
-128;mstokowski;Private;2013;Poland;
-129;huge4uk;Private;2016;Germany;
-130;Sebas74;Private;2017;Netherlands;
-131;ManaRamp;Private;2020;Italy;
-132;Piranha81;Private;2019;Spain;
-133;daltenda;Powerseller;2016;Italy;Via dell'Artigianato 54 - Zona Industriale Ovest, 06083 Bastia Umbra (PG), Italy
-134;AvalonBurgos;Professional;2012;Spain;C/ San Julian 4 Bj, 09002 Burgos, Spain
-135;LuisLlana;Private;2013;Spain;
-136;SK4TE;Private;2011;Germany;
-137;olgamor;Private;2011;Germany;
-138;marCH1LLL;Private;2015;Germany;
-139;ni-ju66;Private;2016;Germany;
-140;baleinedessables;Private;2012;Belgium;
-141;rakerone;Private;2013;Germany;
-142;Jack-DM;Private;2019;Italy;
-143;Glimrir;Private;2018;Denmark;
-144;ViperKinji;Private;2013;Greece;
-145;octaton;Private;2015;Denmark;
-146;TerraCross;Private;2016;Germany;
-147;Zigimun;Private;2015;Slovenia;
-148;TheOneKiko1337;Private;2018;Germany;
-149;PotatoGuardian;Private;2015;Germany;
-150;Dr4ken;Private;2018;Poland;
-151;Leidnix;Private;2011;Germany;
-152;Netz122;Private;2009;Germany;
-153;changar;Private;2012;France;
-154;NechljudoW;Private;2013;Germany;
-155;Phalnar;Private;2015;Switzerland;
-156;Ginsch;Private;2020;Austria;
-157;annor;Private;2018;Czech Republic;
-158;Meister14;Private;2017;Spain;
-159;Pastorius84;Private;2020;Italy;
-160;Cardboard-Collector;Private;2020;Netherlands;
-161;coupdegrac3;Private;2018;Austria;
-162;ryuxuyr;Private;2019;Portugal;
-163;jeh11;Private;2018;Switzerland;
-164;MTGSander;Private;2017;Netherlands;
-165;Xevkin;Private;2012;Ireland;
-166;Sushi91;Private;2016;Czech Republic;
-167;Plysier;Private;2019;Belgium;
-168;jmskns69;Professional;2018;Estonia;Siili 3-8, 13422 Tallinn, Estonia
-169;procrustean;Private;2013;United Kingdom;
-170;DiamondValley;Private;2009;Germany;
-171;magicislove;Private;2019;Germany;
-172;Operationlol;Private;2018;Germany;
-173;Piszczal;Private;2015;Poland;
-174;Almeida;Private;2017;Sweden;
-175;sinac;Private;2011;Belgium;
-176;Bennlipp;Private;2019;Germany;
-177;AcidQueen;Private;2019;Greece;
-178;Remin;Private;2017;Germany;
-179;Wimmeeus;Private;2019;Belgium;
-180;Orzi86;Private;2017;Poland;
-181;moercel;Private;2015;Germany;
-182;Chrisaor;Private;2015;Greece;
-183;Luukiecard;Private;2017;Netherlands;
-184;SodGames;Professional;2015;Belgium;Place Albert 1er 32, 6220 Fleurus, Belgium
-185;rammstein-rules97;Professional;2016;Germany;Conrad-R�ntgen Str. 3, 66450 Bexbach, Germany
-186;ZackyVeah;Private;2016;Germany;
-187;nikee40;Private;2015;Latvia;
-188;emanuelemarket;Private;2019;Italy;
-189;temur11;Private;2016;France;
-190;daxterpac;Private;2017;Portugal;
-191;Weini17;Private;2017;Austria;
-192;Lunashine;Private;2009;Austria;
-193;La-Tetedeslip;Private;2018;France;
-194;kirchi;Private;2009;Germany;
-195;Michaberg;Private;2018;Germany;
-196;MagicMuc;Private;2019;Germany;
-197;SnappyTiger;Private;2019;Austria;
-198;Krozark;Private;2014;France;
-199;RisingVoid;Private;2018;Germany;
-200;Mathug;Private;2017;France;
-201;InfiniteMagicCZ;Professional;2019;Czech Republic;Kafkova 102/19, 16000 Prague 6, Czech Republic
-202;Villy;Private;2017;Greece;
-203;Rarehuntershop;Powerseller;2012;Austria;Hauptplatz 14, 2320 Schwechat, Austria
-204;tshwayn;Private;2016;Germany;
-205;sunshadow;Private;2013;Spain;
-206;Kartenguru;Professional;2012;Germany;Hollenmoor 9, 21406 Melbeck, Germany
-207;MagicBarcelona;Powerseller;2011;Spain;Ronda de Sant Pere 44, 08010 Barcelona, Spain
-208;TEMPEST-STORE;Powerseller;2011;Spain;CALLE TIMOTEO DOMINGO, 17, LOCAL, 28017 Madrid, Spain
-209;HouseOfCardsBE;Professional;2014;Belgium;Geraardsbergsesteenweg 282, 9404 Aspelare, Belgium
-210;Izmaylov;Private;2013;France;
-211;Miki13112;Private;2018;France;
-212;szernik;Private;2015;Germany;
-213;Bokkie-Brown;Private;2013;Netherlands;
-214;Blizardjack;Private;2014;Greece;
-215;ShopHunter;Professional;2017;France;16 Rue Roger Tilmant, 59164 Marpent, France
-216;zbysour;Private;2014;Czech Republic;
-217;stardust76;Private;2017;France;
-218;mary;Private;2008;Germany;
-219;dbs85670;Professional;2018;France;HAMEAU DU CHATELIER 12, 85670 85670 - PALLUAU, France
-220;SamTradeOfficial;Private;2020;Italy;
-221;sjoerd972;Private;2016;Netherlands;
-222;EternitiesCrafter;Private;2019;France;
-223;MarmotteAilee;Private;2019;France;
-224;flo2000;Private;2009;Germany;
-225;Xobulo;Professional;2021;United Kingdom;51 Stamford Street, NG16 2DR Nottingham, United Kingdom
-226;GreenZebra;Private;2020;Germany;
-227;JSminia;Private;2018;Netherlands;
-228;Orkboss;Private;2016;Germany;
-229;ray17;Private;2012;Spain;
-230;Blipblep;Private;2019;Slovenia;
-231;LOLHasixD;Private;2020;Germany;
-232;ItsFranchetti;Private;2021;United Kingdom;
-233;danielito;Private;2010;Spain;
-234;Kauppiasfoppa;Private;2016;Finland;
-235;VarusEquin;Private;2014;France;
-236;Kraias;Private;2016;Germany;
-237;mtg-discounter24;Powerseller;2015;Germany;Fischbachstra�e 36, 50127 Bergheim, Germany
-238;remyleblanc;Private;2015;Netherlands;
-239;Griselbrand3;Private;2018;Germany;
-240;sjimmied;Private;2017;Netherlands;
-241;KaffTCG;Private;2021;Austria;
-242;Navis;Private;2011;France;
-243;pg7224;Private;2015;Germany;
-244;rambo-tomella;Private;2012;Spain;
-245;Papillon80;Private;2018;France;
-246;Sinici1992;Private;2012;Spain;
-247;WindyMiller;Private;2017;United Kingdom;
-248;OjamaGod;Private;2017;Germany;
-249;Serial1981;Private;2019;Italy;
-250;cole04;Private;2013;United Kingdom;
-251;hammen22;Private;2018;Italy;
-252;DrTim0n;Private;2015;Netherlands;
-253;YoungRighty;Private;2015;Germany;
-254;Kizuso;Private;2017;Germany;
-255;Trolloloman;Private;2019;Poland;
-256;exodus360;Private;2017;Spain;
-257;PetalmaneBaku;Private;2015;Finland;
-258;neonamu;Private;2016;Spain;
-259;TomFreud;Private;2018;Germany;
-260;SonJoku;Private;2016;Germany;
-261;TheWolverine;Private;2021;Spain;
-262;MartinHuber;Private;2013;Germany;
-263;invokeprejudice;Private;2012;Italy;
-264;kikofarto3;Private;2019;Portugal;
-265;AceMagicDealer;Professional;2012;Spain;Lope De Vega N�20 - 4�D, 34001 Palencia, Spain
-266;Diogenes;Private;2017;Greece;
-267;Nomar;Private;2017;Spain;
-268;patraspatras22;Private;2017;Spain;
-269;termestino;Private;2010;Spain;
-270;scaveooz;Private;2014;France;
-271;CrazyComicsAndGames;Professional;2011;Italy;Via Medaglie d'Oro 8, 21100 Varese, Italy
-272;berjackie;Private;2015;France;
-273;AVATAR-PL;Professional;2017;Poland;
-274;MagicNexus;Professional;2014;Italy;Via Padana Superiore 27, 20060 Gessate (MI), Italy
-275;weißer-Lotus;Professional;2009;Germany;Friedhofsweg 18, 61197 Florstadt, Germany
-276;DavidRuemmler;Professional;2015;Germany;Georg-Palitzsch-Straße, 17, 01239 Dresden, Germany
-277;Elbarone;Private;2016;Switzerland;
-278;brice464;Private;2014;France;
-279;tratmot;Private;2016;Italy;
-280;JYZ83;Private;2011;Italy;
-281;Olaaf;Private;2010;Belgium;
-282;Selick;Private;2018;Belgium;
-283;TroleDeJeux;Professional;2015;France;5 Rue Saint Luc, 36000 Châteauroux, France
-284;DisCardShop;Professional;2019;Italy;Via Moar zu Pirk 6, 39030 Lutago (BZ), Italy
-285;Playset4;Private;2017;Spain;
-286;panos1989;Private;2015;Greece;
-287;wizardshark;Private;2017;France;
-288;Chief92;Private;2014;Germany;
-289;Tylert;Private;2012;France;
-290;Mariano79;Private;2016;Italy;
-291;JOMEIS12;Private;2017;Spain;
-292;MettMann;Private;2016;Germany;
-293;zeusucao;Private;2013;Portugal;
-294;Michael8901;Private;2018;Italy;
-295;SaprolinVerde;Private;2012;Spain;
-296;cryog;Private;2019;Switzerland;
-297;Halo2001;Private;2016;Germany;
-298;Tron116;Private;2008;Germany;
-299;Bladewing89;Private;2016;Germany;
-300;RCTycooner;Private;2013;Belgium;
-301;Berggeit;Private;2016;Netherlands;
-302;JKappel;Private;2017;Germany;
-303;Recode;Private;2018;France;
-304;Mintcardgem;Private;2019;France;
-305;Hubbelluff;Private;2018;Germany;
-306;Pukete;Private;2019;Spain;
-307;MemoRator;Private;2018;Italy;
-308;Aymerix;Private;2014;France;
-309;Farbtopf12;Private;2021;Germany;
-310;Maumoleseullevrai;Private;2015;France;
-311;MasterLaky;Private;2018;Italy;
-312;ultimatewarrior;Private;2017;Italy;
-313;ZadeX;Private;2015;Belgium;
-314;Celine91;Private;2018;France;
-315;Remix91;Private;2015;France;
-316;bjarnizzle;Private;2018;Germany;
-317;Ocinvd;Private;2018;Belgium;
-318;erojudge;Private;2014;Germany;
-319;maeviouz;Professional;2013;Greece;Sp. Trikoupi 80-82, 18538 Piraeus, Greece
-320;AldoNala;Private;2017;Belgium;
-321;Mtg4All;Professional;2017;Spain;Calle Oliver nº54 b Local, 03802 Alcoy, Spain
-322;indru;Private;2013;Romania;
-323;akroma2008;Private;2012;Switzerland;
-324;Zuerichsee;Private;2018;Switzerland;
-325;grichi26;Private;2009;Austria;
-326;luciano38;Private;2016;France;
-327;EPShin18;Professional;2018;Spain;Calle Camino de los Romanos 56, 30820 Alcantarilla, Spain
-328;mcout;Private;2013;Germany;
-329;BloodReaver;Private;2013;Germany;
-330;CITADEL-GAMES;Private;2012;Spain;
-331;holzvalle;Private;2018;Germany;
-332;CommanderFluffly;Private;2014;Germany;
-333;EnglishTiger;Private;2020;Germany;
-334;benprdh;Private;2020;France;
-335;Tokhart;Private;2021;France;
-336;dikkedaan;Private;2014;Netherlands;
-337;Gemini56;Private;2019;Italy;
-338;hael22;Private;2017;France;
-339;ViolettBlue;Private;2020;Germany;
-340;Distritozero;Powerseller;2018;Spain;Alonso 15, 39010 Santander, Spain
-341;ilGiocoliere;Powerseller;2012;Italy;Via Di Toppo 28, 33100 Udine, Italy
-342;Psiakowy;Professional;2015;Poland;Suraska 6/38, 15-422 Bialystok, Poland
-343;CardwalletEU;Professional;2019;Belgium;Laan, 2930 Brasschaat, Belgium
-344;Gferro;Private;2014;Portugal;
-345;cassper;Private;2014;Spain;
-346;caceres2020;Professional;2016;Netherlands;Stuiverstraat 1N, 5611TA Eindhoven, Netherlands
-347;Dixitier;Private;2014;Germany;
-348;MBrinch;Private;2015;Denmark;
-349;Mic3hael;Private;2018;Germany;
-350;SimonJack88;Private;2018;Italy;
-351;JohnWizard;Private;2020;Greece;
-352;CardStoreAlcamo;Professional;2016;Italy;Via Pugliesi N.66, 91011 Alcamo (TP), Italy
-353;Brenag;Private;2012;Belgium;
-354;Magicdealer-patte-de;Powerseller;2008;Germany;Landgrabenstraße 121 (Im Innenhof), 90459 Nürnberg, Germany
-355;Magicshop2000;Private;2016;Italy;
-356;Kartenkoenig;Private;2013;Germany;
-357;Zaki23;Private;2015;Greece;
-358;kfranklin12;Private;2016;Germany;
-359;hespacc;Private;2008;Germany;
-360;Mirrankreuzritter;Private;2018;Germany;
-361;matiasgabarron;Private;2015;Spain;
-362;HiveGames;Powerseller;2013;Austria;Getreidegasse 3, 9020 Klagenfurt, Austria
-363;Athabasca;Private;2015;Belgium;
-364;Twoshop;Professional;2015;Spain;C/ Gavilanes 1, B1, P2, 1D, 28035 Madrid, Spain
-365;DHGames;Professional;2011;Finland;Itsenäisyydenkatu 38a C 22, 28130 Pori, Finland
-366;ishotya;Private;2014;Spain;
-367;DagonX;Private;2011;Germany;
-368;landshome279;Private;2012;Germany;
-369;satirobcn;Private;2012;Spain;
-370;Bigs77;Private;2018;Germany;
-371;gambo;Private;2015;Germany;
-372;stamosm;Private;2015;Greece;
-373;Bruce7506;Private;2016;France;
-374;AdrianMC;Private;2021;Spain;
-375;Skiski;Private;2018;Luxembourg;
-376;rockardist;Private;2018;Netherlands;
-377;DrDkt666;Private;2013;Portugal;
-378;Zoios;Private;2016;Poland;
-379;Kuduce;Private;2019;Germany;
-380;Mavado-Vemos;Private;2021;Poland;
-381;Colovia;Private;2019;Germany;
-382;K40crew;Private;2015;Denmark;
-383;michaldurovic;Private;2018;Slovakia;
-384;Muttonium;Private;2017;Sweden;
-385;Adway;Private;2018;Poland;
-386;Carioca9987;Private;2017;Spain;
-387;maxsilver;Private;2014;Austria;
-388;pbjoker;Private;2017;Croatia;
-389;Ghostlo;Professional;2014;Belgium;161, boulevard Lambermont, 1030 Schaerbeek, Belgium
-390;Abdelbach;Private;2017;Switzerland;
-391;heckman;Private;2019;Netherlands;
-392;Zloch;Private;2018;Slovakia;
-393;deathhenker;Private;2008;Germany;
-394;OutpostBrussels;Powerseller;2011;Belgium;8 rue de la tribune, 1000 BRUXELLES, Belgium
-395;Zakk67;Private;2019;France;
-396;zalakke;Private;2012;Finland;
-397;CardCastle;Professional;2012;Austria;Kirschentheuer 51, 9162 Strau, Austria
-398;Moltras;Professional;2014;Hungary;Ybl Miklós út 3/a Tetőtér 1., 7633 Pécs, Hungary
-399;masa;Private;2010;Finland;
-400;roughy;Private;2016;Netherlands;
-401;cornelius59;Private;2018;France;
-402;seagel;Private;2018;Netherlands;
-403;D-Insane;Private;2019;France;
-404;elliot1990pl;Private;2017;Poland;
-405;evertk;Private;2018;Netherlands;
-406;matic;Private;2015;Slovenia;
-407;dommedag;Private;2015;France;
-408;Quilombero;Private;2010;Germany;
-409;TizziTizzi;Private;2021;Italy;
-410;leonin;Private;2011;Belgium;
-411;Lorena;Private;2015;Spain;
-412;JJ-Finkleton;Private;2018;Netherlands;
-413;Boromol;Private;2017;Germany;
-414;flosiii;Private;2015;Germany;
-415;jerome34;Private;2014;France;
-416;punkboy48;Private;2019;Germany;
-417;MagicTradeHouseNo1;Powerseller;2013;Germany;Nelkenstr.15, 90547 Stein, Germany
-418;DavidxRodx;Private;2016;Portugal;
-419;NicoDN;Private;2020;France;
-420;Strat066;Private;2014;Germany;
-421;ClemFr;Private;2013;France;
-422;MaxiM87;Private;2019;Germany;
-423;Sadquatch;Private;2019;Switzerland;
-424;Games-Island;Powerseller;2008;Germany;Luitpoldstrasse 13, 95028 Hof, Germany
-425;Mazvigosl;Powerseller;2010;Spain;C/ Zamora 65 Bajo, 36203 Vigo, Spain
-426;DonMTG;Powerseller;2014;Germany;Lindenstr. 14, 50674 Köln, Germany
-427;das-Marmak;Professional;2009;Switzerland;Glasacker 3, 4657 Dulliken, Switzerland
-428;Rusty2410;Powerseller;2015;Germany;Wilhelmsweg 2c, 39249 Barby/ Elbe , Germany
-429;tuvok85;Private;2011;Germany;
-430;Jurgencreyf;Private;2018;Belgium;
-431;LotusGarden;Professional;2008;Spain;C/Aurora 90E, 3º2ª, 08700 Igualada, Spain
-432;buchanin;Private;2019;Germany;
-433;gabrielooos93;Private;2020;Italy;
-434;MishrasCardshop;Private;2013;Netherlands;
-435;MrclBok;Private;2020;Netherlands;
-436;JSRM88;Private;2021;United Kingdom;
-437;The-Inn-TCG;Professional;2019;Germany;Erich-Mühsam-Straße 8, 09112 Chemnitz, Germany
-438;MagicEmporium;Professional;2015;Netherlands;Rembrandtlaan, 7, 3362AC SLIEDRECHT, Netherlands
-439;Harakesh;Professional;2013;Netherlands;Meindert Hobbemastraat 1, 3314HR Dordrecht, Netherlands
-440;DrawstepGD;Professional;2013;Portugal;Rua da Fundação Calouste Gulbenkian n91, 4710-394 Braga, Portugal
-441;magictuga;Professional;2013;Portugal;Apartado 163, 4564-909 Penafiel, Portugal
-442;Igibert;Private;2015;Austria;
-443;pl0wbeast;Private;2014;Belgium;
-444;Moria05;Professional;2013;Spain;C/Tirso de Molina, 8-10 Bajo, 26006 Logroño, Spain
-445;FKTRD;Powerseller;2011;Germany;Ostenhellweg 57-59, 44135 Dortmund, Germany
-446;PlayTimeComo;Professional;2016;Italy;Via Volta 27/29, 22100 Como, Italy
-447;Grecutus;Private;2008;Germany;
-448;kreaten;Private;2011;Spain;
-449;HeinerBremer;Private;2013;Germany;
-450;WizardshopCz;Powerseller;2013;Czech Republic;Na Jarove 2424/2, 13000 Praha, Czech Republic
-451;Wildfirestore;Professional;2017;Italy;Via Della Fonte Meravigliosa 64, 00143 Roma, Italy
-452;Zebratus;Private;2011;Germany;
-453;willybizarre;Powerseller;2010;Spain;Apartado de correos 72, 46110 Godella, Valencia, Spain
-454;Outpostgamecenter;Powerseller;2011;Belgium;Beggaardenstraat 6, 2000 Antwerp, Belgium
-455;Galactus-Roma;Powerseller;2012;Italy;Via Alessandro Malladra 16, 00157 Roma, Italy
-456;CardsMania;Powerseller;2015;Italy;Via Flaminia Conca, 51, 47923 Rimini, Italy
-457;CARAB;Powerseller;2011;Switzerland;Bruchstrasse 43, 6003 Luzern, Switzerland
-458;magiccorner;Professional;2016;Italy;Via Claudia Augusta 76/C, 39100 Bolzano, Italy
-459;DRAGONCT;Powerseller;2011;Spain;Calle Tierno Galvan, 15 Bajo, Tienda DragonCT, 30203 Cartagena, Spain
-460;Metropolis-Center;Powerseller;2010;Spain;C/ Andres Mellado Nº 22 Local, 28015 Madrid, Spain
-461;NobleGarden;Powerseller;2017;Austria;Zehnergasse 20 A, Stiege 1, A35, 2700 Wiener Neustadt, Austria
-462;Skaldenmagie;Professional;2018;Switzerland;Chrüzweg 21, 5603 Staufen, Switzerland
-463;Bjiarni;Private;2015;Switzerland;
-464;Goshar;Private;2019;Germany;
-465;Kuldotha-Bazaar;Professional;2012;Italy;VIA ASSAROTTI 26/ROSSO, 16122 GENOVA, Italy
-466;Nightshade-Shop;Professional;2015;Germany;Landfermannstraße 9, 47051 Duisburg, Germany
-467;PlaceOfGeek;Professional;2017;France;16 rue Limogeanne, 24000 PERIGUEUX, France
-468;LotusVale-Bochum;Professional;2019;Germany;Herner Straße 7, 44787 Bochum, Germany
-469;Deprolloneon;Private;2017;Germany;
-470;zarcenas;Private;2016;Portugal;
-471;DoozEscape;Professional;2019;France;12 et 19 rue des magasins, 67000 strasbourg, France
-472;Baldur82;Private;2020;Switzerland;
-473;delmas;Private;2018;Italy;
-474;TolarianBrewAcademy;Private;2018;United Kingdom;
-475;TCG-entertainment;Powerseller;2019;Germany;Rathausstr. 16, 01773 Altenberg, Germany
-476;DragonReikaiGames;Professional;2019;Austria;Hirschstettner Strasse 19, 1220 Vienna, Austria
-477;JM123;Private;2021;United Kingdom;
-478;normans;Private;2014;Germany;
-479;Gunship-Games;Powerseller;2009;Germany;Wippenhauser Str. 26, 85354 Freising, Germany
-480;jokerbovisa;Professional;2011;Italy;Via Candiani 7/a, 20158 Milano, Italy
-481;Playin;Powerseller;2009;France;131 Avenue de France, 75013 PARIS, France
-482;House-of-Games;Professional;2011;Greece;Aspasias 72-74, Holargos, 15561 Athens, Greece
-483;karmacrow;Powerseller;2007;Germany;Saalmannstr. 7-9, 13403 Berlin, Germany
-484;BB-Spiele;Powerseller;2008;Germany;Ebersberger Str. 19 (2. Stock über Miedl), 83022 Rosenheim, Germany
-485;SpielRaum;Powerseller;2009;Austria;Otto Bauer Gasse 17, 1060 Wien, Austria
-486;SVKZeke;Private;2016;Slovakia;
-487;AboveGodlike;Private;2017;Denmark;
-488;webuyanycard;Professional;2019;United Kingdom;41 Fenton Avenue, TW181DD Staines, United Kingdom
-489;Kiki237;Private;2016;Italy;
-490;Antonius;Private;2014;Italy;
-491;LPPCOLLECTING-IT-SRL;Powerseller;2013;Italy;Via Belvedere, 23, 20862 Arcore (MB), Italy
-492;toycastle;Professional;2016;Austria;Kirschentheuer 51, 9162 Strau, Austria
-493;TimeaB;Private;2015;Romania;
-494;martial-alters;Private;2017;France;
-495;Ex0rcist;Private;2014;Finland;
-496;nicororix;Private;2017;France;
-497;petedk;Private;2018;Denmark;
-498;Rhaegar-LR;Private;2017;France;
-499;Benben78;Private;2013;Netherlands;
-500;kevkev;Private;2013;France;
-501;jeristy;Private;2017;France;
-502;N3B3L;Private;2016;Germany;
-503;oschulte;Private;2010;Germany;
-504;Theuderich;Private;2015;Germany;
-505;GobboDealer;Private;2014;Germany;
-506;Nihili;Private;2010;Austria;
-507;Lighting;Private;2011;Poland;
-508;helldanno;Private;2015;Germany;
-509;Akroma1987;Private;2015;Croatia;
-510;Jacob8800;Private;2018;Denmark;
-511;Muskatnuss6;Private;2016;Austria;
-512;SpecialOne28;Private;2016;Switzerland;
-513;alfredjkwak;Private;2017;Germany;
-514;Iscalia;Private;2019;Germany;
-515;Belkeen;Private;2019;France;
-516;NickyBluepants;Private;2020;Germany;
-517;Trudlo;Private;2018;Germany;
-518;Mtg-volos;Private;2017;Greece;
-519;Madveek;Private;2016;France;
-520;ggmagic;Professional;2015;Netherlands;Concordiastraat 29, 2406XX Alphen Aan Den Rijn, Netherlands
-521;Geeksandgamers;Professional;2020;United Kingdom;47 High Street, FK11ES Falkirk, United Kingdom
-522;KrayBoul;Private;2019;Germany;
-523;JoeyMoey;Private;2016;Germany;
-524;daktylus75;Professional;2007;Germany;Tilsiterstraße 94, 45470 Mülheim Ruhr, Germany
-525;mattopul;Private;2019;Austria;
-526;Cypress;Private;2013;Germany;
-527;LorenzMatterhorn;Private;2016;Germany;
-528;RFD94;Private;2016;Belgium;
-529;cernyrytir;Powerseller;2011;Germany;Rathausstr. 16, 01773 Altenberg, Germany
-530;Hobby-Games;Powerseller;2012;Greece;Theohari 4, 54621 Thessaloniki, Greece
-531;elrincondelhobby;Professional;2010;Spain;c/ Valencia 497 Entlo 4, 08013 Barcelona, Spain
-532;JoeBuddha;Private;2008;Germany;
-533;NEMESIS23180;Private;2014;Spain;
-534;Alexander1907;Private;2015;Spain;
-535;LudoB;Private;2015;France;
-536;Meistermeuchler;Private;2008;Germany;
-537;Bestialos;Private;2017;France;
-538;Hellcat;Private;2012;Germany;
-539;hefaistos;Private;2011;Netherlands;
-540;Reitina;Private;2015;France;
-541;CardStore-Blois;Private;2015;France;
-542;vale46;Private;2018;Switzerland;
-543;Trons63;Private;2014;France;
-544;tschudti;Private;2018;Germany;
-545;Ersanto;Private;2019;Italy;
-546;Alexsoul;Private;2018;France;
-547;feanor986;Private;2014;Italy;
-548;davebeelen;Private;2013;Netherlands;
-549;saintseiya98;Private;2017;Portugal;
-550;Altezio;Private;2013;Portugal;
-551;ElFeeder;Private;2017;Portugal;
-552;Abyssalia;Private;2018;Finland;
-553;lauke101;Private;2015;Netherlands;
-554;Enske92;Private;2016;Malta;
-555;alec1012;Private;2020;Romania;
-556;Mtgspot;Powerseller;2014;Poland;targowa 5, 41-503 chorzów, Poland
-557;Diesler;Private;2019;Germany;
-558;DuploCard;Private;2020;Netherlands;
-559;CardgeekNL;Powerseller;2012;Netherlands;C D Tuinenburgstraat 193, 3078GD Rotterdam, Netherlands
-560;elbonenet;Private;2017;Austria;
-561;Larinski;Private;2013;Austria;
-562;Goblin-Patron;Private;2009;Germany;
-563;Hammy;Private;2017;United Kingdom;
-564;Gretski15;Private;2021;United Kingdom;
-565;BriXtreme;Private;2015;Germany;
-566;Kumpel-Trading;Professional;2020;Germany;Kirschbaumsweg 8, 45149 Essen, Germany
-567;TablerazeMontpellier;Professional;2018;France;4 Rue Joseph Vidal, 34000 Montpellier, France
-568;HolmesFr;Professional;2020;France;4 Lieudit La Saudrais, 35760 Saint Grégoire , France
-569;kajika46;Private;2015;Germany;
-570;TJHollaar;Private;2017;Netherlands;
-571;TiagoParracho;Private;2015;Portugal;
-572;MichaelBondeDK;Private;2014;Denmark;
-573;TheBoyz;Private;2021;Germany;
-574;Pixie;Private;2015;Netherlands;
-575;Sellerarjafin;Private;2019;Finland;
-576;MoonVillage;Powerseller;2014;Germany;Saalmannstraße 7-9 , 13403 Berlin, Germany
-577;Tarmogoyf;Professional;2008;Germany;Pelzerhakener Straße 30, 23730 Neustadt in Holstein, Germany
-578;DualGames-Alicante;Professional;2017;Spain;García Andreu 24, 03007 Alicante, Spain
-579;MerfolkTraders;Professional;2017;France;11 Rue Alfred Leyssenot, 16160 Gond-Pontouvre, France
-580;Kap23;Private;2008;Germany;
-581;exaltetangel;Private;2014;Switzerland;
-582;maxime75018;Private;2009;France;
-583;TradingCardsUnited;Professional;2018;Austria;Ghegagasse 29/22, 8020 Graz, Austria
-584;Aberconda;Private;2015;Italy;
-585;ManaMix;Private;2014;France;
-586;Sinister123;Private;2011;Germany;
-587;Mik1040;Private;2016;Belgium;
-588;Midicards4281;Private;2019;Netherlands;
-589;Nils97;Private;2016;Germany;
-590;Llanowar82;Private;2014;Spain;
-591;tserjio;Private;2015;Spain;
-592;chrisa2;Private;2009;Austria;
-593;geekfactory;Professional;2020;France;29 Rue Du Général Leclerc, 22400 Lamballe, France
-594;sKarty;Private;2012;Portugal;
-595;Wommelshausen;Private;2020;Netherlands;
-596;Megatol;Private;2014;Spain;
-597;k201244;Private;2017;Poland;
-598;marcophone;Private;2013;France;
-599;TDR62;Private;2019;United Kingdom;
-600;Andre-P;Private;2015;Sweden;
-601;tellez7;Private;2015;Spain;
-602;MarioMirage;Private;2020;Croatia;
-603;Secretenergy;Private;2018;Netherlands;
-604;kevistrauss;Private;2017;Netherlands;
-605;kasi87;Private;2020;Germany;
-606;Haxan;Private;2019;Belgium;
-607;Glendennan;Private;2020;United Kingdom;
-608;Si7en;Private;2014;Italy;
-609;biteul;Private;2012;France;
-610;Enachel;Private;2016;France;
-611;derstef;Private;2020;Belgium;
-612;DonnieDarkoNL;Private;2013;Netherlands;
-613;BorjaxS;Private;2015;Spain;
-614;eMeR90;Private;2012;Poland;
-615;Xalthur;Private;2009;Germany;
-616;welovetocollect;Professional;2016;Germany;Albin Schlehahn Str. 11, 08547 Jößnitz, Germany
-617;reumah;Private;2011;Spain;
-618;Schimmelpopo;Private;2018;Germany;
-619;Magic-Industria-61;Powerseller;2012;Spain;Calle Industria, 61, local, 08025 Barcelona, Spain
-620;ArenaGamesDE;Professional;2015;Germany;Theresienstr. 11, Rückgebäude, 85049 Ingolstadt, Germany
-621;fabfesta;Professional;2009;Netherlands;Burgemeester Marijnenlaan 28, 2585DP Den Haag, Netherlands
-622;Ishan;Professional;2013;Croatia;Vlade Grozdanića 6, 51000 Rijeka, Croatia
-623;TeamSpelEnMeer;Professional;2016;Netherlands;Dorpsstraat 86A, 2712AM Zoetermeer, Netherlands
-624;lastdreamer87;Private;2008;Spain;
-625;dfccg;Private;2012;Portugal;
-626;Mulligans;Professional;2015;Netherlands;Libellenstraat 17, 6533RK Nijmegen, Netherlands
-627;OblivionMTG;Professional;2016;Italy;Corso Caio Plinio 34, 10127 Torino, Italy
-628;Nephren;Private;2012;Italy;
-629;Gunnar2k8;Private;2008;Germany;
-630;K3lla;Private;2008;Germany;
-631;CollectiblesTrading;Professional;2019;Austria;Klausenbachstraße 26/20, 4040 Linz, Austria
-632;Yufei;Private;2011;France;
-633;Kernowjim;Private;2014;United Kingdom;
-634;Yggzorn;Private;2019;Germany;
-635;Piccio91;Private;2013;Italy;
-636;Charly4785;Private;2017;Spain;
-637;snabblars;Private;2016;Sweden;
-638;Yamalesca;Private;2018;France;
-639;Stefan-Laszkiewicz;Private;2020;Poland;
-640;sundermeier;Private;2009;Germany;
-641;czesctuariel;Professional;2018;United Kingdom;17/7 Lochend Park View, EH7 5FX Edinburgh, United Kingdom
-642;Dunkler-Herrscher;Powerseller;2008;Germany;Habichtswaldweg 19, 64546 Mörfelden-Walldorf, Germany
-643;PetrKikac;Private;2020;Czech Republic;
-644;GRANDE-INVERNO;Professional;2020;Italy;Beato Cesidio 35, 67100 L'aquila, Italy
-645;Ortrudzomfg;Private;2009;Germany;
-646;MagaMercatino;Professional;2012;Italy;Via P. Borsellino 154, 22040 Alzate Brianza (Como), Italy
-647;HatakeKakashi88;Private;2016;Germany;
-648;corsi1996;Private;2016;Italy;
-649;derboba;Private;2012;Germany;
-650;steficTol;Private;2013;Czech Republic;
-651;nickdejonge;Private;2020;Netherlands;
-652;Tier1MTG;Professional;2019;Denmark;Vipperød Byvej 8A, 4390 Vipperød, Denmark
-653;Guarida-Del-Dragon;Professional;2011;Spain;Maria Diaz de Haro 55 (local), 48010 Bilbao, Spain
-654;Mythulro;Private;2017;Romania;
-655;ritastochter;Private;2020;Germany;
-656;Kirisame84;Private;2018;France;
-657;dragonfall5;Professional;2018;United Kingdom;46 Parkside, BN43 6HA Shoreham-by-sea, United Kingdom
-658;SwankyPants88;Private;2019;United Kingdom;
-659;pedrodj78;Private;2020;Portugal;
-660;EttoreMTG;Professional;2018;Italy;Via Fratelli Bandiera 26, 53036 Poggibonsi (Si), Italy
-661;MrPete;Private;2015;Germany;
-662;BeNsE;Private;2010;Germany;
-663;Pangea;Private;2012;Spain;
-664;monstersystem;Private;2016;Spain;
-665;kahlan37;Private;2019;Netherlands;
-666;Rishadan-Magic-Store;Professional;2016;Italy;Via G. A. Sartorio 31, 00147 Roma, Italy
-667;Letalboro;Private;2016;Italy;
-668;MagicPapa;Professional;2015;Germany;An der Alten Spinnerei 10, 83059 Kolbermoor, Germany
-669;TCGEnterprise;Professional;2015;Italy;via molinetto 106, 31030 borso del grappa (TV), Italy
-670;CerberusIT;Professional;2010;Italy;Via Presidio 18, 81031 Aversa (CE), Italy
-671;gamersfinest;Professional;2018;Austria;Sebastian-Stöllner-Straße 1, 5020 Salzburg , Austria
-672;MAGICSHOPITA;Private;2013;Italy;
-673;ThreeForOne-AT;Powerseller;2012;Austria;Neulerchenfelder Straße 76, 1160 Wien, Austria
-674;EspaceMagic;Professional;2012;France;26 place Xavier Bichat, 01450 Poncin, France
-675;fischi1984;Private;2012;Germany;
-676;slashrose;Private;2017;Portugal;
-677;Brisk;Private;2019;Italy;
-678;Robotomasas;Private;2019;Lithuania;
-679;Deinvater18;Private;2008;Austria;
-680;Jizreel;Private;2015;France;
-681;Winsel;Powerseller;2007;Germany;Langemarckstr. 158, 28199 Bremen, Germany
-682;MAGICPLANET;Powerseller;2012;Italy;Piazzale Marconi 37, 29121 Piacenza (PC), Italy
-683;Oriented;Private;2016;Italy;
-684;christianstrothjohann;Private;2013;Germany;
-685;Stavesacre;Private;2018;Ireland;
-686;Messicano;Private;2019;Finland;
-687;YamiAlex1994;Private;2016;United Kingdom;
-688;TimmeyOne;Private;2015;Germany;
-689;RMP1982;Private;2018;Netherlands;
-690;Pernacchianda;Private;2015;Italy;
-691;PeloutseMtG;Professional;2016;Greece;Kountouriotou 49, 11146 Athens, Greece
-692;Crosis88;Private;2015;Germany;
-693;axanathos;Private;2010;Germany;
-694;JoannaDark;Private;2019;Poland;
-695;Schnapsl;Private;2009;Germany;
-696;Vansguy-DE;Professional;2018;Czech Republic;Politickych Veznu 842/4, 25262 Horomerice, Czech Republic
-697;RDeschain;Private;2018;Germany;
-698;nantukozerox;Private;2016;Netherlands;
-699;magnapoli;Private;2016;Italy;
-700;Trapper99;Private;2016;Germany;
-701;PaulAndr;Private;2020;Belgium;
-702;Blaze241;Private;2014;Germany;
-703;flosar71;Private;2021;Spain;
-704;Tueben;Private;2013;Germany;
-705;RagnarNagato;Private;2018;Spain;
-706;Annie1983;Private;2021;Poland;
-707;riper91;Private;2019;Portugal;
-708;Uncraft;Private;2018;France;
-709;Scarecrows;Private;2018;Italy;
-710;Teenwolf;Private;2009;Spain;
-711;VentorII;Private;2014;Austria;
-712;metti1985;Private;2011;Germany;
-713;GameForce;Professional;2014;Netherlands;Visserstraat 18A, 5612BT Eindhoven, Netherlands
-714;VintageCollectors;Powerseller;2019;Italy;Vintage Collectors, 40125 Bologna (ITALY), Italy
-715;Troedel;Private;2011;Germany;
-716;RickOttaro;Private;2020;Italy;
-717;Giantian;Private;2012;Ireland;
-718;Mercenary027;Private;2018;United Kingdom;
-719;Weltenwache;Private;2016;Germany;
-720;Dijkstra;Private;2017;Netherlands;
-721;Platzer;Private;2020;Czech Republic;
-722;Krokar;Private;2017;Slovenia;
-723;minimagic;Private;2017;Austria;
-724;JaySmalls;Private;2016;Germany;
-725;CaronteFCB;Private;2018;Spain;
-726;Elucidator;Private;2013;Germany;
-727;crying;Private;2013;Switzerland;
-728;Darkmattergun;Private;2013;Germany;
-729;Efe-Flatline;Private;2018;Germany;
-730;MtgUtility;Private;2014;Italy;
-731;TheCronoX;Private;2015;Portugal;
-732;Malthe14;Private;2019;Denmark;
-733;biber;Professional;2008;Germany;Im Brande 4, 30926 Seelze, Germany
-734;xenesaltones;Private;2012;United Kingdom;
-735;Kapelusznik;Private;2019;Poland;
-736;MysticShop;Professional;2012;Czech Republic;Jana Palacha 1636, 27201 Kladno, Czech Republic
-737;cardgalaxy;Professional;2016;Germany;Stöckmannstrasse 65, 46045 Oberhausen, Germany
-738;GamersAcademy;Professional;2014;Austria;Bahnstrasse 11, 2540 Bad Vöslau, Austria
-739;Makre;Private;2015;Germany;
-740;MTGcardmarket01;Private;2015;Spain;
-741;Sichiro;Private;2017;Greece;
-742;Goat-enterprise;Powerseller;2014;Netherlands;Dorpsdijk 143, 3161CA Rhoon, Netherlands
-743;Itaca;Powerseller;2016;Spain;Blasco de Garay 15, Local 1, 28015 Madrid, Spain
-744;DUAL-GAMES;Powerseller;2013;Spain;Calle Acisclo Diaz 5 bajo, 30005 Murcia, Spain
-745;Card-Trader24;Professional;2019;Germany;Friedrichstraße 5a, 32791 Lage, Germany
-746;taikocomics;Professional;2009;Spain;C/ Sant Jaume nº 73 (local), 08401 Granollers, Spain
-747;ludo54;Private;2016;France;
-748;WinTheGame;Private;2011;Germany;
-749;Failster;Private;2013;Germany;
-750;gao6979;Private;2018;Spain;
-751;Figurasdeplomo;Professional;2013;Spain;C/ San Payo , Nº12 , 1º A, 32001 Orense, Spain
-752;WouterDS;Private;2016;Belgium;
-753;Zombiepartyuk;Professional;2018;United Kingdom;13 woodland way, , G67 2BE Cumbernauld, United Kingdom
-754;crabouille;Private;2014;France;
-755;Raptorius;Private;2017;France;
-756;FLouro;Private;2016;Portugal;
-757;Jbonta;Private;2019;Switzerland;
-758;Venarch;Private;2016;Germany;
-759;CORP-F;Professional;2019;France;Balbronn 87, 67200 Strasbourg, France
-760;Aaages;Private;2019;Austria;
-761;flamberg;Professional;2010;Poland;Mickiewicza 3, 40-092 Katowice, Poland
-762;arctis;Private;2017;Germany;
-763;Mordor;Professional;2010;Greece;Kondili 7, 15122 Marousi, Greece
-764;PlanarGate;Professional;2013;Poland;Gorna 16/11, 81-438 Gdynia, Poland
-765;DeMagicMarkt;Professional;2014;Netherlands;Charles Petitweg18, 4827hj Breda, Netherlands
-766;MrMirari;Private;2013;Germany;
-767;82chrisj;Private;2019;Germany;
-768;jorHere;Private;2014;Netherlands;
-769;mrfingers123;Private;2013;Netherlands;
-770;Dieuxx621;Private;2012;France;
-771;DantessCardss;Private;2020;Italy;
-772;TrueNeckbeardCards;Private;2021;United Kingdom;
-773;Sailorsgrave91;Private;2021;United Kingdom;
-774;BlackSkorpio;Professional;2018;France;Appartement 21 étages 2 , 73000 Chambéry, France
-775;Blackdragon94;Private;2009;Germany;
-776;ilcovodelnerd;Professional;2014;Italy;viale michelangelo 133, 71122 foggia, Italy
-777;BuyWithConfidence;Professional;2018;Italy;Via G.Piroli 2\B, 29029 Niviano di Rivergaro (PC), Italy
-778;tiburonapu;Private;2011;Spain;
-779;maquilleida;Professional;2012;Spain;calle pallars 22 bajos, 25004 Lleida, Spain
-780;SMC1;Private;2010;Germany;
-781;OstfrieseMM;Private;2011;Germany;
-782;OlivierR;Private;2016;France;
-783;MeiOPanda;Private;2019;Germany;
-784;SergiRL;Private;2017;Spain;
-785;Morgo1;Private;2018;Germany;
-786;Seath;Private;2018;Germany;
-787;Zicral;Private;2018;France;
-788;SynMaple;Private;2019;Germany;
-789;Morigal;Professional;2019;Poland;Św. Wojciecha 10, 43-600 Jaworzno, Poland
-790;Method999;Professional;2008;Germany;Brandweiher 38, 92637 Weiden, Germany
-791;Erschonwieder;Professional;2019;Germany;Gladenbacher Weg 51, 35037 Marburg, Germany
-792;gatheringka;Private;2019;Spain;
-793;Dudas999;Private;2019;Portugal;
-794;WatHaddaDa;Professional;2020;Germany;Von-Einem-Str. 70, 45130 Essen, Germany
-795;nic222k;Private;2017;United Kingdom;
-796;Henchmans;Professional;2017;United Kingdom;9 New Sporle Road, PE37 7JD Swaffham, United Kingdom
-797;Dax-Cardstore;Professional;2012;Germany;Teerosenweg 31, 22177 Hamburg, Germany
-798;Ichiban-Cards;Professional;2016;Spain;C/guadalupe n6 bajo b, 28931 Mostoles (Madrid ), Spain
-799;parkage;Powerseller;2012;France;25 rue geoffroy st hilaire, 75005 PARIS, France
-800;Cartapapa-GP;Powerseller;2018;France;21 Rue Des étuves, 34000 MONTPELLIER, France
-801;Cardexchange;Powerseller;2012;Netherlands;Nassaustraat 35, 4241AJ Arkel, Netherlands
-802;Parence-com;Professional;2014;France;7 Rue Des Drapiers, 76600 Le Havre, France
-803;The-FOW-Store;Powerseller;2016;Spain;Apartado Postal 116, 28523 Rivas-Vaciamadrid, Spain
-804;BattleBearTCG;Powerseller;2015;Germany;Schubertstrasse 35, 67655 Kaiserslautern, Germany
-805;toycastle-D;Powerseller;2011;Austria;Kirschentheuer 51, 9162 Strau, Austria
-806;Icarusjocs-BCN;Professional;2015;Spain;Salvador Espriu nº2, 08380 malgrat de mar, Spain
-807;Wolrad;Private;2009;Germany;
-808;cavernedujeu;Professional;2018;France;5 rue schuman, 62215 oye plage, France
-809;Triplacegames;Professional;2017;Portugal;Rua do mirante 11-A, R/C, 2910-609 setubal, Portugal
-810;TheJokerUtrecht;Private;2017;Netherlands;
-811;Tydus;Private;2013;Germany;
-812;evilarroyo;Private;2017;Spain;
-813;Jan53;Private;2012;Germany;
-814;onbewust;Private;2013;Belgium;
-815;kanosc;Private;2017;Spain;
-816;Dadue2000;Private;2015;Switzerland;
-817;WalterWKrijthe;Private;2013;Netherlands;
-818;Timmys-Emporium;Private;2018;Netherlands;
-819;grednight;Private;2012;Portugal;
-820;vanDeluxe89;Private;2020;Germany;
-821;VaeterchenRost;Private;2018;Austria;
-822;Watthe;Private;2019;Switzerland;
-823;lquentin;Private;2015;France;
-824;Lockhe;Private;2015;France;
-825;McPwn;Private;2017;Switzerland;
-826;SEGDT;Private;2017;France;
-827;mudds;Private;2019;United Kingdom;
-828;Afily;Private;2015;Poland;
-829;Sunoseno;Private;2015;Germany;
-830;magicworld58;Private;2012;Germany;
-831;POOL4YOU;Powerseller;2010;Spain;C/ Padre Recaredo de los Rios 52, local 6 izquierda, 03005 ALICANTE, Spain
-832;STARDUSTSHOP;Powerseller;2008;Germany;Zeppelinstr. 99, 70193 Stuttgart, Germany
-833;womantrader;Professional;2018;Italy;Mario Fani, 109, 00135 Roma, Italy
-834;Zauberland-Spiele;Professional;2018;Germany;Grünental 2, 58579 Schalksmühle, Germany
-835;MtgHistory;Powerseller;2016;Italy;Via Caduti del Lavoro 52, 06124 Perugia, Italy
-836;Kinglui272;Private;2009;Germany;
-837;millmtg;Private;2016;Portugal;
-838;OoneroxoO;Private;2018;Germany;
-839;Hismageil;Private;2012;France;
-840;robledotiedra;Private;2008;Spain;
-841;kraxo;Private;2010;Austria;
-842;Snapcaster-FR;Professional;2020;France;48 Bis Avenue De La Colombière, 69360 St Symphorien D'Ozon, France
-843;wolf12;Private;2016;Finland;
-844;KarelKopriva;Private;2018;Czech Republic;
-845;vibue;Private;2015;Switzerland;
-846;Mtdna666;Private;2018;Switzerland;
-847;Graufang;Private;2011;Germany;
-848;Profitis7;Private;2015;Cyprus;
-849;antoct1991;Private;2019;Italy;
-850;Ipari1993;Private;2019;Hungary;
-851;SenseisDiviningShop;Professional;2015;Finland;Näsilinnankatu 15 A 1, 33210 Tampere, Finland
-852;D6ffjssy6;Private;2019;Germany;
-853;TrulyAwesome;Private;2014;Austria;
-854;Garlant;Private;2019;Austria;
-855;Hoerni;Private;2018;Germany;
-856;Flo33333;Private;2017;Switzerland;
-857;Fantasia-Shop;Professional;2018;Germany;Werastrasse 114, 72764 Reutlingen, Germany
-858;ruicasasnovas;Professional;2008;Portugal;Rua Rainha D. Amelia Lote 47 3ºDto, 2675-469 Odivelas, Portugal
-859;Necrostation;Private;2018;Germany;
-860;Mirk4523;Private;2015;France;
-861;ToBoT2007;Private;2013;Germany;
-862;alzi82;Private;2017;Germany;
-863;Trago;Private;2012;Germany;
-864;Tradingcardgames;Professional;2016;Germany;Schönfelder Weg 46, 42699 Solingen, Germany
-865;K4mpfsch4f;Private;2015;Austria;
-866;fumettopoli;Professional;2016;Italy;Via Piave 24, 52100 Arezzo, Italy
-867;LocalProCards;Professional;2012;Greece;Kifisia Solomou Solomou 4, 54248 Thessaloniki, Greece
-868;Balabuschka;Professional;2012;Germany;Pferdemarkt 20, 18273 Güstrow, Germany
-869;Kartenhaus;Professional;2008;Germany;David Morgenstern Weg 19, 91056 Erlangen, Germany
-870;Gridlok;Private;2013;Poland;
-871;robneme;Private;2009;Spain;
-872;bigup;Private;2009;Germany;
-873;Schmeyer;Private;2009;Germany;
-874;ACAlterations;Private;2012;Germany;
-875;Mtgmadness;Private;2018;United Kingdom;
-876;dutchforce85;Private;2013;Netherlands;
-877;DeDobbelsteen;Professional;2019;Netherlands;Vughterstraat 56, 5211GK 's-Hertogenbosch, Netherlands
-878;Keule;Private;2012;Germany;
-879;neivals;Private;2013;Spain;
-880;Steverino;Private;2019;Germany;
-881;ElMusso;Private;2018;Switzerland;
-882;fallacox;Private;2019;France;
-883;Abari2309;Private;2020;United Kingdom;
-884;zwahle;Private;2018;Switzerland;
-885;Spellslingers;Powerseller;2016;Norway;Grendeveien 28b, 3188 Horten, Norway
-886;LeYAN1001;Private;2021;France;
-887;Fogg-Bank;Private;2017;United Kingdom;
-888;Levodin;Professional;2010;Spain;Avenida Francesc Macia 55 3º2º, 08921 Santa Coloma de Gramenet, Spain
-889;DirtyErnie;Private;2015;Poland;
-890;CardPlanetAustria;Powerseller;2011;Austria;Albersdorf 419/3, 8200 Albersdorf-Prebuch, Austria
-891;RetroMagic;Powerseller;2015;Belgium;Petunialaan 24, 8400 Oostende, Belgium
-892;Gijoe;Private;2012;Portugal;
-893;Moxopal;Private;2016;Italy;
-894;Zoran83;Private;2017;Belgium;
-895;MascagniMTG;Professional;2019;Italy;Via Luigi Cherubini 35, 50052 Certaldo (Fi), Italy
-896;mtgcloux;Professional;2018;France;2 Allée Pierre Et Marie Curie, 91620 NOZAY, France
-897;danstrike;Private;2014;Greece;
-898;CardRooster;Professional;2019;France;286 rue Vendôme, 69003 Lyon, France
-899;munuaal;Private;2015;Spain;
-900;Woolve;Private;2011;Germany;
-901;TiagoAmaral53;Private;2019;Portugal;
-902;trauni;Private;2010;Austria;
-903;JANT34;Private;2012;Spain;
-904;TolarianAcademy;Professional;2014;Italy;Via Perosina 3, 65010 Spoltore, Italy
-905;CaptainPlanet94;Private;2017;Germany;
-906;Goldgeckoguy;Private;2012;Germany;
-907;eres;Private;2009;Spain;
-908;Sicness;Private;2013;Romania;
-909;Ajag74;Private;2018;Germany;
-910;MiguelX19;Private;2016;Portugal;
-911;Boxato;Private;2016;Germany;
-912;MTGshop-NL;Professional;2014;Netherlands;Jankushofstraat 15, 6002CV Weert, Netherlands
-913;NK218;Private;2015;Germany;
-914;Mr-Pirilampo;Private;2011;Portugal;
-915;Bumblebeez;Private;2017;Netherlands;
-916;Naicigam;Private;2020;Netherlands;
-917;Anesteria;Private;2017;Netherlands;
-918;ManaBrain;Private;2019;Germany;
-919;Fima23;Private;2018;Czech Republic;
-920;timondml;Private;2010;Netherlands;
-921;Schlamarcel;Professional;2015;Germany;Hamburger Str. 45a, 21244 Buchholz, Germany
-922;Lukse;Professional;2012;United Kingdom;139 Manchester Road, CW9 7EN Northwitch, United Kingdom
-923;alle008;Private;2017;Italy;
-924;eli1;Powerseller;2008;Austria;Untertellenmoos 18a, 6858 Schwarzach, Austria
-925;HallofGames;Professional;2019;Germany;Martinstr. 10, 06108 Halle, Germany
-926;Montilian;Professional;2014;Germany;Am Aschweg 4b, 85114 Buxheim, Germany
-927;yasi18;Private;2015;Germany;
-928;SrGrin;Private;2011;Spain;
-929;Gundalfinho;Private;2020;Czech Republic;
-930;athanbak;Private;2019;United Kingdom;
-931;acidedge;Private;2017;Austria;
-932;Oadin;Private;2018;Belgium;
-933;punisher2502;Private;2012;Germany;
-934;Paperella;Private;2018;Italy;
-935;JustJosh;Private;2019;United Kingdom;
-936;ALBY1959;Private;2021;Italy;
-937;Gidion;Private;2015;Germany;
-938;devric;Professional;2013;Portugal;Rua Antonio Feliciano Castilho n 298, 4430-307 Vilar do Andorinho, Portugal
-939;redribbon83;Private;2014;Italy;
-940;Dracarysviterbo;Professional;2015;Italy;Via Galvani 38 C, 01100 Viterbo (VT), Italy
-941;Rukaaaaaa;Private;2012;Portugal;
-942;Pudelkolobrzeg;Private;2019;Poland;
-943;Rippersoan;Private;2018;Greece;
-944;TierraMedia;Powerseller;2010;Spain;Plaza Madre de Dios 12 - Bajo Local 1-B, 11401 Jerez de la Frontera, Spain
-945;Holzi1701;Private;2009;Austria;
-946;Killbene;Professional;2014;Germany;Nauroderstraße 9B, 65191 Wiesbaden, Germany
-947;Daithicuts;Private;2017;Ireland;
-948;Knosli;Private;2018;Switzerland;
-949;tigre90;Private;2018;Italy;
-950;legenda;Private;2015;Slovenia;
-951;HappyMagicB0b;Private;2016;Norway;
-952;mortymcfly;Private;2018;Germany;
-953;Mtgbill974;Private;2017;France;
-954;tulppu;Private;2010;Finland;
-955;WhatTheFreak;Professional;2018;Spain;Pasaje Armando Nº2, 29670 San Pedro De Alcantara, Spain
-956;Gondorman;Private;2016;France;
-957;Eurekagames;Powerseller;2009;Spain;ALUCHE - MADRID, 28024 MADRID, Spain
-958;MythicCardboard;Professional;2016;United Kingdom;BA4 4FS Shepton Mallet, United Kingdom
-959;Magictraders;Private;2017;Denmark;
-960;Flamadiddle;Private;2015;Portugal;
-961;PzychoL;Private;2016;Poland;
-962;Hellkeeper76;Private;2012;Germany;
-963;PayDay952;Private;2017;Germany;
-964;dakkon;Private;2010;Italy;
-965;MKMcEDH;Private;2019;Germany;
-966;Tripitz;Private;2017;Austria;
-967;InSertS;Private;2012;Luxembourg;
-968;raelan;Private;2018;Italy;
-969;WolfOfFirePT97;Private;2021;Portugal;
-970;BulldogCardTraders;Professional;2015;United Kingdom;8 Wentbridge Path, WD6 4ET Borehamwood, United Kingdom
-971;Vatsana;Private;2019;Belgium;
-972;Boekie;Private;2011;Belgium;
-973;Toots;Private;2013;Netherlands;
-974;jajasei;Private;2017;Germany;
-975;Rochester-Cube;Private;2009;Germany;
-976;L3uCh7f3u3r;Private;2017;Germany;
-977;SushieH;Private;2018;Germany;
-978;VeggieWombat;Private;2012;France;
-979;zuzu-Fantasia;Powerseller;2015;Italy;Viale Trento 77, 38068 Rovereto, Italy
-980;Wullehamda;Private;2017;Germany;
-981;DemigodofRats;Private;2017;Germany;
-982;Beale;Private;2018;Spain;
-983;andrenovo11;Private;2018;Portugal;
-984;nohman;Private;2017;Belgium;
-985;IsolatedSystem;Private;2017;France;
-986;Chaosbaer98;Private;2018;Austria;
-987;Andrej26;Private;2019;Slovakia;
-988;Ludicon;Professional;2012;Spain;Marques de Fonsanta, 76, 07005 Palma de Mallorca, Spain
-989;LevelOne;Private;2013;Germany;
-990;MrBringyourlight;Private;2015;Switzerland;
-991;inGenio;Professional;2011;Spain;Passeig de Sant Joan, 16, Local 4, 08010 Barcelona, Spain
-992;LegendofMagic;Professional;2015;Switzerland;Drillweg, 3, 5036 Oberentfelden, Switzerland
-993;DeadWalter;Private;2010;Switzerland;
-994;makavi;Private;2020;Austria;
-995;eltanque;Private;2013;Germany;
-996;voodoo-pt;Powerseller;2011;Portugal;Rua Mário Cesariny , Urb Quinta da Maia, 3375 Loja 2 , 4760-010 Vila Nova de Famalicão, Portugal
-997;Ascardix;Private;2021;Belgium;
-998;RedTiger;Private;2016;Germany;
-999;thenewgozoku;Private;2013;Greece;
-1000;quetzalcoatl;Private;2014;United Kingdom;
-1001;Marjanne;Professional;2014;Netherlands;Grote Straat 57, 6181NT Elsloo, Netherlands
-1002;Caraxapa;Private;2018;Spain;
-1003;JLK94;Private;2015;Germany;
-1004;johannes236551;Private;2014;Germany;
-1005;L1z1x-Mindnet;Private;2016;Germany;
-1006;DerZonk;Private;2014;Germany;
-1007;Plm0828;Private;2018;France;
-1008;Benadrei;Private;2011;France;
-1009;HeroesSmoker;Private;2018;Italy;
-1010;vizzer;Private;2009;Portugal;
-1011;douglasmacleod;Private;2017;United Kingdom;
-1012;MultiversoRaziel;Private;2019;Italy;
-1013;eros8118;Private;2016;United Kingdom;
-1014;phips444;Private;2017;Austria;
-1015;Xtran;Private;2017;Netherlands;
-1016;Castellana;Private;2015;Spain;
-1017;Artictoast;Private;2017;Sweden;
-1018;willaert;Private;2008;Belgium;
-1019;GoblinTorino;Private;2018;Italy;
-1020;Eventwin13;Private;2016;France;
-1021;Manborg;Private;2018;Germany;
-1022;benny2109;Private;2011;Germany;
-1023;mountainwalk;Private;2010;Spain;
-1024;Aripet;Private;2008;Spain;
-1025;luckystrike23;Private;2016;Germany;
-1026;Boba26;Private;2018;Germany;
-1027;mezzmerize89;Private;2013;Germany;
-1028;Jeezoo;Private;2017;France;
-1029;NearMintCards;Private;2021;France;
-1030;Bombeinfaccia;Private;2020;Germany;
-1031;Cippus;Private;2018;Italy;
-1032;krotenkoker;Private;2017;Netherlands;
-1033;Benuchemp;Private;2016;Switzerland;
-1034;ptitnico;Private;2014;France;
-1035;SangSombre;Private;2018;France;
-1036;Carth;Private;2019;Luxembourg;
-1037;failx007;Private;2018;Austria;
-1038;Mc-Fresh-D;Private;2010;Germany;
-1039;Top-Austria;Private;2017;Austria;
-1040;Zen2ph;Private;2017;Germany;
-1041;SnowManLFC;Private;2018;Germany;
-1042;kunzkunz;Private;2018;Germany;
-1043;Smugglcptr;Private;2017;United Kingdom;
-1044;Kaukei;Private;2014;Germany;
-1045;Gazcards;Private;2021;United Kingdom;
-1046;Kevin-Sengir;Private;2015;Germany;
-1047;MagicM;Private;2010;Germany;
-1048;MaxMasters;Professional;2018;Germany;Rurstraße 7, 53919 Weilerswist, Germany
-1049;DildoSchwaggin;Private;2020;Austria;
-1050;Yeoldevault;Private;2020;Italy;
-1051;PowerP;Private;2018;Switzerland;
-1052;sboemble;Professional;2010;Germany;Hermsdorfer Straße 1, 04741 Roßwein OT Mahlitzsch, Germany
-1053;Panda;Private;2010;Germany;
-1054;AsherSummers;Private;2013;United Kingdom;
-1055;Som40990;Private;2018;France;
-1056;boensj;Private;2014;Switzerland;
-1057;Walkir;Private;2009;Germany;
-1058;Tenval;Private;2016;France;
-1059;Gin821RTJ;Professional;2015;Italy;Piazzetta Dr Mario Rizzoli 10, 38033 Cavalese, Italy
-1060;PipoZito;Private;2016;Switzerland;
-1061;GianKarl;Private;2016;Italy;
-1062;TisuZett;Private;2018;Germany;
-1063;DrachenTakt;Private;2015;Germany;
-1064;Luitoine;Private;2018;France;
-1065;Verra;Private;2020;Denmark;
-1066;Martino98;Private;2016;Italy;
-1067;OddmundV;Private;2020;Norway;
-1068;Der-Kartenladen;Professional;2012;Germany;Magdalenenstr. 66, 20148 Hamburg, Germany
-1069;Uni-Card;Professional;2019;Germany;Johann-Boppe-Str. 17, 65549 Limburg An Der Lahn, Germany
-1070;Ollis-Spielecenter;Professional;2010;Germany;Holstenstraße 188, 22765 Hamburg, Germany
-1071;WBGames;Private;2017;Italy;
-1072;Riesenauswahl;Private;2019;Germany;
-1073;Phexian;Private;2009;Germany;
-1074;Trambus;Private;2010;Germany;
-1075;SACCOX;Private;2015;Italy;
-1076;SeventhCity;Powerseller;2017;United Kingdom;Lenton Street, NG105DJ Sandiacre, United Kingdom
-1077;MandruasMagicCorner;Professional;2016;Belgium;Meenseheirweg 37, 8800 Roeselare, Belgium
-1078;LastWillTeam;Professional;2019;Italy;Piazza Duomo 16, 20122 Milano, Italy
-1079;MarikLebrenn;Private;2018;France;
-1080;GMGomes;Private;2019;Portugal;
-1081;fablodibongo;Private;2016;France;
-1082;DomDomDom;Private;2018;Austria;
-1083;JamesBuckland;Private;2018;United Kingdom;
-1084;DEckguru;Private;2020;Germany;
-1085;Pinopolz;Private;2018;Italy;
-1086;Hyden;Private;2017;Spain;
-1087;Humorpheuz;Private;2019;Germany;
-1088;Kjake;Private;2013;Czech Republic;
-1089;ElRincondeMagic;Professional;2010;Spain;Apartado De Correos 42, 28814 Daganzo (Madrid), Spain
-1090;ferre9;Private;2010;Spain;
-1091;H-Man82;Private;2014;Germany;
-1092;Ascun;Private;2018;Germany;
-1093;magic-market;Professional;2013;Germany;Virchowring 73, 24558 Henstedt-Ulzburg, Germany
-1094;magictime-it;Powerseller;2016;Italy;Via Mentana 42, 48022 Lugo, Italy
-1095;Ratseau;Private;2011;France;
-1096;CHLVirtue;Private;2020;United Kingdom;
-1097;LESTIC;Private;2015;France;
-1098;NicolasSJ;Private;2014;Spain;
-1099;huckasex;Private;2011;Germany;
-1100;Buddy73;Private;2016;Germany;
-1101;SalesWorld;Private;2019;Greece;
-1102;Denym;Private;2013;Belgium;
-1103;play-mtg-fr;Private;2012;France;
-1104;JoaquimViana;Private;2013;Portugal;
-1105;murwel;Private;2018;Sweden;
-1106;RoccaTreCorvi;Professional;2018;Italy;Via Piave 15, 16016 Cogoleto, Italy
-1107;stakenborgkoen;Private;2014;Netherlands;
-1108;theuzumakin;Private;2017;Poland;
-1109;RKstatic;Private;2017;Netherlands;
-1110;Rumkugel84;Private;2017;Germany;
-1111;Doragan;Private;2018;United Kingdom;
-1112;legend3nd;Private;2015;Germany;
-1113;Kawoul;Professional;2016;France;2 Impasse des Larris, 60320 NERY, France
-1114;MagicAtHome;Professional;2016;France;73 RUE DE LA GRANDE ARMEE, 68760 WILLER SUR THUR, France
-1115;corsaire59;Private;2013;France;
-1116;magicplayer-1998;Private;2007;Germany;
+11;Ceribe;Private;2015;Poland;
+12;Felixuco;Private;2015;Spain;
+13;Richaardi;Private;2015;Portugal;
+14;diddos;Private;2012;Belgium;
+15;dakkon87;Private;2011;Italy;
+16;Mirikov;Private;2021;Germany;
+17;CommanderStaples;Private;2019;Finland;
+18;BechaMecha;Private;2015;Italy;
+19;MadridMagic;Private;2016;Spain;
+20;DombekTorun;Private;2016;Poland;
+21;BaukeS;Private;2018;Netherlands;
+22;plkfd;Private;2018;France;
+23;quasimoto;Private;2015;Germany;
+24;Zoocomics;Professional;2018;Norway;Anders baars veg 25b, 3737 Skien, Norway
+25;MTG-Prime;Professional;2018;France;34 rue Combanaire, 36000 Châteauroux, France
+26;FrankvdWaals;Private;2015;Netherlands;
+27;GunCha;Private;2018;Latvia;
+28;hobbitfred;Private;2015;France;
+29;Tyron-Heartz;Private;2016;Portugal;
+30;cultus;Private;2016;Spain;
+31;bendu71;Private;2016;France;
+32;Kungfupeet;Private;2019;Netherlands;
+33;TheCoonRises;Powerseller;2016;Germany;Neue Straße 46, 89073 Ulm, Germany
+34;kARNN;Private;2015;France;
+35;RedDragonMagic;Private;2012;Spain;
+36;fuxxi;Private;2013;Germany;
+37;maglaf88;Private;2014;France;
+38;antonio-muenster;Private;2013;Germany;
+39;Dinis;Private;2014;Portugal;
+40;Akroma44;Private;2011;Germany;
+41;38Shizo;Private;2019;Germany;
+42;Matze-KungFury;Private;2019;Germany;
+43;pantufas;Private;2013;Portugal;
+44;Loui0;Private;2018;Germany;
+45;tennlos;Professional;2020;Poland;Rakowicka 20b/57, 31-510 Kraków, Poland
+46;MagicNexus;Professional;2014;Italy;Via Padana Superiore 27, 20060 Gessate (MI), Italy
+47;SimonJack88;Private;2018;Italy;
+48;JohnWizard;Private;2020;Greece;
+49;Rarehuntershop;Powerseller;2012;Austria;Hauptplatz 14, 2320 Schwechat, Austria
+50;CardStoreAlcamo;Professional;2016;Italy;Via Pugliesi N.66, 91011 Alcamo (TP), Italy
+51;Brenag;Private;2012;Belgium;
+52;Magicdealer-patte-de;Powerseller;2008;Germany;Landgrabenstraße 121 (Im Innenhof), 90459 Nürnberg, Germany
+53;Magicshop2000;Private;2016;Italy;
+54;DiamondValley;Private;2009;Germany;
+55;Kartenkoenig;Private;2013;Germany;
+56;Zaki23;Private;2015;Greece;
+57;kfranklin12;Private;2016;Germany;
+58;hespacc;Private;2008;Germany;
+59;Mirrankreuzritter;Private;2018;Germany;
+60;matiasgabarron;Private;2015;Spain;
+61;HiveGames;Powerseller;2013;Austria;Getreidegasse 3, 9020 Klagenfurt, Austria
+62;mtg-discounter24;Powerseller;2015;Germany;Fischbachstraße 36, 50127 Bergheim, Germany
+63;Athabasca;Private;2015;Belgium;
+64;Twoshop;Professional;2015;Spain;C/ Gavilanes 1, B1, P2, 1D, 28035 Madrid, Spain
+65;DHGames;Professional;2011;Finland;Itsenäisyydenkatu 38a C 22, 28130 Pori, Finland
+66;ishotya;Private;2014;Spain;
+67;DagonX;Private;2011;Germany;
+68;landshome279;Private;2012;Germany;
+69;satirobcn;Private;2012;Spain;
+70;Bigs77;Private;2018;Germany;
+71;gambo;Private;2015;Germany;
+72;stamosm;Private;2015;Greece;
+73;Bruce7506;Private;2016;France;
+74;rakerone;Private;2013;Germany;
+75;Mintcardgem;Private;2019;France;
+76;AdrianMC;Private;2021;Spain;
+77;Skiski;Private;2018;Luxembourg;
+78;rockardist;Private;2018;Netherlands;
+79;DrDkt666;Private;2013;Portugal;
+80;Zoios;Private;2016;Poland;
+81;Kuduce;Private;2019;Germany;
+82;Colovia;Private;2019;Germany;
+83;Mavado-Vemos;Private;2021;Poland;
+84;K40crew;Private;2015;Denmark;
+85;michaldurovic;Private;2018;Slovakia;
+86;Muttonium;Private;2017;Sweden;
+87;Adway;Private;2018;Poland;
+88;Carioca9987;Private;2017;Spain;
+89;maxsilver;Private;2014;Austria;
+90;pbjoker;Private;2017;Croatia;
+91;Ghostlo;Professional;2014;Belgium;161, boulevard Lambermont, 1030 Schaerbeek, Belgium
+92;CrazyComicsAndGames;Professional;2011;Italy;Via Medaglie d'Oro 8, 21100 Varese, Italy
+93;Abdelbach;Private;2017;Switzerland;
+94;heckman;Private;2019;Netherlands;
+95;Zloch;Private;2018;Slovakia;
+96;deathhenker;Private;2008;Germany;
+97;OutpostBrussels;Powerseller;2011;Belgium;8 rue de la tribune, 1000 BRUXELLES, Belgium
+98;Zakk67;Private;2019;France;
+99;zalakke;Private;2012;Finland;
+100;CardCastle;Professional;2012;Austria;Kirschentheuer 51, 9162 Strau, Austria
+101;Admiral-Haze;Private;2012;Germany;
+102;Moltras;Professional;2014;Hungary;Ybl Miklós út 3/a Tetőtér 1., 7633 Pécs, Hungary
+103;masa;Private;2010;Finland;
+104;roughy;Private;2016;Netherlands;
+105;cornelius59;Private;2018;France;
+106;seagel;Private;2018;Netherlands;
+107;D-Insane;Private;2019;France;
+108;elliot1990pl;Private;2017;Poland;
+109;evertk;Private;2018;Netherlands;
+110;matic;Private;2015;Slovenia;
+111;dommedag;Private;2015;France;
+112;Quilombero;Private;2010;Germany;
+113;TizziTizzi;Private;2021;Italy;
+114;leonin;Private;2011;Belgium;
+115;Lorena;Private;2015;Spain;
+116;JJ-Finkleton;Private;2018;Netherlands;
+117;Boromol;Private;2017;Germany;
+118;flosiii;Private;2015;Germany;
+119;Thrymiir;Private;2020;France;
+120;daidojilaurent;Private;2013;France;
+121;sovmar;Private;2013;Portugal;
+122;jerome34;Private;2014;France;
+123;punkboy48;Private;2019;Germany;
+124;MagicTradeHouseNo1;Powerseller;2013;Germany;Nelkenstr.15, 90547 Stein, Germany
+125;DavidxRodx;Private;2016;Portugal;
+126;goodoldcards;Professional;2017;Italy;via Bastia Entro 36/4, 30035 Mirano, Italy
+127;NicoDN;Private;2020;France;
+128;Strat066;Private;2014;Germany;
+129;ClemFr;Private;2013;France;
+130;MaxiM87;Private;2019;Germany;
+131;Sadquatch;Private;2019;Switzerland;
+132;Games-Island;Powerseller;2008;Germany;Luitpoldstrasse 13, 95028 Hof, Germany
+133;Mazvigosl;Powerseller;2010;Spain;C/ Zamora 65 Bajo, 36203 Vigo, Spain
+134;DonMTG;Powerseller;2014;Germany;Lindenstr. 14, 50674 Köln, Germany
+135;das-Marmak;Professional;2009;Switzerland;Glasacker 3, 4657 Dulliken, Switzerland
+136;Rusty2410;Powerseller;2015;Germany;Wilhelmsweg 2c, 39249 Barby/ Elbe , Germany
+137;Magicsaleman;Private;2010;Belgium;
+138;tuvok85;Private;2011;Germany;
+139;Jurgencreyf;Private;2018;Belgium;
+140;LotusGarden;Professional;2008;Spain;C/Aurora 90E, 3º2ª, 08700 Igualada, Spain
+141;buchanin;Private;2019;Germany;
+142;gabrielooos93;Private;2020;Italy;
+143;MishrasCardshop;Private;2013;Netherlands;
+144;MrclBok;Private;2020;Netherlands;
+145;MagicEmporium;Professional;2015;Netherlands;Rembrandtlaan, 7, 3362AC SLIEDRECHT, Netherlands
+146;Harakesh;Professional;2013;Netherlands;Meindert Hobbemastraat 1, 3314HR Dordrecht, Netherlands
+147;The-Inn-TCG;Professional;2019;Germany;Erich-Mühsam-Straße 8, 09112 Chemnitz, Germany
+148;DrawstepGD;Professional;2013;Portugal;Rua da Fundação Calouste Gulbenkian n91, 4710-394 Braga, Portugal
+149;magictuga;Professional;2013;Portugal;Apartado 163, 4564-909 Penafiel, Portugal
+150;Igibert;Private;2015;Austria;
+151;pl0wbeast;Private;2014;Belgium;
+152;Moria05;Professional;2013;Spain;C/Tirso de Molina, 8-10 Bajo, 26006 Logroño, Spain
+153;FKTRD;Powerseller;2011;Germany;Ostenhellweg 57-59, 44135 Dortmund, Germany
+154;PlayTimeComo;Professional;2016;Italy;Via Volta 27/29, 22100 Como, Italy
+155;Grecutus;Private;2008;Germany;
+156;kreaten;Private;2011;Spain;
+157;ZackyVeah;Private;2016;Germany;
+158;HeinerBremer;Private;2013;Germany;
+159;WizardshopCz;Powerseller;2013;Czech Republic;Na Jarove 2424/2, 13000 Praha, Czech Republic
+160;Wildfirestore;Professional;2017;Italy;Via Della Fonte Meravigliosa 64, 00143 Roma, Italy
+161;Zebratus;Private;2011;Germany;
+162;willybizarre;Powerseller;2010;Spain;Apartado de correos 72, 46110 Godella, Valencia, Spain
+163;Outpostgamecenter;Powerseller;2011;Belgium;Beggaardenstraat 6, 2000 Antwerp, Belgium
+164;Galactus-Roma;Powerseller;2012;Italy;Via Alessandro Malladra 16, 00157 Roma, Italy
+165;CardsMania;Powerseller;2015;Italy;Via Flaminia Conca, 51, 47923 Rimini, Italy
+166;CARAB;Powerseller;2011;Switzerland;Bruchstrasse 43, 6003 Luzern, Switzerland
+167;magiccorner;Professional;2016;Italy;Via Claudia Augusta 76/C, 39100 Bolzano, Italy
+168;DRAGONCT;Powerseller;2011;Spain;Calle Tierno Galvan, 15 Bajo, Tienda DragonCT, 30203 Cartagena, Spain
+169;Metropolis-Center;Powerseller;2010;Spain;C/ Andres Mellado Nº 22 Local, 28015 Madrid, Spain
+170;NobleGarden;Powerseller;2017;Austria;Zehnergasse 20 A, Stiege 1, A35, 2700 Wiener Neustadt, Austria
+171;Skaldenmagie;Professional;2018;Switzerland;Chrüzweg 21, 5603 Staufen, Switzerland
+172;Bjiarni;Private;2015;Switzerland;
+173;Goshar;Private;2019;Germany;
+174;Kuldotha-Bazaar;Professional;2012;Italy;VIA ASSAROTTI 26/ROSSO, 16122 GENOVA, Italy
+175;Nightshade-Shop;Professional;2015;Germany;Landfermannstraße 9, 47051 Duisburg, Germany
+176;PlaceOfGeek;Professional;2017;France;16 rue Limogeanne, 24000 PERIGUEUX, France
+177;LotusVale-Bochum;Professional;2019;Germany;Herner Straße 7, 44787 Bochum, Germany
+178;Deprolloneon;Private;2017;Germany;
+179;zarcenas;Private;2016;Portugal;
+180;DoozEscape;Professional;2019;France;12 et 19 rue des magasins, 67000 strasbourg, France
+181;Baldur82;Private;2020;Switzerland;
+182;delmas;Private;2018;Italy;
+183;TCG-entertainment;Powerseller;2019;Germany;Rathausstr. 16, 01773 Altenberg, Germany
+184;DragonReikaiGames;Professional;2019;Austria;Hirschstettner Strasse 19, 1220 Vienna, Austria
+185;TolarianBrewAcademy;Private;2018;United Kingdom;
+186;JM123;Private;2021;United Kingdom;
+187;normans;Private;2014;Germany;
+188;Gunship-Games;Powerseller;2009;Germany;Wippenhauser Str. 26, 85354 Freising, Germany
+189;inter-paul;Private;2009;Italy;
+190;jokerbovisa;Professional;2011;Italy;Via Candiani 7/a, 20158 Milano, Italy
+191;Playin;Powerseller;2009;France;131 Avenue de France, 75013 PARIS, France
+192;House-of-Games;Professional;2011;Greece;Aspasias 72-74, Holargos, 15561 Athens, Greece
+193;karmacrow;Powerseller;2007;Germany;Saalmannstr. 7-9, 13403 Berlin, Germany
+194;BB-Spiele;Powerseller;2008;Germany;Ebersberger Str. 19 (2. Stock über Miedl), 83022 Rosenheim, Germany
+195;SpielRaum;Powerseller;2009;Austria;Otto Bauer Gasse 17, 1060 Wien, Austria
+196;SVKZeke;Private;2016;Slovakia;
+197;AboveGodlike;Private;2017;Denmark;
+198;webuyanycard;Professional;2019;United Kingdom;41 Fenton Avenue, TW181DD Staines, United Kingdom
+199;Kiki237;Private;2016;Italy;
+200;Antonius;Private;2014;Italy;
+201;LPPCOLLECTING-IT-SRL;Powerseller;2013;Italy;Via Belvedere, 23, 20862 Arcore (MB), Italy
+202;MagicBarcelona;Powerseller;2011;Spain;Ronda de Sant Pere 44, 08010 Barcelona, Spain
+203;toycastle;Professional;2016;Austria;Kirschentheuer 51, 9162 Strau, Austria
+204;TimeaB;Private;2015;Romania;
+205;martial-alters;Private;2017;France;
+206;replicart71;Powerseller;2017;France;9 jardin de Florence , 01340 Montrevel en bresse, France
+207;WhiteFoxThree;Private;2017;Netherlands;
+208;Jean-Claire;Private;2017;France;
+209;NuggetGaming;Private;2020;United Kingdom;
+210;ctouya;Private;2014;France;
+211;Giftsungiven;Private;2013;Portugal;
+212;Emisary121;Private;2019;Netherlands;
+213;Espell;Private;2015;Italy;
+214;ruben52;Private;2011;Netherlands;
+215;procards;Professional;2015;Germany;Baiersdorfer Straße 6a, 91341 Röttenbach , Germany
+216;ludovic1968;Private;2012;France;
+217;valis;Private;2011;Finland;
+218;NoDrummer;Private;2014;Germany;
+219;Styliann;Private;2011;France;
+220;yannloison13;Private;2019;France;
+221;masistuta;Private;2012;Netherlands;
+222;Trade-Secrets;Private;2014;Netherlands;
+223;phagma;Private;2014;France;
+224;Gautch;Private;2017;France;
+225;txbcards;Professional;2020;Austria;Ketteringstraße 10, 4400 Steyr, Austria
+226;Knightnight;Private;2019;Netherlands;
+227;karasofr;Private;2019;France;
+228;Pa-t-ch;Private;2016;Italy;
+229;rogiol;Private;2018;Czech Republic;
+230;danieldisco;Private;2020;Belgium;
+231;aleeuwen1;Private;2019;Netherlands;
+232;Geek-Corner;Professional;2017;United Kingdom;Regency Mall West 15, TS18 1EF Stockton On Tees, United Kingdom
+233;Stefouch;Private;2013;Belgium;
+234;pisqnek;Professional;2009;Poland;Gen. Wl. Andersa 38, 7 pietro, 15-113 Bialystok, Poland
+235;Goodlookgamer;Professional;2018;Netherlands;Maarland Noordzijde 7, 3231CE Brielle, Netherlands
+236;TopdeckDK;Professional;2016;Denmark;Carlsbergvej 32B, 3400 Hillerød, Denmark
+237;sedehiMTG;Private;2011;Germany;
+238;Magiccardshop;Powerseller;2014;Germany;Lüssweg 10, 82418 Murnau, Germany
+239;TCGWarehouse;Professional;2013;Germany;Gutenbergplatz 1, 04103 Leipzig, Germany
+240;helpoemer;Private;2015;Germany;
+241;Nerd-Shop;Professional;2017;Germany;Kaiserstraße 50, 66849 Landstuhl, Germany
+242;Andycards;Professional;2014;Italy;Viale dei Navigatori 4/a, 48122 Punta Marina Terme (RA), Italy
+243;weißer-Lotus;Professional;2009;Germany;Friedhofsweg 18, 61197 Florstadt, Germany
+244;sanjic;Private;2012;France;
+245;MagusDoVinhedo;Private;2012;Portugal;
+246;Wintereinbruch;Private;2010;Germany;
+247;Kissmaiass;Private;2014;Spain;
+248;thewirtschaftswunder;Private;2015;Germany;
+249;Blackbolt;Professional;2012;Portugal;Rua da Juncosa 228, 3465-123 Tondela, Portugal
+250;Ex0rcist;Private;2014;Finland;
+251;nicororix;Private;2017;France;
+252;petedk;Private;2018;Denmark;
+253;Rhaegar-LR;Private;2017;France;
+254;Benben78;Private;2013;Netherlands;
+255;kevkev;Private;2013;France;
+256;Cohnjollins;Private;2015;Ireland;
+257;jeristy;Private;2017;France;
+258;N3B3L;Private;2016;Germany;
+259;oschulte;Private;2010;Germany;
+260;Danedeluxe;Private;2017;Denmark;
+261;Theuderich;Private;2015;Germany;
+262;GobboDealer;Private;2014;Germany;
+263;Nihili;Private;2010;Austria;
+264;Lighting;Private;2011;Poland;
+265;helldanno;Private;2015;Germany;
+266;Akroma1987;Private;2015;Croatia;
+267;Jacob8800;Private;2018;Denmark;
+268;Muskatnuss6;Private;2016;Austria;
+269;Diogenes;Private;2017;Greece;
+270;SpecialOne28;Private;2016;Switzerland;
+271;emanuelemarket;Private;2019;Italy;
+272;Maumoleseullevrai;Private;2015;France;
+273;alfredjkwak;Private;2017;Germany;
+274;Iscalia;Private;2019;Germany;
+275;PzychoL;Private;2016;Poland;
+276;Belkeen;Private;2019;France;
+277;NickyBluepants;Private;2020;Germany;
+278;Trudlo;Private;2018;Germany;
+279;Mtg-volos;Private;2017;Greece;
+280;MBrinch;Private;2015;Denmark;
+281;Madveek;Private;2016;France;
+282;ggmagic;Professional;2015;Netherlands;Concordiastraat 29, 2406XX Alphen Aan Den Rijn, Netherlands
+283;Geeksandgamers;Professional;2020;United Kingdom;47 High Street, FK11ES Falkirk, United Kingdom
+284;KrayBoul;Private;2019;Germany;
+285;JoeyMoey;Private;2016;Germany;
+286;daktylus75;Professional;2007;Germany;Tilsiterstraße 94, 45470 Mülheim Ruhr, Germany
+287;bouzekry;Private;2010;France;
+288;mattopul;Private;2019;Austria;
+289;Cypress;Private;2013;Germany;
+290;LorenzMatterhorn;Private;2016;Germany;
+291;RFD94;Private;2016;Belgium;
+292;cernyrytir;Powerseller;2011;Germany;Rathausstr. 16, 01773 Altenberg, Germany
+293;Hobby-Games;Powerseller;2012;Greece;Theohari 4, 54621 Thessaloniki, Greece
+294;elrincondelhobby;Professional;2010;Spain;c/ Valencia 497 Entlo 4, 08013 Barcelona, Spain
+295;JoeBuddha;Private;2008;Germany;
+296;Psiakowy;Professional;2015;Poland;Suraska 6/38, 15-422 Bialystok, Poland
+297;NEMESIS23180;Private;2014;Spain;
+298;Alexander1907;Private;2015;Spain;
+299;AVATAR-PL;Professional;2017;Poland;Witczaka 2A, 44-335 Jastrzębie Zdrój, Poland
+300;LudoB;Private;2015;France;
+301;Meistermeuchler;Private;2008;Germany;
+302;Gferro;Private;2014;Portugal;
+303;Bestialos;Private;2017;France;
+304;Hellcat;Private;2012;Germany;
+305;hefaistos;Private;2011;Netherlands;
+306;caceres2020;Professional;2016;Netherlands;Stuiverstraat 1N, 5611TA Eindhoven, Netherlands
+307;Reitina;Private;2015;France;
+308;CardStore-Blois;Private;2015;France;
+309;vale46;Private;2018;Switzerland;
+310;Sinici1992;Private;2012;Spain;
+311;Trons63;Private;2014;France;
+312;tschudti;Private;2018;Germany;
+313;Ersanto;Private;2019;Italy;
+314;Alexsoul;Private;2018;France;
+315;feanor986;Private;2014;Italy;
+316;davebeelen;Private;2013;Netherlands;
+317;Altezio;Private;2013;Portugal;
+318;ElFeeder;Private;2017;Portugal;
+319;Abyssalia;Private;2018;Finland;
+320;lauke101;Private;2015;Netherlands;
+321;Enske92;Private;2016;Malta;
+322;alec1012;Private;2020;Romania;
+323;Mtgspot;Powerseller;2014;Poland;targowa 5, 41-503 chorzów, Poland
+324;Sebas74;Private;2017;Netherlands;
+325;Diesler;Private;2019;Germany;
+326;Hgjlesv;Private;2017;Finland;
+327;DuploCard;Private;2020;Netherlands;
+328;hael22;Private;2017;France;
+329;CardgeekNL;Powerseller;2012;Netherlands;C D Tuinenburgstraat 193, 3078GD Rotterdam, Netherlands
+330;elbonenet;Private;2017;Austria;
+331;Larinski;Private;2013;Austria;
+332;Goblin-Patron;Private;2009;Germany;
+333;Hammy;Private;2017;United Kingdom;
+334;Gretski15;Private;2021;United Kingdom;
+335;micke84;Private;2013;Sweden;
+336;BriXtreme;Private;2015;Germany;
+337;Kumpel-Trading;Professional;2020;Germany;Kirschbaumsweg 8, 45149 Essen, Germany
+338;TablerazeMontpellier;Professional;2018;France;4 Rue Joseph Vidal, 34000 Montpellier, France
+339;HolmesFr;Professional;2020;France;4 Lieudit La Saudrais, 35760 Saint Grégoire , France
+340;kajika46;Private;2015;Germany;
+341;TJHollaar;Private;2017;Netherlands;
+342;TiagoParracho;Private;2015;Portugal;
+343;MichaelBondeDK;Private;2014;Denmark;
+344;holzvalle;Private;2018;Germany;
+345;TheBoyz;Private;2021;Germany;
+346;Pixie;Private;2015;Netherlands;
+347;Sellerarjafin;Private;2019;Finland;
+348;MoonVillage;Powerseller;2014;Germany;Saalmannstraße 7-9 , 13403 Berlin, Germany
+349;Tarmogoyf;Professional;2008;Germany;Pelzerhakener Straße 30, 23730 Neustadt in Holstein, Germany
+350;DualGames-Alicante;Professional;2017;Spain;García Andreu 24, 03007 Alicante, Spain
+351;MerfolkTraders;Professional;2017;France;11 Rue Alfred Leyssenot, 16160 Gond-Pontouvre, France
+352;Kap23;Private;2008;Germany;
+353;exaltetangel;Private;2014;Switzerland;
+354;maxime75018;Private;2009;France;
+355;TradingCardsUnited;Professional;2018;Austria;Ghegagasse 29/22, 8020 Graz, Austria
+356;Aberconda;Private;2015;Italy;
+357;ManaMix;Private;2014;France;
+358;Sinister123;Private;2011;Germany;
+359;Mik1040;Private;2016;Belgium;
+360;Midicards4281;Private;2019;Netherlands;
+361;Nils97;Private;2016;Germany;
+362;luciano38;Private;2016;France;
+363;Llanowar82;Private;2014;Spain;
+364;tserjio;Private;2015;Spain;
+365;chrisa2;Private;2009;Austria;
+366;PowerMagicstar;Professional;2021;Sweden;Tullgatan 2c, 25269 Råå, Sweden
+367;geekfactory;Professional;2020;France;29 Rue Du Général Leclerc, 22400 Lamballe, France
+368;sKarty;Private;2012;Portugal;
+369;Wommelshausen;Private;2020;Netherlands;
+370;Megatol;Private;2014;Spain;
+371;k201244;Private;2017;Poland;
+372;marcophone;Private;2013;France;
+373;TDR62;Private;2019;United Kingdom;
+374;Andre-P;Private;2015;Sweden;
+375;tellez7;Private;2015;Spain;
+376;Trolloloman;Private;2019;Poland;
+377;MarioMirage;Private;2020;Croatia;
+378;Secretenergy;Private;2018;Netherlands;
+379;kevistrauss;Private;2017;Netherlands;
+380;kasi87;Private;2020;Germany;
+381;AcidQueen;Private;2019;Greece;
+382;Haxan;Private;2019;Belgium;
+383;Glendennan;Private;2020;United Kingdom;
+384;Si7en;Private;2014;Italy;
+385;biteul;Private;2012;France;
+386;Enachel;Private;2016;France;
+387;derstef;Private;2020;Belgium;
+388;DonnieDarkoNL;Private;2013;Netherlands;
+389;BorjaxS;Private;2015;Spain;
+390;eMeR90;Private;2012;Poland;
+391;Xalthur;Private;2009;Germany;
+392;welovetocollect;Professional;2016;Germany;Albin Schlehahn Str. 11, 08547 Jößnitz, Germany
+393;reumah;Private;2011;Spain;
+394;Schimmelpopo;Private;2018;Germany;
+395;Xobulo;Professional;2021;United Kingdom;51 Stamford Street, NG16 2DR Nottingham, United Kingdom
+396;Kartenguru;Professional;2012;Germany;Hollenmoor 9, 21406 Melbeck, Germany
+397;Magic-Industria-61;Powerseller;2012;Spain;Calle Industria, 61, local, 08025 Barcelona, Spain
+398;ArenaGamesDE;Professional;2015;Germany;Theresienstr. 11, Rückgebäude, 85049 Ingolstadt, Germany
+399;SodGames;Professional;2015;Belgium;Place Albert 1er 32, 6220 Fleurus, Belgium
+400;fabfesta;Professional;2009;Netherlands;Burgemeester Marijnenlaan 28, 2585DP Den Haag, Netherlands
+401;Ishan;Professional;2013;Croatia;Vlade Grozdanića 6, 51000 Rijeka, Croatia
+402;TeamSpelEnMeer;Professional;2016;Netherlands;Dorpsstraat 86A, 2712AM Zoetermeer, Netherlands
+403;lastdreamer87;Private;2008;Spain;
+404;dfccg;Private;2012;Portugal;
+405;Mulligans;Professional;2015;Netherlands;Libellenstraat 17, 6533RK Nijmegen, Netherlands
+406;OblivionMTG;Professional;2016;Italy;Corso Caio Plinio 34, 10127 Torino, Italy
+407;stahlkarnickel2;Professional;2018;Germany;Ernst-Reuter Straße 10, 97080 Würzburg, Germany
+408;Nephren;Private;2012;Italy;
+409;Gunnar2k8;Private;2008;Germany;
+410;K3lla;Private;2008;Germany;
+411;CollectiblesTrading;Professional;2019;Austria;Klausenbachstraße 26/20, 4040 Linz, Austria
+412;Yufei;Private;2011;France;
+413;Kernowjim;Private;2014;United Kingdom;
+414;Yggzorn;Private;2019;Germany;
+415;Piccio91;Private;2013;Italy;
+416;Charly4785;Private;2017;Spain;
+417;snabblars;Private;2016;Sweden;
+418;Yamalesca;Private;2018;France;
+419;Stefan-Laszkiewicz;Private;2020;Poland;
+420;sundermeier;Private;2009;Germany;
+421;czesctuariel;Professional;2018;United Kingdom;17/7 Lochend Park View, EH7 5FX Edinburgh, United Kingdom
+422;Dunkler-Herrscher;Powerseller;2008;Germany;Habichtswaldweg 19, 64546 Mörfelden-Walldorf, Germany
+423;PetrKikac;Private;2020;Czech Republic;
+424;GRANDE-INVERNO;Professional;2020;Italy;Beato Cesidio 35, 67100 L'aquila, Italy
+425;Ortrudzomfg;Private;2009;Germany;
+426;MagaMercatino;Professional;2012;Italy;Via P. Borsellino 154, 22040 Alzate Brianza (Como), Italy
+427;HatakeKakashi88;Private;2016;Germany;
+428;corsi1996;Private;2016;Italy;
+429;derboba;Private;2012;Germany;
+430;steficTol;Private;2013;Czech Republic;
+431;nickdejonge;Private;2020;Netherlands;
+432;Tier1MTG;Professional;2019;Denmark;Vipperød Byvej 8A, 4390 Vipperød, Denmark
+433;Guarida-Del-Dragon;Professional;2011;Spain;Maria Diaz de Haro 55 (local), 48010 Bilbao, Spain
+434;Mythulro;Private;2017;Romania;
+435;ritastochter;Private;2020;Germany;
+436;Kirisame84;Private;2018;France;
+437;dragonfall5;Professional;2018;United Kingdom;46 Parkside, BN43 6HA Shoreham-by-sea, United Kingdom
+438;SwankyPants88;Private;2019;United Kingdom;
+439;pedrodj78;Private;2020;Portugal;
+440;EttoreMTG;Professional;2018;Italy;Via Fratelli Bandiera 26, 53036 Poggibonsi (Si), Italy
+441;MrPete;Private;2015;Germany;
+442;BeNsE;Private;2010;Germany;
+443;Pangea;Private;2012;Spain;
+444;monstersystem;Private;2016;Spain;
+445;kahlan37;Private;2019;Netherlands;
+446;Rishadan-Magic-Store;Professional;2016;Italy;Via G. A. Sartorio 31, 00147 Roma, Italy
+447;Letalboro;Private;2016;Italy;
+448;MagicPapa;Professional;2015;Germany;An der Alten Spinnerei 10, 83059 Kolbermoor, Germany
+449;TCGEnterprise;Professional;2015;Italy;via molinetto 106, 31030 borso del grappa (TV), Italy
+450;CerberusIT;Professional;2010;Italy;Via Presidio 18, 81031 Aversa (CE), Italy
+451;gamersfinest;Professional;2018;Austria;Sebastian-Stöllner-Straße 1, 5020 Salzburg , Austria
+452;MAGICSHOPITA;Private;2013;Italy;
+453;ThreeForOne-AT;Powerseller;2012;Austria;Neulerchenfelder Straße 76, 1160 Wien, Austria
+454;daltenda;Powerseller;2016;Italy;Via dell'Artigianato 54 - Zona Industriale Ovest, 06083 Bastia Umbra (PG), Italy
+455;EspaceMagic;Professional;2012;France;26 place Xavier Bichat, 01450 Poncin, France
+456;fischi1984;Private;2012;Germany;
+457;slashrose;Private;2017;Portugal;
+458;Brisk;Private;2019;Italy;
+459;annor;Private;2018;Czech Republic;
+460;Robotomasas;Private;2019;Lithuania;
+461;Deinvater18;Private;2008;Austria;
+462;Jizreel;Private;2015;France;
+463;Winsel;Powerseller;2007;Germany;Langemarckstr. 158, 28199 Bremen, Germany
+464;MAGICPLANET;Powerseller;2012;Italy;Piazzale Marconi 37, 29121 Piacenza (PC), Italy
+465;Oriented;Private;2016;Italy;
+466;christianstrothjohann;Private;2013;Germany;
+467;Stavesacre;Private;2018;Ireland;
+468;Messicano;Private;2019;Finland;
+469;YamiAlex1994;Private;2016;United Kingdom;
+470;TimmeyOne;Private;2015;Germany;
+471;Gemini56;Private;2019;Italy;
+472;RMP1982;Private;2018;Netherlands;
+473;Pernacchianda;Private;2015;Italy;
+474;PeloutseMtG;Professional;2016;Greece;Kountouriotou 49, 11146 Athens, Greece
+475;Crosis88;Private;2015;Germany;
+476;axanathos;Private;2010;Germany;
+477;JoannaDark;Private;2019;Poland;
+478;Schnapsl;Private;2009;Germany;
+479;Vansguy-DE;Professional;2018;Czech Republic;Politickych Veznu 842/4, 25262 Horomerice, Czech Republic
+480;RDeschain;Private;2018;Germany;
+481;temur11;Private;2016;France;
+482;nantukozerox;Private;2016;Netherlands;
+483;aleplm98;Private;2019;Italy;
+484;GoodPool;Private;2019;Spain;
+485;Foransa;Private;2019;Sweden;
+486;PanBzoch;Private;2016;Czech Republic;
+487;Colabier;Private;2012;Germany;
+488;moneymaker;Private;2011;Germany;
+489;Noah471;Private;2019;Austria;
+490;LeonPonce;Private;2014;Spain;
+491;sytsnas;Private;2019;Germany;
+492;noisia;Private;2015;Spain;
+493;Greenskull;Private;2018;Sweden;
+494;babylon;Private;2014;Germany;
+495;McFreud;Private;2015;Portugal;
+496;muse99;Private;2013;Netherlands;
+497;Bellota95;Private;2019;Spain;
+498;BBG66;Private;2021;Germany;
+499;Marsupisalami;Private;2016;Germany;
+500;Murasame;Private;2015;Netherlands;
+501;cardvictim;Private;2020;Germany;
+502;atlas222;Private;2018;Austria;
+503;Torako;Private;2016;Germany;
+504;cloudpostBA;Powerseller;2015;Slovakia;Trencianska 47, 82109 Bratislava, Slovakia
+505;TimD;Private;2009;Germany;
+506;kartenschmiede;Powerseller;2015;Germany;Rote-Tor-Str. 18, 76661 Philippsburg, Germany
+507;theNecromancer;Professional;2019;Austria;Oberer Ulmenweg 8a, 8073 Feldkirchen bei Graz, Austria
+508;mstokowski;Private;2013;Poland;
+509;huge4uk;Private;2016;Germany;
+510;ManaRamp;Private;2020;Italy;
+511;Piranha81;Private;2019;Spain;
+512;AvalonBurgos;Professional;2012;Spain;C/ San Julian 4 Bj, 09002 Burgos, Spain
+513;LuisLlana;Private;2013;Spain;
+514;crisame;Private;2014;Italy;
+515;SK4TE;Private;2011;Germany;
+516;olgamor;Private;2011;Germany;
+517;marCH1LLL;Private;2015;Germany;
+518;ni-ju66;Private;2016;Germany;
+519;baleinedessables;Private;2012;Belgium;
+520;Jack-DM;Private;2019;Italy;
+521;magnapoli;Private;2016;Italy;
+522;SnappyTiger;Private;2019;Austria;
+523;Trapper99;Private;2016;Germany;
+524;PaulAndr;Private;2020;Belgium;
+525;Blaze241;Private;2014;Germany;
+526;flosar71;Private;2021;Spain;
+527;RisingVoid;Private;2018;Germany;
+528;Tueben;Private;2013;Germany;
+529;RagnarNagato;Private;2018;Spain;
+530;Annie1983;Private;2021;Poland;
+531;riper91;Private;2019;Portugal;
+532;Uncraft;Private;2018;France;
+533;Scarecrows;Private;2018;Italy;
+534;dikkedaan;Private;2014;Netherlands;
+535;Teenwolf;Private;2009;Spain;
+536;VentorII;Private;2014;Austria;
+537;Villy;Private;2017;Greece;
+538;GameForce;Professional;2014;Netherlands;Visserstraat 18A, 5612BT Eindhoven, Netherlands
+539;VintageCollectors;Powerseller;2019;Italy;Vintage Collectors, 40125 Bologna (ITALY), Italy
+540;Blizardjack;Private;2014;Greece;
+541;RickOttaro;Private;2020;Italy;
+542;Giantian;Private;2012;Ireland;
+543;Weltenwache;Private;2016;Germany;
+544;Dijkstra;Private;2017;Netherlands;
+545;Platzer;Private;2020;Czech Republic;
+546;Krokar;Private;2017;Slovenia;
+547;minimagic;Private;2017;Austria;
+548;JaySmalls;Private;2016;Germany;
+549;CaronteFCB;Private;2018;Spain;
+550;Elucidator;Private;2013;Germany;
+551;crying;Private;2013;Switzerland;
+552;Efe-Flatline;Private;2018;Germany;
+553;Darkmattergun;Private;2013;Germany;
+554;MtgUtility;Private;2014;Italy;
+555;TheCronoX;Private;2015;Portugal;
+556;Malthe14;Private;2019;Denmark;
+557;biber;Professional;2008;Germany;Im Brande 4, 30926 Seelze, Germany
+558;xenesaltones;Private;2012;United Kingdom;
+559;Kapelusznik;Private;2019;Poland;
+560;MysticShop;Professional;2012;Czech Republic;Jana Palacha 1636, 27201 Kladno, Czech Republic
+561;cardgalaxy;Professional;2016;Germany;Stöckmannstrasse 65, 46045 Oberhausen, Germany
+562;GamersAcademy;Professional;2014;Austria;Bahnstrasse 11, 2540 Bad Vöslau, Austria
+563;Makre;Private;2015;Germany;
+564;MTGcardmarket01;Private;2015;Spain;
+565;Sichiro;Private;2017;Greece;
+566;Goat-enterprise;Powerseller;2014;Netherlands;Dorpsdijk 143, 3161CA Rhoon, Netherlands
+567;Itaca;Powerseller;2016;Spain;Blasco de Garay 15, Local 1, 28015 Madrid, Spain
+568;DUAL-GAMES;Powerseller;2013;Spain;Calle Acisclo Diaz 5 bajo, 30005 Murcia, Spain
+569;Card-Trader24;Professional;2019;Germany;Friedrichstraße 5a, 32791 Lage, Germany
+570;taikocomics;Professional;2009;Spain;C/ Sant Jaume nº 73 (local), 08401 Granollers, Spain
+571;Zuerichsee;Private;2018;Switzerland;
+572;ludo54;Private;2016;France;
+573;WinTheGame;Private;2011;Germany;
+574;Failster;Private;2013;Germany;
+575;gao6979;Private;2018;Spain;
+576;Figurasdeplomo;Professional;2013;Spain;C/ San Payo , Nº12 , 1º A, 32001 Orense, Spain
+577;WouterDS;Private;2016;Belgium;
+578;Zombiepartyuk;Professional;2018;United Kingdom;13 woodland way, , G67 2BE Cumbernauld, United Kingdom
+579;crabouille;Private;2014;France;
+580;Raptorius;Private;2017;France;
+581;FLouro;Private;2016;Portugal;
+582;Jbonta;Private;2019;Switzerland;
+583;Venarch;Private;2016;Germany;
+584;CORP-F;Professional;2019;France;Balbronn 87, 67200 Strasbourg, France
+585;Aaages;Private;2019;Austria;
+586;flamberg;Professional;2010;Poland;Mickiewicza 3, 40-092 Katowice, Poland
+587;arctis;Private;2017;Germany;
+588;Mordor;Professional;2010;Greece;Kondili 7, 15122 Marousi, Greece
+589;PlanarGate;Professional;2013;Poland;Gorna 16/11, 81-438 Gdynia, Poland
+590;DeMagicMarkt;Professional;2014;Netherlands;Charles Petitweg18, 4827hj Breda, Netherlands
+591;MrMirari;Private;2013;Germany;
+592;82chrisj;Private;2019;Germany;
+593;jorHere;Private;2014;Netherlands;
+594;mrfingers123;Private;2013;Netherlands;
+595;Dieuxx621;Private;2012;France;
+596;DantessCardss;Private;2020;Italy;
+597;TrueNeckbeardCards;Private;2021;United Kingdom;
+598;Sailorsgrave91;Private;2021;United Kingdom;
+599;BlackSkorpio;Professional;2018;France;Appartement 21 étages 2 , 73000 Chambéry, France
+600;Blackdragon94;Private;2009;Germany;
+601;ilcovodelnerd;Professional;2014;Italy;viale michelangelo 133, 71122 foggia, Italy
+602;Distritozero;Powerseller;2018;Spain;Alonso 15, 39010 Santander, Spain
+603;BuyWithConfidence;Professional;2018;Italy;Via G.Piroli 2\B, 29029 Niviano di Rivergaro (PC), Italy
+604;tiburonapu;Private;2011;Spain;
+605;maquilleida;Professional;2012;Spain;calle pallars 22 bajos, 25004 Lleida, Spain
+606;SMC1;Private;2010;Germany;
+607;OstfrieseMM;Private;2011;Germany;
+608;OlivierR;Private;2016;France;
+609;MeiOPanda;Private;2019;Germany;
+610;SergiRL;Private;2017;Spain;
+611;Morgo1;Private;2018;Germany;
+612;Seath;Private;2018;Germany;
+613;Zicral;Private;2018;France;
+614;SynMaple;Private;2019;Germany;
+615;Morigal;Professional;2019;Poland;Św. Wojciecha 10, 43-600 Jaworzno, Poland
+616;Method999;Professional;2008;Germany;Brandweiher 38, 92637 Weiden, Germany
+617;Erschonwieder;Professional;2019;Germany;Gladenbacher Weg 51, 35037 Marburg, Germany
+618;gatheringka;Private;2019;Spain;
+619;Dudas999;Private;2019;Portugal;
+620;WatHaddaDa;Professional;2020;Germany;Von-Einem-Str. 70, 45130 Essen, Germany
+621;nic222k;Private;2017;United Kingdom;
+622;Henchmans;Professional;2017;United Kingdom;9 New Sporle Road, PE37 7JD Swaffham, United Kingdom
+623;Dax-Cardstore;Professional;2012;Germany;Teerosenweg 31, 22177 Hamburg, Germany
+624;Ichiban-Cards;Professional;2016;Spain;C/guadalupe n6 bajo b, 28931 Mostoles (Madrid ), Spain
+625;remyleblanc;Private;2015;Netherlands;
+626;parkage;Powerseller;2012;France;25 rue geoffroy st hilaire, 75005 PARIS, France
+627;Cartapapa-GP;Powerseller;2018;France;21 Rue Des étuves, 34000 MONTPELLIER, France
+628;Cardexchange;Powerseller;2012;Netherlands;Nassaustraat 35, 4241AJ Arkel, Netherlands
+629;Parence-com;Professional;2014;France;7 Rue Des Drapiers, 76600 Le Havre, France
+630;ledouble6;Professional;2015;France;110 Rue De Geôle, 14000 CAEN, France
+631;The-FOW-Store;Powerseller;2016;Spain;Apartado Postal 116, 28523 Rivas-Vaciamadrid, Spain
+632;BattleBearTCG;Powerseller;2015;Germany;Schubertstrasse 35, 67655 Kaiserslautern, Germany
+633;toycastle-D;Powerseller;2011;Austria;Kirschentheuer 51, 9162 Strau, Austria
+634;Icarusjocs-BCN;Professional;2015;Spain;Salvador Espriu nº2, 08380 malgrat de mar, Spain
+635;Wolrad;Private;2009;Germany;
+636;cavernedujeu;Professional;2018;France;5 rue schuman, 62215 oye plage, France
+637;Triplacegames;Professional;2017;Portugal;Rua do mirante 11-A, R/C, 2910-609 setubal, Portugal
+638;TheJokerUtrecht;Private;2017;Netherlands;
+639;Tydus;Private;2013;Germany;
+640;evilarroyo;Private;2017;Spain;
+641;Navis;Private;2011;France;
+642;Jan53;Private;2012;Germany;
+643;onbewust;Private;2013;Belgium;
+644;kanosc;Private;2017;Spain;
+645;Dadue2000;Private;2015;Switzerland;
+646;WalterWKrijthe;Private;2013;Netherlands;
+647;Timmys-Emporium;Private;2018;Netherlands;
+648;grednight;Private;2012;Portugal;
+649;vanDeluxe89;Private;2020;Germany;
+650;VaeterchenRost;Private;2018;Austria;
+651;Watthe;Private;2019;Switzerland;
+652;lquentin;Private;2015;France;
+653;Lockhe;Private;2015;France;
+654;McPwn;Private;2017;Switzerland;
+655;SEGDT;Private;2017;France;
+656;mudds;Private;2019;United Kingdom;
+657;Afily;Private;2015;Poland;
+658;Sunoseno;Private;2015;Germany;
+659;magicworld58;Private;2012;Germany;
+660;POOL4YOU;Powerseller;2010;Spain;C/ Padre Recaredo de los Rios 52, local 6 izquierda, 03005 ALICANTE, Spain
+661;STARDUSTSHOP;Powerseller;2008;Germany;Zeppelinstr. 99, 70193 Stuttgart, Germany
+662;womantrader;Professional;2018;Italy;Mario Fani, 109, 00135 Roma, Italy
+663;Zauberland-Spiele;Professional;2018;Germany;Grünental 2, 58579 Schalksmühle, Germany
+664;MtgHistory;Powerseller;2016;Italy;Via Caduti del Lavoro 52, 06124 Perugia, Italy
+665;Kinglui272;Private;2009;Germany;
+666;millmtg;Private;2016;Portugal;
+667;OoneroxoO;Private;2018;Germany;
+668;Hismageil;Private;2012;France;
+669;robledotiedra;Private;2008;Spain;
+670;kraxo;Private;2010;Austria;
+671;Snapcaster-FR;Professional;2020;France;48 Bis Avenue De La Colombière, 69360 St Symphorien D'Ozon, France
+672;wolf12;Private;2016;Finland;
+673;KarelKopriva;Private;2018;Czech Republic;
+674;vibue;Private;2015;Switzerland;
+675;Mtdna666;Private;2018;Switzerland;
+676;Graufang;Private;2011;Germany;
+677;Profitis7;Private;2015;Cyprus;
+678;antoct1991;Private;2019;Italy;
+679;Ipari1993;Private;2019;Hungary;
+680;SenseisDiviningShop;Professional;2015;Finland;Näsilinnankatu 15 A 1, 33210 Tampere, Finland
+681;D6ffjssy6;Private;2019;Germany;
+682;TrulyAwesome;Private;2014;Austria;
+683;Garlant;Private;2019;Austria;
+684;Hoerni;Private;2018;Germany;
+685;Flo33333;Private;2017;Switzerland;
+686;Fantasia-Shop;Professional;2018;Germany;Werastrasse 114, 72764 Reutlingen, Germany
+687;ruicasasnovas;Professional;2008;Portugal;Rua Rainha D. Amelia Lote 47 3ºDto, 2675-469 Odivelas, Portugal
+688;Necrostation;Private;2018;Germany;
+689;Mirk4523;Private;2015;France;
+690;ToBoT2007;Private;2013;Germany;
+691;alzi82;Private;2017;Germany;
+692;Trago;Private;2012;Germany;
+693;Tradingcardgames;Professional;2016;Germany;Schönfelder Weg 46, 42699 Solingen, Germany
+694;K4mpfsch4f;Private;2015;Austria;
+695;fumettopoli;Professional;2016;Italy;Via Piave 24, 52100 Arezzo, Italy
+696;LocalProCards;Professional;2012;Greece;Kifisia Solomou Solomou 4, 54248 Thessaloniki, Greece
+697;Glimrir;Private;2018;Denmark;
+698;octaton;Private;2015;Denmark;
+699;TerraCross;Private;2016;Germany;
+700;Zigimun;Private;2015;Slovenia;
+701;TheOneKiko1337;Private;2018;Germany;
+702;PotatoGuardian;Private;2015;Germany;
+703;Dr4ken;Private;2018;Poland;
+704;Leidnix;Private;2011;Germany;
+705;Netz122;Private;2009;Germany;
+706;changar;Private;2012;France;
+707;NechljudoW;Private;2013;Germany;
+708;Phalnar;Private;2015;Switzerland;
+709;Ginsch;Private;2020;Austria;
+710;Meister14;Private;2017;Spain;
+711;Pastorius84;Private;2020;Italy;
+712;Cardboard-Collector;Private;2020;Netherlands;
+713;coupdegrac3;Private;2018;Austria;
+714;ryuxuyr;Private;2019;Portugal;
+715;jeh11;Private;2018;Switzerland;
+716;MTGSander;Private;2017;Netherlands;
+717;Xevkin;Private;2012;Ireland;
+718;Sushi91;Private;2016;Czech Republic;
+719;Plysier;Private;2019;Belgium;
+720;jmskns69;Professional;2018;Estonia;Siili 3-8, 13422 Tallinn, Estonia
+721;procrustean;Private;2013;United Kingdom;
+722;magicislove;Private;2019;Germany;
+723;Operationlol;Private;2018;Germany;
+724;Piszczal;Private;2015;Poland;
+725;Almeida;Private;2017;Sweden;
+726;sinac;Private;2011;Belgium;
+727;Bennlipp;Private;2019;Germany;
+728;Remin;Private;2017;Germany;
+729;Wimmeeus;Private;2019;Belgium;
+730;Orzi86;Private;2017;Poland;
+731;DavidRuemmler;Professional;2015;Germany;Georg-Palitzsch-Straße, 17, 01239 Dresden, Germany
+732;moercel;Private;2015;Germany;
+733;Chrisaor;Private;2015;Greece;
+734;Luukiecard;Private;2017;Netherlands;
+735;rammstein-rules97;Professional;2016;Germany;Conrad-Röntgen Str. 3, 66450 Bexbach, Germany
+736;Elbarone;Private;2016;Switzerland;
+737;Balabuschka;Professional;2012;Germany;Pferdemarkt 20, 18273 Güstrow, Germany
+738;Kartenhaus;Professional;2008;Germany;David Morgenstern Weg 19, 91056 Erlangen, Germany
+739;Gridlok;Private;2013;Poland;
+740;robneme;Private;2009;Spain;
+741;bigup;Private;2009;Germany;
+742;Schmeyer;Private;2009;Germany;
+743;ACAlterations;Private;2012;Germany;
+744;Mtgmadness;Private;2018;United Kingdom;
+745;dutchforce85;Private;2013;Netherlands;
+746;DeDobbelsteen;Professional;2019;Netherlands;Vughterstraat 56, 5211GK 's-Hertogenbosch, Netherlands
+747;Keule;Private;2012;Germany;
+748;neivals;Private;2013;Spain;
+749;Steverino;Private;2019;Germany;
+750;ElMusso;Private;2018;Switzerland;
+751;fallacox;Private;2019;France;
+752;Abari2309;Private;2020;United Kingdom;
+753;zwahle;Private;2018;Switzerland;
+754;Spellslingers;Powerseller;2016;Norway;Grendeveien 28b, 3188 Horten, Norway
+755;LeYAN1001;Private;2021;France;
+756;Fogg-Bank;Private;2017;United Kingdom;
+757;Levodin;Professional;2010;Spain;Avenida Francesc Macia 55 3º2º, 08921 Santa Coloma de Gramenet, Spain
+758;DirtyErnie;Private;2015;Poland;
+759;CardPlanetAustria;Powerseller;2011;Austria;Albersdorf 419/3, 8200 Albersdorf-Prebuch, Austria
+760;RetroMagic;Powerseller;2015;Belgium;Petunialaan 24, 8400 Oostende, Belgium
+761;Gijoe;Private;2012;Portugal;
+762;Moxopal;Private;2016;Italy;
+763;Zoran83;Private;2017;Belgium;
+764;MascagniMTG;Professional;2019;Italy;Via Luigi Cherubini 35, 50052 Certaldo (Fi), Italy
+765;danstrike;Private;2014;Greece;
+766;CardRooster;Professional;2019;France;286 rue Vendôme, 69003 Lyon, France
+767;munuaal;Private;2015;Spain;
+768;Woolve;Private;2011;Germany;
+769;TiagoAmaral53;Private;2019;Portugal;
+770;trauni;Private;2010;Austria;
+771;JANT34;Private;2012;Spain;
+772;TEMPEST-STORE;Powerseller;2011;Spain;CALLE TIMOTEO DOMINGO, 17, LOCAL, 28017 Madrid, Spain
+773;TolarianAcademy;Professional;2014;Italy;Via Perosina 3, 65010 Spoltore, Italy
+774;CaptainPlanet94;Private;2017;Germany;
+775;Goldgeckoguy;Private;2012;Germany;
+776;eres;Private;2009;Spain;
+777;Sicness;Private;2013;Romania;
+778;Ajag74;Private;2018;Germany;
+779;JSRM88;Private;2021;United Kingdom;
+780;MiguelX19;Private;2016;Portugal;
+781;nikee40;Private;2015;Latvia;
+782;daxterpac;Private;2017;Portugal;
+783;Weini17;Private;2017;Austria;
+784;Lunashine;Private;2009;Austria;
+785;La-Tetedeslip;Private;2018;France;
+786;kirchi;Private;2009;Germany;
+787;Michaberg;Private;2018;Germany;
+788;MagicMuc;Private;2019;Germany;
+789;Krozark;Private;2014;France;
+790;Mathug;Private;2017;France;
+791;InfiniteMagicCZ;Professional;2019;Czech Republic;Kafkova 102/19, 16000 Prague 6, Czech Republic
+792;tshwayn;Private;2016;Germany;
+793;sunshadow;Private;2013;Spain;
+794;HouseOfCardsBE;Professional;2014;Belgium;Geraardsbergsesteenweg 282, 9404 Aspelare, Belgium
+795;Izmaylov;Private;2013;France;
+796;Miki13112;Private;2018;France;
+797;szernik;Private;2015;Germany;
+798;Bokkie-Brown;Private;2013;Netherlands;
+799;ShopHunter;Professional;2017;France;16 Rue Roger Tilmant, 59164 Marpent, France
+800;zbysour;Private;2014;Czech Republic;
+801;stardust76;Private;2017;France;
+802;mary;Private;2008;Germany;
+803;MTGshop-NL;Professional;2014;Netherlands;Jankushofstraat 15, 6002CV Weert, Netherlands
+804;NK218;Private;2015;Germany;
+805;Mr-Pirilampo;Private;2011;Portugal;
+806;Bumblebeez;Private;2017;Netherlands;
+807;Naicigam;Private;2020;Netherlands;
+808;Anesteria;Private;2017;Netherlands;
+809;ManaBrain;Private;2019;Germany;
+810;Fima23;Private;2018;Czech Republic;
+811;timondml;Private;2010;Netherlands;
+812;Schlamarcel;Professional;2015;Germany;Hamburger Str. 45a, 21244 Buchholz, Germany
+813;Lukse;Professional;2012;United Kingdom;139 Manchester Road, CW9 7EN Northwitch, United Kingdom
+814;alle008;Private;2017;Italy;
+815;dbs85670;Professional;2018;France;HAMEAU DU CHATELIER 12, 85670 85670 - PALLUAU, France
+816;Boxato;Private;2016;Germany;
+817;eli1;Powerseller;2008;Austria;Untertellenmoos 18a, 6858 Schwarzach, Austria
+818;Montilian;Professional;2014;Germany;Am Aschweg 4b, 85114 Buxheim, Germany
+819;yasi18;Private;2015;Germany;
+820;SrGrin;Private;2011;Spain;
+821;Gundalfinho;Private;2020;Czech Republic;
+822;athanbak;Private;2019;United Kingdom;
+823;acidedge;Private;2017;Austria;
+824;Oadin;Private;2018;Belgium;
+825;punisher2502;Private;2012;Germany;
+826;Mercenary027;Private;2018;United Kingdom;
+827;Paperella;Private;2018;Italy;
+828;JustJosh;Private;2019;United Kingdom;
+829;NeutralGround;Professional;2021;United Kingdom;14 Manor Street, PL1 1TL Plymouth, United Kingdom
+830;Gidion;Private;2015;Germany;
+831;SamTradeOfficial;Private;2020;Italy;
+832;sjoerd972;Private;2016;Netherlands;
+833;EternitiesCrafter;Private;2019;France;
+834;MarmotteAilee;Private;2019;France;
+835;flo2000;Private;2009;Germany;
+836;GreenZebra;Private;2020;Germany;
+837;JSminia;Private;2018;Netherlands;
+838;Orkboss;Private;2016;Germany;
+839;ray17;Private;2012;Spain;
+840;Blipblep;Private;2019;Slovenia;
+841;LOLHasixD;Private;2020;Germany;
+842;ItsFranchetti;Private;2021;United Kingdom;
+843;danielito;Private;2010;Spain;
+844;Kauppiasfoppa;Private;2016;Finland;
+845;VarusEquin;Private;2014;France;
+846;Kraias;Private;2016;Germany;
+847;Griselbrand3;Private;2018;Germany;
+848;sjimmied;Private;2017;Netherlands;
+849;KaffTCG;Private;2021;Austria;
+850;rambo-tomella;Private;2012;Spain;
+851;pg7224;Private;2015;Germany;
+852;Papillon80;Private;2018;France;
+853;WindyMiller;Private;2017;United Kingdom;
+854;OjamaGod;Private;2017;Germany;
+855;Serial1981;Private;2019;Italy;
+856;cole04;Private;2013;United Kingdom;
+857;hammen22;Private;2018;Italy;
+858;DrTim0n;Private;2015;Netherlands;
+859;YoungRighty;Private;2015;Germany;
+860;Kizuso;Private;2017;Germany;
+861;exodus360;Private;2017;Spain;
+862;PetalmaneBaku;Private;2015;Finland;
+863;neonamu;Private;2016;Spain;
+864;TomFreud;Private;2018;Germany;
+865;TheWolverine;Private;2021;Spain;
+866;MartinHuber;Private;2013;Germany;
+867;invokeprejudice;Private;2012;Italy;
+868;kikofarto3;Private;2019;Portugal;
+869;CelVal;Private;2017;Germany;
+870;Wilho-Mtg;Professional;2019;Finland;Ojantie 4 , 28130 Pori, Finland
+871;M377Ig3l;Private;2017;Germany;
+872;atika111;Private;2012;Hungary;
+873;Natez;Private;2015;Germany;
+874;Anomen;Private;2013;Croatia;
+875;UberMower;Private;2015;Poland;
+876;Aristoteles;Private;2013;Germany;
+877;DirettoreGalattico;Private;2016;Italy;
+878;k1ngster;Private;2016;Germany;
+879;splatze8;Private;2013;Austria;
+880;daddyentei;Private;2019;Spain;
+881;ParaCookie;Private;2016;Germany;
+882;nitchipe;Private;2017;France;
+883;snake110;Private;2009;Switzerland;
+884;PERALTA;Professional;2009;Spain;CALLE ACUARIO NUMERO 7, 11500 EL PUERTO DE SANTA MARIA, Spain
+885;nikinik;Private;2014;Spain;
+886;TabrisGuardian;Private;2009;Germany;
+887;Ladyangie;Private;2019;Germany;
+888;TheDerp;Private;2012;Germany;
+889;eldocvic;Private;2015;Portugal;
+890;charmer;Private;2011;Czech Republic;
+891;Svacinka;Professional;2015;Czech Republic;Slancova 1255/16, 18200 Praha 8, Czech Republic
+892;Arcana-Trieste;Powerseller;2013;Italy;Viale Gabriele D'Annunzio 29/F, 34138 Trieste, Italy
+893;kundalini444;Private;2008;Italy;
+894;MaxMasters;Professional;2018;Germany;Rurstraße 7, 53919 Weilerswist, Germany
+895;aeonflux;Private;2009;Germany;
+896;jophar;Private;2019;Portugal;
+897;leofacca;Private;2020;France;
+898;Michelle11;Private;2021;Netherlands;
+899;Spouitch;Private;2010;France;
+900;MondiParalleliArc;Professional;2017;Italy;Contrada Sant'Eusebio 30, 20020 Arconate, Italy
+901;Sneids;Private;2010;Germany;
+902;Master-Kidd;Private;2011;Germany;
+903;corwin;Private;2011;Belgium;
+904;Sebbokassel;Private;2011;Germany;
+905;IamZawa;Private;2014;Italy;
+906;Kritzel;Private;2019;Germany;
+907;kquil;Private;2017;Germany;
+908;Soncio92;Private;2018;Italy;
+909;markymark24;Private;2018;Netherlands;
+910;bojean;Private;2017;Poland;
+911;javirq24;Private;2016;Spain;
+912;Devian-Magic-Cards;Powerseller;2009;Spain;Plaza Trafalgar, Nº5, 6º3ª, 08913 Badalona, Spain
+913;Gardtjuhz;Private;2015;Netherlands;
+914;chuso74;Private;2016;Spain;
+915;ultimatewarrior;Private;2017;Italy;
+916;Marjanne;Professional;2014;Netherlands;Grote Straat 57, 6181NT Elsloo, Netherlands
+917;Pikappa;Private;2011;Italy;
+918;Foehammer;Private;2011;Germany;
+919;steschu;Private;2011;Germany;
+920;undique;Private;2012;Germany;
+921;freeway1999;Private;2015;Germany;
+922;koover;Private;2014;Germany;
+923;Clueless;Private;2017;Germany;
+924;slimburg;Private;2015;Germany;
+925;melchioro;Private;2018;Netherlands;
+926;dzons;Private;2016;Poland;
+927;magicspons;Private;2020;Belgium;
+928;Nilseisold;Private;2014;Germany;
+929;Kolakowski;Private;2012;Netherlands;
+930;DKGames;Professional;2010;Switzerland;PO Box 110, 1009 Pully, Switzerland
+931;endgameMTG;Private;2019;Italy;
+932;magnus1981;Private;2014;Germany;
+933;Dalmoranix;Private;2016;United Kingdom;
+934;DemigodofRats;Private;2017;Germany;
+935;jgg85;Private;2011;Spain;
+936;ShiXiao;Private;2017;Germany;
+937;crabathos;Private;2016;Austria;
+938;voodoo-pt;Powerseller;2011;Portugal;Rua Mário Cesariny , Urb Quinta da Maia, 3375 Loja 2 , 4760-010 Vila Nova de Famalicão, Portugal
+939;Riesenauswahl;Private;2019;Germany;
+940;CardCouncil;Professional;2020;Switzerland;Dr. Zuber-Strasse 4, 3072 Ostermundigen, Switzerland
+941;Brorne;Private;2012;France;
+942;Agnuu;Private;2018;Switzerland;
+943;wutzi84;Private;2008;Germany;
+944;Hesperus;Private;2013;Germany;
+945;alfonso181;Private;2008;Germany;
+946;Illane;Private;2018;Germany;
+947;ChrisSca;Private;2016;Germany;
+948;Kaoos89;Private;2015;Germany;
+949;Jodan;Private;2017;Portugal;
+950;emilemagic;Private;2019;France;
+951;PipBoy007;Private;2017;Germany;
+952;ROMANNN;Private;2017;Switzerland;
+953;an-alters;Private;2020;Czech Republic;
+954;emmanouil;Private;2012;Netherlands;
+955;Pantakruel;Private;2019;Czech Republic;
+956;antolionhd;Private;2016;Spain;
+957;SpaceKong;Private;2019;Ireland;
+958;Chanisco;Private;2015;Netherlands;
+959;MarciMan2001;Private;2019;United Kingdom;
+960;Cheru;Private;2018;Germany;
+961;GoodGamesBern;Professional;2020;Switzerland;Heitern 97, 3125 Toffen, Switzerland
+962;sammet;Professional;2010;Spain;Impala 13, 2º Derecha, 28033 Madrid, Spain
+963;sisma90;Private;2013;Italy;
+964;OddmundV;Private;2020;Norway;
+965;Culham;Private;2009;Germany;
+966;Rotom;Private;2016;France;
+967;Stronghold;Private;2016;Netherlands;
+968;leongfire;Private;2012;Spain;
+969;TradingCardGuy;Private;2019;United Kingdom;
+970;Homelands;Professional;2014;Spain;C/ Sant Vicent 19 bajo izq, 03202 Elche, Spain
+971;SrBluegold;Private;2015;Belgium;
+972;Lumpensammler31;Private;2019;Germany;
+973;Der-Kartenladen;Professional;2012;Germany;Magdalenenstr. 66, 20148 Hamburg, Germany
+974;Flocke;Private;2013;Germany;
+975;otterjx;Private;2020;Germany;
+976;Cecile;Private;2016;Germany;
+977;Marek-Przybylski;Private;2015;Poland;
+978;wozniaks;Private;2012;Poland;
+979;MagicM;Private;2010;Germany;
+980;metoprolol;Professional;2010;Germany;Im Beckram 13, 46242 Bottrop, Germany
+981;CardwalletEU;Professional;2019;Belgium;Laan, 2930 BS, Belgium
+982;Stiekemert;Private;2013;Netherlands;
+983;rikimcm;Private;2012;Italy;
+984;albluisi;Private;2014;Italy;
+985;tofu22;Private;2014;France;
+986;Spinoze;Private;2016;France;
+987;lisa1985;Private;2015;Germany;
+988;JupiterMadridNorte;Powerseller;2013;Spain;PASEO DE LA CHOPERA, 107, LOCAL C, 28100 ALCOBENDAS, Spain
+989;Adofo;Private;2014;Hungary;
+990;Nerdys;Professional;2010;Germany;Kirschhügel 4, 67706 Krickenbach, Germany
+991;IHeartCheese;Professional;2017;Netherlands;Kleine Haarsekade 102, 4205VE Gorinchem, Netherlands
+992;damnat10n;Private;2010;Spain;
+993;RCTycooner;Private;2013;Belgium;
+994;Lubo1;Private;2013;Germany;
+995;kakashirenji;Private;2010;Spain;
+996;CardAdvantageEurope;Powerseller;2017;Netherlands;Hoge bakstraat 14, 3311WJ Dordrecht, Netherlands
+997;MagicAtHome;Professional;2016;France;73 RUE DE LA GRANDE ARMEE, 68760 WILLER SUR THUR, France
+998;depapierenkorf;Professional;2015;Belgium;Hanekamlos 18, 9070 Destelbergen, Belgium
+999;nich777;Private;2018;Germany;
+1000;Sanctus12;Private;2009;Switzerland;
+1001;Boitch;Private;2013;Germany;
+1002;Dennie85;Private;2011;Netherlands;
+1003;RobbieLancs;Private;2017;Germany;
+1004;xsmy1979;Private;2017;Germany;
+1005;Holzi1701;Private;2009;Austria;
+1006;Azid1982;Private;2016;Germany;
+1007;MarikLebrenn;Private;2018;France;
+1008;strawberry360;Private;2019;France;
+1009;Toumimm;Private;2016;Belgium;
+1010;henkjanwiegers;Private;2014;Netherlands;
+1011;Solysg;Private;2016;Spain;
+1012;Vatsana;Private;2019;Belgium;
+1013;gonnnzah;Private;2016;Spain;
+1014;txorkoman;Private;2011;Spain;
+1015;JupiterGuadalajara;Professional;2017;Spain;San Roque 15, Bajo Izquierda, 19002 Guadalajara, Spain
+1016;davidlamano;Private;2014;Spain;
+1017;N4RPFKUCHEN;Private;2017;Germany;
+1018;GianKarl;Private;2016;Italy;
+1019;andyfrombelgium;Private;2012;Belgium;
+1020;Maxx84;Private;2019;France;
+1021;titiwon;Private;2016;Spain;
+1022;Maiev;Private;2016;Spain;
+1023;Xama137;Private;2018;Italy;
+1024;Ascun;Private;2018;Germany;
+1025;mafi-81;Private;2011;Portugal;
+1026;pawlreazn;Private;2017;Germany;
+1027;Andrii;Private;2017;Spain;
+1028;Panforte;Private;2016;Italy;
+1029;Ragnarök;Private;2008;Germany;
+1030;FCR09;Private;2011;France;
+1031;Truffles;Private;2016;United Kingdom;
+1032;Games-Stacks;Professional;2020;Germany;Kreuzstr. 1, 47839 Krefeld, Germany
+1033;inGenio;Professional;2011;Spain;Passeig de Sant Joan, 16, Local 4, 08010 Barcelona, Spain
+1034;Majestik-Games;Professional;2013;France;148 Avenue du Maine, 75014 Paris , France
+1035;TCGLOVE;Private;2019;Germany;
+1036;Medulla;Private;2012;Germany;
+1037;Muggenhoofd;Private;2018;Netherlands;
+1038;Emjay82;Private;2021;United Kingdom;
+1039;Blackader;Private;2018;Germany;
+1040;Ralfmode;Private;2015;Germany;
+1041;SaltyCards;Professional;2018;Germany;Heidbunge 15, 24848 Kropp, Germany
+1042;AgirMir;Private;2012;Germany;
+1043;MeTelmo;Private;2010;Portugal;
+1044;avinaar2;Private;2018;Italy;
+1045;Cativo;Private;2015;Portugal;
+1046;Naturerbe;Private;2015;Italy;
+1047;Sapphire-Cards;Powerseller;2014;Germany;Maler-Bürkel-Platz 7, 66954 Pirmasens, Germany
+1048;CommanderFluffly;Private;2014;Germany;
+1049;SACCOX;Private;2015;Italy;
+1050;SeventhCity;Powerseller;2017;United Kingdom;Lenton Street, NG105DJ Sandiacre, United Kingdom
+1051;el-diablo;Private;2010;Italy;
+1052;LastWillTeam;Professional;2019;Italy;Piazza Duomo 16, 20122 Milano, Italy
+1053;almugsp;Private;2012;Spain;
+1054;vladimir87;Private;2019;Czech Republic;
+1055;Glyphic;Private;2014;Germany;
+1056;Katrin0104;Private;2020;Germany;
+1057;JupiterMadridCentral;Professional;2012;Spain;C/ Manuel Silvela Nº 8, 28010 Madrid, Spain
+1058;Trambus;Private;2010;Germany;
+1059;OnlyPlaysets;Private;2014;Spain;
+1060;LegendofMagic;Professional;2015;Switzerland;Drillweg, 3, 5036 Oberentfelden, Switzerland
+1061;CARTEMAGICSTORE;Professional;2019;France;23 Rue De La Haie Coq, 93300 Aubervilliers, France
+1062;SalesWorld;Private;2019;Greece;
+1063;Matxine;Private;2010;Spain;
+1064;MaartenE;Private;2009;Germany;
+1065;Gin821RTJ;Professional;2015;Italy;Piazzetta Dr Mario Rizzoli 10, 38033 Cavalese, Italy
+1066;davids;Private;2015;Spain;
+1067;zuercherlouis;Private;2015;Switzerland;
+1068;Tubser;Private;2015;Germany;
+1069;ferre9;Private;2010;Spain;
+1070;jongoi;Private;2012;Spain;
+1071;magictime-it;Powerseller;2016;Italy;Via Mentana 42, 48022 Lugo, Italy
+1072;Vinzlar;Private;2012;France;
+1073;JOKO;Private;2010;Spain;
+1074;Random-player;Professional;2015;Spain;enrique pire garcia n26 2 derecha, 03204 elche, Spain
+1075;AIRSPACE;Private;2012;Spain;
+1076;martinezla;Private;2019;Spain;
+1077;umbradomini;Private;2014;Germany;
+1078;Mtgwebshopdk;Professional;2018;Denmark;Gabelsvej 2, 8700 Horsens, Denmark
+1079;kendersg;Private;2013;Spain;
+1080;Marvis;Private;2019;Germany;
+1081;Krakencyde;Private;2021;Spain;
+1082;Magic-Dreams;Professional;2016;Italy;Via lago sirio 63, 10015 Ivrea, Italy
+1083;bncarvalho;Private;2009;Portugal;
+1084;Sacrileto;Private;2016;Greece;
+1085;alexcb;Private;2015;Italy;
+1086;eviliyad;Private;2016;Germany;
+1087;Lostwoodshop;Professional;2016;Italy;Via Camillo Randazzo 21-23, 90141 Palermo, Italy
+1088;4XTrading;Powerseller;2014;Italy;San Gregorio 55, 20124 Milano, Italy
+1089;Joselin31;Private;2016;Spain;
+1090;Mc-Fresh-D;Private;2010;Germany;
+1091;mindspank;Private;2013;Sweden;
+1092;Mehlschwalbe;Private;2016;Germany;
+1093;Wicks;Private;2018;United Kingdom;
+1094;Lukas1810;Private;2019;Austria;
+1095;TRADER-Online;Professional;2019;Germany;Carl-Benz-Str. 15-17, 48734 Reken, Germany
+1096;Struja;Private;2015;Slovenia;
+1097;makrone;Private;2009;Germany;
+1098;Knutsen;Private;2010;Germany;
+1099;Magicuniverse;Private;2021;United Kingdom;
+1100;finku;Private;2017;Spain;
+1101;Cartesius;Private;2008;Germany;
+1102;ivan-the-seller;Professional;2011;Spain;Plaza San Cristobal 1, Escalera 2, 2C, 31010 Baranain, Spain
+1103;AceMagicDealer;Professional;2012;Spain;Lope De Vega Nº20 - 4ºD, 34001 Palencia, Spain
+1104;Nomar;Private;2017;Spain;
+1105;patraspatras22;Private;2017;Spain;
+1106;termestino;Private;2010;Spain;
+1107;scaveooz;Private;2014;France;
+1108;berjackie;Private;2015;France;
+1109;brice464;Private;2014;France;
+1110;tratmot;Private;2016;Italy;
+1111;Olaaf;Private;2010;Belgium;
+1112;Selick;Private;2018;Belgium;
+1113;TroleDeJeux;Professional;2015;France;5 Rue Saint Luc, 36000 Châteauroux, France
+1114;DisCardShop;Professional;2019;Italy;Via Moar zu Pirk 6, 39030 Lutago (BZ), Italy
+1115;Playset4;Private;2017;Spain;
+1116;panos1989;Private;2015;Greece;
+1117;wizardshark;Private;2017;France;
+1118;Chief92;Private;2014;Germany;
+1119;Tylert;Private;2012;France;
+1120;Mariano79;Private;2016;Italy;
+1121;JOMEIS12;Private;2017;Spain;
+1122;MettMann;Private;2016;Germany;
+1123;zeusucao;Private;2013;Portugal;
+1124;Michael8901;Private;2018;Italy;
+1125;SaprolinVerde;Private;2012;Spain;
+1126;cryog;Private;2019;Switzerland;
+1127;Halo2001;Private;2016;Germany;
+1128;Tron116;Private;2008;Germany;
+1129;Bladewing89;Private;2016;Germany;
+1130;Berggeit;Private;2016;Netherlands;
+1131;JKappel;Private;2017;Germany;
+1132;Recode;Private;2018;France;
+1133;Hubbelluff;Private;2018;Germany;
+1134;Pukete;Private;2019;Spain;
+1135;MemoRator;Private;2018;Italy;
+1136;Aymerix;Private;2014;France;
+1137;Farbtopf12;Private;2021;Germany;
+1138;xelxd;Private;2015;Denmark;
+1139;bair157;Private;2021;Germany;
+1140;dani97;Private;2017;Italy;
+1141;GijsGarageSale;Private;2021;Netherlands;
+1142;Ledypion;Private;2014;Italy;
+1143;Baltadt;Private;2018;Germany;
+1144;aimbob;Private;2018;Netherlands;
+1145;Ratseau;Private;2011;France;
+1146;lemps2;Private;2014;Estonia;
+1147;balfas;Private;2017;Portugal;
+1148;Smartmovegames;Professional;2018;Portugal;Rua Das Condominhas  n°393 1 Andar Hab. 5, 4150-223 Porto, Portugal
+1149;ptk361;Private;2015;Germany;
+1150;NutCollector34;Private;2016;Poland;
+1151;Flickmeister;Private;2016;Germany;
+1152;chamsdj;Private;2020;France;
+1153;Sorcith;Professional;2013;Spain;C/ Higueras 6, 11402 Jerez De La Frontera, Spain
+1154;Legacytcg;Powerseller;2016;Italy;III Traversa Pisciarelli 33, 80078 Pozzuoli (Napoli), Italy
+1155;AsgardTCG;Powerseller;2017;France;93 Rue riquet, 31000 Toulouse, France
+1156;MTGSPOT-DE;Professional;2019;Germany;Meinekestraße 27, 10719 Berlin, Germany
+1157;Ventura-Games;Powerseller;2011;Portugal;Avenida Alfredo da Silva nº 13 R/C Loja, 2830-302 Barreiro, Portugal
+1158;AsgardBCN;Professional;2014;Spain;Francesc Macia, 33 (Local), 08912 Badalona, Spain
+1159;Exlibrys;Private;2011;Portugal;
+1160;yoyo23150;Private;2014;France;
+1161;hurrikan;Private;2010;Germany;
+1162;thelotusmarket;Professional;2012;Portugal;Avenida Almirante Reis 193 Lj, 1000-048 Lisboa, Portugal
+1163;Goyle;Private;2008;Germany;
+1164;Euronymous86;Private;2015;Spain;
+1165;DF-Tradables;Professional;2016;Germany;Hasselsweilerstraße 19, 52445 Titz/müntz, Germany
+1166;Magicgeli;Private;2019;Austria;
+1167;MPL2017;Private;2017;Germany;
+1168;Baconthewizard;Private;2015;Germany;
+1169;Oarni1986;Private;2021;France;
+1170;nickzamm;Professional;2017;Malta;Triq San Remig, KKP 1601 Kirkop, Malta
+1171;Firestarter1984;Private;2020;Netherlands;
+1172;initial67;Private;2019;France;
+1173;Loon92;Private;2014;France;
+1174;Remix91;Private;2015;France;
+1175;Uglen;Private;2018;Denmark;
+1176;bagoganapie;Private;2015;Spain;
+1177;mhostile;Private;2014;France;
+1178;FogOfDiplomacy;Private;2019;Germany;
+1179;killaroop;Private;2010;Portugal;
+1180;MTGSPOT-FR;Professional;2020;France;68 Rue La Boétie, 75017 PARIS, France
+1181;MTG-Heaven;Professional;2011;Germany;Hentigstr. 13a, 10318 Berlin, Germany
+1182;DaSambo;Private;2014;Belgium;
+1183;Makrocow;Private;2019;Finland;
+1184;Ollis-Spielecenter;Professional;2010;Germany;Holstenstraße 188, 22765 Hamburg, Germany
+1185;Eurekagames;Powerseller;2009;Spain;ALUCHE - MADRID, 28024 MADRID, Spain
+1186;Letoc;Private;2016;United Kingdom;
+1187;Bronhy;Professional;2013;Croatia;Črnomerec 56, 10000 Zagreb, Croatia
+1188;Manamaze;Powerseller;2009;Netherlands;Bilderdijkkade 55 III A, 1053VJ Amsterdam, Netherlands
+1189;lokonat0r;Private;2009;Germany;
+1190;MGMaastricht;Professional;2018;Netherlands;Bunderstraat 248, 6231EP Meerssen, Netherlands
+1191;TheWiseMenofMagic;Private;2017;Netherlands;
+1192;traffel;Private;2013;Italy;
+1193;NicPir;Private;2019;Italy;
+1194;loowfinn;Private;2018;Germany;
+1195;DeKartonnenKwaak;Professional;2010;Netherlands;Lage Rijndijk 31A, 2315JL Leiden, Netherlands
+1196;Ruleofthegame;Professional;2013;France;3 Rue Colbert, 37000 Tours, France
+1197;latana-tr;Professional;2016;Italy;largo liberotto liberotti 14, 05100 Terni, Italy
+1198;StargateMO;Professional;2012;Italy;Viale IV Novembre, 2, 41123 Modena, Italy
+1199;capadearmadillo;Private;2011;Spain;
+1200;xemwox;Private;2017;France;
+1201;Dekar;Private;2013;Germany;
+1202;sjeroek;Private;2016;Belgium;
+1203;Serafin;Private;2011;Germany;
+1204;Liscom;Private;2015;Germany;
+1205;fverona90;Private;2013;Italy;
+1206;Mtg4All;Professional;2017;Spain;Calle Oliver nº54 b Local, 03802 Alcoy, Spain
+1207;Kawoul;Professional;2016;France;2 Impasse des Larris, 60320 NERY, France
+1208;SengiR1986;Private;2011;Italy;
+1209;andrenovo11;Private;2018;Portugal;
+1210;NicolasSJ;Private;2014;Spain;
+1211;MerrowCommerce;Professional;2018;Austria;Weidenweg 4/2, 8200 Gleisdorf, Austria
+1212;Yarra;Private;2011;Lithuania;
+1213;Mobsi;Private;2010;Germany;
+1214;swankyfish;Private;2013;United Kingdom;
+1215;mollekopp2;Private;2015;Germany;
+1216;remibd;Private;2015;France;
+1217;Geute;Private;2016;Switzerland;
+1218;Darko87;Private;2018;Italy;
+1219;Jester28;Private;2021;United Kingdom;
+1220;AFGAMES;Professional;2020;Italy;Piazza Damiano Chiesa 11, 20149 Milano (MI), Italy
+1221;Mana-Landes;Private;2018;France;
+1222;AMira9;Private;2017;Portugal;
+1223;Gregoir;Private;2017;Belgium;
+1224;Eszipe;Private;2015;Spain;
+1225;Minethlos;Private;2017;Latvia;
+1226;Afrosamurai;Private;2016;Portugal;
+1227;Tetsuo023;Private;2019;France;
+1228;Fouseus;Private;2014;Finland;
+1229;Pudelkolobrzeg;Private;2019;Poland;
+1230;tirith-ro-ista;Private;2015;Germany;
+1231;hesus;Private;2015;Poland;
+1232;RaphaelB;Private;2019;United Kingdom;
+1233;vladcrow;Private;2016;Romania;
+1234;Hell-o;Private;2018;Portugal;
+1235;DEckguru;Private;2020;Germany;
+1236;TheAkuji;Private;2020;Germany;
+1237;feedmemore;Private;2013;Germany;
+1238;xMatz10x;Private;2010;Germany;
+1239;AngryAsBear;Private;2020;Poland;
+1240;Killbene;Professional;2014;Germany;Nauroderstraße 9B, 65191 Wiesbaden, Germany
+1241;Baccatum;Private;2013;Germany;
+1242;comic-attack;Professional;2014;Germany;Paulstraße 9, 99084 Erfurt, Germany
+1243;Judge-Nivmagus;Private;2014;Greece;
+1244;Mavarazo;Private;2017;Switzerland;
+1245;LA-Games;Powerseller;2017;Germany;Mozartstraße 22, 84036 Kumhausen, Germany
+1246;Ywin;Private;2010;Germany;
+1247;RayDragon22;Private;2018;Portugal;
+1248;dante19900;Private;2018;Germany;
+1249;GRMDFX;Private;2013;Germany;
+1250;nerdstone;Private;2014;Switzerland;
+1251;nogrizzly;Private;2017;France;
+1252;malvinvivian;Private;2019;Switzerland;
+1253;Bienkowski;Private;2020;United Kingdom;
+1254;valentin74;Private;2017;Germany;
+1255;MandruasMagicCorner;Professional;2016;Belgium;Meenseheirweg 37, 8800 Roeselare, Belgium
+1256;Mattazzer;Private;2021;United Kingdom;
+1257;GarrukPrime;Private;2012;Germany;
+1258;pjotrek;Professional;2019;Poland;Świdnik 55, 34-606 Łukowica, Poland
+1259;Ashur1337;Private;2014;Czech Republic;
+1260;TheCrackInSpace;Professional;2021;United Kingdom;120 -122 Braymere Road, PE7 8NB Peterborough, United Kingdom
+1261;palomocoronel;Private;2015;Spain;
+1262;Rasputin86;Private;2016;Germany;
+1263;GlurG;Private;2013;Sweden;
+1264;AS-Magic;Professional;2012;Germany;Beethovenstraße 32, 36043 Fulda, Germany
+1265;vscorpio;Professional;2014;Spain;c/dels Emprius 6 (entrada por c/ la Bassa), 43840 Salou ( tarragona ), Spain
+1266;Birdmancards;Private;2013;Italy;
+1267;ProPeanuts;Private;2014;Netherlands;
+1268;Hragash;Private;2014;Germany;
+1269;thedragoncatcher;Private;2013;Italy;
+1270;seshiros2;Private;2014;Portugal;
+1271;L1xx;Private;2008;Germany;
+1272;DOLCETNOR;Professional;2011;Spain;Ctra. Marina Nº 54 - TIENDA, 08820 EL PRAT DE LLOBREGAT, Spain
+1273;BS-AGB-IMPRESSUM;Professional;2007;Germany;Im Böge 11, 31226 Peine, Germany
+1274;Marck1994;Private;2014;Italy;
+1275;Ober25;Private;2016;Germany;
+1276;IzzetOsiris;Private;2013;United Kingdom;
+1277;Stefos;Private;2010;Germany;
+1278;Ruxhart;Private;2014;France;
+1279;MasterLaky;Private;2018;Italy;
+1280;ZadeX;Private;2015;Belgium;
+1281;Celine91;Private;2018;France;
+1282;bjarnizzle;Private;2018;Germany;
+1283;Ocinvd;Private;2018;Belgium;
+1284;erojudge;Private;2014;Germany;
+1285;maeviouz;Professional;2013;Greece;Sp. Trikoupi 80-82, 18538 Piraeus, Greece
+1286;AldoNala;Private;2017;Belgium;
+1287;indru;Private;2013;Romania;
+1288;akroma2008;Private;2012;Switzerland;
+1289;grichi26;Private;2009;Austria;
+1290;EPShin18;Professional;2018;Spain;Calle Camino de los Romanos 56, 30820 Alcantarilla, Spain
+1291;mcout;Private;2013;Germany;
+1292;BloodReaver;Private;2013;Germany;
+1293;CITADEL-GAMES;Private;2012;Spain;
+1294;EnglishTiger;Private;2020;Germany;
+1295;benprdh;Private;2020;France;
+1296;Tokhart;Private;2021;France;
+1297;ViolettBlue;Private;2020;Germany;
+1298;ilGiocoliere;Powerseller;2012;Italy;Via Di Toppo 28, 33100 Udine, Italy
+1299;cassper;Private;2014;Spain;
+1300;Dixitier;Private;2014;Germany;
+1301;Mic3hael;Private;2018;Germany;
+1302;Devsho;Private;2018;Italy;
+1303;Singlesales;Professional;2019;Belgium;Dahlialaan 2, 2870 Breendonk, Belgium
+1304;Ketzacc;Private;2017;France;
+1305;ChristianA;Private;2018;Germany;
+1306;Laasen;Private;2013;Germany;
+1307;Winterblast;Private;2016;Austria;
+1308;Esoka;Private;2009;France;
+1309;Enzo;Private;2009;Spain;
+1310;pandanstaface;Private;2015;France;
+1311;pludiko;Private;2012;France;
+1312;Giordie;Private;2016;Italy;
+1313;IpsoDeLux;Private;2015;Finland;
+1314;Sevortate;Private;2011;Germany;
+1315;TjaMat;Private;2016;Netherlands;
+1316;Strosad;Private;2018;France;
+1317;Dektaron;Private;2018;France;
+1318;Dustleop;Private;2017;Italy;
+1319;ToFox;Private;2014;Germany;
+1320;realzod;Private;2013;Germany;
+1321;carinawi;Private;2020;Sweden;
+1322;hellz0r;Private;2009;Austria;
+1323;Durri;Private;2018;Switzerland;
+1324;SonMote;Private;2018;Spain;
+1325;Suicu;Private;2016;Finland;
+1326;Victeur20;Private;2020;Netherlands;
+1327;Fraankyboy;Private;2017;Germany;
+1328;Laser;Private;2008;Germany;
+1329;Landelor;Private;2015;Belgium;
+1330;FalcoNotturno84;Private;2020;Italy;
+1331;malweik;Private;2019;Germany;
+1332;jousay;Private;2012;France;
+1333;Luziferskarten;Private;2015;Austria;
+1334;franky20;Professional;2012;Germany;Graf-Joner-str.24, 94167 Tettenweis, Germany
+1335;dcrisp8;Private;2016;United Kingdom;
+1336;Boekie;Private;2011;Belgium;
+1337;eneas07;Private;2014;Germany;
+1338;Lordbasse;Professional;2020;Sweden;Östra Storgatan 6, 26572 Kvidinge, Sweden
+1339;Dimash;Private;2019;Greece;
+1340;mikiprat;Private;2015;Spain;
+1341;SpeedNeo;Private;2017;France;
+1342;Greg59;Private;2018;France;
+1343;WenSon;Private;2008;Germany;
+1344;blub;Private;2007;Germany;
+1345;giacomo86;Private;2015;Italy;
+1346;kenshin66200;Private;2012;France;
+1347;Benuchemp;Private;2016;Switzerland;
+1348;lordbif;Private;2018;Germany;
+1349;SetoKaiba1234;Private;2014;Germany;
+1350;Vincismique;Private;2017;France;
+1351;ArcadiaGamesSP;Professional;2019;Italy;Via Felice Cavallotti 85, 19121 La Spezia, Italy
+1352;Piedings;Private;2017;Germany;
+1353;Zharesh;Private;2014;Germany;
+1354;warmoth;Private;2017;France;
+1355;CarlosMTT;Private;2016;Spain;
+1356;Beardedelf;Private;2021;Netherlands;
+1357;darksteel89;Private;2013;Netherlands;
+1358;Jckslu;Private;2019;Netherlands;
+1359;Silverbow;Private;2016;Slovakia;
+1360;PiddBoo;Private;2020;Germany;
+1361;chadow;Private;2019;Netherlands;
+1362;Blackurpils;Private;2019;Germany;
+1363;LevelOne;Private;2013;Germany;
+1364;clemdel77;Private;2018;France;
+1365;ariaz76;Private;2019;Italy;
+1366;CrokMor;Private;2018;France;
+1367;Blackwater88;Professional;2020;Switzerland;Stockhornstrasse 31, 3125 Toffen, Switzerland
+1368;Nocifer;Private;2012;Luxembourg;
+1369;PlaytimePiacenza;Professional;2021;Italy;Gobetti 31/33, 29122 Piacenza, Italy
+1370;Asmadeur;Private;2013;France;
+1371;CrimsonK;Private;2010;Germany;
+1372;carpet21;Private;2014;Germany;
+1373;MRGONZO85;Professional;2019;Italy;STRADA VALLE PASANO 19, 10023 CHIERI, Italy
+1374;Albertoandaluz;Private;2014;Spain;
+1375;raelan;Private;2018;Italy;
+1376;antiusa;Private;2015;Spain;
+1377;Crowed;Private;2018;France;
+1378;ryjek999;Private;2019;United Kingdom;
+1379;Isolanporzellator;Private;2015;Germany;
+1380;m---u;Private;2016;Spain;
+1381;Aroix;Private;2014;United Kingdom;
+1382;DoonhameGeeksMTG;Professional;2021;United Kingdom;17 Church Crescent, DG1 1DF Dumfries, United Kingdom
+1383;ruffleee;Private;2015;Netherlands;
+1384;Curunirtb;Private;2017;Denmark;
+1385;OTPonyPoppy;Private;2018;Netherlands;
+1386;Reula;Professional;2020;Spain;Carrer colom 40,1ª, 46512 faura, Spain
+1387;Epsilon1284;Private;2018;Norway;
+1388;FlappyNaps;Private;2020;United Kingdom;
+1389;RiversMTG;Private;2019;United Kingdom;
+1390;StargateMN;Professional;2010;Italy;Viale col di lana n.25, 46100 Mantova, Italy
+1391;Yume2009;Private;2013;Austria;
+1392;MillenniumGames;Professional;2016;Italy;Madonnina, 9, 20842 Besana Brianza, Italy
+1393;kunzkunz;Private;2018;Germany;
+1394;FMTheGhost;Private;2019;United Kingdom;
+1395;Niekka;Private;2019;Finland;
+1396;shaaa;Private;2013;France;
+1397;dinaCarmo;Private;2015;Portugal;
+1398;Zuhou;Private;2017;Finland;
+1399;Ghulrike;Private;2021;Germany;
+1400;Candela2;Private;2017;France;
+1401;CookieFree;Private;2020;France;
+1402;VitalForceGaming;Professional;2019;United Kingdom;8 Crittall Court, CM8 2GD Witham, United Kingdom
+1403;imtilley;Private;2019;United Kingdom;
+1404;hedrox;Private;2018;Austria;
+1405;spartan239;Private;2010;United Kingdom;
+1406;MagicVortex;Professional;2019;Belgium;Molenstraat 26, 3600 Genk, Belgium
+1407;Kumus;Private;2015;Germany;
+1408;Philbert;Private;2019;Germany;
+1409;Talmy;Private;2015;France;
+1410;GideonBrowne;Private;2015;Netherlands;
+1411;FlorisG;Private;2019;Netherlands;
+1412;FriskyNinja;Private;2017;United Kingdom;
+1413;sakimmd;Private;2013;France;
+1414;MrKlawed;Private;2012;United Kingdom;
+1415;Baku91;Private;2017;Spain;
+1416;lukey52;Private;2017;United Kingdom;
+1417;iarbagreen;Professional;2017;Romania;Calea Aradului nr. 40, bl. 26-27, sc. B, ap. 12, 300282 Timisoara, Romania
+1418;Castellana;Private;2015;Spain;
+1419;ferry1980;Private;2012;Netherlands;
+1420;terrorkidd18;Private;2015;Netherlands;
+1421;JCLeithner;Private;2015;Austria;
+1422;AirJx666;Private;2018;Belgium;
+1423;elGonti;Private;2019;Germany;
+1424;SnowManLFC;Private;2018;Germany;
+1425;MrOrzhov;Private;2015;Germany;
+1426;lm271176;Private;2017;France;
+1427;Caldin;Private;2018;France;
+1428;nivmizzet;Private;2009;Spain;
+1429;RoccaTreCorvi;Professional;2018;Italy;Via Piave 15, 16016 Cogoleto, Italy
+1430;miguelaup;Private;2013;Spain;
+1431;ashling87;Private;2012;Belgium;
+1432;Draftpool;Private;2015;Germany;
+1433;mavkpt;Private;2017;Portugal;
+1434;jorr8819;Private;2020;United Kingdom;
+1435;CairneyCards;Professional;2016;United Kingdom;27 Long John Hill, NR1 2EJ Norwich, United Kingdom
+1436;MagicKroni;Private;2008;Austria;
+1437;Leymar99;Private;2019;Spain;
+1438;Magichouserules;Private;2020;Netherlands;
+1439;Zottel1508;Private;2016;Germany;
+1440;fatality292;Private;2013;United Kingdom;
+1441;MagicTown;Professional;2015;Poland;MagicTown, 87-100 Toruń, Poland
+1442;weatherlightgames;Professional;2012;Portugal;Rua Doutor César Batista, nº5, RC Drt., 7005-468 Évora, Portugal
+1443;RELIC-TCG;Professional;2020;France;66 avenue de fronton, 31200 toulouse, France
+1444;RaulSerna;Private;2012;Spain;
+1445;Shukakun;Private;2018;Sweden;
+1446;BulldogCardTraders;Professional;2015;United Kingdom;8 Wentbridge Path, WD6 4ET Borehamwood, United Kingdom
+1447;Dracarysviterbo;Professional;2015;Italy;Via Galvani 38 C, 01100 Viterbo (VT), Italy
+1448;TomatoJoe;Private;2013;Germany;
+1449;eisenbuchse;Private;2016;Germany;
+1450;mekki92;Private;2016;Germany;
+1451;Klotz1988;Private;2012;Germany;
+1452;GmenOreal;Private;2016;Netherlands;
+1453;wolfythefool;Private;2015;Belgium;
+1454;lulu62300;Private;2016;France;
+1455;UginTheDragonSpirit;Private;2020;Denmark;
+1456;frands;Private;2011;Denmark;
+1457;imRauSch;Private;2010;Switzerland;
+1458;buchmand;Private;2016;Switzerland;
+1459;TierraMedia;Powerseller;2010;Spain;Plaza Madre de Dios 12 - Bajo Local 1-B, 11401 Jerez de la Frontera, Spain
+1460;bajins;Private;2010;Spain;
+1461;NYoumans;Private;2015;Germany;
+1462;cordseb;Private;2008;Germany;
+1463;GAMIC;Professional;2015;Italy;Piazza Aranci 24, 54100 MASSA, Italy
+1464;Daithicuts;Private;2017;Ireland;
+1465;Ahanne;Private;2013;Spain;
+1466;MATZEBOBBEL666;Private;2016;Germany;
+1467;legenda;Private;2015;Slovenia;
+1468;Pyrrian;Private;2015;Netherlands;
+1469;Throlm;Private;2019;France;
+1470;tcmrodrigues21;Private;2018;Portugal;
+1471;Baumi53;Private;2013;Germany;
+1472;vegavov;Private;2013;Denmark;
+1473;skatekick;Private;2017;Netherlands;
+1474;lfccruz;Private;2015;Ireland;
+1475;Apocalypsa;Private;2017;Netherlands;
+1476;handovgod;Private;2019;Poland;
+1477;sknotgore;Private;2018;France;
+1478;PowerP;Private;2018;Switzerland;
+1479;relinquisched;Private;2010;Spain;
+1480;Juschu;Private;2013;Germany;
+1481;AncientN3ps;Private;2018;Austria;
+1482;Sether;Private;2011;Switzerland;
+1483;krunxako;Private;2014;Spain;
+1484;gbressy;Private;2013;France;
+1485;abuelozen;Private;2016;Spain;
+1486;Kukulkan23;Private;2013;Germany;
+1487;Bollogg;Private;2013;Germany;
+1488;caossavona;Professional;2015;Italy;Via Montenotte 111/113 R, 17100 Savona, Italy
+1489;AlexSz;Private;2012;Germany;
+1490;sboemble;Professional;2010;Germany;Hermsdorfer Straße 1, 04741 Roßwein OT Mahlitzsch, Germany
+1491;SummeJunges34;Private;2017;Austria;
+1492;huckasex;Private;2011;Germany;
+1493;aggroduisburg;Private;2010;Germany;
+1494;Gorkk;Private;2018;France;
+1495;oettam;Private;2013;Italy;
+1496;Benadrei;Private;2011;France;
+1497;JeanPatapon;Private;2018;France;
+1498;TorchSlinger;Private;2019;Czech Republic;
+1499;Sliverin;Private;2020;France;
+1500;denosya;Private;2014;France;
+1501;Espinokio;Private;2015;Spain;
+1502;JTMS75;Private;2018;Italy;
+1503;Cerberuz;Private;2021;Germany;
+1504;Cippus;Private;2018;Italy;
+1505;Albertomanaslopez;Private;2018;Spain;
+1506;RegentWanze;Private;2019;Germany;
+1507;Denkowski;Private;2012;Germany;
+1508;Denma56;Private;2019;Germany;
+1509;BjoernHL;Private;2017;Germany;
+1510;MrBlex;Private;2019;Germany;
+1511;Thaczun;Private;2018;Belgium;
+1512;Redgarz;Private;2016;Spain;
+1513;Cardsgod;Private;2010;Portugal;
+1514;Seabird89;Professional;2020;Germany;Am Schloßgraben 35, 56218 Mülheim-Kärlich, Germany
+1515;Kitsune1801;Private;2019;Germany;
+1516;Obliteratorcp;Private;2019;Portugal;
+1517;Eventwin13;Private;2016;France;
+1518;OkamiPT;Private;2017;Portugal;
+1519;Rabelar;Private;2017;Germany;
+1520;Ageless127;Private;2010;Denmark;
+1521;Pandrago;Private;2017;Germany;
+1522;Buisson;Private;2017;France;
+1523;Panda;Private;2010;Germany;
+1524;phpoh1;Private;2020;Poland;
+1525;Schmiddie;Private;2014;Germany;
+1526;Kolleggz;Private;2010;Switzerland;
+1527;sandal;Professional;2011;France;12 rue de Pont-à-Mousson, 57580 REMILLY, France
+1528;tempimkm;Private;2016;Austria;
+1529;Achuta;Private;2014;Austria;
+1530;MichaelLamb;Private;2014;Germany;
+1531;robbie1;Professional;2012;Netherlands;Boerenzwaluw 53, 5731SL Mierlo, Netherlands
+1532;DeadWalter;Private;2010;Switzerland;
+1533;Bazille;Private;2012;Germany;
+1534;ZeroBoxi;Private;2011;Germany;
+1535;seiya;Private;2015;France;
+1536;Danske1990;Private;2018;Germany;
+1537;AerisTheMadKing;Private;2020;Germany;
+1538;sidiabdelassar;Private;2013;Switzerland;
+1539;Phillabonzie;Private;2018;Belgium;
+1540;chainwing;Private;2017;Germany;
+1541;FranticSearch;Private;2019;Germany;
+1542;Neuvoja;Private;2018;Finland;
+1543;ernic99;Private;2018;Belgium;
+1544;Table1MTG;Professional;2014;France;2 rue John Lennon, 95370 Montigny lès Cormeilles, France
+1545;Didi227;Private;2020;France;
+1546;Zlopotom;Professional;2014;Czech Republic;Nejedlého 957, 51101 Turnov, Czech Republic
+1547;chahang;Private;2015;Germany;
+1548;Beale;Private;2018;Spain;
+1549;thormaga;Private;2018;Portugal;
+1550;zuzu-Fantasia;Powerseller;2015;Italy;Viale Trento 77, 38068 Rovereto, Italy
+1551;AlphaCard;Professional;2013;Denmark;Rugvænget 44, 2630 Taastrup, Denmark
+1552;CollectorsWarehouse;Private;2012;Greece;
+1553;tulppu;Private;2010;Finland;
+1554;LaFouine;Private;2011;Belgium;
+1555;Cuperio;Private;2010;Spain;
+1556;WhiteSena;Private;2017;France;
+1557;Carth;Private;2019;Luxembourg;
+1558;Eracelyan;Private;2017;France;
+1559;Tezzeret1989;Private;2010;Luxembourg;
+1560;DefantasyZ;Professional;2014;Spain;Alcalde Serafin Esteve 9 bajo Esq 1 de Maig, 46680 Algemesí, Spain
+1561;slovensky;Private;2015;Slovakia;
+1562;IlLabirintoMtgStore;Professional;2017;Italy;Via Luigi Einaudi 59/61, 20044 Arese, Italy
+1563;icantseeyourtoes;Private;2015;Malta;
+1564;ElJami;Private;2019;France;
+1565;AykWaldow;Private;2018;Germany;
+1566;tyra;Private;2010;Germany;
+1567;RikLen1989;Private;2016;Netherlands;
+1568;jinzo81;Private;2015;Italy;
+1569;DerZonk;Private;2014;Germany;
+1570;Fix89;Private;2017;Germany;
+1571;ThelonPlusk;Private;2020;Poland;
+1572;tumbleweed;Private;2016;Germany;
+1573;H-Man82;Private;2014;Germany;
+1574;Mallowman87;Private;2014;United Kingdom;
+1575;RatteDerBoss;Private;2017;Germany;
+1576;D-niz;Private;2015;Germany;
+1577;Benebene182;Private;2019;Germany;
+1578;theMockingbird;Private;2017;Netherlands;
+1579;EdicolaLeTorri;Professional;2018;Italy;Via Ventimiglia 115, 41125 Modena, Italy
+1580;AntoMat59;Private;2012;France;
+1581;Bo1982;Private;2014;Netherlands;
+1582;HamburgMagic;Professional;2018;Germany;Am Graalwall 9, 21335 Lüneburg, Germany
+1583;magic-market;Professional;2013;Germany;Virchowring 73, 24558 Henstedt-Ulzburg, Germany
+1584;UnionCountyGames;Powerseller;2018;United Kingdom;14 Manor Street, PL1 1TL Plymouth, United Kingdom
+1585;Hednez;Private;2011;Germany;
+1586;xcver;Private;2012;Germany;
+1587;Kherion;Private;2014;Germany;
+1588;TheRealDragula;Private;2013;Italy;
+1589;Zanza61;Private;2011;France;
+1590;HuberK;Private;2009;Austria;
+1591;Maradina;Private;2020;Italy;
+1592;Bissmarck;Private;2015;Germany;
+1593;Robillard;Private;2012;Germany;
+1594;LB-Games;Professional;2019;Germany;Friedenstraße 31, 97072 Würzburg, Germany
+1595;Boocat;Private;2014;Switzerland;
+1596;weird-al;Private;2013;Switzerland;
+1597;Kavoldox;Professional;2012;France;12 passage Lieury, 76280 CRIQUETOT L'ESNEVAL, France
+1598;Swaffle;Private;2014;United Kingdom;
+1599;Zwergenschmiede;Professional;2018;Switzerland;Laupenstrasse 4, 3008 Bern, Switzerland
+1600;benalmagic;Private;2017;Spain;
+1601;Wernoviiz;Private;2015;Austria;
+1602;Fireblade;Private;2007;Germany;
+1603;IlCapitanoCamper;Private;2019;Italy;
+1604;LupiMe;Private;2017;Croatia;
+1605;kattegat;Private;2020;Spain;
+1606;Rippersoan;Private;2018;Greece;
+1607;Gazcards;Private;2021;United Kingdom;
+1608;CARTOONCORP;Professional;2012;Spain;GUILLEM DE CASTRO 53 BJ IZDA, 46007 VALENCIA, Spain
+1609;Brother;Private;2014;Netherlands;
+1610;fabrioteo2;Private;2019;Italy;
+1611;Terror23-PT;Private;2019;Portugal;
+1612;TeferiOfZhalfir;Private;2016;Spain;
+1613;timo145;Private;2010;Germany;
+1614;JupiterBarcelona;Professional;2017;Spain;Ausias March 52, 08010 Barcelona, Spain
+1615;DoomBap;Private;2020;Germany;
+1616;Mademk;Private;2018;Germany;
+1617;legend3nd;Private;2015;Germany;
+1618;Thokoashi;Professional;2019;Italy;Via Togliatti 86, 22066 Mariano Comense (Como), Italy
+1619;Sapo19;Private;2020;France;
+1620;MagicNerdKarlsruhe;Professional;2012;Germany;Offenburger Str. 48, 68239 Mannheim, Germany
+1621;saintskeith;Private;2014;Denmark;
+1622;KainX;Private;2014;Germany;
+1623;MythicCardboard;Professional;2016;United Kingdom;BA4 4FS Shepton Mallet, United Kingdom
+1624;iddqd;Private;2013;Germany;
+1625;GeekCards;Private;2019;United Kingdom;
+1626;Gamestower;Professional;2017;Luxembourg;Rue De La Gare 33, 7535 Mersch, Luxembourg
+1627;Schwertzeit;Private;2013;Austria;
+1628;Bauchtrommel;Private;2015;Germany;
+1629;Villikisu;Private;2009;Finland;
+1630;fix123;Private;2012;Germany;
+1631;WallstreetJunkie;Private;2018;Germany;
+1632;TopgameSNC;Professional;2017;Italy;Via Cesare Battisti 15, 50054 Fucecchio (FI), Italy
+1633;Andy89;Private;2018;Germany;
+1634;rename;Private;2016;Netherlands;
+1635;Isacco87;Private;2010;Italy;
+1636;MLBRookie;Private;2009;Germany;
+1637;BlackLotus6896;Private;2009;Germany;
+1638;AuthenticNaabi;Private;2013;Finland;
+1639;Brainstormr;Private;2012;Spain;
+1640;Diego86;Private;2013;Spain;
+1641;alexbdn;Private;2018;Spain;
+1642;Grunny;Private;2013;Germany;
+1643;DrFrogman;Private;2018;Germany;
+1644;Shatter;Private;2010;Germany;
+1645;Stwaman;Private;2010;Spain;
+1646;TheLarz;Private;2012;Germany;
+1647;ILFORZIEREDELMANA;Professional;2017;Italy;Enrico Mattei 27/c, 20010 Cornaredo ( Mi ), Italy
+1648;TheCrazyGoblin;Private;2016;France;
+1649;Baronh;Private;2020;Italy;
+1650;Shindatenshi;Private;2017;Germany;
+1651;cave34;Private;2018;Germany;
+1652;Angeli-e-Draghi;Professional;2012;Italy;Via Luigi Vanvitelli 5/7, 00153 ROMA, Italy
+1653;Myxin;Private;2009;Germany;
+1654;Room213;Private;2017;Belgium;
+1655;Bepo41;Private;2020;Italy;
+1656;devric;Professional;2013;Portugal;Rua Antonio Feliciano Castilho n 298, 4430-307 Vilar do Andorinho, Portugal
+1657;redribbon83;Private;2014;Italy;
+1658;Rukaaaaaa;Private;2012;Portugal;
+1659;Knosli;Private;2018;Switzerland;
+1660;tigre90;Private;2018;Italy;
+1661;DaRiZZa;Private;2010;Germany;
+1662;HappyMagicB0b;Private;2016;Norway;
+1663;mortymcfly;Private;2018;Germany;
+1664;Mtgbill974;Private;2017;France;
+1665;WhatTheFreak;Professional;2018;Spain;Pasaje Armando Nº2, 29670 San Pedro De Alcantara, Spain
+1666;Gondorman;Private;2016;France;
+1667;Magictraders;Private;2017;Denmark;
+1668;Flamadiddle;Private;2015;Portugal;
+1669;magic-feel;Professional;2007;Germany;Im Böge 11, 31226 Peine, Germany
+1670;JDomi;Private;2012;Germany;
+1671;RealG;Private;2018;Germany;
+1672;calibymkm;Private;2017;Germany;
+1673;conte89;Private;2012;Italy;
+1674;GoblinTorino;Private;2018;Italy;
+1675;QuintoElementoLT;Private;2015;Italy;
+1676;Mr-Simpatia17;Private;2018;Italy;
+1677;ZionRyan;Private;2016;Switzerland;
+1678;MerfolkPL;Professional;2017;Poland;2 Sierpnia 15, 05-800 Pruszków, Poland
+1679;Lucivan;Private;2019;Switzerland;
+1680;mtgcloux;Professional;2018;France;2 Allée Pierre Et Marie Curie, 91620 NOZAY, France
+1681;Bridgeisnumber1;Private;2021;Germany;
+1682;leeya;Powerseller;2011;Austria;Friedrichstraße 2, 4040 Linz, Austria
+1683;Knudi;Private;2018;Germany;
+1684;badluke1991;Private;2019;Germany;
+1685;Luka182;Private;2009;Italy;
+1686;NoLadyGodiva;Private;2013;Germany;
+1687;Hyden;Private;2017;Spain;
+1688;Rubok;Private;2017;Spain;
+1689;alexdelpero;Private;2014;Italy;
+1690;IAB57;Private;2014;France;
+1691;Screw-Driver;Private;2019;Austria;
+1692;Razna;Private;2021;Austria;
+1693;MrKeks;Private;2018;Germany;
+1694;chaosof99;Private;2012;Austria;
+1695;jackskellington;Private;2009;Germany;
+1696;Bubblebee1337;Private;2020;Germany;
+1697;WBGames;Private;2017;Italy;
+1698;Isellingforfun;Private;2019;Italy;
+1699;Tapmana;Professional;2018;Netherlands;Dalkruidbaan 122 , 2908KC Capelle aan den IJssel, Netherlands
+1700;Ennex;Private;2009;Germany;
+1701;pokerfish;Private;2015;Portugal;
+1702;willaert;Private;2008;Belgium;
+1703;eEnder;Private;2016;Spain;
+1704;romainclad60;Private;2015;France;
+1705;Motoraz94;Private;2019;Italy;
+1706;MTG-Savage;Private;2017;Netherlands;
+1707;hypnos31;Private;2011;France;
+1708;Nerdacci;Private;2018;Italy;
+1709;coldfyr;Private;2012;Spain;
+1710;killbill7;Private;2018;Greece;
+1711;Troedel;Private;2011;Germany;
+1712;ganesha6666;Private;2015;Netherlands;
+1713;dankavru;Private;2017;France;
+1714;rycar121;Private;2017;Germany;
+1715;endomel;Private;2017;France;
+1716;Chainy;Private;2016;Germany;
+1717;NathanTheArcane;Private;2018;Denmark;
+1718;magic-moira;Private;2018;Germany;
+1719;Vasqeez;Private;2017;Germany;
+1720;Joost1984;Private;2020;Netherlands;
+1721;Sammy3551;Professional;2019;United Kingdom;24 Hawkewood Ave, PO7 6Eb Waterlooville, United Kingdom
+1722;ArcanumITA;Professional;2018;Italy;Via Santa Prima Martire 19, 80030 San Paolo Bel Sito (Napoli), Italy
+1723;MTG-Artifact;Professional;2018;France;1ter Rue Pasteur, 78300 Poissy, France
+1724;Jarogr87;Private;2018;Poland;
+1725;garcyyy;Private;2016;Germany;
+1726;Nandonv;Private;2020;Belgium;
+1727;Vincento974;Private;2019;France;
+1728;SkontrujeDobiore;Private;2019;Poland;
+1729;jonnynekros;Private;2013;Germany;
+1730;HattoriHanzo;Private;2011;Spain;
+1731;Chielhammert;Private;2015;Netherlands;
+1732;sergo7;Private;2017;Spain;
+1733;valman;Private;2012;France;
+1734;GG-Store;Professional;2019;Belgium;Résidence Du Moulin De Briques 14, 7300 Boussu, Belgium
+1735;Jeroen-Korste;Private;2018;Netherlands;
+1736;SteToe;Private;2017;Germany;
+1737;Turreur;Private;2017;France;
+1738;Libreria-Alexandria;Professional;2012;Spain;Jose María Pereda Nº87 Int Esc Der 5ºI, 39300 Torrelavega, Spain
+1739;KogerCards;Private;2019;Denmark;
+1740;M4rshn;Private;2019;Austria;
+1741;EroidiArcadia;Professional;2013;Italy;Via Carlo Mayr, 6A, 44121 Ferrara, Italy
+1742;Imgrisky;Professional;2016;Netherlands;Peperstraat 12 , 8911JA Leeuwarden, Netherlands
+1743;Luca11rise;Private;2014;Italy;
+1744;a261033;Private;2012;Italy;
+1745;firezion;Private;2013;Germany;
+1746;duke777;Private;2013;Austria;
+1747;Goofy-Perverso;Private;2015;Spain;
+1748;magicdany83;Private;2014;Netherlands;
+1749;aterg;Private;2012;Germany;
+1750;Radieuse;Private;2013;Switzerland;
+1751;matt13;Private;2016;Finland;
+1752;Dumbleburn;Private;2016;Germany;
+1753;HAPPYHOURbycandyman;Private;2021;Portugal;
+1754;Demonious;Private;2014;France;
+1755;Arcanum;Professional;2012;Poland;Ksieznej Izabelli 3/28, 24-100 Pulawy, Poland
+1756;speedmagic;Private;2015;Spain;
+1757;Magic-Walker;Private;2012;Switzerland;
+1758;JollyRoger110;Private;2015;Germany;
+1759;buby13;Private;2017;Germany;

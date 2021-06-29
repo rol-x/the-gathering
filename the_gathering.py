@@ -1,22 +1,26 @@
 """Scrape the card market website to get all the neccessary data."""
 import os
+import keyboard
 from time import sleep
 from datetime import datetime
-from random import normalvariate, random, sample
+from random import normalvariate, random, randint
 import pandas as pd
 import mysql.connector
 from bs4 import BeautifulSoup
 from selenium import webdriver, common
 from selenium.webdriver.firefox.options import Options
 
+# Global variables for user custom configuration
+max_wait = 3.0
+silent_mode = True
+
 # Global variables connected to this run of the code.
-log_filename = 'temp.log'
+log_filename = 'dump.log'
 current_date_ID = 0
 
 # Global fixed variables
 base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
 users_url = 'https://www.cardmarket.com/en/Magic/Users/'
-max_wait = 3.0
 
 
 # Wait about mean_val seconds before proceeding to the rest of the code.
@@ -24,19 +28,32 @@ def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
     std_val = mean_val * random() * 0.25 + 0.05
     sleep_time = abs(normalvariate(mean_val, std_val)) + 0.15
-    log(f'Sleeping for {sleep_time} seconds')
+    if not silent_mode:
+        log(f'Sleeping for {round(sleep_time, 3)} seconds')
     sleep(sleep_time)
 
 
 # Return the Firefox webdriver in headless mode.
 def create_webdriver():
     '''Return the Firefox webdriver in headless mode.'''
-    log('Opening the webdriver')
+    if not silent_mode:
+        log('Opening the webdriver')
     options = Options()
     options.headless = True
-    browser = webdriver.Firefox(options=options)
+    driver = webdriver.Firefox(options=options)
     log('Webdriver ready')
-    return browser
+    return driver
+
+
+# Return the Firefox webdriver in headless mode.
+def restart_webdriver(driver):
+    '''Return the Firefox webdriver in headless mode.'''
+    log('Restarting the webdriver')
+    driver.close()
+    log('Closing the webdriver')
+    realistic_pause(0.3 * max_wait)
+    driver = create_webdriver()
+    return driver
 
 
 # Try to load a .csv file content into a dataframe.
@@ -44,7 +61,8 @@ def load_df(entity_name):
     '''Try to return a dataframe from the respective .csv file.'''
     try:
         df = pd.read_csv('data/' + entity_name + '.csv', sep=';')
-        log('[read ' + entity_name + ']')
+        if not silent_mode:
+            log('[read ' + entity_name + ']')
     except pd.errors.EmptyDataError as empty:
         log(str(empty))
         log(f'Please prepare the headers in {entity_name}.csv!\n')
@@ -64,23 +82,40 @@ def add_card(card_soup):
     # Get rows from the card information table
     card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
     if len(card_info) == 0:
-        log('No card info found on current page')
+        if not silent_mode:
+            log('No card info found on current page')
         return
 
     # Get the attributes
-    card_ID = len(card_df.index) + 1
-    card_name = str(card_soup.find("h1")).split('<')[1][3:]
+    avg_1_price = card_info[-1].string.string[:-2].replace(',', '.')
+    avg_7_price = card_info[-2].string.string[:-2].replace(',', '.')
+    avg_30_price = card_info[-3].string.string[:-2].replace(',', '.')
+    price_from = card_info[-5].string[:-2].replace(',', '.')
+    available_items = card_info[-6].string
     rarity = card_info[0].find('span')['data-original-title']
     expansion_name = card_info[1].find('span')['data-original-title']
-    available_items = card_info[3].string
-    price_from = card_info[4].string[:-2].replace(',', '.')
-    avg_30_price = card_info[6].string.string[:-2].replace(',', '.')
-    avg_7_price = card_info[7].string.string[:-2].replace(',', '.')
-    avg_1_price = card_info[8].string.string[:-2].replace(',', '.')
+    card_name = str(card_soup.find("h1")).split('<')[1][3:]
+    card_ID = len(card_df.index) + 1
+
+    # Logging
+    if not silent_mode:
+        log('== Add card ==')
+        log('Card: \t\t\t' + str(card_name))
+        log('Card ID: \t\t' + str(card_ID))
+        log('Expansion: \t' + str(expansion_name))
+        log('Rarity: \t\t\t' + str(rarity))
+        log('Price from: \t\t' + str(price_from))
+        log('30-day avg: \t\t' + str(avg_30_price))
+        log('7-day avg: \t\t' + str(avg_7_price))
+        log('1-day avg: \t\t' + str(avg_1_price))
+        log('Amount: \t\t' + str(available_items))
+        log('Date ID: \t\t' + str(current_date_ID))
+        keyboard.read_key()
 
     # Save the card in local file
     with open('data/card.csv', 'a', encoding="utf-8") as card_csv:
-        log('[write card]')
+        if not silent_mode:
+            log('[write card]' + '\n')
         card_csv.write(str(card_ID) + ';')
         card_csv.write(str(card_name) + ';')
         card_csv.write(str(expansion_name) + ';')
@@ -91,9 +126,6 @@ def add_card(card_soup):
         card_csv.write(str(avg_1_price) + ';')
         card_csv.write(str(available_items) + ';')
         card_csv.write(str(current_date_ID) + '\n')
-
-    # Logging
-    log('Card added: \t' + card_name + '\n')
 
 
 # Extract information about a seller from provided soup.
@@ -157,18 +189,28 @@ def add_seller(seller_soup):
     if address == country:
         address = ''
 
+    # Logging
+    if not silent_mode:
+        log('== Add seller ==')
+        log('Seller: \t\t\t' + str(seller_name))
+        log('Seller ID: \t\t' + str(seller_ID))
+        log('Type: \t\t\t' + str(s_type))
+        log('Member since: \t' + str(member_since))
+        log('Country: \t\t\t' + str(country))
+        log('Address: \t\t\t' + str(address))
+        log('Date ID: \t\t\t' + str(current_date_ID))
+        # keyboard.readkey()
+
     # Save the seller in local file
     with open('data/seller.csv', 'a', encoding="utf-8") as seller_csv:
-        log('[write seller]')
+        if not silent_mode:
+            log('[write seller]' + '\n')
         seller_csv.write(str(seller_ID) + ';')
         seller_csv.write(seller_name + ';')
         seller_csv.write(s_type + ';')
         seller_csv.write(member_since + ';')
         seller_csv.write(country + ';')
         seller_csv.write(address + '\n')
-
-    # Console logging
-    log('Seller added:\t' + seller_name + '\n')
 
 
 # Add the current date, return the date ID and its log file name.
@@ -180,81 +222,187 @@ def add_date():
 
     # Prepare the attributes
     now = datetime.now()
-    date_time = now.strftime("%d/%m/%Y %H:%M").split(" ")
+    date_time = now.strftime("%d/%m/%Y %H").split(" ")
     day = date_time[0].split("/")[0]
     month = date_time[0].split("/")[1]
     year = date_time[0].split("/")[2]
+    hour = date_time[1]
     date_ID = len(date_df.index) + 1
+
+    # Create a log filename from the datetime
+    global log_filename
+    log_filename = day + month + year + "_" + hour
+    if not silent_mode:
+        log_filename += "_verbose"
+    log_filename += ".log"
+    prepare_log_files()
 
     # Check for the same datetime record
     same_date = date_df[(date_df['day'] == int(day))
                         & (date_df['month'] == int(month))
                         & (date_df['year'] == int(year))
-                        & (date_df['time'] == date_time[1])]['date_ID']
+                        & (date_df['hour'] == int(hour))]['date_ID']
     if(len(same_date) > 0):
         print(f'Date [{date_time[0]} {date_time[1]}] '
-              + 'already added (date_ID: {same_date.values[0]})')
+              + f'already added (date_ID: {same_date.values[0]})')
         return same_date.values[0]
 
     # Save the date with its own ID to local file
     with open('data/date.csv', 'a', encoding="utf-8") as date_csv:
-        log('[write date]')
+        if not silent_mode:
+            log('[write date]')
         date_csv.write(str(date_ID) + ';')
         date_csv.write(day + ';')
         date_csv.write(month + ';')
         date_csv.write(year + ';')
         date_csv.write(str(now.weekday()) + ';')
-        date_csv.write(date_time[1] + '\n')
+        date_csv.write(hour + '\n')
 
-    # Create a log filename from the datetime
-    global log_filename
-    log_filename = day + month + year + "_" \
-        + date_time[1][:2] + date_time[1][3:5] + ".log"
-
-    # Log file creation and first entry
-    prepare_log_files()
-    log(f'Date {date_time[0]} {date_time[1]} added\tdate_ID: {date_ID}')
+    # Logging
+    log('== Add date ==')
+    log('Date: \t\t\t' + str(date_time[0]))
+    log('Hour: \t\t\t' + str(hour))
+    log('Date ID: \t\t\t' + str(date_ID))
+    if not silent_mode:
+        log('Log file name: \t' + str(log_filename))
+    keyboard.read_key()
+    # input()
 
     # Return the current date ID
     return date_ID
 
 
-# TODO: Extract information about the offers from provided card soup.
+# Return a seller ID given its name.
+def get_seller_ID(seller_name):
+    '''Return a seller ID given its name.'''
+    seller_df = load_df('seller')
+    this_seller = seller_df[(seller_df['seller_name'] == card_name)]
+    if len(this_seller) == 0:
+        return -1
+    return this_seller['seller_ID'].values[0]
+
+
+# Return a session-valid card ID given its name.
+def get_card_ID(card_name):
+    '''Return a session-valid card ID given its name.'''
+    card_df = load_df('card')
+    this_card = card_df[(card_df['card_name'] == card_name)
+                        & (card_df['date_ID'] == current_date_ID)]
+    if len(this_card) == 0:
+        return -1
+    return this_card['card_ID'].values[0]
+
+
+# Extract information about the offers from provided card soup.
 def add_offers(card_page):
     '''Extract information about the offers from provided card soup.'''
-    card_name = card_page.find("h1").string
-    table = card_page.find("div", {"class": "table"
+    table = card_page.find("div", {"class": "table "
                                    + "article-table "
                                    + "table-striped"})
     if table is None:
-        log("No offers found on page!")
-        log(card_page.find("title"))
+        if not silent_mode:
+            log("No offers found on page!")
+            log(card_page.find("title"))
         return
 
-    seller_names = table.findAll("span", {"class": "d-flex"
-                                          + "has-content-centered"
+    # Get static and list info from the page
+    card_name = (str(card_page.find("div", {"class": "flex-grow-1"}))
+                 .split(">")[2]).split("<")[0]
+    seller_names = table.findAll("span", {"class": "d-flex "
+                                          + "has-content-centered "
                                           + "mr-1"})
-    attrs = table.findAll("div", {"class": "product-attributes col"})
-    for attr in attrs:
-        icons = attr.findAll("span")
-        condition = icons[0]["data-original-title"]
-        card_lang = icons[1]["data-original-title"]
-        other = attrs.find("span", {"class": "icon st_SpecialIcon mr-1"})
-        if len(other) > 0:
-            if other["data-original-title"] == 'Foil':
-                is_foiled = True
+    prices = table.findAll("span", {"class": "font-weight-bold color-primary "
+                                    + "small text-right text-nowrap"})
+    amounts = table.findAll("span", {"class":
+                            "item-count small text-right"})
+    attributes = table.findAll("div", {"class": "product-attributes col"})
+
+    # Ensure the table has proper content
+    if not (len(prices) / 2) == len(amounts) \
+            == len(seller_names) == len(attributes):
+        log('The attributes columns don\'t match in size!\n')
+        return
+
+    # Acquire the data row by row
+    for i in range(len(seller_names)):
+        offer_attrs = []
+        price = str(prices[2*i].string)[:-2].replace(".", "") \
+            .replace(",", ".")
+        amount = amounts[i].string
+        seller_name = seller_names[i].string
+
+        # Get card attributes
+        for attr in attributes[i].findAll("span"):
+            if attr is None:
+                if not silent_mode:
+                    log("Empty attribute!\n" + str(card_name)
+                        + " by " + seller_name + " for " + price)
             else:
-                is_foiled = False
-    price = table.findAll("span", {"class": "font-weight-bold color-primary"
-                                   + "small text-right text-nowrap"})
-    quantity = table.findAll("span", {"class": "item-count small text-right"})
-    print('\nCard ' + card_name)
-    print('Sellers: ' + len(seller_names))
-    print(seller_names)
-    print('Condition: ' + condition)
-    print('Language: ' + card_lang)
-    print('Is foiled: ' + is_foiled)
-    input()
+                offer_attrs.append(attr["data-original-title"])
+            is_foiled = False
+            other = attr.find("span", {"class": "icon st_SpecialIcon mr-1"})
+            if other is not None:
+                if other["data-original-title"] == 'Foil':
+                    is_foiled = True
+
+        # Interpret the attributes
+        if len(offer_attrs) >= 2:
+            condition = offer_attrs[0]
+            card_lang = offer_attrs[1]
+        else:
+            condition = 'NaN'
+            card_lang = 'NaN'
+            log("A card in a sale offer has incomplete attributes"
+                + "(language, condition)")
+
+        # Get dependent values
+        seller_ID = get_seller_ID(seller_name)
+        card_ID = get_card_ID(card_name)
+
+        # Determine whether the same offer is already saved
+        sale_offer_df = load_df('sale_offer')
+        offers = sale_offer_df[(sale_offer_df['seller_ID'] == seller_ID)
+                               & (sale_offer_df['card_ID'] == card_ID)
+                               & (sale_offer_df['price'] == price)
+                               & (sale_offer_df['card_condition'] == condition)
+                               & (sale_offer_df['language'] == card_lang)
+                               & (sale_offer_df['is_foiled'] == is_foiled)
+                               & (sale_offer_df['amount'] == amount)
+                               & (sale_offer_df['date_ID'] == current_date_ID)]
+        # If there are matching offers, don't add this one
+        if len(offers) > 0:
+            if not silent_mode:
+                log(f"Already saved transaction  ({seller_ID} -> {card_ID}"
+                    + f" for {price}")
+            continue
+
+        # Logging
+        if not silent_mode:
+            log('== Add sale offer ==')
+            log('Seller: \t\t\t' + str(seller_name))
+            log('Seller ID: \t\t' + str(seller_ID))
+            log('Price: \t\t\t' + str(price))
+            log('Card: \t\t\t' + str(card_name))
+            log('Card ID: \t\t\t' + str(card_ID))
+            log('Condition: \t\t' + str(condition))
+            log('Language: \t\t' + str(card_lang))
+            log('Is foiled: \t\t' + str(is_foiled))
+            log('Amount: \t\t\t' + str(amount))
+            log('Date ID: \t\t\t' + str(current_date_ID))
+            # keyboard.read_key()
+
+        # Save the seller in local file
+        with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
+            if not silent_mode:
+                log('[write sale offer]' + '\n')
+            offers_csv.write(str(seller_name) + ';')
+            offers_csv.write(str(price) + ';')
+            offers_csv.write(str(card_name) + ';')
+            offers_csv.write(str(condition) + ';')
+            offers_csv.write(str(card_lang) + ';')
+            offers_csv.write(str(is_foiled) + ';')
+            offers_csv.write(str(amount) + ';')
+            offers_csv.write(str(current_date_ID) + '\n')
 
 
 # Prepare .csv files for storing the scraped data locally
@@ -285,7 +433,7 @@ def prepare_files():
     if os.path.getsize('data/date.csv'):
         pass
     else:
-        date_csv.write('date_ID;day;month;year;day_of_week;time\n')
+        date_csv.write('date_ID;day;month;year;day_of_week;hour\n')
     date_csv.close()
 
     sale_offer_csv = open('data/sale_offer.csv', 'a+', encoding="utf-8")
@@ -293,7 +441,7 @@ def prepare_files():
         pass
     else:
         sale_offer_csv.write('seller_ID;price;card_ID;card_condition;'
-                             + 'is_foiled;date_ID\n')
+                             + 'language;is_foiled;amount;date_ID\n')
     sale_offer_csv.close()
 
     # Console logging
@@ -310,8 +458,12 @@ def prepare_log_files():
         os.mkdir('logs/soups')
         print("Soups directory created")
 
-    # Log creation of the file
-    log("Creation of this file")
+    logfile = open('logs/' + log_filename, "a+", encoding="utf-8")
+    if os.path.getsize('logs/' + log_filename):
+        log("=== Another run of the code ===")
+    else:
+        log("=== Creation of this file ===")
+    logfile.close()
 
 
 # Prepare the expansion cards list file.
@@ -350,7 +502,7 @@ def connect_to_local_db(database_name):
     conn = mysql.connector.connect(user='root', password='P@ssword',
                                    host='127.0.0.1', database=database_name)
     cursor = conn.cursor()
-    log("Database connection established")
+    log("Database connection established\n")
     return conn, cursor
 
 
@@ -386,9 +538,9 @@ def is_card_recently_saved(card_name):
             continue
         if this_date['year'].values[0] != card_date['year'].values[0]:
             continue
-        if this_date['time'].values[0][:2] == card_date['time'].values[0][:2]:
+        if this_date['hour'].values[0] == card_date['hour'].values[0]:
             log(f'Card {card_name} saved recently ('
-                + card_date['time'].values[0] + ')')
+                + str(card_date['hour'].values[0]) + ')')
             return True
     return False
 
@@ -411,6 +563,7 @@ def get_card_names(driver, expansion_name):
     exp_file = open('data/' + exp_filename + '.txt', 'r', encoding="utf-8")
     saved_cards = exp_file.read().split('\n')[:-1]
     exp_file.close()
+    log("Task - Compiling a list of all card names in current expansion")
 
     all_cards = []
     page_no = 1
@@ -426,12 +579,12 @@ def get_card_names(driver, expansion_name):
 
         # Check if there are cards on the page
         if len(card_elements) == 0:
-            log("Last page reached\n")
+            log("Last page reached")
             break
 
         # Check if there is a saved complete list of cards from this expansion
         if get_card_hits(list_soup) == len(saved_cards):
-            log(f"Card names from {expansion_name} are already saved\n")
+            log(f"Done - Card names from {expansion_name} are already saved\n")
             return saved_cards
 
         for card in card_elements:
@@ -466,10 +619,12 @@ def click_load_more_button(driver):
             if load_more_button.text == "":
                 break
             driver.execute_script("arguments[0].click();", load_more_button)
-            log('Extending the sellers view...')
+            if not silent_mode:
+                log('Extending the sellers view...')
             realistic_pause(0.2*max_wait)
-    except common.exceptions.NoSuchElementException as no_button:
-        log(f"No button found on page {driver.current_url}")
+    except common.exceptions.NoSuchElementException:
+        if not silent_mode:
+            log(f"No button found on page {driver.current_url}")
 
 
 # Return a list of all sellers found in a card page.
@@ -507,13 +662,16 @@ def is_valid_card_page(card_soup):
     if len(card_info) > 0 and table is not None:
         return True
     if len(card_info) == 0:
-        log("No card info found on page!")
+        if not silent_mode:
+            log("No card info found on page!")
     if table is None:
-        log("No offers found on page!")
+        if not silent_mode:
+            log("No offers found on page!")
 
     # Output for debugging
     if card_name is not None:
-        log("Card name: " + str(card_name.string) + "\n")
+        if not silent_mode:
+            log("Card name: " + str(card_name.string) + "\n")
     return False
 
 
@@ -534,17 +692,24 @@ def log_soup(soup):
     soup_names = os.listdir('logs/soups')
     print(soup_names)  # Debug
     while True:
-        soup_id = random.randint()
+        soup_id = randint(100000, 999999)
         filename = str(soup_id) + '.log'
         if filename not in soup_names:
             break
 
     # Create a file and dump the soup inside
-    with open(filename, 'w+', encoding="utf-8") as soup_file:
-        soup_file.write(soup)
+    with open('logs/soups/' + filename, 'w+', encoding="utf-8") as soup_file:
+        soup_file.write(str(soup))
 
     # Return the soup identification number for diagnostic purposes
     return soup_id
+
+
+# Wait for specified amount of seconds and return exp times the amount.
+def exponential_wait(wait_time, exponent):
+    '''Wait for specified amount of seconds and return exp times the amount.'''
+    realistic_pause(wait_time)
+    return exponent * wait_time
 
 
 # Main function
@@ -557,48 +722,55 @@ if __name__ == "__main__":
     prepare_expansion_list_file(expansion_name)
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
-    cached_pages = []
 
     # Loop over every card name
     card_list = get_card_names(driver, expansion_name)
     for card_name in card_list:
 
-        # Craft the card url and open it with the driver
-        card_url_name = urlify(card_name)
-        card_url = base_url + expansion_name + '/' + card_url_name
-        driver.get(card_url)
-        log_url(driver.current_url)
-        realistic_pause(0.6*max_wait)
-        click_load_more_button(driver)
+        while True:
+            # Craft the card url and open it with the driver
+            card_url_name = urlify(card_name)
+            card_url = base_url + expansion_name + '/' + card_url_name
+            driver.get(card_url)
+            log_url(driver.current_url)
+            realistic_pause(0.6*max_wait)
+            log("                Expanding page...")
+            click_load_more_button(driver)
 
-        # Add the parsed page content to the list for later use
-        card_soup = BeautifulSoup(driver.page_source, 'html.parser')
-        if is_valid_card_page(card_soup):
-            cached_pages.append(card_soup)
-        else:
-            log('Card dropped: ' + driver.current_url + '\n')
+            # Add the parsed page content to the list for later use
+            card_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            wait_time = 20
+            if is_valid_card_page(card_soup):
+                break
+            else:
+                log('Card page invalid: ' + driver.current_url)
+                wait_time = exponential_wait(wait_time, 1.5)
+                if wait_time > 60:
+                    driver = restart_webdriver(driver)
 
         # Check if a recent record already exists
-        if is_card_recently_saved(card_name):
-            log('Already saved: ' + card_name + '\n')
-        else:
+        if not is_card_recently_saved(card_name):
             add_card(card_soup)
 
         # Get all sellers from the card page
+        log("Task - Updating sellers list")
         sellers = get_seller_names(card_soup)
         for seller_name in sellers:
 
             # Check if a recent record already exists
             if is_seller_saved(seller_name):
-                log('Already saved: ' + seller_name + '\n')
+                if not silent_mode:
+                    log('Already saved: ' + seller_name + '\n')
             else:
                 driver.get(users_url + seller_name)
                 seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
                 add_seller(seller_soup)
 
-    # Iterate through saved card pages for offers data
-    for card_page in cached_pages:
-        add_offers(card_page)
+        # Logging
+        log(f"Done - All sellers of card {card_name} saved")
+
+        # Get all sale offers from the page
+        add_offers(card_soup)
 
     # Close the webdriver
     driver.close()

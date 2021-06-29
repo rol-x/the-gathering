@@ -7,234 +7,238 @@ Spell Snare
 Fertile Ground
 Azra Oddsmaker
 Mindblade Render
-Greater Good
 Virtus's Maneuver
+Greater Good
 Pir, Imaginative Rascal
 Swords to Plowshares
-Spellseeker
+Virtus the Veiled
 Generous Patron
+Spellseeker
 Sentinel Tower
-Stolen Strategy
 Vigor
+Stolen Strategy
 Peregrine Drake
 Tidespout Tyrant
+Pir's Whim
 Genesis Chamber
-Virtus the Veiled
 Plains
 Khorvath's Fury
-Angelic Chorus
 Bonus Round
-Pir's Whim
-Morphic Pool
-Toothy, Imaginary Friend
-Bountiful Promenade
-Sea of Clouds
 Beast Within
+Angelic Chorus
+Bountiful Promenade
 Luxury Suite
 Kor Spiritdancer
-Last One Standing
-Sower of Temptation
+Sea of Clouds
 Diabolic Intent
+Last One Standing
+Morphic Pool
+Toothy, Imaginary Friend
+Sower of Temptation
 Magus of the Candelabra
 Spire Garden
 War's Toll
-Noosegraf Mob
 Thrilling Encore
 Krav, the Unredeemed
-Mountain
-Expedite
 Mind's Eye
+Noosegraf Mob
+Mountain
 Magmatic Force
-Game Plan
-Warrior Token (White 1/1)
+Expedite
 Sylvia Brightspear
-Bramble Sovereign
 Zndrsplt's Judgment
+Warrior Token (White 1/1)
+Bramble Sovereign
 Island
 Forest
 Arena Rector
+Gwafa Hazid, Profiteer
 Stunning Reversal
-Evil Twin
 Khorvath Brightflame
-Seedborn Muse
 Najeela, the Blade-Blossom
+Game Plan
+Seedborn Muse
 Chakram Retriever
-Play of the Game
-Fog Bank
-Archfiend of Despair
+Evil Twin
 Regna, the Redeemer
+Archfiend of Despair
+Play of the Game
 Elvish Visionary
-Savage Ventmaw
-Mystic Confluence
-Gorm the Great
-Together Forever
 Nirkana Revenant
+Fog Bank
+Gorm the Great
+Mystic Confluence
+Savage Ventmaw
 Tenacious Dead
 Myr Token (Artifact 1/1)
-Archon of Valor's Reach
+Together Forever
+Brightling
 Culling Dais
+Archon of Valor's Reach
+Apocalypse Hydra
 Rushblade Commander
 Grothama, All-Devouring
-Apocalypse Hydra
+Regna's Sanction
 Ley Weaver
 Rowan Kenrith (V.1)
-Regna's Sanction
-Gwafa Hazid, Profiteer
 Fumble
-Brightling
 Doubling Season
-Pulse of Murasa
-Will Kenrith (V.1)
 Long Road Home
+Pulse of Murasa
 Nyxathid
+Will Kenrith (V.1)
 Land Tax
 Negate
-Feral Hydra
+Dragon Breath
 Karametra's Favor
 Beast Token (Green 3/3)
 True-Name Nemesis
 Inner Demon
-Dragon Breath
-Swamp
 Morbid Curiosity
+Feral Hydra
 Juggernaut
 Mycosynth Lattice
-Dinrova Horror
 Unflinching Courage
+Swamp
 Arcane Artisan
-Battle Mastery
-Will Kenrith Emblem
-Veteran Explorer
-Blaring Recruiter
 Decorated Champion
+Goblin Razerunners
+Dinrova Horror
+Veteran Explorer
+Battle Mastery
+Shock
+Will Kenrith Emblem
+The Crowd Goes Wild
+Blaring Recruiter
 Painful Lesson
+Victory Chimes
 Thrasher Brute
 Blaring Captain
-Victory Chimes
-Swarm of Bloodflies
-Canopy Spider
-The Crowd Goes Wild
 Midnight Guard
+Canopy Spider
 Grotesque Mutation
+Swarm of Bloodflies
+Bathe in Dragonfire
+Doomed Dissenter
+Out of Bounds
+Gang Up
 Lore Weaver
-Oreskos Explorer
 Opportunity
 Phantom Warrior
 Quest for the Gravelord
 Shambling Ghoul
-Bathe in Dragonfire
 Dragon Hatchling
-Shock
-Fertilid
 Pierce Strider
 Rowan Kenrith Emblem
-Doomed Dissenter
 Soulblade Corrupter
-Out of Bounds
-Gang Up
+Jungle Wayfinder
+Oreskos Explorer
 Rotfeaster Maggot
-Goblin Razerunners
+Fertilid
 Spectral Searchlight
-Spirit Token (White 1/1)
 Boldwyr Intimidator
 Mangara of Corondor
 Angel of Retribution
 Liturgy of Blood
 Slum Reaper
-Flamewave Invoker
 Riptide Crab
+Huddle Up
 Soaring Show-Off
 Doomed Traveler
 Lava-Field Overlord
-Cheering Fanatic
 Nimbus Champion
 Switcheroo
+Blaze
+Flamewave Invoker
+Giant Growth
 Plated Crusher
+Wandering Wolf
 Consulate Skygate
+Spirit Token (White 1/1)
 Centaur Healer
 Daggerdrome Imp
 Dwarven Lightsmith
+Cheering Fanatic
 Bull-Rush Bruiser
 Vampire Charmseeker
 Hand of Silumgar
 Noxious Dragon
-Blaze
+Prakhata Club Security
 Ember Beast
 Enthralling Victor
 Reckless Reveler
 Aim High
 Enduring Scalelord
-Jelenn Sphinx
+Stone Golem
 Yotian Soldier
-Huddle Up
 Saltwater Stalwart
 Saddleback Lagac
-Prakhata Club Security
+Angelic Gift
+Last Gasp
 Blood Feud
 Primal Huntbeast
 Return to the Earth
-Wandering Wolf
 Kiss of the Amesha
 Rhox Brute
 Seer's Lantern
-Stone Golem
+Eager Construct
 Soulblade Renewer
-Jungle Wayfinder
 Stadium Vendors
 Bring Down
+Pacifism
 Nimbus of the Isles
 Assassin's Strike
 Eyeblight Assassin
-Last Gasp
 Battle Rampart
 Daggerback Basilisk
+Jelenn Sphinx
 Peace Strider
 Zombie Token (Black 2/2)
-Eager Construct
 Charging Binox
 Impetuous Protege
+Proud Mentor
 Kraken Hatchling
 Jubilant Mascot
 Aurora Champion
-Angelic Gift
 Loyal Pegasus
-Pacifism
+Rebuke
+Claustrophobia
+Kitesail Corsair
 Oracle's Insight
-Giant Growth
+Pathmaker Initiate
 Lead by Example
 Relentless Hunter
 Gold-Forged Sentinel
 Tyrant's Machine
 Zombie Giant Token (Black 5/5)
 Auger Spree
-Proud Mentor
 Shoulder to Shoulder
 Sickle Dancer
 Chakram Slinger
 Bloodborn Scoundrels
+Tandem Tactics
 Magma Hellion
 Raptor Companion
-Rebuke
+Silverchase Fox
 Solemn Offering
-Claustrophobia
-Kitesail Corsair
 Reckless Scholar
 Fill with Fright
 Screeching Buzzard
 Lightning Talons
-Pathmaker Initiate
+Thunder Strike
+Wrap in Flames
 Kraul Warrior
+Hexplate Golem
+Night Market Guard
 Fan Favorite
 Expedition Raptor
 Skystreamer
 Spellweaver Duo
-Tandem Tactics
 Combo Attack
 Azra Bladeseeker
 Champion of Arashin
 Lightwalker
 Royal Trooper
-Silverchase Fox
 Sparring Mummy
 Steppe Glider
 Take Up Arms
@@ -250,15 +254,11 @@ Tavern Swindler
 Battle-Rattle Shaman
 Borderland Marauder
 Earth Elemental
-Thunder Strike
 Trumpet Blast
-Wrap in Flames
 Charging Rhino
 Cowl Prowler
 Hunted Wumpus
 Urborg Drake
-Hexplate Golem
 Millennial Gargoyle
-Night Market Guard
 Will Kenrith (V.2)
 Rowan Kenrith (V.2)
