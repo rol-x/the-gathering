@@ -6,7 +6,7 @@ from random import normalvariate, random, sample
 import pandas as pd
 import mysql.connector
 from bs4 import BeautifulSoup
-from selenium import webdriver
+from selenium import webdriver, common
 from selenium.webdriver.firefox.options import Options
 
 # Global variables connected to this run of the code.
@@ -16,13 +16,14 @@ current_date_ID = 0
 # Global fixed variables
 base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
 users_url = 'https://www.cardmarket.com/en/Magic/Users/'
+max_wait = 3.0
 
 
 # Wait about mean_val seconds before proceeding to the rest of the code.
 def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
     std_val = mean_val * random() * 0.25 + 0.05
-    sleep_time = abs(normalvariate(mean_val, std_val)) + 0.1
+    sleep_time = abs(normalvariate(mean_val, std_val)) + 0.15
     log(f'Sleeping for {sleep_time} seconds')
     sleep(sleep_time)
 
@@ -104,10 +105,11 @@ def add_seller(seller_soup):
 
     # User not loaded correctly
     if seller_name is None:
-        realistic_pause(2.0)
+        realistic_pause(0.7*max_wait)
         log('Seller dropped!')
-        log(seller_soup.find("title"))
-        realistic_pause(2.0)
+        log(f'Bad page soup dumped to logs/soups/{log_soup(seller_soup)}.log'
+            + '\n')
+        realistic_pause(0.7*max_wait)
         return
 
     # Seller name
@@ -115,7 +117,7 @@ def add_seller(seller_soup):
 
     # Log
     log('Extracting seller info: ' + seller_name)
-    realistic_pause(2.5)
+    realistic_pause(0.8*max_wait)
 
     # Seller ID
     seller_df = load_df('seller')
@@ -190,8 +192,8 @@ def add_date():
                         & (date_df['year'] == int(year))
                         & (date_df['time'] == date_time[1])]['date_ID']
     if(len(same_date) > 0):
-        print('Date [' + date_time[0] + ' ' + date_time[1]
-              + '] already added: date_ID=' + str(same_date.values[0]))
+        print(f'Date [{date_time[0]} {date_time[1]}] '
+              + 'already added (date_ID: {same_date.values[0]})')
         return same_date.values[0]
 
     # Save the date with its own ID to local file
@@ -209,9 +211,9 @@ def add_date():
     log_filename = day + month + year + "_" \
         + date_time[1][:2] + date_time[1][3:5] + ".log"
 
-    # Logging
-    log('Date [' + date_time[0] + ' ' + date_time[1]
-        + '] added: date_ID=' + str(date_ID))
+    # Log file creation and first entry
+    prepare_log_files()
+    log(f'Date {date_time[0]} {date_time[1]} added\tdate_ID: {date_ID}')
 
     # Return the current date ID
     return date_ID
@@ -298,23 +300,18 @@ def prepare_files():
     print('Local files ready')
 
 
-# Prepare the local log file.
-def prepare_log_file():
-    '''Prepare the local log file.'''
+# Prepare the local log files.
+def prepare_log_files():
+    '''Prepare the local log files.'''
     if not os.path.exists('logs'):
         os.mkdir('logs')
         print("Logs directory created")
+    if not os.path.exists('logs/soups'):
+        os.mkdir('logs/soups')
+        print("Soups directory created")
 
-    timestamp = datetime.now().strftime("%H:%M:%S")
-    local_log = open('logs/' + log_filename, 'a+', encoding="utf-8")
-    if os.path.getsize('logs/' + log_filename):
-        local_log.write(timestamp + ": Another run logged to this file" + '\n')
-    else:
-        local_log.write(timestamp + ": Created this file")
-    local_log.close()
-
-    # Console logging
-    print('Log file ready')
+    # Log creation of the file
+    log("Creation of this file")
 
 
 # Prepare the expansion cards list file.
@@ -434,7 +431,7 @@ def get_card_names(driver, expansion_name):
 
         # Check if there is a saved complete list of cards from this expansion
         if get_card_hits(list_soup) == len(saved_cards):
-            log("All card names already saved")
+            log(f"Card names from {expansion_name} are already saved\n")
             return saved_cards
 
         for card in card_elements:
@@ -447,7 +444,7 @@ def get_card_names(driver, expansion_name):
 
         # Advance to the next page
         page_no += 1
-        realistic_pause(0.5)
+        realistic_pause(0.2*max_wait)
 
     # Save the complete cards list to a file
     exp_file = open('data/' + exp_filename + '.txt', 'w', encoding="utf-8")
@@ -462,14 +459,17 @@ def get_card_names(driver, expansion_name):
 # Deplete the Load More button to have a complete list of card sellers.
 def click_load_more_button(driver):
     '''Deplete the Load More button to have a complete list of card sellers.'''
-    while True:
-        realistic_pause(0.5)
-        load_more_button = driver \
-            .find_element_by_xpath('//button[@id="loadMoreButton"]')
-        if load_more_button.text == "":
-            break
-        driver.execute_script("arguments[0].click();", load_more_button)
-        log('Extending the sellers view...')
+    try:
+        while True:
+            load_more_button = driver \
+                .find_element_by_xpath('//button[@id="loadMoreButton"]')
+            if load_more_button.text == "":
+                break
+            driver.execute_script("arguments[0].click();", load_more_button)
+            log('Extending the sellers view...')
+            realistic_pause(0.2*max_wait)
+    except common.exceptions.NoSuchElementException as no_button:
+        log(f"No button found on page {driver.current_url}")
 
 
 # Return a list of all sellers found in a card page.
@@ -520,10 +520,31 @@ def is_valid_card_page(card_soup):
 # Log a message to a local file and the console.
 def log(msg):
     '''Log a message to a local file and the console.'''
+    msg = str(msg)
     with open('logs/' + log_filename, 'a', encoding="utf-8") as logfile:
         timestamp = datetime.now().strftime("%H:%M:%S")
         logfile.write(timestamp + ": " + msg + "\n")
     print(msg)
+
+
+# Log a soup to a separate file for inspection.
+def log_soup(soup):
+    '''Log a soup to a separate file for inspection.'''
+    # Chose available soup identification number and create a filename
+    soup_names = os.listdir('logs/soups')
+    print(soup_names)  # Debug
+    while True:
+        soup_id = random.randint()
+        filename = str(soup_id) + '.log'
+        if filename not in soup_names:
+            break
+
+    # Create a file and dump the soup inside
+    with open(filename, 'w+', encoding="utf-8") as soup_file:
+        soup_file.write(soup)
+
+    # Return the soup identification number for diagnostic purposes
+    return soup_id
 
 
 # Main function
@@ -534,7 +555,6 @@ if __name__ == "__main__":
     current_date_ID = add_date()
     expansion_name = 'Battlebond'
     prepare_expansion_list_file(expansion_name)
-    prepare_log_file()
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
     cached_pages = []
@@ -546,9 +566,9 @@ if __name__ == "__main__":
         # Craft the card url and open it with the driver
         card_url_name = urlify(card_name)
         card_url = base_url + expansion_name + '/' + card_url_name
-        log_url(driver.current_url)
-        realistic_pause(1.5)
         driver.get(card_url)
+        log_url(driver.current_url)
+        realistic_pause(0.6*max_wait)
         click_load_more_button(driver)
 
         # Add the parsed page content to the list for later use
@@ -560,7 +580,7 @@ if __name__ == "__main__":
 
         # Check if a recent record already exists
         if is_card_recently_saved(card_name):
-            log('Not saving\n')
+            log('Already saved: ' + card_name + '\n')
         else:
             add_card(card_soup)
 
@@ -570,7 +590,7 @@ if __name__ == "__main__":
 
             # Check if a recent record already exists
             if is_seller_saved(seller_name):
-                log('Not saving: ' + seller_name + ' (already saved)\n')
+                log('Already saved: ' + seller_name + '\n')
             else:
                 driver.get(users_url + seller_name)
                 seller_soup = BeautifulSoup(driver.page_source, 'html.parser')

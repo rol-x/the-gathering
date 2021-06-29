@@ -1,0 +1,3240 @@
+01:50:40: Creation of this file
+01:50:40: Date 29/06/2021 01:50 added	date_ID: 31
+01:50:40: Opening the webdriver
+01:50:45: Webdriver ready
+01:50:45: Database connection established
+01:50:46: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+01:50:46: Card names from Battlebond are already saved
+
+01:50:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+01:50:47: Sleeping for 2.4958102941859934 seconds
+01:50:49: Sleeping for 0.6902057996068 seconds
+01:50:50: Extending the sellers view...
+01:50:50: Sleeping for 0.6174610204199867 seconds
+01:50:51: Extending the sellers view...
+01:50:51: Sleeping for 0.6613557618239585 seconds
+01:50:51: Extending the sellers view...
+01:50:51: Sleeping for 0.6373951816396604 seconds
+01:50:52: Extending the sellers view...
+01:50:52: Sleeping for 0.6566738186524456 seconds
+01:50:53: [read card]
+01:50:53: [read date]
+01:50:53: Card Skyshroud Claim saved recently (01:41)
+01:50:53: Already saved: Skyshroud Claim
+
+01:50:53: [read seller]
+01:50:53: Already saved: PartyNator
+
+01:50:53: [read seller]
+01:50:53: Already saved: CValle
+
+01:50:53: [read seller]
+01:50:53: Already saved: MarcoSanzin
+
+01:50:53: [read seller]
+01:50:53: Already saved: MagicBivio
+
+01:50:53: [read seller]
+01:50:53: Already saved: Tezzeret84
+
+01:50:53: [read seller]
+01:50:53: Already saved: Lordburka
+
+01:50:53: [read seller]
+01:50:53: Already saved: Lanowar69
+
+01:50:53: [read seller]
+01:50:53: Already saved: Topdeckskills
+
+01:50:53: [read seller]
+01:50:53: Already saved: magicpartcard
+
+01:50:53: [read seller]
+01:50:53: Already saved: stanislaf
+
+01:50:53: [read seller]
+01:50:53: Already saved: Thrymiir
+
+01:50:53: [read seller]
+01:50:53: Already saved: daidojilaurent
+
+01:50:53: [read seller]
+01:50:53: Already saved: sovmar
+
+01:50:53: [read seller]
+01:50:53: Already saved: Ceribe
+
+01:50:53: [read seller]
+01:50:53: Already saved: Felixuco
+
+01:50:53: [read seller]
+01:50:53: Already saved: Richaardi
+
+01:50:53: [read seller]
+01:50:53: Already saved: diddos
+
+01:50:53: [read seller]
+01:50:53: Already saved: dakkon87
+
+01:50:53: [read seller]
+01:50:53: Already saved: Mirikov
+
+01:50:53: [read seller]
+01:50:53: Already saved: BrandyBrand
+
+01:50:53: [read seller]
+01:50:53: Already saved: CommanderStaples
+
+01:50:53: [read seller]
+01:50:53: Already saved: BechaMecha
+
+01:50:53: [read seller]
+01:50:53: Already saved: MadridMagic
+
+01:50:53: [read seller]
+01:50:53: Already saved: DombekTorun
+
+01:50:53: [read seller]
+01:50:53: Already saved: BaukeS
+
+01:50:53: [read seller]
+01:50:53: Already saved: plkfd
+
+01:50:53: [read seller]
+01:50:53: Already saved: quasimoto
+
+01:50:53: [read seller]
+01:50:53: Already saved: Zoocomics
+
+01:50:53: [read seller]
+01:50:53: Already saved: MTG-Prime
+
+01:50:53: [read seller]
+01:50:53: Already saved: FrankvdWaals
+
+01:50:53: [read seller]
+01:50:53: Already saved: GunCha
+
+01:50:53: [read seller]
+01:50:53: Already saved: hobbitfred
+
+01:50:53: [read seller]
+01:50:53: Already saved: Tyron-Heartz
+
+01:50:53: [read seller]
+01:50:53: Already saved: cultus
+
+01:50:53: [read seller]
+01:50:53: Already saved: bendu71
+
+01:50:53: [read seller]
+01:50:53: Already saved: Kungfupeet
+
+01:50:53: [read seller]
+01:50:53: Already saved: TheCoonRises
+
+01:50:53: [read seller]
+01:50:53: Already saved: kARNN
+
+01:50:53: [read seller]
+01:50:53: Already saved: RedDragonMagic
+
+01:50:53: [read seller]
+01:50:53: Already saved: fuxxi
+
+01:50:53: [read seller]
+01:50:53: Already saved: maglaf88
+
+01:50:53: [read seller]
+01:50:53: Already saved: antonio-muenster
+
+01:50:53: [read seller]
+01:50:53: Already saved: Dinis
+
+01:50:53: [read seller]
+01:50:53: Already saved: Akroma44
+
+01:50:53: [read seller]
+01:50:53: Already saved: 38Shizo
+
+01:50:53: [read seller]
+01:50:53: Already saved: Matze-KungFury
+
+01:50:53: [read seller]
+01:50:53: Already saved: pantufas
+
+01:50:53: [read seller]
+01:50:53: Already saved: Loui0
+
+01:50:53: [read seller]
+01:50:53: Already saved: tennlos
+
+01:50:53: [read seller]
+01:50:53: Already saved: MagicNexus
+
+01:50:53: [read seller]
+01:50:53: Already saved: SimonJack88
+
+01:50:53: [read seller]
+01:50:53: Already saved: JohnWizard
+
+01:50:53: [read seller]
+01:50:53: Already saved: Rarehuntershop
+
+01:50:53: [read seller]
+01:50:53: Already saved: CardStoreAlcamo
+
+01:50:53: [read seller]
+01:50:53: Already saved: Brenag
+
+01:50:53: [read seller]
+01:50:53: Already saved: Magicdealer-patte-de
+
+01:50:53: [read seller]
+01:50:53: Already saved: Magicshop2000
+
+01:50:53: [read seller]
+01:50:53: Already saved: DiamondValley
+
+01:50:53: [read seller]
+01:50:53: Already saved: maglaf88
+
+01:50:53: [read seller]
+01:50:53: Already saved: Kartenkoenig
+
+01:50:53: [read seller]
+01:50:53: Already saved: Zaki23
+
+01:50:53: [read seller]
+01:50:53: Already saved: kfranklin12
+
+01:50:53: [read seller]
+01:50:53: Already saved: hespacc
+
+01:50:53: [read seller]
+01:50:53: Already saved: Mirrankreuzritter
+
+01:50:53: [read seller]
+01:50:53: Already saved: matiasgabarron
+
+01:50:53: [read seller]
+01:50:53: Already saved: HiveGames
+
+01:50:53: [read seller]
+01:50:53: Already saved: mtg-discounter24
+
+01:50:53: [read seller]
+01:50:53: Already saved: Athabasca
+
+01:50:53: [read seller]
+01:50:53: Already saved: Twoshop
+
+01:50:53: [read seller]
+01:50:53: Already saved: DHGames
+
+01:50:53: [read seller]
+01:50:53: Already saved: ishotya
+
+01:50:53: [read seller]
+01:50:53: Already saved: DagonX
+
+01:50:53: [read seller]
+01:50:53: Already saved: landshome279
+
+01:50:53: [read seller]
+01:50:53: Already saved: satirobcn
+
+01:50:53: [read seller]
+01:50:53: Already saved: Bigs77
+
+01:50:53: [read seller]
+01:50:53: Already saved: gambo
+
+01:50:53: [read seller]
+01:50:53: Already saved: stamosm
+
+01:50:53: [read seller]
+01:50:53: Already saved: Bruce7506
+
+01:50:53: [read seller]
+01:50:53: Already saved: rakerone
+
+01:50:53: [read seller]
+01:50:53: Already saved: Mintcardgem
+
+01:50:53: [read seller]
+01:50:53: Already saved: AdrianMC
+
+01:50:53: [read seller]
+01:50:53: Already saved: Skiski
+
+01:50:53: [read seller]
+01:50:53: Already saved: rockardist
+
+01:50:53: [read seller]
+01:50:53: Already saved: DrDkt666
+
+01:50:53: [read seller]
+01:50:53: Already saved: Zoios
+
+01:50:53: [read seller]
+01:50:53: Already saved: Kuduce
+
+01:50:53: [read seller]
+01:50:53: Already saved: Mavado-Vemos
+
+01:50:53: [read seller]
+01:50:53: Already saved: Colovia
+
+01:50:53: [read seller]
+01:50:53: Already saved: K40crew
+
+01:50:53: [read seller]
+01:50:53: Already saved: michaldurovic
+
+01:50:53: [read seller]
+01:50:53: Already saved: Muttonium
+
+01:50:53: [read seller]
+01:50:53: Already saved: Adway
+
+01:50:53: [read seller]
+01:50:53: Already saved: Carioca9987
+
+01:50:53: [read seller]
+01:50:53: Already saved: maxsilver
+
+01:50:53: [read seller]
+01:50:53: Already saved: pbjoker
+
+01:50:53: [read seller]
+01:50:53: Already saved: pbjoker
+
+01:50:53: [read seller]
+01:50:53: Already saved: Ghostlo
+
+01:50:53: [read seller]
+01:50:54: Already saved: Magicshop2000
+
+01:50:54: [read seller]
+01:50:54: Already saved: CrazyComicsAndGames
+
+01:50:54: [read seller]
+01:50:54: Already saved: Abdelbach
+
+01:50:54: [read seller]
+01:50:54: Already saved: heckman
+
+01:50:54: [read seller]
+01:50:54: Already saved: Zloch
+
+01:50:54: [read seller]
+01:50:54: Already saved: Ceribe
+
+01:50:54: [read seller]
+01:50:54: Already saved: deathhenker
+
+01:50:54: [read seller]
+01:50:54: Already saved: OutpostBrussels
+
+01:50:54: [read seller]
+01:50:54: Already saved: Zakk67
+
+01:50:54: [read seller]
+01:50:54: Already saved: zalakke
+
+01:50:54: [read seller]
+01:50:54: Already saved: CardCastle
+
+01:50:54: [read seller]
+01:50:54: Already saved: Admiral-Haze
+
+01:50:54: [read seller]
+01:50:54: Already saved: Moltras
+
+01:50:54: [read seller]
+01:50:54: Already saved: Moltras
+
+01:50:54: [read seller]
+01:50:54: Already saved: masa
+
+01:50:54: [read seller]
+01:50:54: Already saved: roughy
+
+01:50:54: [read seller]
+01:50:54: Already saved: cornelius59
+
+01:50:54: [read seller]
+01:50:54: Already saved: Zoocomics
+
+01:50:54: [read seller]
+01:50:54: Already saved: seagel
+
+01:50:54: [read seller]
+01:50:54: Already saved: D-Insane
+
+01:50:54: [read seller]
+01:50:54: Already saved: elliot1990pl
+
+01:50:54: [read seller]
+01:50:54: Already saved: evertk
+
+01:50:54: [read seller]
+01:50:54: Already saved: matic
+
+01:50:54: [read seller]
+01:50:54: Already saved: dommedag
+
+01:50:54: [read seller]
+01:50:54: Already saved: Quilombero
+
+01:50:54: [read seller]
+01:50:54: Already saved: TizziTizzi
+
+01:50:54: [read seller]
+01:50:54: Already saved: leonin
+
+01:50:54: [read seller]
+01:50:54: Already saved: Lorena
+
+01:50:54: [read seller]
+01:50:54: Already saved: JJ-Finkleton
+
+01:50:54: [read seller]
+01:50:54: Already saved: Boromol
+
+01:50:54: [read seller]
+01:50:54: Already saved: flosiii
+
+01:50:54: [read seller]
+01:50:54: Already saved: jerome34
+
+01:50:54: [read seller]
+01:50:54: Already saved: punkboy48
+
+01:50:54: [read seller]
+01:50:54: Already saved: MagicTradeHouseNo1
+
+01:50:54: [read seller]
+01:50:54: Already saved: DavidxRodx
+
+01:50:54: [read seller]
+01:50:54: Already saved: NicoDN
+
+01:50:54: [read seller]
+01:50:54: Already saved: Strat066
+
+01:50:54: [read seller]
+01:50:54: Already saved: ClemFr
+
+01:50:54: [read seller]
+01:50:54: Already saved: MaxiM87
+
+01:50:54: [read seller]
+01:50:54: Already saved: Sadquatch
+
+01:50:54: [read seller]
+01:50:54: Already saved: Games-Island
+
+01:50:54: [read seller]
+01:50:54: Already saved: Mazvigosl
+
+01:50:54: [read seller]
+01:50:54: Already saved: DonMTG
+
+01:50:54: [read seller]
+01:50:54: Already saved: MagicBarcelona
+
+01:50:54: [read seller]
+01:50:54: Already saved: das-Marmak
+
+01:50:54: [read seller]
+01:50:54: Already saved: Rusty2410
+
+01:50:54: [read seller]
+01:50:54: Already saved: tuvok85
+
+01:50:54: [read seller]
+01:50:54: Already saved: Jurgencreyf
+
+01:50:54: [read seller]
+01:50:54: Already saved: LotusGarden
+
+01:50:54: [read seller]
+01:50:54: Already saved: buchanin
+
+01:50:54: [read seller]
+01:50:54: Already saved: gabrielooos93
+
+01:50:54: [read seller]
+01:50:54: Already saved: MishrasCardshop
+
+01:50:54: [read seller]
+01:50:54: Already saved: MrclBok
+
+01:50:54: [read seller]
+01:50:54: Already saved: MagicEmporium
+
+01:50:54: [read seller]
+01:50:54: Already saved: Harakesh
+
+01:50:54: [read seller]
+01:50:54: Already saved: The-Inn-TCG
+
+01:50:54: [read seller]
+01:50:54: Already saved: DrawstepGD
+
+01:50:54: [read seller]
+01:50:54: Already saved: magictuga
+
+01:50:54: [read seller]
+01:50:54: Already saved: Ghostlo
+
+01:50:54: [read seller]
+01:50:54: Already saved: Ghostlo
+
+01:50:54: [read seller]
+01:50:54: Already saved: Abdelbach
+
+01:50:54: [read seller]
+01:50:54: Already saved: Igibert
+
+01:50:54: [read seller]
+01:50:54: Already saved: MagicTradeHouseNo1
+
+01:50:54: [read seller]
+01:50:54: Already saved: pl0wbeast
+
+01:50:54: [read seller]
+01:50:54: Already saved: Moria05
+
+01:50:54: [read seller]
+01:50:54: Already saved: DrawstepGD
+
+01:50:54: [read seller]
+01:50:54: Already saved: Igibert
+
+01:50:54: [read seller]
+01:50:54: Already saved: FKTRD
+
+01:50:54: [read seller]
+01:50:54: Already saved: PlayTimeComo
+
+01:50:54: [read seller]
+01:50:54: Already saved: Grecutus
+
+01:50:54: [read seller]
+01:50:54: Already saved: kreaten
+
+01:50:54: [read seller]
+01:50:54: Already saved: ZackyVeah
+
+01:50:54: [read seller]
+01:50:54: Already saved: HeinerBremer
+
+01:50:54: [read seller]
+01:50:54: Already saved: WizardshopCz
+
+01:50:54: [read seller]
+01:50:54: Already saved: Wildfirestore
+
+01:50:54: [read seller]
+01:50:54: Already saved: Zebratus
+
+01:50:54: [read seller]
+01:50:54: Already saved: willybizarre
+
+01:50:54: [read seller]
+01:50:54: Already saved: Outpostgamecenter
+
+01:50:54: [read seller]
+01:50:54: Already saved: Galactus-Roma
+
+01:50:54: [read seller]
+01:50:54: Already saved: CardsMania
+
+01:50:54: [read seller]
+01:50:54: Already saved: CARAB
+
+01:50:54: [read seller]
+01:50:54: Already saved: magiccorner
+
+01:50:54: [read seller]
+01:50:54: Already saved: DRAGONCT
+
+01:50:54: [read seller]
+01:50:54: Already saved: Metropolis-Center
+
+01:50:54: [read seller]
+01:50:54: Already saved: NobleGarden
+
+01:50:54: [read seller]
+01:50:54: Already saved: pl0wbeast
+
+01:50:54: [read seller]
+01:50:54: Already saved: pl0wbeast
+
+01:50:54: [read seller]
+01:50:54: Already saved: pl0wbeast
+
+01:50:54: [read seller]
+01:50:54: Already saved: Skaldenmagie
+
+01:50:54: [read seller]
+01:50:54: Already saved: Bjiarni
+
+01:50:54: [read seller]
+01:50:54: Already saved: Goshar
+
+01:50:54: [read seller]
+01:50:54: Already saved: das-Marmak
+
+01:50:54: [read seller]
+01:50:54: Already saved: Kuldotha-Bazaar
+
+01:50:54: [read seller]
+01:50:54: Already saved: Nightshade-Shop
+
+01:50:54: [read seller]
+01:50:54: Already saved: PlaceOfGeek
+
+01:50:54: [read seller]
+01:50:54: Already saved: LotusVale-Bochum
+
+01:50:54: [read seller]
+01:50:54: Already saved: Deprolloneon
+
+01:50:54: [read seller]
+01:50:54: Already saved: zarcenas
+
+01:50:54: [read seller]
+01:50:54: Already saved: DoozEscape
+
+01:50:54: [read seller]
+01:50:54: Already saved: Baldur82
+
+01:50:54: [read seller]
+01:50:54: Already saved: Baldur82
+
+01:50:54: [read seller]
+01:50:54: Already saved: delmas
+
+01:50:54: [read seller]
+01:50:54: Already saved: TolarianBrewAcademy
+
+01:50:54: [read seller]
+01:50:54: Already saved: TCG-entertainment
+
+01:50:54: [read seller]
+01:50:54: Already saved: DragonReikaiGames
+
+01:50:54: [read seller]
+01:50:54: Already saved: Abdelbach
+
+01:50:54: [read seller]
+01:50:54: Already saved: JM123
+
+01:50:54: [read seller]
+01:50:54: Already saved: normans
+
+01:50:54: [read seller]
+01:50:54: Already saved: Gunship-Games
+
+01:50:54: [read seller]
+01:50:54: Already saved: Mazvigosl
+
+01:50:54: [read seller]
+01:50:54: Already saved: jokerbovisa
+
+01:50:54: [read seller]
+01:50:54: Already saved: Playin
+
+01:50:54: [read seller]
+01:50:54: Already saved: House-of-Games
+
+01:50:54: [read seller]
+01:50:54: Already saved: karmacrow
+
+01:50:54: [read seller]
+01:50:54: Already saved: BB-Spiele
+
+01:50:54: [read seller]
+01:50:54: Already saved: SpielRaum
+
+01:50:54: [read seller]
+01:50:54: Already saved: SpielRaum
+
+01:50:54: [read seller]
+01:50:54: Already saved: House-of-Games
+
+01:50:54: [read seller]
+01:50:54: Already saved: Deprolloneon
+
+01:50:54: [read seller]
+01:50:54: Already saved: JohnWizard
+
+01:50:54: [read seller]
+01:50:54: Already saved: SVKZeke
+
+01:50:54: [read seller]
+01:50:54: Already saved: SVKZeke
+
+01:50:54: [read seller]
+01:50:54: Already saved: AboveGodlike
+
+01:50:54: [read seller]
+01:50:54: Already saved: webuyanycard
+
+01:50:54: [read seller]
+01:50:54: Already saved: Kiki237
+
+01:50:54: [read seller]
+01:50:54: Already saved: Antonius
+
+01:50:54: [read seller]
+01:50:54: Already saved: LPPCOLLECTING-IT-SRL
+
+01:50:54: [read seller]
+01:50:54: Already saved: MagicBarcelona
+
+01:50:54: [read seller]
+01:50:54: Already saved: toycastle
+
+01:50:54: [read seller]
+01:50:54: Already saved: masa
+
+01:50:54: [read seller]
+01:50:54: Already saved: Rusty2410
+
+01:50:54: [read seller]
+01:50:54: Already saved: TimeaB
+
+01:50:54: [read seller]
+01:50:54: Already saved: Kartenkoenig
+
+01:50:54: [read seller]
+01:50:54: Already saved: DRAGONCT
+
+01:50:54: [read seller]
+01:50:54: Already saved: TimeaB
+
+01:50:54: [read seller]
+01:50:54: Already saved: roughy
+
+01:50:54: [read seller]
+01:50:54: Already saved: martial-alters
+
+01:50:54: [read seller]
+01:50:54: Already saved: martial-alters
+
+01:50:54: [read seller]
+01:50:54: Already saved: Mazvigosl
+
+01:50:55: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+01:50:55: Sleeping for 1.7107208168226309 seconds
+01:50:57: Sleeping for 0.6466094912929664 seconds
+01:50:57: Extending the sellers view...
+01:50:57: Sleeping for 0.6634890785760185 seconds
+01:50:58: Extending the sellers view...
+01:50:58: Sleeping for 0.6556123670499638 seconds
+01:50:59: Extending the sellers view...
+01:50:59: Sleeping for 0.6068503631511959 seconds
+01:50:59: Extending the sellers view...
+01:50:59: Sleeping for 0.5155231169194621 seconds
+01:51:00: Extending the sellers view...
+01:51:00: Sleeping for 0.6440146820800242 seconds
+01:51:01: Extending the sellers view...
+01:51:01: Sleeping for 0.8048848382652113 seconds
+01:51:02: Extending the sellers view...
+01:51:02: Sleeping for 0.4588647459728702 seconds
+01:51:02: Extending the sellers view...
+01:51:02: Sleeping for 0.4471561179086532 seconds
+01:51:03: [read card]
+01:51:03: [read date]
+01:51:03: [read card]
+01:51:03: [write card]
+01:51:03: Card added: 	Impulse
+
+01:51:03: [read seller]
+01:51:03: Already saved: replicart71
+
+01:51:03: [read seller]
+01:51:03: Already saved: WhiteFoxThree
+
+01:51:03: [read seller]
+01:51:03: Already saved: Jean-Claire
+
+01:51:03: [read seller]
+01:51:03: Already saved: Jean-Claire
+
+01:51:03: [read seller]
+01:51:03: Already saved: NuggetGaming
+
+01:51:03: [read seller]
+01:51:03: Already saved: ctouya
+
+01:51:03: [read seller]
+01:51:03: Already saved: Giftsungiven
+
+01:51:03: [read seller]
+01:51:03: Already saved: Emisary121
+
+01:51:03: [read seller]
+01:51:03: Already saved: Espell
+
+01:51:03: [read seller]
+01:51:03: Already saved: ruben52
+
+01:51:03: [read seller]
+01:51:03: Already saved: procards
+
+01:51:03: [read seller]
+01:51:03: Already saved: ludovic1968
+
+01:51:03: [read seller]
+01:51:03: Already saved: valis
+
+01:51:03: [read seller]
+01:51:03: Already saved: antonio-muenster
+
+01:51:03: [read seller]
+01:51:03: Already saved: NoDrummer
+
+01:51:03: [read seller]
+01:51:03: Already saved: Styliann
+
+01:51:03: [read seller]
+01:51:03: Already saved: yannloison13
+
+01:51:03: [read seller]
+01:51:03: Already saved: masistuta
+
+01:51:03: [read seller]
+01:51:03: Already saved: Trade-Secrets
+
+01:51:03: [read seller]
+01:51:03: Already saved: phagma
+
+01:51:03: [read seller]
+01:51:03: Already saved: Gautch
+
+01:51:03: [read seller]
+01:51:03: Already saved: txbcards
+
+01:51:03: [read seller]
+01:51:03: Already saved: Knightnight
+
+01:51:03: [read seller]
+01:51:03: Already saved: karasofr
+
+01:51:03: [read seller]
+01:51:03: Already saved: Pa-t-ch
+
+01:51:03: [read seller]
+01:51:03: Already saved: rogiol
+
+01:51:03: [read seller]
+01:51:03: Already saved: danieldisco
+
+01:51:03: [read seller]
+01:51:03: Already saved: Admiral-Haze
+
+01:51:03: [read seller]
+01:51:03: Already saved: aleeuwen1
+
+01:51:03: [read seller]
+01:51:03: Already saved: Geek-Corner
+
+01:51:03: [read seller]
+01:51:03: Already saved: Stefouch
+
+01:51:03: [read seller]
+01:51:03: Already saved: MarcoSanzin
+
+01:51:03: [read seller]
+01:51:03: Already saved: PartyNator
+
+01:51:03: [read seller]
+01:51:03: Already saved: pisqnek
+
+01:51:03: [read seller]
+01:51:03: Already saved: Goodlookgamer
+
+01:51:03: [read seller]
+01:51:03: Already saved: TopdeckDK
+
+01:51:03: [read seller]
+01:51:03: Already saved: sedehiMTG
+
+01:51:03: [read seller]
+01:51:03: Already saved: Magiccardshop
+
+01:51:03: [read seller]
+01:51:03: Already saved: TCGWarehouse
+
+01:51:03: [read seller]
+01:51:03: Already saved: helpoemer
+
+01:51:03: [read seller]
+01:51:03: Already saved: Nerd-Shop
+
+01:51:03: [read seller]
+01:51:03: Already saved: Andycards
+
+01:51:03: [read seller]
+01:51:03: Already saved: weißer-Lotus
+
+01:51:03: [read seller]
+01:51:03: Already saved: sanjic
+
+01:51:03: [read seller]
+01:51:03: Already saved: MagusDoVinhedo
+
+01:51:03: [read seller]
+01:51:03: Already saved: Wintereinbruch
+
+01:51:03: [read seller]
+01:51:03: Already saved: Kissmaiass
+
+01:51:03: [read seller]
+01:51:03: Already saved: thewirtschaftswunder
+
+01:51:03: [read seller]
+01:51:03: Already saved: BaukeS
+
+01:51:03: [read seller]
+01:51:03: Already saved: Blackbolt
+
+01:51:03: [read seller]
+01:51:03: Already saved: Ex0rcist
+
+01:51:03: [read seller]
+01:51:03: Already saved: nicororix
+
+01:51:04: [read seller]
+01:51:04: Already saved: petedk
+
+01:51:04: [read seller]
+01:51:04: Already saved: Rhaegar-LR
+
+01:51:04: [read seller]
+01:51:04: Already saved: Benben78
+
+01:51:04: [read seller]
+01:51:04: Already saved: kevkev
+
+01:51:04: [read seller]
+01:51:04: Already saved: Cohnjollins
+
+01:51:04: [read seller]
+01:51:04: Already saved: jeristy
+
+01:51:04: [read seller]
+01:51:04: Already saved: N3B3L
+
+01:51:04: [read seller]
+01:51:04: Already saved: plkfd
+
+01:51:04: [read seller]
+01:51:04: Already saved: oschulte
+
+01:51:04: [read seller]
+01:51:04: Already saved: Danedeluxe
+
+01:51:04: [read seller]
+01:51:04: Already saved: Theuderich
+
+01:51:04: [read seller]
+01:51:04: Already saved: GobboDealer
+
+01:51:04: [read seller]
+01:51:04: Already saved: Nihili
+
+01:51:04: [read seller]
+01:51:04: Already saved: Lighting
+
+01:51:04: [read seller]
+01:51:04: Already saved: helldanno
+
+01:51:04: [read seller]
+01:51:04: Already saved: Akroma1987
+
+01:51:04: [read seller]
+01:51:04: Already saved: Jacob8800
+
+01:51:04: [read seller]
+01:51:04: Already saved: Muskatnuss6
+
+01:51:04: [read seller]
+01:51:04: Already saved: Diogenes
+
+01:51:04: [read seller]
+01:51:04: Already saved: AdrianMC
+
+01:51:04: [read seller]
+01:51:04: Already saved: SpecialOne28
+
+01:51:04: [read seller]
+01:51:04: Already saved: emanuelemarket
+
+01:51:04: [read seller]
+01:51:04: Already saved: DrDkt666
+
+01:51:04: [read seller]
+01:51:04: Already saved: Maumoleseullevrai
+
+01:51:04: [read seller]
+01:51:04: Already saved: alfredjkwak
+
+01:51:04: [read seller]
+01:51:04: Already saved: Iscalia
+
+01:51:04: [read seller]
+01:51:04: Already saved: PzychoL
+
+01:51:04: [read seller]
+01:51:04: Already saved: Belkeen
+
+01:51:04: [read seller]
+01:51:04: Already saved: NickyBluepants
+
+01:51:04: [read seller]
+01:51:04: Already saved: Trudlo
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mtg-volos
+
+01:51:04: [read seller]
+01:51:04: Already saved: MBrinch
+
+01:51:04: [read seller]
+01:51:04: Already saved: Madveek
+
+01:51:04: [read seller]
+01:51:04: Already saved: ggmagic
+
+01:51:04: [read seller]
+01:51:04: Already saved: Geeksandgamers
+
+01:51:04: [read seller]
+01:51:04: Already saved: KrayBoul
+
+01:51:04: [read seller]
+01:51:04: Already saved: JoeyMoey
+
+01:51:04: [read seller]
+01:51:04: Already saved: daktylus75
+
+01:51:04: [read seller]
+01:51:04: Already saved: DagonX
+
+01:51:04: [read seller]
+01:51:04: Already saved: dakkon87
+
+01:51:04: [read seller]
+01:51:04: Already saved: bouzekry
+
+01:51:04: [read seller]
+01:51:04: Already saved: mattopul
+
+01:51:04: [read seller]
+01:51:04: Already saved: Cypress
+
+01:51:04: [read seller]
+01:51:04: Already saved: LorenzMatterhorn
+
+01:51:04: [read seller]
+01:51:04: Already saved: Diogenes
+
+01:51:04: [read seller]
+01:51:04: Already saved: RFD94
+
+01:51:04: [read seller]
+01:51:04: Already saved: sedehiMTG
+
+01:51:04: [read seller]
+01:51:04: Already saved: cernyrytir
+
+01:51:04: [read seller]
+01:51:04: Already saved: Hobby-Games
+
+01:51:04: [read seller]
+01:51:04: Already saved: elrincondelhobby
+
+01:51:04: [read seller]
+01:51:04: Already saved: JoeBuddha
+
+01:51:04: [read seller]
+01:51:04: Already saved: Psiakowy
+
+01:51:04: [read seller]
+01:51:04: Already saved: ggmagic
+
+01:51:04: [read seller]
+01:51:04: Already saved: NEMESIS23180
+
+01:51:04: [read seller]
+01:51:04: Already saved: Alexander1907
+
+01:51:04: [read seller]
+01:51:04: Already saved: AVATAR-PL
+
+01:51:04: [read seller]
+01:51:04: Already saved: LudoB
+
+01:51:04: [read seller]
+01:51:04: Already saved: Athabasca
+
+01:51:04: [read seller]
+01:51:04: Already saved: Meistermeuchler
+
+01:51:04: [read seller]
+01:51:04: Already saved: Gferro
+
+01:51:04: [read seller]
+01:51:04: Already saved: Bestialos
+
+01:51:04: [read seller]
+01:51:04: Already saved: Hellcat
+
+01:51:04: [read seller]
+01:51:04: Already saved: hefaistos
+
+01:51:04: [read seller]
+01:51:04: Already saved: pbjoker
+
+01:51:04: [read seller]
+01:51:04: Already saved: caceres2020
+
+01:51:04: [read seller]
+01:51:04: Already saved: Reitina
+
+01:51:04: [read seller]
+01:51:04: Already saved: CardStore-Blois
+
+01:51:04: [read seller]
+01:51:04: Already saved: vale46
+
+01:51:04: [read seller]
+01:51:04: Already saved: Sinici1992
+
+01:51:04: [read seller]
+01:51:04: Already saved: Trons63
+
+01:51:04: [read seller]
+01:51:04: Already saved: tschudti
+
+01:51:04: [read seller]
+01:51:04: Already saved: Ersanto
+
+01:51:04: [read seller]
+01:51:04: Already saved: Alexsoul
+
+01:51:04: [read seller]
+01:51:04: Already saved: MTG-Prime
+
+01:51:04: [read seller]
+01:51:04: Already saved: feanor986
+
+01:51:04: [read seller]
+01:51:04: Already saved: davebeelen
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mintcardgem
+
+01:51:04: [read seller]
+01:51:04: Already saved: Skiski
+
+01:51:04: [read seller]
+01:51:04: Already saved: JoeyMoey
+
+01:51:04: [read seller]
+01:51:04: Already saved: GunCha
+
+01:51:04: [read seller]
+01:51:04: Already saved: ClemFr
+
+01:51:04: [read seller]
+01:51:04: Already saved: JohnWizard
+
+01:51:04: [read seller]
+01:51:04: Already saved: Altezio
+
+01:51:04: [read seller]
+01:51:04: Already saved: ElFeeder
+
+01:51:04: [read seller]
+01:51:04: Already saved: Abyssalia
+
+01:51:04: [read seller]
+01:51:04: Already saved: lauke101
+
+01:51:04: [read seller]
+01:51:04: Already saved: Enske92
+
+01:51:04: [read seller]
+01:51:04: Already saved: alec1012
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mtgspot
+
+01:51:04: [read seller]
+01:51:04: Already saved: kARNN
+
+01:51:04: [read seller]
+01:51:04: Already saved: Sebas74
+
+01:51:04: [read seller]
+01:51:04: Already saved: Diesler
+
+01:51:04: [read seller]
+01:51:04: Already saved: Hgjlesv
+
+01:51:04: [read seller]
+01:51:04: Already saved: DuploCard
+
+01:51:04: [read seller]
+01:51:04: Already saved: hael22
+
+01:51:04: [read seller]
+01:51:04: Already saved: daidojilaurent
+
+01:51:04: [read seller]
+01:51:04: Already saved: CardgeekNL
+
+01:51:04: [read seller]
+01:51:04: Already saved: TimeaB
+
+01:51:04: [read seller]
+01:51:04: Already saved: elbonenet
+
+01:51:04: [read seller]
+01:51:04: Already saved: Zaki23
+
+01:51:04: [read seller]
+01:51:04: Already saved: Larinski
+
+01:51:04: [read seller]
+01:51:04: Already saved: Goblin-Patron
+
+01:51:04: [read seller]
+01:51:04: Already saved: Hammy
+
+01:51:04: [read seller]
+01:51:04: Already saved: magicpartcard
+
+01:51:04: [read seller]
+01:51:04: Already saved: Gretski15
+
+01:51:04: [read seller]
+01:51:04: Already saved: Dinis
+
+01:51:04: [read seller]
+01:51:04: Already saved: BriXtreme
+
+01:51:04: [read seller]
+01:51:04: Already saved: diddos
+
+01:51:04: [read seller]
+01:51:04: Already saved: Kumpel-Trading
+
+01:51:04: [read seller]
+01:51:04: Already saved: TablerazeMontpellier
+
+01:51:04: [read seller]
+01:51:04: Already saved: HolmesFr
+
+01:51:04: [read seller]
+01:51:04: Already saved: kajika46
+
+01:51:04: [read seller]
+01:51:04: Already saved: TJHollaar
+
+01:51:04: [read seller]
+01:51:04: Already saved: TiagoParracho
+
+01:51:04: [read seller]
+01:51:04: Already saved: MichaelBondeDK
+
+01:51:04: [read seller]
+01:51:04: Already saved: holzvalle
+
+01:51:04: [read seller]
+01:51:04: Already saved: TheBoyz
+
+01:51:04: [read seller]
+01:51:04: Already saved: Pixie
+
+01:51:04: [read seller]
+01:51:04: Already saved: Sellerarjafin
+
+01:51:04: [read seller]
+01:51:04: Already saved: MoonVillage
+
+01:51:04: [read seller]
+01:51:04: Already saved: MoonVillage
+
+01:51:04: [read seller]
+01:51:04: Already saved: Tarmogoyf
+
+01:51:04: [read seller]
+01:51:04: Already saved: DualGames-Alicante
+
+01:51:04: [read seller]
+01:51:04: Already saved: MerfolkTraders
+
+01:51:04: [read seller]
+01:51:04: Already saved: Kap23
+
+01:51:04: [read seller]
+01:51:04: Already saved: exaltetangel
+
+01:51:04: [read seller]
+01:51:04: Already saved: MadridMagic
+
+01:51:04: [read seller]
+01:51:04: Already saved: MadridMagic
+
+01:51:04: [read seller]
+01:51:04: Already saved: maxime75018
+
+01:51:04: [read seller]
+01:51:04: Already saved: TradingCardsUnited
+
+01:51:04: [read seller]
+01:51:04: Already saved: Aberconda
+
+01:51:04: [read seller]
+01:51:04: Already saved: ManaMix
+
+01:51:04: [read seller]
+01:51:04: Already saved: Twoshop
+
+01:51:04: [read seller]
+01:51:04: Already saved: Sinister123
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mik1040
+
+01:51:04: [read seller]
+01:51:04: Already saved: Midicards4281
+
+01:51:04: [read seller]
+01:51:04: Already saved: DombekTorun
+
+01:51:04: [read seller]
+01:51:04: Already saved: cornelius59
+
+01:51:04: [read seller]
+01:51:04: Already saved: Nils97
+
+01:51:04: [read seller]
+01:51:04: Already saved: luciano38
+
+01:51:04: [read seller]
+01:51:04: Already saved: landshome279
+
+01:51:04: [read seller]
+01:51:04: Already saved: Llanowar82
+
+01:51:04: [read seller]
+01:51:04: Already saved: tserjio
+
+01:51:04: [read seller]
+01:51:04: Already saved: chrisa2
+
+01:51:04: [read seller]
+01:51:04: Already saved: PowerMagicstar
+
+01:51:04: [read seller]
+01:51:04: Already saved: geekfactory
+
+01:51:04: [read seller]
+01:51:04: Already saved: sKarty
+
+01:51:04: [read seller]
+01:51:04: Already saved: Wommelshausen
+
+01:51:04: [read seller]
+01:51:04: Already saved: Megatol
+
+01:51:04: [read seller]
+01:51:04: Already saved: k201244
+
+01:51:04: [read seller]
+01:51:04: Already saved: marcophone
+
+01:51:04: [read seller]
+01:51:04: Already saved: Bigs77
+
+01:51:04: [read seller]
+01:51:04: Already saved: gambo
+
+01:51:04: [read seller]
+01:51:04: Already saved: TDR62
+
+01:51:04: [read seller]
+01:51:04: Already saved: Andre-P
+
+01:51:04: [read seller]
+01:51:04: Already saved: Bruce7506
+
+01:51:04: [read seller]
+01:51:04: Already saved: rakerone
+
+01:51:04: [read seller]
+01:51:04: Already saved: tellez7
+
+01:51:04: [read seller]
+01:51:04: Already saved: 38Shizo
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mintcardgem
+
+01:51:04: [read seller]
+01:51:04: Already saved: Trolloloman
+
+01:51:04: [read seller]
+01:51:04: Already saved: Richaardi
+
+01:51:04: [read seller]
+01:51:04: Already saved: MarioMirage
+
+01:51:04: [read seller]
+01:51:04: Already saved: Secretenergy
+
+01:51:04: [read seller]
+01:51:04: Already saved: kevistrauss
+
+01:51:04: [read seller]
+01:51:04: Already saved: kasi87
+
+01:51:04: [read seller]
+01:51:04: Already saved: AcidQueen
+
+01:51:04: [read seller]
+01:51:04: Already saved: elliot1990pl
+
+01:51:04: [read seller]
+01:51:04: Already saved: evertk
+
+01:51:04: [read seller]
+01:51:04: Already saved: Muttonium
+
+01:51:04: [read seller]
+01:51:04: Already saved: Haxan
+
+01:51:04: [read seller]
+01:51:04: Already saved: Adway
+
+01:51:04: [read seller]
+01:51:04: Already saved: Glendennan
+
+01:51:04: [read seller]
+01:51:04: Already saved: Si7en
+
+01:51:04: [read seller]
+01:51:04: Already saved: biteul
+
+01:51:04: [read seller]
+01:51:04: Already saved: Enachel
+
+01:51:04: [read seller]
+01:51:04: Already saved: derstef
+
+01:51:04: [read seller]
+01:51:04: Already saved: DonnieDarkoNL
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mintcardgem
+
+01:51:04: [read seller]
+01:51:04: Already saved: punkboy48
+
+01:51:04: [read seller]
+01:51:04: Already saved: Galactus-Roma
+
+01:51:04: [read seller]
+01:51:04: Already saved: kfranklin12
+
+01:51:04: [read seller]
+01:51:04: Already saved: SimonJack88
+
+01:51:04: [read seller]
+01:51:04: Already saved: BorjaxS
+
+01:51:04: [read seller]
+01:51:04: Already saved: eMeR90
+
+01:51:04: [read seller]
+01:51:04: Already saved: Xalthur
+
+01:51:04: [read seller]
+01:51:04: Already saved: welovetocollect
+
+01:51:04: [read seller]
+01:51:04: Already saved: reumah
+
+01:51:04: [read seller]
+01:51:04: Already saved: Harakesh
+
+01:51:04: [read seller]
+01:51:04: Already saved: Kartenkoenig
+
+01:51:04: [read seller]
+01:51:04: Already saved: Kartenkoenig
+
+01:51:04: [read seller]
+01:51:04: Already saved: Schimmelpopo
+
+01:51:04: [read seller]
+01:51:04: Already saved: Xobulo
+
+01:51:04: [read seller]
+01:51:04: Already saved: Kartenguru
+
+01:51:04: [read seller]
+01:51:04: Already saved: willybizarre
+
+01:51:04: [read seller]
+01:51:04: Already saved: das-Marmak
+
+01:51:04: [read seller]
+01:51:04: Already saved: Outpostgamecenter
+
+01:51:04: [read seller]
+01:51:04: Already saved: HiveGames
+
+01:51:04: [read seller]
+01:51:04: Already saved: TheCoonRises
+
+01:51:04: [read seller]
+01:51:04: Already saved: TheCoonRises
+
+01:51:04: [read seller]
+01:51:04: Already saved: TheCoonRises
+
+01:51:04: [read seller]
+01:51:04: Already saved: Magic-Industria-61
+
+01:51:04: [read seller]
+01:51:04: Already saved: ArenaGamesDE
+
+01:51:04: [read seller]
+01:51:04: Already saved: SodGames
+
+01:51:04: [read seller]
+01:51:04: Already saved: fabfesta
+
+01:51:04: [read seller]
+01:51:04: Already saved: Ishan
+
+01:51:04: [read seller]
+01:51:04: Already saved: TeamSpelEnMeer
+
+01:51:04: [read seller]
+01:51:04: Already saved: Moria05
+
+01:51:04: [read seller]
+01:51:04: Already saved: lastdreamer87
+
+01:51:04: [read seller]
+01:51:04: Already saved: leonin
+
+01:51:04: [read seller]
+01:51:04: Already saved: dfccg
+
+01:51:04: [read seller]
+01:51:04: Already saved: Mulligans
+
+01:51:04: [read seller]
+01:51:04: Already saved: OblivionMTG
+
+01:51:04: [read seller]
+01:51:05: Already saved: LotusVale-Bochum
+
+01:51:05: [read seller]
+01:51:05: Already saved: stahlkarnickel2
+
+01:51:05: [read seller]
+01:51:05: Already saved: Tezzeret84
+
+01:51:05: [read seller]
+01:51:05: Already saved: Lorena
+
+01:51:05: [read seller]
+01:51:05: Already saved: Nephren
+
+01:51:05: [read seller]
+01:51:05: Already saved: DHGames
+
+01:51:05: [read seller]
+01:51:05: Already saved: Gunnar2k8
+
+01:51:05: [read seller]
+01:51:05: Already saved: K3lla
+
+01:51:05: [read seller]
+01:51:05: Already saved: CollectiblesTrading
+
+01:51:05: [read seller]
+01:51:05: Already saved: sovmar
+
+01:51:05: [read seller]
+01:51:05: Already saved: Yufei
+
+01:51:05: [read seller]
+01:51:05: Already saved: Kernowjim
+
+01:51:05: [read seller]
+01:51:05: Already saved: Akroma44
+
+01:51:05: [read seller]
+01:51:05: Already saved: Yggzorn
+
+01:51:05: [read seller]
+01:51:05: Already saved: Mintcardgem
+
+01:51:05: [read seller]
+01:51:05: Already saved: Zloch
+
+01:51:05: [read seller]
+01:51:05: Already saved: seagel
+
+01:51:05: [read seller]
+01:51:05: Already saved: D-Insane
+
+01:51:05: [read seller]
+01:51:05: Already saved: Piccio91
+
+01:51:05: [read seller]
+01:51:05: Already saved: Charly4785
+
+01:51:05: [read seller]
+01:51:05: Already saved: snabblars
+
+01:51:05: [read seller]
+01:51:05: Already saved: Yamalesca
+
+01:51:05: [read seller]
+01:51:05: Already saved: Stefan-Laszkiewicz
+
+01:51:05: [read seller]
+01:51:05: Already saved: Games-Island
+
+01:51:05: [read seller]
+01:51:05: Already saved: sundermeier
+
+01:51:05: [read seller]
+01:51:05: Already saved: Games-Island
+
+01:51:05: [read seller]
+01:51:05: Already saved: WizardshopCz
+
+01:51:05: [read seller]
+01:51:05: Already saved: czesctuariel
+
+01:51:05: [read seller]
+01:51:05: Already saved: Zebratus
+
+01:51:05: [read seller]
+01:51:05: Already saved: Dunkler-Herrscher
+
+01:51:05: [read seller]
+01:51:05: Already saved: CardgeekNL
+
+01:51:05: [read seller]
+01:51:05: Already saved: Rusty2410
+
+01:51:05: [read seller]
+01:51:05: Already saved: CardsMania
+
+01:51:05: [read seller]
+01:51:05: Already saved: NobleGarden
+
+01:51:05: [read seller]
+01:51:05: Already saved: PetrKikac
+
+01:51:05: [read seller]
+01:51:05: Already saved: GRANDE-INVERNO
+
+01:51:05: [read seller]
+01:51:05: Already saved: Moltras
+
+01:51:05: [read seller]
+01:51:05: Already saved: Ortrudzomfg
+
+01:51:05: [read seller]
+01:51:05: Already saved: MagaMercatino
+
+01:51:05: [read seller]
+01:51:05: Already saved: The-Inn-TCG
+
+01:51:05: [read seller]
+01:51:05: Already saved: HatakeKakashi88
+
+01:51:05: [read seller]
+01:51:05: Already saved: corsi1996
+
+01:51:05: [read seller]
+01:51:05: Already saved: Mintcardgem
+
+01:51:05: [read seller]
+01:51:05: Already saved: derboba
+
+01:51:05: [read seller]
+01:51:05: Already saved: steficTol
+
+01:51:05: [read seller]
+01:51:05: Already saved: nickdejonge
+
+01:51:05: [read seller]
+01:51:05: Already saved: TizziTizzi
+
+01:51:05: [read seller]
+01:51:05: Already saved: FKTRD
+
+01:51:05: [read seller]
+01:51:05: Already saved: TCG-entertainment
+
+01:51:05: [read seller]
+01:51:05: Already saved: magictuga
+
+01:51:05: [read seller]
+01:51:05: Already saved: Playin
+
+01:51:05: [read seller]
+01:51:05: Already saved: Tier1MTG
+
+01:51:05: [read seller]
+01:51:05: Already saved: Guarida-Del-Dragon
+
+01:51:05: [read seller]
+01:51:05: Already saved: pl0wbeast
+
+01:51:05: [read seller]
+01:51:05: Already saved: leonin
+
+01:51:05: [read seller]
+01:51:05: Already saved: Skaldenmagie
+
+01:51:05: [read seller]
+01:51:05: Already saved: DrawstepGD
+
+01:51:05: [read seller]
+01:51:05: Already saved: TolarianBrewAcademy
+
+01:51:05: [read seller]
+01:51:05: Already saved: Abdelbach
+
+01:51:05: [read seller]
+01:51:05: Already saved: Mythulro
+
+01:51:05: [read seller]
+01:51:05: Already saved: ritastochter
+
+01:51:05: [read seller]
+01:51:05: Already saved: D-Insane
+
+01:51:05: [read seller]
+01:51:05: Already saved: Kirisame84
+
+01:51:05: [read seller]
+01:51:05: Already saved: delmas
+
+01:51:05: [read seller]
+01:51:05: Already saved: dragonfall5
+
+01:51:05: [read seller]
+01:51:05: Already saved: JM123
+
+01:51:05: [read seller]
+01:51:05: Already saved: SwankyPants88
+
+01:51:05: [read seller]
+01:51:05: Already saved: BB-Spiele
+
+01:51:05: [read seller]
+01:51:05: Already saved: FKTRD
+
+01:51:05: [read seller]
+01:51:05: Already saved: pedrodj78
+
+01:51:05: [read seller]
+01:51:05: Already saved: EttoreMTG
+
+01:51:05: [read seller]
+01:51:05: Already saved: Magicshop2000
+
+01:51:05: [read seller]
+01:51:05: Already saved: DavidxRodx
+
+01:51:05: [read seller]
+01:51:05: Already saved: TimeaB
+
+01:51:05: [read seller]
+01:51:05: Already saved: MrPete
+
+01:51:05: [read seller]
+01:51:05: Already saved: Mazvigosl
+
+01:51:05: [read seller]
+01:51:05: Already saved: FKTRD
+
+01:51:05: [read seller]
+01:51:05: Already saved: MerfolkTraders
+
+01:51:05: [read seller]
+01:51:05: Already saved: masa
+
+01:51:05: [read seller]
+01:51:05: Already saved: BeNsE
+
+01:51:05: [read seller]
+01:51:05: Already saved: Pangea
+
+01:51:05: [read seller]
+01:51:05: Already saved: Strat066
+
+01:51:05: [read seller]
+01:51:05: Already saved: monstersystem
+
+01:51:05: [read seller]
+01:51:05: Already saved: Colovia
+
+01:51:05: [read seller]
+01:51:05: Already saved: kahlan37
+
+01:51:05: [read seller]
+01:51:05: Already saved: Grecutus
+
+01:51:05: [read seller]
+01:51:05: Already saved: Rishadan-Magic-Store
+
+01:51:05: [read seller]
+01:51:05: Already saved: Letalboro
+
+01:51:05: [read seller]
+01:51:05: Already saved: MagicPapa
+
+01:51:05: [read seller]
+01:51:05: Already saved: jokerbovisa
+
+01:51:05: [read seller]
+01:51:05: Already saved: TCGEnterprise
+
+01:51:05: [read seller]
+01:51:05: Already saved: Schimmelpopo
+
+01:51:05: [read seller]
+01:51:05: Already saved: Magicdealer-patte-de
+
+01:51:05: [read seller]
+01:51:05: Already saved: Galactus-Roma
+
+01:51:05: [read seller]
+01:51:05: Already saved: magiccorner
+
+01:51:05: [read seller]
+01:51:05: Already saved: Metropolis-Center
+
+01:51:05: [read seller]
+01:51:05: Already saved: Gunship-Games
+
+01:51:05: [read seller]
+01:51:05: Already saved: CerberusIT
+
+01:51:05: [read seller]
+01:51:05: Already saved: gamersfinest
+
+01:51:05: [read seller]
+01:51:05: Already saved: gamersfinest
+
+01:51:05: [read seller]
+01:51:05: Already saved: gamersfinest
+
+01:51:05: [read seller]
+01:51:05: Already saved: PlayTimeComo
+
+01:51:05: [read seller]
+01:51:05: Already saved: MAGICSHOPITA
+
+01:51:05: [read seller]
+01:51:05: Already saved: ThreeForOne-AT
+
+01:51:05: [read seller]
+01:51:05: Already saved: daltenda
+
+01:51:05: [read seller]
+01:51:05: Already saved: EspaceMagic
+
+01:51:05: [read seller]
+01:51:05: Already saved: Nightshade-Shop
+
+01:51:05: [read seller]
+01:51:05: Already saved: fischi1984
+
+01:51:05: [read seller]
+01:51:05: Already saved: slashrose
+
+01:51:05: [read seller]
+01:51:05: Already saved: Brisk
+
+01:51:05: [read seller]
+01:51:05: Already saved: Mintcardgem
+
+01:51:05: [read seller]
+01:51:05: Already saved: annor
+
+01:51:05: [read seller]
+01:51:05: Already saved: Robotomasas
+
+01:51:05: [read seller]
+01:51:05: Already saved: karmacrow
+
+01:51:05: [read seller]
+01:51:05: Already saved: House-of-Games
+
+01:51:05: [read seller]
+01:51:05: Already saved: Deinvater18
+
+01:51:05: [read seller]
+01:51:05: Already saved: Jizreel
+
+01:51:05: [read seller]
+01:51:05: Already saved: Winsel
+
+01:51:05: [read seller]
+01:51:05: Already saved: MAGICPLANET
+
+01:51:05: [read seller]
+01:51:05: Already saved: Oriented
+
+01:51:05: [read seller]
+01:51:05: Already saved: christianstrothjohann
+
+01:51:05: [read seller]
+01:51:05: Already saved: petedk
+
+01:51:05: [read seller]
+01:51:05: Already saved: Stavesacre
+
+01:51:05: [read seller]
+01:51:05: Already saved: Messicano
+
+01:51:05: [read seller]
+01:51:05: Already saved: YamiAlex1994
+
+01:51:05: [read seller]
+01:51:05: Already saved: TimmeyOne
+
+01:51:05: [read seller]
+01:51:05: Already saved: Gemini56
+
+01:51:05: [read seller]
+01:51:05: Already saved: RMP1982
+
+01:51:05: [read seller]
+01:51:05: Already saved: caceres2020
+
+01:51:05: [read seller]
+01:51:05: Already saved: Pernacchianda
+
+01:51:05: [read seller]
+01:51:05: Already saved: Tier1MTG
+
+01:51:05: [read seller]
+01:51:05: Already saved: PeloutseMtG
+
+01:51:05: [read seller]
+01:51:05: Already saved: Crosis88
+
+01:51:05: [read seller]
+01:51:05: Already saved: axanathos
+
+01:51:05: [read seller]
+01:51:05: Already saved: JoannaDark
+
+01:51:05: [read seller]
+01:51:05: Already saved: quasimoto
+
+01:51:05: [read seller]
+01:51:05: Already saved: MarioMirage
+
+01:51:05: [read seller]
+01:51:05: Already saved: Galactus-Roma
+
+01:51:05: [read seller]
+01:51:05: Already saved: WizardshopCz
+
+01:51:05: [read seller]
+01:51:05: Already saved: Schnapsl
+
+01:51:05: [read seller]
+01:51:05: Already saved: Vansguy-DE
+
+01:51:05: [read seller]
+01:51:05: Already saved: Kartenkoenig
+
+01:51:05: [read seller]
+01:51:05: Already saved: TCG-entertainment
+
+01:51:05: [read seller]
+01:51:05: Already saved: Galactus-Roma
+
+01:51:05: [read seller]
+01:51:05: Already saved: CardCastle
+
+01:51:05: [read seller]
+01:51:05: Already saved: RDeschain
+
+01:51:05: [read seller]
+01:51:05: Already saved: CardsMania
+
+01:51:05: [read seller]
+01:51:05: Already saved: SVKZeke
+
+01:51:05: [read seller]
+01:51:05: Already saved: temur11
+
+01:51:05: [read seller]
+01:51:05: Already saved: PeloutseMtG
+
+01:51:05: [read seller]
+01:51:05: Already saved: nantukozerox
+
+01:51:06: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+01:51:06: Sleeping for 1.5895865874479584 seconds
+01:51:08: Sleeping for 0.572433895925313 seconds
+01:51:08: Extending the sellers view...
+01:51:08: Sleeping for 0.7377617035353544 seconds
+01:51:09: Extending the sellers view...
+01:51:09: Sleeping for 0.7321466684344282 seconds
+01:51:10: Extending the sellers view...
+01:51:10: Sleeping for 0.6819934678991518 seconds
+01:51:10: Extending the sellers view...
+01:51:10: Sleeping for 0.7090367663636611 seconds
+01:51:11: Extending the sellers view...
+01:51:11: Sleeping for 0.6356754215599306 seconds
+01:51:12: Extending the sellers view...
+01:51:12: Sleeping for 0.5414961471484135 seconds
+01:51:13: Extending the sellers view...
+01:51:13: Sleeping for 0.42900090071053376 seconds
+01:51:13: Extending the sellers view...
+01:51:13: Sleeping for 0.5296867265437774 seconds
+01:51:14: [read card]
+01:51:14: [read date]
+01:51:14: [read card]
+01:51:14: [write card]
+01:51:14: Card added: 	Zndrsplt, Eye of Wisdom
+
+01:51:15: [read seller]
+01:51:15: Already saved: aleplm98
+
+01:51:15: [read seller]
+01:51:15: Already saved: GoodPool
+
+01:51:15: [read seller]
+01:51:15: Already saved: Foransa
+
+01:51:15: [read seller]
+01:51:15: Already saved: PanBzoch
+
+01:51:15: [read seller]
+01:51:15: Already saved: Colabier
+
+01:51:15: [read seller]
+01:51:15: Already saved: moneymaker
+
+01:51:15: [read seller]
+01:51:15: Already saved: Noah471
+
+01:51:15: [read seller]
+01:51:15: Already saved: Cohnjollins
+
+01:51:15: [read seller]
+01:51:15: Already saved: LeonPonce
+
+01:51:15: [read seller]
+01:51:15: Already saved: sytsnas
+
+01:51:15: [read seller]
+01:51:15: Already saved: noisia
+
+01:51:15: [read seller]
+01:51:15: Already saved: Greenskull
+
+01:51:15: [read seller]
+01:51:15: Already saved: Danedeluxe
+
+01:51:15: [read seller]
+01:51:15: Already saved: babylon
+
+01:51:15: [read seller]
+01:51:15: Already saved: McFreud
+
+01:51:15: [read seller]
+01:51:15: Already saved: muse99
+
+01:51:15: [read seller]
+01:51:15: Already saved: Bellota95
+
+01:51:15: [read seller]
+01:51:15: Already saved: BBG66
+
+01:51:15: [read seller]
+01:51:15: Already saved: Marsupisalami
+
+01:51:15: [read seller]
+01:51:15: Already saved: Murasame
+
+01:51:15: [read seller]
+01:51:15: Already saved: stanislaf
+
+01:51:15: [read seller]
+01:51:15: Already saved: cardvictim
+
+01:51:15: [read seller]
+01:51:15: Already saved: atlas222
+
+01:51:15: [read seller]
+01:51:15: Already saved: Torako
+
+01:51:15: [read seller]
+01:51:15: Already saved: MadridMagic
+
+01:51:15: [read seller]
+01:51:15: Already saved: cloudpostBA
+
+01:51:15: [read seller]
+01:51:15: Already saved: bouzekry
+
+01:51:15: [read seller]
+01:51:15: Already saved: Hgjlesv
+
+01:51:15: [read seller]
+01:51:15: Already saved: stahlkarnickel2
+
+01:51:15: [read seller]
+01:51:15: Already saved: TimD
+
+01:51:15: [read seller]
+01:51:15: Already saved: PowerMagicstar
+
+01:51:15: [read seller]
+01:51:15: Already saved: CommanderStaples
+
+01:51:15: [read seller]
+01:51:15: Already saved: kartenschmiede
+
+01:51:15: [read seller]
+01:51:15: Already saved: theNecromancer
+
+01:51:15: [read seller]
+01:51:15: Already saved: mstokowski
+
+01:51:15: [read seller]
+01:51:15: Already saved: huge4uk
+
+01:51:15: [read seller]
+01:51:15: Already saved: Sebas74
+
+01:51:15: [read seller]
+01:51:15: Already saved: ManaRamp
+
+01:51:15: [read seller]
+01:51:15: Already saved: Piranha81
+
+01:51:15: [read seller]
+01:51:15: Already saved: daltenda
+
+01:51:15: [read seller]
+01:51:15: Already saved: AvalonBurgos
+
+01:51:15: [read seller]
+01:51:15: Already saved: Andycards
+
+01:51:15: [read seller]
+01:51:15: Already saved: LuisLlana
+
+01:51:15: [read seller]
+01:51:15: Already saved: SK4TE
+
+01:51:15: [read seller]
+01:51:15: Already saved: olgamor
+
+01:51:15: [read seller]
+01:51:15: Already saved: marCH1LLL
+
+01:51:15: [read seller]
+01:51:15: Already saved: ni-ju66
+
+01:51:15: [read seller]
+01:51:15: Already saved: baleinedessables
+
+01:51:15: [read seller]
+01:51:15: Already saved: rakerone
+
+01:51:15: [read seller]
+01:51:15: Already saved: Jack-DM
+
+01:51:15: [read seller]
+01:51:15: Already saved: magnapoli
+
+01:51:15: [read seller]
+01:51:15: Already saved: SnappyTiger
+
+01:51:15: [read seller]
+01:51:15: Already saved: Trapper99
+
+01:51:15: [read seller]
+01:51:15: Already saved: PaulAndr
+
+01:51:15: [read seller]
+01:51:15: Already saved: Blaze241
+
+01:51:15: [read seller]
+01:51:15: Already saved: gabrielooos93
+
+01:51:15: [read seller]
+01:51:15: Already saved: flosar71
+
+01:51:15: [read seller]
+01:51:15: Already saved: RisingVoid
+
+01:51:15: [read seller]
+01:51:15: Already saved: Tueben
+
+01:51:15: [read seller]
+01:51:15: Already saved: RagnarNagato
+
+01:51:15: [read seller]
+01:51:15: Already saved: Annie1983
+
+01:51:15: [read seller]
+01:51:15: Already saved: Mtg-volos
+
+01:51:15: [read seller]
+01:51:15: Already saved: magicpartcard
+
+01:51:15: [read seller]
+01:51:15: Already saved: mstokowski
+
+01:51:15: [read seller]
+01:51:15: Already saved: riper91
+
+01:51:15: [read seller]
+01:51:15: Already saved: Uncraft
+
+01:51:15: [read seller]
+01:51:15: Already saved: Scarecrows
+
+01:51:15: [read seller]
+01:51:15: Already saved: MoonVillage
+
+01:51:15: [read seller]
+01:51:15: Already saved: Larinski
+
+01:51:15: [read seller]
+01:51:15: Already saved: dikkedaan
+
+01:51:15: [read seller]
+01:51:15: Already saved: Teenwolf
+
+01:51:15: [read seller]
+01:51:15: Already saved: VentorII
+
+01:51:15: [read seller]
+01:51:15: Already saved: Villy
+
+01:51:15: [read seller]
+01:51:15: Already saved: GameForce
+
+01:51:15: [read seller]
+01:51:15: Already saved: VintageCollectors
+
+01:51:15: [read seller]
+01:51:15: Already saved: Troedel
+
+01:51:15: [read seller]
+01:51:15: Already saved: Blizardjack
+
+01:51:15: [read seller]
+01:51:15: Already saved: roughy
+
+01:51:15: [read seller]
+01:51:15: Already saved: CollectiblesTrading
+
+01:51:15: [read seller]
+01:51:15: Already saved: RickOttaro
+
+01:51:15: [read seller]
+01:51:15: Already saved: chrisa2
+
+01:51:15: [read seller]
+01:51:15: Already saved: Giantian
+
+01:51:15: [read seller]
+01:51:15: Already saved: Giantian
+
+01:51:15: [read seller]
+01:51:15: Already saved: Mercenary027
+
+01:51:15: [read seller]
+01:51:15: Already saved: Kernowjim
+
+01:51:15: [read seller]
+01:51:15: Already saved: Weltenwache
+
+01:51:15: [read seller]
+01:51:15: Already saved: HatakeKakashi88
+
+01:51:15: [read seller]
+01:51:15: Already saved: Dijkstra
+
+01:51:15: [read seller]
+01:51:15: Already saved: Akroma1987
+
+01:51:15: [read seller]
+01:51:15: Already saved: Platzer
+
+01:51:15: [read seller]
+01:51:15: Already saved: Krokar
+
+01:51:15: [read seller]
+01:51:15: Already saved: minimagic
+
+01:51:15: [read seller]
+01:51:15: Already saved: JaySmalls
+
+01:51:15: [read seller]
+01:51:15: Already saved: CaronteFCB
+
+01:51:15: [read seller]
+01:51:15: Already saved: FrankvdWaals
+
+01:51:15: [read seller]
+01:51:15: Already saved: Elucidator
+
+01:51:15: [read seller]
+01:51:15: Already saved: crying
+
+01:51:15: [read seller]
+01:51:15: Already saved: Darkmattergun
+
+01:51:15: [read seller]
+01:51:15: Already saved: Efe-Flatline
+
+01:51:15: [read seller]
+01:51:15: Already saved: MtgUtility
+
+01:51:15: [read seller]
+01:51:15: Already saved: TheCronoX
+
+01:51:15: [read seller]
+01:51:15: Already saved: Malthe14
+
+01:51:15: [read seller]
+01:51:15: Already saved: WizardshopCz
+
+01:51:15: [read seller]
+01:51:15: Already saved: biber
+
+01:51:15: [read seller]
+01:51:15: Already saved: xenesaltones
+
+01:51:15: [read seller]
+01:51:15: Already saved: Dunkler-Herrscher
+
+01:51:15: [read seller]
+01:51:15: Already saved: Kapelusznik
+
+01:51:15: [read seller]
+01:51:15: Already saved: MysticShop
+
+01:51:15: [read seller]
+01:51:15: Already saved: cardgalaxy
+
+01:51:15: [read seller]
+01:51:15: Already saved: exaltetangel
+
+01:51:15: [read seller]
+01:51:15: Already saved: GamersAcademy
+
+01:51:15: [read seller]
+01:51:15: Already saved: Dinis
+
+01:51:15: [read seller]
+01:51:15: Already saved: Makre
+
+01:51:15: [read seller]
+01:51:15: Already saved: Meistermeuchler
+
+01:51:15: [read seller]
+01:51:15: Already saved: PetrKikac
+
+01:51:15: [read seller]
+01:51:15: Already saved: MTGcardmarket01
+
+01:51:15: [read seller]
+01:51:15: Already saved: Sichiro
+
+01:51:15: [read seller]
+01:51:15: Already saved: Goat-enterprise
+
+01:51:15: [read seller]
+01:51:15: Already saved: Itaca
+
+01:51:15: [read seller]
+01:51:15: Already saved: DUAL-GAMES
+
+01:51:15: [read seller]
+01:51:15: Already saved: Card-Trader24
+
+01:51:15: [read seller]
+01:51:15: Already saved: taikocomics
+
+01:51:15: [read seller]
+01:51:15: Already saved: SodGames
+
+01:51:15: [read seller]
+01:51:15: Already saved: DualGames-Alicante
+
+01:51:15: [read seller]
+01:51:15: Already saved: sanjic
+
+01:51:15: [read seller]
+01:51:15: Already saved: Moltras
+
+01:51:15: [read seller]
+01:51:15: Already saved: Athabasca
+
+01:51:15: [read seller]
+01:51:15: Already saved: Blizardjack
+
+01:51:15: [read seller]
+01:51:15: Already saved: roughy
+
+01:51:15: [read seller]
+01:51:15: Already saved: Zuerichsee
+
+01:51:15: [read seller]
+01:51:15: Already saved: ludo54
+
+01:51:15: [read seller]
+01:51:15: Already saved: luciano38
+
+01:51:15: [read seller]
+01:51:15: Already saved: landshome279
+
+01:51:15: [read seller]
+01:51:15: Already saved: geekfactory
+
+01:51:15: [read seller]
+01:51:15: Already saved: WinTheGame
+
+01:51:15: [read seller]
+01:51:15: Already saved: Failster
+
+01:51:15: [read seller]
+01:51:15: Already saved: gao6979
+
+01:51:15: [read seller]
+01:51:15: Already saved: Megatol
+
+01:51:15: [read seller]
+01:51:15: Already saved: Figurasdeplomo
+
+01:51:15: [read seller]
+01:51:15: Already saved: WouterDS
+
+01:51:15: [read seller]
+01:51:15: Already saved: Zombiepartyuk
+
+01:51:15: [read seller]
+01:51:15: Already saved: crabouille
+
+01:51:15: [read seller]
+01:51:15: Already saved: Raptorius
+
+01:51:15: [read seller]
+01:51:15: Already saved: FLouro
+
+01:51:15: [read seller]
+01:51:15: Already saved: Jbonta
+
+01:51:15: [read seller]
+01:51:15: Already saved: Venarch
+
+01:51:15: [read seller]
+01:51:15: Already saved: CORP-F
+
+01:51:15: [read seller]
+01:51:15: Already saved: FKTRD
+
+01:51:15: [read seller]
+01:51:15: Already saved: TCG-entertainment
+
+01:51:15: [read seller]
+01:51:15: Already saved: Aaages
+
+01:51:15: [read seller]
+01:51:15: Already saved: flamberg
+
+01:51:15: [read seller]
+01:51:15: Already saved: arctis
+
+01:51:15: [read seller]
+01:51:15: Already saved: Mordor
+
+01:51:15: [read seller]
+01:51:15: Already saved: MerfolkTraders
+
+01:51:15: [read seller]
+01:51:15: Already saved: PlanarGate
+
+01:51:15: [read seller]
+01:51:15: Already saved: MagicBarcelona
+
+01:51:15: [read seller]
+01:51:15: Already saved: Goat-enterprise
+
+01:51:15: [read seller]
+01:51:15: Already saved: ArenaGamesDE
+
+01:51:15: [read seller]
+01:51:15: Already saved: DeMagicMarkt
+
+01:51:15: [read seller]
+01:51:15: Already saved: MrMirari
+
+01:51:15: [read seller]
+01:51:15: Already saved: Akroma44
+
+01:51:15: [read seller]
+01:51:15: Already saved: 82chrisj
+
+01:51:15: [read seller]
+01:51:15: Already saved: Muskatnuss6
+
+01:51:15: [read seller]
+01:51:15: Already saved: ritastochter
+
+01:51:15: [read seller]
+01:51:15: Already saved: jorHere
+
+01:51:15: [read seller]
+01:51:15: Already saved: mrfingers123
+
+01:51:15: [read seller]
+01:51:15: Already saved: Dieuxx621
+
+01:51:15: [read seller]
+01:51:15: Already saved: DantessCardss
+
+01:51:15: [read seller]
+01:51:15: Already saved: dragonfall5
+
+01:51:15: [read seller]
+01:51:15: Already saved: Xobulo
+
+01:51:15: [read seller]
+01:51:15: Already saved: TrueNeckbeardCards
+
+01:51:15: [read seller]
+01:51:15: Already saved: Sailorsgrave91
+
+01:51:15: [read seller]
+01:51:15: Already saved: FKTRD
+
+01:51:15: [read seller]
+01:51:15: Already saved: FKTRD
+
+01:51:15: [read seller]
+01:51:15: Already saved: Rusty2410
+
+01:51:15: [read seller]
+01:51:15: Already saved: OutpostBrussels
+
+01:51:15: [read seller]
+01:51:15: Already saved: Vansguy-DE
+
+01:51:15: [read seller]
+01:51:15: Already saved: Ghostlo
+
+01:51:15: [read seller]
+01:51:15: Already saved: ggmagic
+
+01:51:15: [read seller]
+01:51:15: Already saved: Skaldenmagie
+
+01:51:15: [read seller]
+01:51:15: Already saved: BlackSkorpio
+
+01:51:15: [read seller]
+01:51:15: Already saved: TJHollaar
+
+01:51:15: [read seller]
+01:51:15: Already saved: Blackdragon94
+
+01:51:15: [read seller]
+01:51:15: Already saved: FKTRD
+
+01:51:15: [read seller]
+01:51:15: Already saved: ilcovodelnerd
+
+01:51:15: [read seller]
+01:51:15: Already saved: Distritozero
+
+01:51:15: [read seller]
+01:51:15: Already saved: DeMagicMarkt
+
+01:51:15: [read seller]
+01:51:15: Already saved: BuyWithConfidence
+
+01:51:15: [read seller]
+01:51:15: Already saved: tiburonapu
+
+01:51:15: [read seller]
+01:51:15: Already saved: maquilleida
+
+01:51:15: [read seller]
+01:51:15: Already saved: SMC1
+
+01:51:15: [read seller]
+01:51:15: Already saved: Lorena
+
+01:51:15: [read seller]
+01:51:15: Already saved: OstfrieseMM
+
+01:51:15: [read seller]
+01:51:15: Already saved: Nils97
+
+01:51:16: [read seller]
+01:51:16: Already saved: OlivierR
+
+01:51:16: [read seller]
+01:51:16: Already saved: MeiOPanda
+
+01:51:16: [read seller]
+01:51:16: Already saved: SergiRL
+
+01:51:16: [read seller]
+01:51:16: Already saved: Morgo1
+
+01:51:16: [read seller]
+01:51:16: Already saved: Seath
+
+01:51:16: [read seller]
+01:51:16: Already saved: Zicral
+
+01:51:16: [read seller]
+01:51:16: Already saved: SynMaple
+
+01:51:16: [read seller]
+01:51:16: Already saved: Morigal
+
+01:51:16: [read seller]
+01:51:16: Already saved: jokerbovisa
+
+01:51:16: [read seller]
+01:51:16: Already saved: Method999
+
+01:51:16: [read seller]
+01:51:16: Already saved: Rishadan-Magic-Store
+
+01:51:16: [read seller]
+01:51:16: Already saved: Erschonwieder
+
+01:51:16: [read seller]
+01:51:16: Already saved: hael22
+
+01:51:16: [read seller]
+01:51:16: Already saved: gatheringka
+
+01:51:16: [read seller]
+01:51:16: Already saved: Dudas999
+
+01:51:16: [read seller]
+01:51:16: Already saved: WatHaddaDa
+
+01:51:16: [read seller]
+01:51:16: Already saved: nic222k
+
+01:51:16: [read seller]
+01:51:16: Already saved: CardgeekNL
+
+01:51:16: [read seller]
+01:51:16: Already saved: CardStoreAlcamo
+
+01:51:16: [read seller]
+01:51:16: Already saved: TolarianBrewAcademy
+
+01:51:16: [read seller]
+01:51:16: Already saved: Henchmans
+
+01:51:16: [read seller]
+01:51:16: Already saved: Magicdealer-patte-de
+
+01:51:16: [read seller]
+01:51:16: Already saved: Mazvigosl
+
+01:51:16: [read seller]
+01:51:16: Already saved: MagicTradeHouseNo1
+
+01:51:16: [read seller]
+01:51:16: Already saved: DonMTG
+
+01:51:16: [read seller]
+01:51:16: Already saved: willybizarre
+
+01:51:16: [read seller]
+01:51:16: Already saved: MagicEmporium
+
+01:51:16: [read seller]
+01:51:16: Already saved: Dax-Cardstore
+
+01:51:16: [read seller]
+01:51:16: Already saved: pl0wbeast
+
+01:51:16: [read seller]
+01:51:16: Already saved: pl0wbeast
+
+01:51:16: [read seller]
+01:51:16: Already saved: Ichiban-Cards
+
+01:51:16: [read seller]
+01:51:16: Already saved: Harakesh
+
+01:51:16: [read seller]
+01:51:16: Already saved: DavidxRodx
+
+01:51:16: [read seller]
+01:51:16: Already saved: remyleblanc
+
+01:51:16: [read seller]
+01:51:16: Already saved: MTGcardmarket01
+
+01:51:16: [read seller]
+01:51:16: Already saved: kajika46
+
+01:51:16: [read seller]
+01:51:16: Already saved: parkage
+
+01:51:16: [read seller]
+01:51:16: Already saved: Cartapapa-GP
+
+01:51:16: [read seller]
+01:51:16: Already saved: HiveGames
+
+01:51:16: [read seller]
+01:51:16: Already saved: Cardexchange
+
+01:51:16: [read seller]
+01:51:16: Already saved: Parence-com
+
+01:51:16: [read seller]
+01:51:16: Already saved: Mordor
+
+01:51:16: [read seller]
+01:51:16: Already saved: Guarida-Del-Dragon
+
+01:51:16: [read seller]
+01:51:16: Already saved: CardCastle
+
+01:51:16: [read seller]
+01:51:16: Already saved: daltenda
+
+01:51:16: [read seller]
+01:51:16: Already saved: The-FOW-Store
+
+01:51:16: [read seller]
+01:51:16: Already saved: TCGWarehouse
+
+01:51:16: [read seller]
+01:51:16: Already saved: TCGWarehouse
+
+01:51:16: [read seller]
+01:51:16: Already saved: EspaceMagic
+
+01:51:16: [read seller]
+01:51:16: Already saved: fabfesta
+
+01:51:16: [read seller]
+01:51:16: Already saved: Nerd-Shop
+
+01:51:16: [read seller]
+01:51:16: Already saved: Nerd-Shop
+
+01:51:16: [read seller]
+01:51:16: Already saved: BattleBearTCG
+
+01:51:16: [read seller]
+01:51:16: Already saved: toycastle-D
+
+01:51:16: [read seller]
+01:51:16: Already saved: Icarusjocs-BCN
+
+01:51:16: [read seller]
+01:51:16: Already saved: Wolrad
+
+01:51:16: [read seller]
+01:51:16: Already saved: cavernedujeu
+
+01:51:16: [read seller]
+01:51:16: Already saved: Triplacegames
+
+01:51:16: [read seller]
+01:51:16: Already saved: TradingCardsUnited
+
+01:51:16: [read seller]
+01:51:16: Already saved: TheJokerUtrecht
+
+01:51:16: [read seller]
+01:51:16: Already saved: TheJokerUtrecht
+
+01:51:16: [read seller]
+01:51:16: Already saved: LotusVale-Bochum
+
+01:51:16: [read seller]
+01:51:16: Already saved: MagaMercatino
+
+01:51:16: [read seller]
+01:51:16: Already saved: masa
+
+01:51:16: [read seller]
+01:51:16: Already saved: masa
+
+01:51:16: [read seller]
+01:51:16: Already saved: Tydus
+
+01:51:16: [read seller]
+01:51:16: Already saved: ManaMix
+
+01:51:16: [read seller]
+01:51:16: Already saved: evilarroyo
+
+01:51:16: [read seller]
+01:51:16: Already saved: Navis
+
+01:51:16: [read seller]
+01:51:16: Already saved: Jan53
+
+01:51:16: [read seller]
+01:51:16: Already saved: onbewust
+
+01:51:16: [read seller]
+01:51:16: Already saved: kanosc
+
+01:51:16: [read seller]
+01:51:16: Already saved: Nils97
+
+01:51:16: [read seller]
+01:51:16: Already saved: Dadue2000
+
+01:51:16: [read seller]
+01:51:16: Already saved: WalterWKrijthe
+
+01:51:16: [read seller]
+01:51:16: Already saved: vale46
+
+01:51:16: [read seller]
+01:51:16: Already saved: geekfactory
+
+01:51:16: [read seller]
+01:51:16: Already saved: Timmys-Emporium
+
+01:51:16: [read seller]
+01:51:16: Already saved: Abdelbach
+
+01:51:16: [read seller]
+01:51:16: Already saved: grednight
+
+01:51:16: [read seller]
+01:51:16: Already saved: MichaelBondeDK
+
+01:51:16: [read seller]
+01:51:16: Already saved: MichaelBondeDK
+
+01:51:16: [read seller]
+01:51:16: Already saved: MichaelBondeDK
+
+01:51:16: [read seller]
+01:51:16: Already saved: vanDeluxe89
+
+01:51:16: [read seller]
+01:51:16: Already saved: VaeterchenRost
+
+01:51:16: [read seller]
+01:51:16: Already saved: Watthe
+
+01:51:16: [read seller]
+01:51:16: Already saved: lquentin
+
+01:51:16: [read seller]
+01:51:16: Already saved: Lockhe
+
+01:51:16: [read seller]
+01:51:16: Already saved: McPwn
+
+01:51:16: [read seller]
+01:51:16: Already saved: SEGDT
+
+01:51:16: [read seller]
+01:51:16: Already saved: mudds
+
+01:51:16: [read seller]
+01:51:16: Already saved: Afily
+
+01:51:16: [read seller]
+01:51:16: Already saved: ThreeForOne-AT
+
+01:51:16: [read seller]
+01:51:16: Already saved: jokerbovisa
+
+01:51:16: [read seller]
+01:51:16: Already saved: Sunoseno
+
+01:51:16: [read seller]
+01:51:16: Already saved: Zebratus
+
+01:51:16: [read seller]
+01:51:16: Already saved: magicworld58
+
+01:51:16: [read seller]
+01:51:16: Already saved: Geeksandgamers
+
+01:51:16: [read seller]
+01:51:16: Already saved: POOL4YOU
+
+01:51:16: [read seller]
+01:51:16: Already saved: CardCastle
+
+01:51:16: [read seller]
+01:51:16: Already saved: toycastle-D
+
+01:51:16: [read seller]
+01:51:16: Already saved: toycastle
+
+01:51:16: [read seller]
+01:51:16: Already saved: Ichiban-Cards
+
+01:51:16: [read seller]
+01:51:16: Already saved: ThreeForOne-AT
+
+01:51:16: [read seller]
+01:51:16: Already saved: gamersfinest
+
+01:51:16: [read seller]
+01:51:16: Already saved: gamersfinest
+
+01:51:16: [read seller]
+01:51:16: Already saved: ThreeForOne-AT
+
+01:51:16: [read seller]
+01:51:16: Already saved: magictuga
+
+01:51:16: [read seller]
+01:51:16: Already saved: STARDUSTSHOP
+
+01:51:16: [read seller]
+01:51:16: Already saved: womantrader
+
+01:51:16: [read seller]
+01:51:16: Already saved: normans
+
+01:51:16: [read seller]
+01:51:16: Already saved: Wildfirestore
+
+01:51:16: [read seller]
+01:51:16: Already saved: Zauberland-Spiele
+
+01:51:16: [read seller]
+01:51:16: Already saved: TCGEnterprise
+
+01:51:16: [read seller]
+01:51:16: Already saved: Galactus-Roma
+
+01:51:16: [read seller]
+01:51:16: Already saved: MtgHistory
+
+01:51:16: [read seller]
+01:51:16: Already saved: DRAGONCT
+
+01:51:16: [read seller]
+01:51:16: Already saved: Mordor
+
+01:51:16: [read seller]
+01:51:16: Already saved: House-of-Games
+
+01:51:16: [read seller]
+01:51:16: Already saved: Method999
+
+01:51:16: [read seller]
+01:51:16: Already saved: Ichiban-Cards
+
+01:51:16: [read seller]
+01:51:16: Already saved: sovmar
+
+01:51:16: [read seller]
+01:51:16: Already saved: Kinglui272
+
+01:51:16: [read seller]
+01:51:16: Already saved: ThreeForOne-AT
+
+01:51:16: [read seller]
+01:51:16: Already saved: millmtg
+
+01:51:16: [read seller]
+01:51:16: Already saved: OoneroxoO
+
+01:51:16: [read seller]
+01:51:16: Already saved: Gunship-Games
+
+01:51:16: [read seller]
+01:51:16: Already saved: magiccorner
+
+01:51:16: [read seller]
+01:51:16: Already saved: Hismageil
+
+01:51:16: [read seller]
+01:51:16: Already saved: ThreeForOne-AT
+
+01:51:16: [read seller]
+01:51:16: Already saved: kreaten
+
+01:51:16: [read seller]
+01:51:16: Already saved: robledotiedra
+
+01:51:16: [read seller]
+01:51:16: Already saved: PlayTimeComo
+
+01:51:16: [read seller]
+01:51:16: Already saved: BB-Spiele
+
+01:51:16: [read seller]
+01:51:16: Already saved: Outpostgamecenter
+
+01:51:16: [read seller]
+01:51:16: Already saved: CardsMania
+
+01:51:16: [read seller]
+01:51:16: Already saved: magiccorner
+
+01:51:16: [read seller]
+01:51:16: Already saved: SpielRaum
+
+01:51:16: [read seller]
+01:51:16: Already saved: DRAGONCT
+
+01:51:16: [read seller]
+01:51:16: Already saved: NobleGarden
+
+01:51:16: [read seller]
+01:51:16: Already saved: Mordor
+
+01:51:16: [read seller]
+01:51:16: Already saved: House-of-Games
+
+01:51:16: [read seller]
+01:51:16: Already saved: CerberusIT
+
+01:51:16: [read seller]
+01:51:16: Already saved: kraxo
+
+01:51:17: [read seller]
+01:51:17: Already saved: Snapcaster-FR
+
+01:51:17: [read seller]
+01:51:17: Already saved: wolf12
+
+01:51:17: [read seller]
+01:51:17: Already saved: Metropolis-Center
+
+01:51:17: [read seller]
+01:51:17: Already saved: daktylus75
+
+01:51:17: [read seller]
+01:51:17: Already saved: fischi1984
+
+01:51:17: [read seller]
+01:51:17: Already saved: OblivionMTG
+
+01:51:17: [read seller]
+01:51:17: Already saved: Yufei
+
+01:51:17: [read seller]
+01:51:17: Already saved: KarelKopriva
+
+01:51:17: [read seller]
+01:51:17: Already saved: vibue
+
+01:51:17: [read seller]
+01:51:17: Already saved: Mtdna666
+
+01:51:17: [read seller]
+01:51:17: Already saved: Graufang
+
+01:51:17: [read seller]
+01:51:17: Already saved: PartyNator
+
+01:51:17: [read seller]
+01:51:17: Already saved: Profitis7
+
+01:51:17: [read seller]
+01:51:17: Already saved: karmacrow
+
+01:51:17: [read seller]
+01:51:17: Already saved: Galactus-Roma
+
+01:51:17: [read seller]
+01:51:17: Already saved: Tezzeret84
+
+01:51:17: [read seller]
+01:51:17: Already saved: DRAGONCT
+
+01:51:17: [read seller]
+01:51:17: Already saved: CardsMania
+
+01:51:17: [read seller]
+01:51:17: Already saved: CARAB
+
+01:51:17: [read seller]
+01:51:17: Already saved: DRAGONCT
+
+01:51:17: [read seller]
+01:51:17: Already saved: pl0wbeast
+
+01:51:17: [read seller]
+01:51:17: Already saved: antoct1991
+
+01:51:17: [read seller]
+01:51:17: Already saved: Goodlookgamer
+
+01:51:17: [read seller]
+01:51:17: Already saved: Ipari1993
+
+01:51:17: [read seller]
+01:51:17: Already saved: Rarehuntershop
+
+01:51:17: [read seller]
+01:51:17: Already saved: SenseisDiviningShop
+
+01:51:17: [read seller]
+01:51:17: Already saved: WouterDS
+
+01:51:17: [read seller]
+01:51:17: Already saved: D6ffjssy6
+
+01:51:17: [read seller]
+01:51:17: Already saved: TrulyAwesome
+
+01:51:17: [read seller]
+01:51:17: Already saved: Garlant
+
+01:51:17: [read seller]
+01:51:17: Already saved: Hobby-Games
+
+01:51:17: [read seller]
+01:51:17: Already saved: Malthe14
+
+01:51:17: [read seller]
+01:51:17: Already saved: Hoerni
+
+01:51:17: [read seller]
+01:51:17: Already saved: MagicEmporium
+
+01:51:17: [read seller]
+01:51:17: Already saved: Flo33333
+
+01:51:17: [read seller]
+01:51:17: Already saved: Rarehuntershop
+
+01:51:17: [read seller]
+01:51:17: Already saved: OutpostBrussels
+
+01:51:17: [read seller]
+01:51:17: Already saved: maxime75018
+
+01:51:17: [read seller]
+01:51:17: Already saved: minimagic
+
+01:51:17: [read seller]
+01:51:17: Already saved: parkage
+
+01:51:17: [read seller]
+01:51:17: Already saved: Fantasia-Shop
+
+01:51:17: [read seller]
+01:51:17: Already saved: ruicasasnovas
+
+01:51:17: [read seller]
+01:51:17: Already saved: SpielRaum
+
+01:51:17: [read seller]
+01:51:17: Already saved: Rusty2410
+
+01:51:17: [read seller]
+01:51:17: Already saved: Necrostation
+
+01:51:17: [read seller]
+01:51:17: Already saved: Mirk4523
+
+01:51:17: [read seller]
+01:51:17: Already saved: Mintcardgem
+
+01:51:17: [read seller]
+01:51:17: Already saved: Galactus-Roma
+
+01:51:17: [read seller]
+01:51:17: Already saved: Mordor
+
+01:51:17: [read seller]
+01:51:17: Already saved: pl0wbeast
+
+01:51:17: [read seller]
+01:51:17: Already saved: ToBoT2007
+
+01:51:17: [read seller]
+01:51:17: Already saved: alzi82
+
+01:51:17: [read seller]
+01:51:17: Already saved: Trago
+
+01:51:17: [read seller]
+01:51:17: Already saved: Tradingcardgames
+
+01:51:17: [read seller]
+01:51:17: Already saved: K4mpfsch4f
+
+01:51:17: [read seller]
+01:51:17: Already saved: CardStoreAlcamo
+
+01:51:17: [read seller]
+01:51:17: Already saved: Nerd-Shop
+
+01:51:17: [read seller]
+01:51:17: Already saved: fumettopoli
+
+01:51:17: [read seller]
+01:51:17: Already saved: toycastle
+
+01:51:17: [read seller]
+01:51:17: Already saved: Jizreel
+
+01:51:17: [read seller]
+01:51:17: Already saved: LocalProCards
+
+01:51:17: [read seller]
+01:51:17: Already saved: biber
+
+01:51:17: [read seller]
+01:51:17: Already saved: Mazvigosl
+
+01:51:17: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+01:51:17: Sleeping for 1.6787708234164962 seconds
+01:51:19: Sleeping for 0.6954877698519205 seconds
+01:51:20: Extending the sellers view...
+01:51:20: Sleeping for 0.5333933559056728 seconds
+01:51:20: Extending the sellers view...
+01:51:20: Sleeping for 0.6367393213811947 seconds

@@ -15,3 +15,25 @@ card_ID;card_name;expansion_name;rarity;price_from;30_avg_price;7_avg_price;1_av
 14;Fertile Ground;Battlebond;Common;0.01;0.09;0.11;0.10;4611;20
 15;Azra Oddsmaker;Battlebond;Uncommon;0.02;0.28;0.32;0.32;1337;20
 16;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;22
+17;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;25
+18;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;25
+19;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;25
+20;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;25
+21;Spell Snare;Battlebond;Uncommon;0.34;0.91;0.82;0.63;2177;25
+22;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;26
+23;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;26
+24;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;26
+25;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;26
+26;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;26
+27;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;27
+28;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;31
+29;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;31
+30;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;33
+31;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;33
+32;Skyshroud Claim;Battlebond;Common;0.12;0.62;0.63;0.67;1658;35
+33;Impulse;Battlebond;Common;0.02;0.20;0.16;0.28;2634;35
+34;Zndrsplt, Eye of Wisdom;Battlebond;Rare;0.10;0.33;0.33;0.41;1575;35
+35;Chain Lightning;Battlebond;Uncommon;0.95;1.97;2.04;1.75;390;35
+36;Okaun, Eye of Chaos;Battlebond;Rare;0.10;0.32;0.30;0.29;1486;35
+37;Luxury Suite;Battlebond;Rare;10.00;16.30;15.83;15.96;203;36
+38;Kor Spiritdancer;Battlebond;Rare;1.48;2.47;2.50;1.90;432;36
