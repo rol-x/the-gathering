@@ -712,6 +712,7 @@ def exponential_wait(wait_time, exponent):
     return exponent * wait_time
 
 
+# TODO: Add progress
 # Main function
 if __name__ == "__main__":
 
