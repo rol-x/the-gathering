@@ -276,7 +276,7 @@ def add_date():
 def get_seller_ID(seller_name):
     '''Return a seller ID given its name.'''
     seller_df = load_df('seller')
-    this_seller = seller_df[(seller_df['seller_name'] == card_name)]
+    this_seller = seller_df[(seller_df['seller_name'] == seller_name)]
     if len(this_seller) == 0:
         return -1
     return this_seller['seller_ID'].values[0]
