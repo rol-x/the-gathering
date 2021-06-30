@@ -141,7 +141,7 @@ def add_seller(seller_soup):
         log('Seller dropped!')
         log(f'Bad page soup dumped to logs/soups/{log_soup(seller_soup)}.log'
             + '\n')
-        realistic_pause(0.7*max_wait)
+        realistic_pause(0.8*max_wait)
         return
 
     # Seller name
@@ -222,16 +222,17 @@ def add_date():
 
     # Prepare the attributes
     now = datetime.now()
-    date_time = now.strftime("%d/%m/%Y %H").split(" ")
-    day = date_time[0].split("/")[0]
-    month = date_time[0].split("/")[1]
-    year = date_time[0].split("/")[2]
-    hour = date_time[1]
+    date = now.strftime("%d/%m/%Y").split("/")
+    day = date[0]
+    month = date[1]
+    year = date[2]
+    weekday = now.weekday() + 1
     date_ID = len(date_df.index) + 1
+    time = now.strftime("%H") + now.strftime("%S")
 
     # Create a log filename from the datetime
     global log_filename
-    log_filename = day + month + year + "_" + hour
+    log_filename = day + month + year + "_" + time
     if not silent_mode:
         log_filename += "_verbose"
     log_filename += ".log"
@@ -240,10 +241,9 @@ def add_date():
     # Check for the same datetime record
     same_date = date_df[(date_df['day'] == int(day))
                         & (date_df['month'] == int(month))
-                        & (date_df['year'] == int(year))
-                        & (date_df['hour'] == int(hour))]['date_ID']
+                        & (date_df['year'] == int(year))]['date_ID']
     if(len(same_date) > 0):
-        print(f'Date [{date_time[0]} {date_time[1]}] '
+        print(f'Date [{date[0]}/{date[1]}/{date[2]}] '
               + f'already added (date_ID: {same_date.values[0]})')
         return same_date.values[0]
 
@@ -252,21 +252,20 @@ def add_date():
         if not silent_mode:
             log('[write date]')
         date_csv.write(str(date_ID) + ';')
-        date_csv.write(day + ';')
-        date_csv.write(month + ';')
-        date_csv.write(year + ';')
-        date_csv.write(str(now.weekday()) + ';')
-        date_csv.write(hour + '\n')
+        date_csv.write(str(day) + ';')
+        date_csv.write(str(month) + ';')
+        date_csv.write(str(year) + ';')
+        date_csv.write(str(weekday) + '\n')
 
     # Logging
     log('== Add date ==')
-    log('Date: \t\t\t' + str(date_time[0]))
-    log('Hour: \t\t\t' + str(hour))
+    log('Day: \t\t\t' + str(date[0]))
+    log('Month: \t\t\t' + str(date[1]))
+    log('Year: \t\t\t' + str(date[2]))
     log('Date ID: \t\t\t' + str(date_ID))
     if not silent_mode:
         log('Log file name: \t' + str(log_filename))
-    keyboard.read_key()
-    # input()
+    # keyboard.get_key()
 
     # Return the current date ID
     return date_ID
@@ -277,8 +276,10 @@ def get_seller_ID(seller_name):
     '''Return a seller ID given its name.'''
     seller_df = load_df('seller')
     this_seller = seller_df[(seller_df['seller_name'] == seller_name)]
+
     if len(this_seller) == 0:
         return -1
+
     return this_seller['seller_ID'].values[0]
 
 
@@ -288,8 +289,10 @@ def get_card_ID(card_name):
     card_df = load_df('card')
     this_card = card_df[(card_df['card_name'] == card_name)
                         & (card_df['date_ID'] == current_date_ID)]
+
     if len(this_card) == 0:
         return -1
+
     return this_card['card_ID'].values[0]
 
 
@@ -317,18 +320,25 @@ def add_offers(card_page):
                             "item-count small text-right"})
     attributes = table.findAll("div", {"class": "product-attributes col"})
 
+    # Get the card ID (dependent on card_name and current_date_ID)
+    card_ID = get_card_ID(card_name)
+
+    # Logging
+    offers_added = 0
+    log(f"Task - Updating sale offers")
+
     # Ensure the table has proper content
     if not (len(prices) / 2) == len(amounts) \
             == len(seller_names) == len(attributes):
-        log('The attributes columns don\'t match in size!\n')
+        log('The columns don\'t match in size!\n')
         return
 
     # Acquire the data row by row
     for i in range(len(seller_names)):
         offer_attrs = []
-        price = str(prices[2*i].string)[:-2].replace(".", "") \
-            .replace(",", ".")
-        amount = amounts[i].string
+        price = float(str(prices[2*i].string)[:-2].replace(".", "")
+                      .replace(",", "."))
+        amount = int(amounts[i].string)
         seller_name = seller_names[i].string
 
         # Get card attributes
@@ -340,9 +350,10 @@ def add_offers(card_page):
             else:
                 offer_attrs.append(attr["data-original-title"])
             is_foiled = False
-            other = attr.find("span", {"class": "icon st_SpecialIcon mr-1"})
-            if other is not None:
-                if other["data-original-title"] == 'Foil':
+            foil = attributes[i].find("span", {"class":
+                                               "icon st_SpecialIcon mr-1"})
+            if foil is not None:
+                if foil["data-original-title"] == 'Foil':
                     is_foiled = True
 
         # Interpret the attributes
@@ -357,7 +368,6 @@ def add_offers(card_page):
 
         # Get dependent values
         seller_ID = get_seller_ID(seller_name)
-        card_ID = get_card_ID(card_name)
 
         # Determine whether the same offer is already saved
         sale_offer_df = load_df('sale_offer')
@@ -369,6 +379,7 @@ def add_offers(card_page):
                                & (sale_offer_df['is_foiled'] == is_foiled)
                                & (sale_offer_df['amount'] == amount)
                                & (sale_offer_df['date_ID'] == current_date_ID)]
+
         # If there are matching offers, don't add this one
         if len(offers) > 0:
             if not silent_mode:
@@ -395,14 +406,20 @@ def add_offers(card_page):
         with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
             if not silent_mode:
                 log('[write sale offer]' + '\n')
-            offers_csv.write(str(seller_name) + ';')
+            offers_csv.write(str(seller_ID) + ';')
             offers_csv.write(str(price) + ';')
-            offers_csv.write(str(card_name) + ';')
+            offers_csv.write(str(card_ID) + ';')
             offers_csv.write(str(condition) + ';')
             offers_csv.write(str(card_lang) + ';')
             offers_csv.write(str(is_foiled) + ';')
             offers_csv.write(str(amount) + ';')
             offers_csv.write(str(current_date_ID) + '\n')
+
+        offers_added += 1
+    if offers_added > 0:
+        log(f"Done - {offers_added} new offers added\n")
+    else:
+        log(f"Done - All offers saved\n")
 
 
 # Prepare .csv files for storing the scraped data locally
@@ -433,7 +450,7 @@ def prepare_files():
     if os.path.getsize('data/date.csv'):
         pass
     else:
-        date_csv.write('date_ID;day;month;year;day_of_week;hour\n')
+        date_csv.write('date_ID;day;month;year;day_of_week\n')
     date_csv.close()
 
     sale_offer_csv = open('data/sale_offer.csv', 'a+', encoding="utf-8")
@@ -521,9 +538,9 @@ def is_seller_saved(seller_name):
     return False
 
 
-# Return whether a card with the same name is saved during this hour.
-def is_card_recently_saved(card_name):
-    '''Return whether a card with the same name is saved during this hour.'''
+# Return whether a card with the same name is saved during this day.
+def is_card_saved_today(card_name):
+    '''Return whether a card with the same name is saved during this day.'''
     card_df = load_df('card')
     date_df = load_df('date')
     date_IDs = card_df[(card_df['card_name'] == card_name)]['date_ID'].values
@@ -532,15 +549,12 @@ def is_card_recently_saved(card_name):
     this_date = date_df[date_df['date_ID'] == current_date_ID]
     for id in date_IDs:
         card_date = date_df[date_df['date_ID'] == id]
-        if this_date['day'].values[0] != card_date['day'].values[0]:
+        if this_date['year'].values[0] != card_date['year'].values[0]:
             continue
         if this_date['month'].values[0] != card_date['month'].values[0]:
             continue
-        if this_date['year'].values[0] != card_date['year'].values[0]:
-            continue
-        if this_date['hour'].values[0] == card_date['hour'].values[0]:
-            log(f'Card {card_name} saved recently ('
-                + str(card_date['hour'].values[0]) + ')')
+        if this_date['day'].values[0] == card_date['day'].values[0]:
+            log(f'Card {card_name} saved today')
             return True
     return False
 
@@ -563,7 +577,7 @@ def get_card_names(driver, expansion_name):
     exp_file = open('data/' + exp_filename + '.txt', 'r', encoding="utf-8")
     saved_cards = exp_file.read().split('\n')[:-1]
     exp_file.close()
-    log("Task - Compiling a list of all card names in current expansion")
+    log("Task - Getting all card names from current expansion")
 
     all_cards = []
     page_no = 1
@@ -579,12 +593,12 @@ def get_card_names(driver, expansion_name):
 
         # Check if there are cards on the page
         if len(card_elements) == 0:
-            log("Last page reached")
+            log("Last page reached\n")
             break
 
         # Check if there is a saved complete list of cards from this expansion
         if get_card_hits(list_soup) == len(saved_cards):
-            log(f"Done - Card names from {expansion_name} are already saved\n")
+            log(f"Done - All card names from {expansion_name} saved\n")
             return saved_cards
 
         for card in card_elements:
@@ -690,7 +704,6 @@ def log_soup(soup):
     '''Log a soup to a separate file for inspection.'''
     # Chose available soup identification number and create a filename
     soup_names = os.listdir('logs/soups')
-    print(soup_names)  # Debug
     while True:
         soup_id = randint(100000, 999999)
         filename = str(soup_id) + '.log'
@@ -735,7 +748,7 @@ if __name__ == "__main__":
             driver.get(card_url)
             log_url(driver.current_url)
             realistic_pause(0.6*max_wait)
-            log("                Expanding page...")
+            log("                Expanding page...\n")
             click_load_more_button(driver)
 
             # Add the parsed page content to the list for later use
@@ -750,11 +763,11 @@ if __name__ == "__main__":
                     driver = restart_webdriver(driver)
 
         # Check if a recent record already exists
-        if not is_card_recently_saved(card_name):
+        if not is_card_saved_today(card_name):
             add_card(card_soup)
 
         # Get all sellers from the card page
-        log("Task - Updating sellers list")
+        log(f"Task - Updating sellers list")
         sellers = get_seller_names(card_soup)
         for seller_name in sellers:
 
@@ -768,15 +781,18 @@ if __name__ == "__main__":
                 add_seller(seller_soup)
 
         # Logging
-        log(f"Done - All sellers of card {card_name} saved")
+        log(f"Done - All sellers saved\n")
 
         # Get all sale offers from the page
         add_offers(card_soup)
 
+    # Logging
+    log("All cards, sellers and sale offers acquired")
+
     # Close the webdriver
     driver.close()
-    print("Webdriver closed")
+    log("Webdriver closed")
 
     # Close the connection to the database
     conn.close()
-    print("Database connection closed")
+    log("Database connection closed")

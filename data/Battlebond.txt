@@ -6,93 +6,93 @@ Okaun, Eye of Chaos
 Spell Snare
 Fertile Ground
 Azra Oddsmaker
-Mindblade Render
 Virtus's Maneuver
+Mindblade Render
 Greater Good
 Pir, Imaginative Rascal
 Swords to Plowshares
 Virtus the Veiled
 Generous Patron
+Stolen Strategy
 Spellseeker
 Sentinel Tower
-Vigor
-Stolen Strategy
-Peregrine Drake
 Tidespout Tyrant
+Peregrine Drake
 Pir's Whim
 Genesis Chamber
+Vigor
 Plains
-Khorvath's Fury
 Bonus Round
+Luxury Suite
+Khorvath's Fury
 Beast Within
 Angelic Chorus
 Bountiful Promenade
-Luxury Suite
+Morphic Pool
 Kor Spiritdancer
 Sea of Clouds
-Diabolic Intent
 Last One Standing
-Morphic Pool
-Toothy, Imaginary Friend
-Sower of Temptation
-Magus of the Candelabra
-Spire Garden
+Diabolic Intent
 War's Toll
+Magus of the Candelabra
+Toothy, Imaginary Friend
+Spire Garden
+Sower of Temptation
 Thrilling Encore
 Krav, the Unredeemed
 Mind's Eye
 Noosegraf Mob
 Mountain
-Magmatic Force
-Expedite
 Sylvia Brightspear
+Magmatic Force
 Zndrsplt's Judgment
-Warrior Token (White 1/1)
+Expedite
 Bramble Sovereign
-Island
-Forest
-Arena Rector
+Warrior Token (White 1/1)
 Gwafa Hazid, Profiteer
+Forest
 Stunning Reversal
+Arena Rector
 Khorvath Brightflame
+Island
 Najeela, the Blade-Blossom
 Game Plan
 Seedborn Muse
 Chakram Retriever
-Evil Twin
 Regna, the Redeemer
-Archfiend of Despair
 Play of the Game
-Elvish Visionary
+Evil Twin
+Archfiend of Despair
 Nirkana Revenant
-Fog Bank
+Elvish Visionary
+Savage Ventmaw
 Gorm the Great
 Mystic Confluence
-Savage Ventmaw
-Tenacious Dead
+Fog Bank
 Myr Token (Artifact 1/1)
+Tenacious Dead
 Together Forever
 Brightling
 Culling Dais
 Archon of Valor's Reach
-Apocalypse Hydra
 Rushblade Commander
 Grothama, All-Devouring
+Long Road Home
+Apocalypse Hydra
 Regna's Sanction
 Ley Weaver
-Rowan Kenrith (V.1)
 Fumble
 Doubling Season
-Long Road Home
+Rowan Kenrith (V.1)
 Pulse of Murasa
 Nyxathid
 Will Kenrith (V.1)
+True-Name Nemesis
 Land Tax
 Negate
 Dragon Breath
 Karametra's Favor
 Beast Token (Green 3/3)
-True-Name Nemesis
 Inner Demon
 Morbid Curiosity
 Feral Hydra
@@ -102,23 +102,24 @@ Unflinching Courage
 Swamp
 Arcane Artisan
 Decorated Champion
+Battle Mastery
 Goblin Razerunners
 Dinrova Horror
-Veteran Explorer
-Battle Mastery
 Shock
 Will Kenrith Emblem
+Veteran Explorer
+Thrasher Brute
 The Crowd Goes Wild
 Blaring Recruiter
-Painful Lesson
 Victory Chimes
-Thrasher Brute
+Painful Lesson
 Blaring Captain
 Midnight Guard
 Canopy Spider
 Grotesque Mutation
 Swarm of Bloodflies
 Bathe in Dragonfire
+Pierce Strider
 Doomed Dissenter
 Out of Bounds
 Gang Up
@@ -128,65 +129,67 @@ Phantom Warrior
 Quest for the Gravelord
 Shambling Ghoul
 Dragon Hatchling
-Pierce Strider
 Rowan Kenrith Emblem
-Soulblade Corrupter
 Jungle Wayfinder
 Oreskos Explorer
 Rotfeaster Maggot
 Fertilid
 Spectral Searchlight
+Spirit Token (White 1/1)
+Soulblade Corrupter
 Boldwyr Intimidator
 Mangara of Corondor
 Angel of Retribution
+Switcheroo
 Liturgy of Blood
 Slum Reaper
+Return to the Earth
 Riptide Crab
 Huddle Up
 Soaring Show-Off
-Doomed Traveler
+Dwarven Lightsmith
 Lava-Field Overlord
 Nimbus Champion
-Switcheroo
-Blaze
+Last Gasp
 Flamewave Invoker
 Giant Growth
 Plated Crusher
 Wandering Wolf
+Enduring Scalelord
 Consulate Skygate
-Spirit Token (White 1/1)
 Centaur Healer
 Daggerdrome Imp
-Dwarven Lightsmith
 Cheering Fanatic
 Bull-Rush Bruiser
 Vampire Charmseeker
 Hand of Silumgar
 Noxious Dragon
 Prakhata Club Security
+Blaze
 Ember Beast
 Enthralling Victor
 Reckless Reveler
 Aim High
-Enduring Scalelord
+Primal Huntbeast
 Stone Golem
 Yotian Soldier
+Doomed Traveler
 Saltwater Stalwart
 Saddleback Lagac
 Angelic Gift
-Last Gasp
 Blood Feud
-Primal Huntbeast
-Return to the Earth
 Kiss of the Amesha
 Rhox Brute
 Seer's Lantern
 Eager Construct
 Soulblade Renewer
+Impetuous Protege
 Stadium Vendors
+Jubilant Mascot
 Bring Down
 Pacifism
 Nimbus of the Isles
+Oracle's Insight
 Assassin's Strike
 Eyeblight Assassin
 Battle Rampart
@@ -195,17 +198,15 @@ Jelenn Sphinx
 Peace Strider
 Zombie Token (Black 2/2)
 Charging Binox
-Impetuous Protege
 Proud Mentor
 Kraken Hatchling
-Jubilant Mascot
 Aurora Champion
 Loyal Pegasus
 Rebuke
 Claustrophobia
 Kitesail Corsair
-Oracle's Insight
 Pathmaker Initiate
+Trumpet Blast
 Lead by Example
 Relentless Hunter
 Gold-Forged Sentinel
@@ -219,17 +220,15 @@ Bloodborn Scoundrels
 Tandem Tactics
 Magma Hellion
 Raptor Companion
-Silverchase Fox
 Solemn Offering
+Steppe Glider
 Reckless Scholar
 Fill with Fright
-Screeching Buzzard
 Lightning Talons
 Thunder Strike
 Wrap in Flames
 Kraul Warrior
 Hexplate Golem
-Night Market Guard
 Fan Favorite
 Expedition Raptor
 Skystreamer
@@ -239,8 +238,8 @@ Azra Bladeseeker
 Champion of Arashin
 Lightwalker
 Royal Trooper
+Silverchase Fox
 Sparring Mummy
-Steppe Glider
 Take Up Arms
 Benthic Giant
 Call to Heel
@@ -250,15 +249,16 @@ Omenspeaker
 Totally Lost
 Watercourser
 Assassinate
+Screeching Buzzard
 Tavern Swindler
 Battle-Rattle Shaman
 Borderland Marauder
 Earth Elemental
-Trumpet Blast
 Charging Rhino
 Cowl Prowler
 Hunted Wumpus
 Urborg Drake
 Millennial Gargoyle
+Night Market Guard
 Will Kenrith (V.2)
 Rowan Kenrith (V.2)

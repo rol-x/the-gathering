@@ -1,0 +1,76 @@
+08:40:33: === Creation of this file ===
+08:40:38: Webdriver ready
+08:40:38: Database connection established
+
+08:40:38: Task - Getting all card names from current expansion
+08:40:38: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+08:40:38: Done - All card names from Battlebond saved
+
+08:40:39: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+08:40:42:                 Expanding page...
+
+08:40:46: Card Skyshroud Claim saved today
+08:40:46: Task - Updating sellers list
+08:40:47: Done - All sellers saved
+
+08:40:47: Task - Updating sale offers
+08:40:51: Done - All offers saved
+
+08:40:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+08:40:53:                 Expanding page...
+
+08:41:00: Card Impulse saved today
+08:41:00: Task - Updating sellers list
+08:41:03: Done - All sellers saved
+
+08:41:03: Task - Updating sale offers
+08:41:10: Done - All offers saved
+
+08:41:11: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+08:41:13:                 Expanding page...
+
+08:41:20: Card Zndrsplt, Eye of Wisdom saved today
+08:41:20: Task - Updating sellers list
+08:41:23: Done - All sellers saved
+
+08:41:23: Task - Updating sale offers
+08:41:30: Done - All offers saved
+
+08:41:30: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+08:41:32:                 Expanding page...
+
+08:41:35: Card Chain Lightning saved today
+08:41:35: Task - Updating sellers list
+08:41:36: Done - All sellers saved
+
+08:41:36: Task - Updating sale offers
+08:41:39: Done - All offers saved
+
+08:41:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+08:41:42:                 Expanding page...
+
+08:41:49: Card Okaun, Eye of Chaos saved today
+08:41:49: Task - Updating sellers list
+08:41:52: Done - All sellers saved
+
+08:41:52: Task - Updating sale offers
+08:42:00: Done - All offers saved
+
+08:42:00: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+08:42:03:                 Expanding page...
+
+08:42:10: Card Spell Snare saved today
+08:42:10: Task - Updating sellers list
+08:42:13: Done - All sellers saved
+
+08:42:13: Task - Updating sale offers
+08:42:20: Done - All offers saved
+
+08:42:21: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fertile-Ground
+08:42:23:                 Expanding page...
+
+08:42:30: Card Fertile Ground saved today
+08:42:30: Task - Updating sellers list
+08:42:34: Done - All sellers saved
+
+08:42:34: Task - Updating sale offers
