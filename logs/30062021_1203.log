@@ -1,0 +1,172 @@
+12:03:59: === Creation of this file ===
+12:04:04: Webdriver ready
+12:04:04: Database connection established
+
+12:04:04: Task - Getting all card names from current expansion
+12:04:05: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+12:04:05: Done - All card names from Battlebond saved
+
+12:04:05:  =  Skyshroud Claim  =  	(1/264  0.38%)
+12:04:06: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+12:04:08:                 Expanding page...
+12:04:11: Card Skyshroud Claim saved today
+
+12:04:11:  = Sellers = 
+12:04:11: Task - Updating sellers list
+12:04:13: Done - All sellers saved
+
+12:04:13:  = Offers = 
+12:04:13: Task - Updating sale offers
+12:04:15:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:04:15:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:04:15: Done - 1 new offers added
+
+12:04:15:  =  Impulse  =  	(2/264  0.76%)
+12:04:16: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+12:04:18:                 Expanding page...
+12:04:25: Card Impulse saved today
+
+12:04:25:  = Sellers = 
+12:04:25: Task - Updating sellers list
+12:04:28: Done - All sellers saved
+
+12:04:28:  = Offers = 
+12:04:28: Task - Updating sale offers
+12:04:31:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:04:31:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0        206   0.02        2           Good  English      False       2        1
+1       4424   0.02        2      Near Mint  English      False       4        1
+2        207   0.02        2      Near Mint  English      False       1        1
+3        208   0.02        2           Good  English      False       1        1
+4        208   0.02        2      Excellent  English      False       2        1
+12:04:31: Done - 1 new offers added
+
+12:04:31:  =  Zndrsplt, Eye of Wisdom  =  	(3/264  1.14%)
+12:04:31: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+12:04:33:                 Expanding page...
+12:04:41: Card Zndrsplt, Eye of Wisdom saved today
+
+12:04:41:  = Sellers = 
+12:04:41: Task - Updating sellers list
+12:04:43: Done - All sellers saved
+
+12:04:44:  = Offers = 
+12:04:44: Task - Updating sale offers
+12:04:47:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:04:47:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0        483   0.10        3      Excellent  English      False       1        1
+1        484   0.10        3      Near Mint  English      False       1        1
+2        485   0.10        3      Near Mint  English      False       1        1
+3        486   0.10        3      Near Mint  English      False       3        1
+4        487   0.12        3      Near Mint  English      False       1        1
+12:04:47: Done - 1 new offers added
+
+12:04:47:  =  Chain Lightning  =  	(4/264  1.52%)
+12:04:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+12:04:49:                 Expanding page...
+12:04:52: Card Chain Lightning saved today
+
+12:04:52:  = Sellers = 
+12:04:52: Task - Updating sellers list
+12:04:53: Done - All sellers saved
+
+12:04:53:  = Offers = 
+12:04:53: Task - Updating sale offers
+12:04:54:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:04:54:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0       4812   3.00        4      Near Mint  English      False       1        1
+1        697   0.95        4      Near Mint  English      False       1        1
+2       4812   1.00        4      Near Mint  English      False       1        1
+3        698   1.00        4      Near Mint  English      False       1        1
+4        699   1.00        4      Near Mint  English      False       1        1
+12:04:54: Done - 1 new offers added
+
+12:04:54:  =  Okaun, Eye of Chaos  =  	(5/264  1.89%)
+12:04:55: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+12:04:57:                 Expanding page...
+12:04:59: Card Okaun, Eye of Chaos saved today
+
+12:04:59:  = Sellers = 
+12:04:59: Task - Updating sellers list
+12:04:59: Done - All sellers saved
+
+12:05:00:  = Offers = 
+12:05:00: Task - Updating sale offers
+12:05:00:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:05:00:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0        483    0.1        5      Excellent  English      False       1        1
+1        781    0.1        5      Near Mint  English      False       1        1
+2        493    0.1        5      Near Mint  English      False       6        1
+3        271    0.1        5      Near Mint  English      False       1        1
+4        481    0.1        5      Near Mint  English      False       1        1
+12:05:00: Done - 1 new offers added
+
+12:05:00:  =  Spell Snare  =  	(6/264  2.27%)
+12:05:00: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+12:05:03:                 Expanding page...
+12:05:03: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+12:05:25: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+12:05:27:                 Expanding page...
+12:05:38: Card Spell Snare saved today
+
+12:05:38:  = Sellers = 
+12:05:38: Task - Updating sellers list
+12:05:42: Done - All sellers saved
+
+12:05:42:  = Offers = 
+12:05:42: Task - Updating sale offers
+12:05:46:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0          1   0.12        1      Near Mint  English      False       1        1
+1          2   0.15        1           Mint  English      False       1        1
+2       2018   0.19        1      Near Mint  English      False       2        1
+3          3   0.20        1      Near Mint  English      False       1        1
+4          4   0.20        1      Near Mint  English      False       1        1
+12:05:46:    seller_ID  price  card_ID card_condition language  is_foiled  amount  date_ID
+0        831   0.34        6      Excellent  English      False       1        1
+1        832   0.35        6      Near Mint  English      False       1        1
+2        833   0.35        6      Excellent  English      False       1        1
+3        834   0.35        6      Near Mint  English      False       1        1
+4        835   0.37        6      Near Mint  English      False       1        1
+12:05:46: Done - 1 new offers added
+
+12:05:46:  =  Fertile Ground  =  	(7/264  2.65%)
+12:05:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fertile-Ground
+12:05:49:                 Expanding page...
+12:05:58: Card Fertile Ground saved today
+
+12:05:58:  = Sellers = 
+12:05:58: Task - Updating sellers list
+12:06:01: Done - All sellers saved
+
+12:06:01:  = Offers = 
+12:06:01: Task - Updating sale offers

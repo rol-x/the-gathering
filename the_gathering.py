@@ -17,6 +17,7 @@ silent_mode = True
 # Global variables connected to this run of the code.
 log_filename = 'dump.log'
 current_date_ID = 0
+wait_coef = 1.0
 
 # Global fixed variables
 base_url = 'https://www.cardmarket.com/en/Magic/Products/Singles/'
@@ -51,7 +52,7 @@ def restart_webdriver(driver):
     log('Restarting the webdriver')
     driver.close()
     log('Closing the webdriver')
-    realistic_pause(0.3 * max_wait)
+    realistic_pause(0.3*max_wait*wait_coef)
     driver = create_webdriver()
     return driver
 
@@ -98,10 +99,10 @@ def add_card(card_soup):
     card_ID = len(card_df.index) + 1
 
     # Logging
+    log('== Add card ==')
+    log('Card: \t\t\t' + str(card_name))
+    log('Card ID: \t\t' + str(card_ID))
     if not silent_mode:
-        log('== Add card ==')
-        log('Card: \t\t\t' + str(card_name))
-        log('Card ID: \t\t' + str(card_ID))
         log('Expansion: \t' + str(expansion_name))
         log('Rarity: \t\t\t' + str(rarity))
         log('Price from: \t\t' + str(price_from))
@@ -110,7 +111,6 @@ def add_card(card_soup):
         log('1-day avg: \t\t' + str(avg_1_price))
         log('Amount: \t\t' + str(available_items))
         log('Date ID: \t\t' + str(current_date_ID))
-        keyboard.read_key()
 
     # Save the card in local file
     with open('data/card.csv', 'a', encoding="utf-8") as card_csv:
@@ -132,24 +132,22 @@ def add_card(card_soup):
 def add_seller(seller_soup):
     '''Extract information about a seller from provided soup.'''
 
+    # Wait to cool down requests from this IP
+    realistic_pause(0.7*max_wait*wait_coef)
+
     # Get rows from the seller information table on page
     seller_name = seller_soup.find("h1")
 
     # User not loaded correctly
     if seller_name is None:
-        realistic_pause(0.7*max_wait)
         log('Seller dropped!')
         log(f'Bad page soup dumped to logs/soups/{log_soup(seller_soup)}.log'
             + '\n')
-        realistic_pause(0.8*max_wait)
+        realistic_pause(0.8*max_wait*wait_coef)
         return
 
     # Seller name
     seller_name = str(seller_name.string)
-
-    # Log
-    log('Extracting seller info: ' + seller_name)
-    realistic_pause(0.8*max_wait)
 
     # Seller ID
     seller_df = load_df('seller')
@@ -190,10 +188,10 @@ def add_seller(seller_soup):
         address = ''
 
     # Logging
+    log('== Add seller ==')
+    log('Seller: \t\t\t' + str(seller_name))
+    log('Seller ID: \t\t' + str(seller_ID))
     if not silent_mode:
-        log('== Add seller ==')
-        log('Seller: \t\t\t' + str(seller_name))
-        log('Seller ID: \t\t' + str(seller_ID))
         log('Type: \t\t\t' + str(s_type))
         log('Member since: \t' + str(member_since))
         log('Country: \t\t\t' + str(country))
@@ -228,7 +226,7 @@ def add_date():
     year = date[2]
     weekday = now.weekday() + 1
     date_ID = len(date_df.index) + 1
-    time = now.strftime("%H") + now.strftime("%S")
+    time = now.strftime("%H") + now.strftime("%M")
 
     # Create a log filename from the datetime
     global log_filename
@@ -324,7 +322,7 @@ def add_offers(card_page):
     card_ID = get_card_ID(card_name)
 
     # Logging
-    offers_added = 0
+    log(" = Offers = ")
     log(f"Task - Updating sale offers")
 
     # Ensure the table has proper content
@@ -334,6 +332,9 @@ def add_offers(card_page):
         return
 
     # Acquire the data row by row
+    temp_dict = {"seller_ID": [], "price": [], "card_ID": [],
+                 "card_condition": [], "language": [], "is_foiled": [],
+                 "amount": [], "date_ID": []}
     for i in range(len(seller_names)):
         offer_attrs = []
         price = float(str(prices[2*i].string)[:-2].replace(".", "")
@@ -366,46 +367,53 @@ def add_offers(card_page):
             log("A card in a sale offer has incomplete attributes"
                 + "(language, condition)")
 
-        # Get dependent values
+        # Load the entry into the dictionary
         seller_ID = get_seller_ID(seller_name)
+        temp_dict['seller_ID'].append(seller_ID)
+        temp_dict['price'].append(price)
+        temp_dict['card_ID'].append(card_ID)
+        temp_dict['card_condition'].append(condition)
+        temp_dict['language'].append(card_lang)
+        temp_dict['is_foiled'].append(is_foiled)
+        temp_dict['amount'].append(amount)
+        temp_dict['date_ID'].append(current_date_ID)
 
-        # Determine whether the same offer is already saved
-        sale_offer_df = load_df('sale_offer')
-        offers = sale_offer_df[(sale_offer_df['seller_ID'] == seller_ID)
-                               & (sale_offer_df['card_ID'] == card_ID)
-                               & (sale_offer_df['price'] == price)
-                               & (sale_offer_df['card_condition'] == condition)
-                               & (sale_offer_df['language'] == card_lang)
-                               & (sale_offer_df['is_foiled'] == is_foiled)
-                               & (sale_offer_df['amount'] == amount)
-                               & (sale_offer_df['date_ID'] == current_date_ID)]
+    # Determine the difference between the new and known offers
+    sale_offer_df = load_df('sale_offer')
+    temp_df = pd.DataFrame(temp_dict)
+    new_df = pd.concat([sale_offer_df, temp_df]).drop_duplicates(keep=False)
+    offers_before = len(sale_offer_df.index)
+    read_offers = len(temp_df.index)
+    new_offers = len(new_df.index)
 
-        # If there are matching offers, don't add this one
-        if len(offers) > 0:
-            if not silent_mode:
-                log(f"Already saved transaction  ({seller_ID} -> {card_ID}"
-                    + f" for {price}")
-            continue
+    # Logging
+    if not silent_mode:
+        log('== Add sale offer ==')
+        log('Seller: \t\t\t' + str(seller_name))
+        log('Seller ID: \t\t' + str(seller_ID))
+        log('Price: \t\t\t' + str(price))
+        log('Card: \t\t\t' + str(card_name))
+        log('Card ID: \t\t\t' + str(card_ID))
+        log('Condition: \t\t' + str(condition))
+        log('Language: \t\t' + str(card_lang))
+        log('Is foiled: \t\t' + str(is_foiled))
+        log('Amount: \t\t\t' + str(amount))
+        log('Date ID: \t\t\t' + str(current_date_ID))
+        # keyboard.read_key()
 
-        # Logging
+    # Save the seller in local file
+    with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
         if not silent_mode:
-            log('== Add sale offer ==')
-            log('Seller: \t\t\t' + str(seller_name))
-            log('Seller ID: \t\t' + str(seller_ID))
-            log('Price: \t\t\t' + str(price))
-            log('Card: \t\t\t' + str(card_name))
-            log('Card ID: \t\t\t' + str(card_ID))
-            log('Condition: \t\t' + str(condition))
-            log('Language: \t\t' + str(card_lang))
-            log('Is foiled: \t\t' + str(is_foiled))
-            log('Amount: \t\t\t' + str(amount))
-            log('Date ID: \t\t\t' + str(current_date_ID))
-            # keyboard.read_key()
+            log('[write sale offer]' + '\n')
+        for i in new_df.index:
+            seller_ID = new_df.loc[i]['seller_ID']
+            price = new_df.loc[i]['price']
+            card_ID = new_df.loc[i]['card_ID']
+            condition = new_df.loc[i]['card_condition']
+            card_lang = new_df.loc[i]['language']
+            is_foiled = new_df.loc[i]['is_foiled']
+            amount = new_df.loc[i]['amount']
 
-        # Save the seller in local file
-        with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
-            if not silent_mode:
-                log('[write sale offer]' + '\n')
             offers_csv.write(str(seller_ID) + ';')
             offers_csv.write(str(price) + ';')
             offers_csv.write(str(card_ID) + ';')
@@ -415,11 +423,14 @@ def add_offers(card_page):
             offers_csv.write(str(amount) + ';')
             offers_csv.write(str(current_date_ID) + '\n')
 
-        offers_added += 1
-    if offers_added > 0:
-        log(f"Done - {offers_added} new offers added\n")
+    if new_offers == 0:
+        speed_up()
     else:
-        log(f"Done - All offers saved\n")
+        global wait_coef
+        wait_coef = 1.0
+
+    log(f"Done - {new_offers} new offers added  (out of: "
+        + f"{read_offers}, total: {offers_before+new_offers})\n")
 
 
 # Prepare .csv files for storing the scraped data locally
@@ -554,7 +565,6 @@ def is_card_saved_today(card_name):
         if this_date['month'].values[0] != card_date['month'].values[0]:
             continue
         if this_date['day'].values[0] == card_date['day'].values[0]:
-            log(f'Card {card_name} saved today')
             return True
     return False
 
@@ -611,7 +621,7 @@ def get_card_names(driver, expansion_name):
 
         # Advance to the next page
         page_no += 1
-        realistic_pause(0.2*max_wait)
+        realistic_pause(0.2*max_wait*wait_coef)
 
     # Save the complete cards list to a file
     exp_file = open('data/' + exp_filename + '.txt', 'w', encoding="utf-8")
@@ -635,7 +645,7 @@ def click_load_more_button(driver):
             driver.execute_script("arguments[0].click();", load_more_button)
             if not silent_mode:
                 log('Extending the sellers view...')
-            realistic_pause(0.2*max_wait)
+            realistic_pause(0.2*max_wait*wait_coef)
     except common.exceptions.NoSuchElementException:
         if not silent_mode:
             log(f"No button found on page {driver.current_url}")
@@ -725,7 +735,15 @@ def exponential_wait(wait_time, exponent):
     return exponent * wait_time
 
 
-# TODO: Add progress
+# Speed up until about 0.5s max wait time.
+def speed_up():
+    '''Speed up until about 0.5s max wait time.'''
+    global wait_coef
+    if wait_coef * max_wait < 0.5:
+        wait_coef *= 1.05
+    wait_coef *= 0.9
+
+
 # Main function
 if __name__ == "__main__":
 
@@ -737,38 +755,55 @@ if __name__ == "__main__":
     driver = create_webdriver()
     conn, cursor = connect_to_local_db('gathering')
 
+    # Statistics (nkb: card, seller, offer)
+    progress = 0
+
     # Loop over every card name
     card_list = get_card_names(driver, expansion_name)
     for card_name in card_list:
+        # Log the progress in data acquisition (done card by card)
+        progress += 1
+        log(f" == {card_name} == \t({progress}/{len(card_list)}  "
+            + str(round(100*progress/len(card_list), 2))
+            + "%)")
 
         while True:
+
             # Craft the card url and open it with the driver
             card_url_name = urlify(card_name)
             card_url = base_url + expansion_name + '/' + card_url_name
             driver.get(card_url)
             log_url(driver.current_url)
-            realistic_pause(0.6*max_wait)
-            log("                Expanding page...\n")
+            realistic_pause(0.6*max_wait*wait_coef)
+            log("                Expanding page...")
             click_load_more_button(driver)
 
             # Add the parsed page content to the list for later use
             card_soup = BeautifulSoup(driver.page_source, 'html.parser')
-            wait_time = 20
+            wait_time = 10.0
             if is_valid_card_page(card_soup):
                 break
             else:
                 log('Card page invalid: ' + driver.current_url)
+                log('Waiting and reconnecting... (cooldown '
+                    + f'{round(wait_time, 1)} seconds)')
                 wait_time = exponential_wait(wait_time, 1.5)
-                if wait_time > 60:
+                if wait_time > 60.0:
                     driver = restart_webdriver(driver)
 
         # Check if a recent record already exists
         if not is_card_saved_today(card_name):
             add_card(card_soup)
+        else:
+            log(f'Card {card_name} saved today\n')
 
         # Get all sellers from the card page
+        log(" = Sellers = ")
         log(f"Task - Updating sellers list")
         sellers = get_seller_names(card_soup)
+        sellers_before = len(load_df('seller').index)
+        read_sellers = len(sellers)
+        new_sellers = 0
         for seller_name in sellers:
 
             # Check if a recent record already exists
@@ -779,9 +814,17 @@ if __name__ == "__main__":
                 driver.get(users_url + seller_name)
                 seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
                 add_seller(seller_soup)
+                new_sellers += 1
 
         # Logging
-        log(f"Done - All sellers saved\n")
+        total_sellers = sellers_before + new_sellers
+        log(f"Done - {new_sellers} new sellers added  "
+            + f"(out of: {read_sellers}, total: {total_sellers})\n")
+
+        if new_sellers == 0:
+            speed_up()
+        else:
+            wait_coef = 1.0
 
         # Get all sale offers from the page
         add_offers(card_soup)

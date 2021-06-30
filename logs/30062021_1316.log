@@ -1,0 +1,82 @@
+13:16:58: === Creation of this file ===
+13:17:02: Webdriver ready
+13:17:02: Database connection established
+
+13:17:02: Task - Getting all card names from current expansion
+13:17:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+13:17:03: Done - All card names from Battlebond saved
+
+13:17:03:  == Skyshroud Claim == 	(1/264  0.38%)
+13:17:04: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+13:17:06:                 Expanding page...
+13:17:09: Card Skyshroud Claim saved today
+
+13:17:09:  = Sellers = 
+13:17:09: Task - Updating sellers list
+13:17:10: Done - 0 new sellers added  (out of: 236, total: 4836)
+
+13:17:10:  = Offers = 
+13:17:10: Task - Updating sale offers
+13:17:12: Done - 2 new offers added  (out of: 236, total: 210574)
+
+13:17:12:  == Impulse == 	(2/264  0.76%)
+13:17:13: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+13:17:14:                 Expanding page...
+13:17:21: Card Impulse saved today
+
+13:17:21:  = Sellers = 
+13:17:21: Task - Updating sellers list
+13:17:24: Done - 0 new sellers added  (out of: 416, total: 4836)
+
+13:17:24:  = Offers = 
+13:17:24: Task - Updating sale offers
+13:17:28: Done - 0 new offers added  (out of: 416, total: 210574)
+
+13:17:28:  == Zndrsplt, Eye of Wisdom == 	(3/264  1.14%)
+13:17:28: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+13:17:30:                 Expanding page...
+13:17:36: Card Zndrsplt, Eye of Wisdom saved today
+
+13:17:36:  = Sellers = 
+13:17:36: Task - Updating sellers list
+13:17:38: Done - 0 new sellers added  (out of: 407, total: 4836)
+
+13:17:39:  = Offers = 
+13:17:39: Task - Updating sale offers
+13:17:41: Done - 0 new offers added  (out of: 407, total: 210574)
+
+13:17:41:  == Chain Lightning == 	(4/264  1.52%)
+13:17:42: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+13:17:43:                 Expanding page...
+13:17:45: Card Chain Lightning saved today
+
+13:17:45:  = Sellers = 
+13:17:45: Task - Updating sellers list
+13:17:47: Done - 0 new sellers added  (out of: 169, total: 4836)
+
+13:17:47:  = Offers = 
+13:17:47: Task - Updating sale offers
+13:17:48: Done - 0 new offers added  (out of: 169, total: 210574)
+
+13:17:48:  == Okaun, Eye of Chaos == 	(5/264  1.89%)
+13:17:49: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+13:17:50:                 Expanding page...
+13:17:51: Card Okaun, Eye of Chaos saved today
+
+13:17:51:  = Sellers = 
+13:17:51: Task - Updating sellers list
+13:17:52: Done - 0 new sellers added  (out of: 100, total: 4836)
+
+13:17:52:  = Offers = 
+13:17:52: Task - Updating sale offers
+13:17:53: Done - 0 new offers added  (out of: 100, total: 210574)
+
+13:17:53:  == Spell Snare == 	(6/264  2.27%)
+13:17:53: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+13:17:53:                 Expanding page...
+13:17:53: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+13:17:53: Waiting and reconnecting... (cooldown 10.0 seconds)
+13:18:04: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+13:18:05:                 Expanding page...
+13:18:05: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+13:18:05: Waiting and reconnecting... (cooldown 10.0 seconds)

@@ -27,3 +27,230 @@ card_ID;card_name;expansion_name;rarity;price_from;30_avg_price;7_avg_price;1_av
 26;Luxury Suite;Battlebond;Rare;12.00;16.39;16.03;17.17;192;1
 27;Khorvath's Fury;Battlebond;Rare;0.15;0.75;0.73;1.28;412;1
 28;Beast Within;Battlebond;Uncommon;0.40;0.92;1.01;1.21;890;1
+29;Angelic Chorus;Battlebond;Rare;0.17;0.61;0.62;0.99;683;1
+30;Bountiful Promenade;Battlebond;Rare;7.00;9.81;9.44;9.93;291;1
+31;Morphic Pool;Battlebond;Rare;14.99;18.87;19.29;17.98;221;1
+32;Kor Spiritdancer;Battlebond;Rare;1.49;2.48;2.58;1.74;434;1
+33;Sea of Clouds;Battlebond;Rare;9.00;13.36;13.30;12.00;250;1
+34;Last One Standing;Battlebond;Rare;1.50;2.34;2.27;1.95;274;1
+35;Diabolic Intent;Battlebond;Rare;16.99;19.76;21.49;18.97;163;1
+36;War's Toll;Battlebond;Rare;0.24;1.10;0.95;0.84;278;1
+37;Magus of the Candelabra;Battlebond;Rare;0.08;0.39;0.38;0.45;1471;1
+38;Toothy, Imaginary Friend;Battlebond;Rare;3.49;7.53;7.56;8.78;297;1
+39;Spire Garden;Battlebond;Rare;6.95;8.84;8.46;7.74;331;1
+40;Sower of Temptation;Battlebond;Rare;0.80;1.90;2.00;1.99;406;1
+41;Thrilling Encore;Battlebond;Rare;2.49;4.26;4.34;3.49;363;1
+42;Krav, the Unredeemed;Battlebond;Rare;1.45;2.98;2.83;2.66;417;1
+43;Mind's Eye;Battlebond;Rare;1.45;4.96;5.05;3.97;325;1
+44;Noosegraf Mob;Battlebond;Rare;0.04;0.20;0.17;0.12;2018;1
+45;Mountain;Battlebond;Land;0.01;0.18;0.17;0.15;3486;1
+46;Sylvia Brightspear;Battlebond;Rare;0.10;0.48;0.46;0.77;976;1
+47;Magmatic Force;Battlebond;Rare;0.04;0.30;0.25;0.26;1911;1
+48;Zndrsplt's Judgment;Battlebond;Rare;0.05;0.25;0.32;0.25;1934;1
+49;Expedite;Battlebond;Common;0.01;0.10;0.07;0.15;4163;1
+50;Bramble Sovereign;Battlebond;Mythic;11.50;17.52;17.83;19.75;241;1
+51;Warrior Token (White 1/1);Battlebond;Token;0.01;0.06;0.09;0.03;7233;1
+52;Gwafa Hazid, Profiteer;Battlebond;Rare;0.05;0.19;0.17;0.16;2065;1
+53;Forest;Battlebond;Land;0.01;0.13;0.13;0.10;3669;1
+54;Stunning Reversal;Battlebond;Mythic;0.95;1.57;1.49;1.50;591;1
+55;Arena Rector;Battlebond;Mythic;9.00;12.72;11.19;10.32;392;1
+56;Khorvath Brightflame;Battlebond;Rare;0.10;0.36;0.36;0.53;1365;1
+57;Island;Battlebond;Land;0.01;0.12;0.13;0.25;3743;1
+58;Najeela, the Blade-Blossom;Battlebond;Mythic;5.00;6.78;6.09;5.90;269;1
+59;Game Plan;Battlebond;Rare;0.10;0.37;0.34;0.34;1253;1
+60;Seedborn Muse;Battlebond;Rare;4.49;5.65;5.32;6.27;360;1
+61;Chakram Retriever;Battlebond;Uncommon;0.02;0.16;0.17;0.09;2105;1
+62;Regna, the Redeemer;Battlebond;Rare;0.15;0.68;0.51;0.43;634;1
+63;Play of the Game;Battlebond;Rare;0.10;0.27;0.24;0.23;1630;1
+64;Evil Twin;Battlebond;Rare;0.10;0.29;0.32;0.24;1396;1
+65;Archfiend of Despair;Battlebond;Mythic;23.99;28.49;28.35;30.80;147;1
+66;Nirkana Revenant;Battlebond;Mythic;5.49;7.37;7.94;8.22;210;1
+67;Elvish Visionary;Battlebond;Common;0.01;0.09;0.07;0.11;4717;1
+68;Savage Ventmaw;Battlebond;Uncommon;0.02;0.13;0.15;0.23;1968;1
+69;Gorm the Great;Battlebond;Rare;0.09;0.27;0.31;0.25;1820;1
+70;Mystic Confluence;Battlebond;Rare;1.50;2.66;2.47;2.70;896;1
+71;Fog Bank;Battlebond;Uncommon;0.02;0.17;0.16;0.22;1838;1
+72;Myr Token (Artifact 1/1);Battlebond;Token;0.01;0.10;0.10;0.05;3131;1
+73;Tenacious Dead;Battlebond;Uncommon;0.02;0.10;0.15;0.03;2551;1
+74;Together Forever;Battlebond;Rare;0.05;0.28;0.23;0.25;2051;1
+75;Brightling;Battlebond;Mythic;1.00;1.97;2.10;1.99;1040;1
+76;Culling Dais;Battlebond;Uncommon;0.01;0.10;0.10;0.05;2965;1
+77;Archon of Valor's Reach;Battlebond;Rare;0.20;0.51;0.50;0.69;1099;1
+78;Rushblade Commander;Battlebond;Uncommon;0.02;0.15;0.18;0.15;3017;1
+79;Grothama, All-Devouring;Battlebond;Mythic;1.20;2.16;2.03;1.95;244;1
+80;Long Road Home;Battlebond;Uncommon;0.01;0.08;0.09;0.15;2521;1
+81;Apocalypse Hydra;Battlebond;Rare;0.02;0.32;0.32;0.10;1634;1
+82;Regna's Sanction;Battlebond;Rare;0.06;0.23;0.30;0.16;2160;1
+83;Ley Weaver;Battlebond;Uncommon;0.02;0.14;0.20;0.24;2348;1
+84;Fumble;Battlebond;Uncommon;0.02;0.18;0.18;0.20;3209;1
+85;Doubling Season;Battlebond;Mythic;29.93;41.13;41.99;43.15;140;1
+86;Rowan Kenrith (V.1);Battlebond;Mythic;1.74;2.57;2.58;2.33;404;1
+87;Pulse of Murasa;Battlebond;Uncommon;0.02;0.15;0.14;0.18;2390;1
+88;Nyxathid;Battlebond;Rare;0.02;0.32;0.32;0.44;1445;1
+89;Will Kenrith (V.1);Battlebond;Mythic;4.19;6.55;6.13;6.97;332;1
+90;True-Name Nemesis;Battlebond;Mythic;6.20;7.96;7.56;6.00;591;1
+91;Land Tax;Battlebond;Mythic;16.96;20.09;19.68;20.67;201;1
+92;Negate;Battlebond;Common;0.01;0.12;0.06;0.05;5092;1
+93;Dragon Breath;Battlebond;Uncommon;0.02;0.18;0.20;0.02;1965;1
+94;Karametra's Favor;Battlebond;Uncommon;0.02;0.05;0.05;0.10;3284;1
+95;Beast Token (Green 3/3);Battlebond;Token;0.01;0.14;0.09;0.08;2243;1
+96;Inner Demon;Battlebond;Uncommon;0.01;0.18;0.18;0.20;2430;1
+97;Morbid Curiosity;Battlebond;Uncommon;0.01;0.09;0.13;0.12;2789;1
+98;Feral Hydra;Battlebond;Uncommon;0.01;0.22;0.19;0.14;1729;1
+99;Juggernaut;Battlebond;Uncommon;0.01;0.02;0.02;0.02;2978;1
+100;Mycosynth Lattice;Battlebond;Mythic;15.00;19.32;21.05;20.50;147;1
+101;Unflinching Courage;Battlebond;Uncommon;0.02;0.11;0.07;0.13;2739;1
+102;Swamp;Battlebond;Land;0.01;0.14;0.14;0.15;3786;1
+103;Arcane Artisan;Battlebond;Mythic;1.49;2.28;2.19;2.00;784;1
+104;Decorated Champion;Battlebond;Uncommon;0.01;0.15;0.16;0.04;2876;1
+105;Battle Mastery;Battlebond;Uncommon;0.01;0.08;0.09;0.13;2476;1
+106;Goblin Razerunners;Battlebond;Rare;0.05;0.13;0.16;0.19;2752;1
+107;Dinrova Horror;Battlebond;Uncommon;0.02;0.09;0.11;0.09;2457;1
+108;Shock;Battlebond;Common;0.01;0.08;0.05;0.05;4496;1
+109;Will Kenrith Emblem;Battlebond;Token;0.05;0.26;0.23;0.19;1002;1
+110;Veteran Explorer;Battlebond;Uncommon;0.02;0.17;0.16;0.13;3421;1
+111;Thrasher Brute;Battlebond;Uncommon;0.01;0.15;0.08;0.05;2683;1
+112;The Crowd Goes Wild;Battlebond;Uncommon;0.01;0.10;0.09;0.17;2728;1
+113;Blaring Recruiter;Battlebond;Uncommon;0.02;0.11;0.13;0.25;2788;1
+114;Victory Chimes;Battlebond;Rare;0.10;0.54;0.43;0.84;885;1
+115;Painful Lesson;Battlebond;Common;0.01;0.04;0.03;0.01;5024;1
+116;Blaring Captain;Battlebond;Uncommon;0.02;0.12;0.14;0.25;2827;1
+117;Midnight Guard;Battlebond;Common;0.01;0.06;0.14;0.04;4589;1
+118;Canopy Spider;Battlebond;Common;0.01;0.05;0.05;0.10;4783;1
+119;Grotesque Mutation;Battlebond;Common;0.01;0.06;0.05;0.32;4856;1
+120;Swarm of Bloodflies;Battlebond;Uncommon;0.01;0.06;0.07;0.25;2986;1
+121;Bathe in Dragonfire;Battlebond;Common;0.01;0.04;0.02;0.01;4744;1
+122;Pierce Strider;Battlebond;Common;0.01;0.06;0.06;0.05;4705;1
+123;Doomed Dissenter;Battlebond;Common;0.01;0.09;0.07;0.05;4894;1
+124;Out of Bounds;Battlebond;Uncommon;0.01;0.12;0.13;0.13;3133;1
+125;Gang Up;Battlebond;Uncommon;0.01;0.10;0.09;0.12;3377;1
+126;Lore Weaver;Battlebond;Uncommon;0.02;0.09;0.10;0.05;2726;1
+127;Opportunity;Battlebond;Uncommon;0.01;0.05;0.04;0.10;3039;1
+128;Phantom Warrior;Battlebond;Uncommon;0.01;0.05;0.06;0.10;2948;1
+129;Quest for the Gravelord;Battlebond;Uncommon;0.02;0.10;0.13;0.04;2719;1
+130;Shambling Ghoul;Battlebond;Common;0.01;0.04;0.05;0.01;4773;1
+131;Dragon Hatchling;Battlebond;Common;0.01;0.08;0.09;0.10;4377;1
+132;Rowan Kenrith Emblem;Battlebond;Token;0.03;0.26;0.23;0.18;1073;1
+133;Jungle Wayfinder;Battlebond;Common;0.01;0.06;0.06;0.05;5302;1
+134;Oreskos Explorer;Battlebond;Uncommon;0.02;0.13;0.15;0.30;2667;1
+135;Rotfeaster Maggot;Battlebond;Common;0.01;0.04;0.06;0.04;4925;1
+136;Fertilid;Battlebond;Uncommon;0.02;0.11;0.07;0.05;1962;1
+137;Spectral Searchlight;Battlebond;Uncommon;0.02;0.08;0.04;0.02;2728;1
+138;Spirit Token (White 1/1);Battlebond;Token;0.01;0.07;0.05;0.04;4700;1
+139;Soulblade Corrupter;Battlebond;Uncommon;0.02;0.09;0.07;0.11;3032;1
+140;Boldwyr Intimidator;Battlebond;Uncommon;0.01;0.07;0.09;0.08;2861;1
+141;Mangara of Corondor;Battlebond;Rare;0.10;0.30;0.37;0.32;1679;1
+142;Angel of Retribution;Battlebond;Uncommon;0.01;0.06;0.04;0.03;2812;1
+143;Switcheroo;Battlebond;Uncommon;0.01;0.08;0.07;0.06;2937;1
+144;Liturgy of Blood;Battlebond;Common;0.01;0.03;0.02;0.02;4976;1
+145;Slum Reaper;Battlebond;Uncommon;0.02;0.08;0.07;0.03;2943;1
+146;Return to the Earth;Battlebond;Common;0.01;0.04;0.06;0.04;4907;1
+147;Riptide Crab;Battlebond;Common;0.01;0.04;0.06;0.01;4881;1
+148;Huddle Up;Battlebond;Common;0.01;0.06;0.07;0.09;5703;1
+149;Soaring Show-Off;Battlebond;Common;0.01;0.04;0.04;0.05;4973;1
+150;Dwarven Lightsmith;Battlebond;Common;0.01;0.04;0.05;0.05;5074;1
+151;Lava-Field Overlord;Battlebond;Uncommon;0.02;0.10;0.03;0.02;2785;1
+152;Nimbus Champion;Battlebond;Uncommon;0.01;0.07;0.09;0.10;3017;1
+153;Last Gasp;Battlebond;Common;0.01;0.04;0.04;0.10;5416;1
+154;Flamewave Invoker;Battlebond;Uncommon;0.01;0.07;0.15;0.20;2887;1
+155;Giant Growth;Battlebond;Common;0.01;0.04;0.04;0.04;4561;1
+156;Plated Crusher;Battlebond;Uncommon;0.02;0.07;0.05;0.05;2813;1
+157;Wandering Wolf;Battlebond;Common;0.01;0.05;0.05;0.04;4559;1
+158;Enduring Scalelord;Battlebond;Uncommon;0.02;0.07;0.11;0.07;2762;1
+159;Consulate Skygate;Battlebond;Common;0.01;0.04;0.03;0.02;4892;1
+160;Centaur Healer;Battlebond;Common;0.01;0.04;0.06;0.01;4999;1
+161;Daggerdrome Imp;Battlebond;Common;0.01;0.04;0.06;0.02;4896;1
+162;Cheering Fanatic;Battlebond;Uncommon;0.01;0.12;0.14;0.15;3210;1
+163;Bull-Rush Bruiser;Battlebond;Common;0.01;0.08;0.10;0.06;4972;1
+164;Vampire Charmseeker;Battlebond;Uncommon;0.02;0.10;0.06;0.05;2733;1
+165;Hand of Silumgar;Battlebond;Common;0.01;0.05;0.04;0.02;4857;1
+166;Noxious Dragon;Battlebond;Uncommon;0.02;0.04;0.06;0.02;2924;1
+167;Prakhata Club Security;Battlebond;Common;0.01;0.02;0.02;0.01;4791;1
+168;Blaze;Battlebond;Uncommon;0.02;0.10;0.13;0.03;2556;1
+169;Ember Beast;Battlebond;Common;0.01;0.02;0.02;0.01;4782;1
+170;Enthralling Victor;Battlebond;Uncommon;0.02;0.03;0.03;0.05;2992;1
+171;Reckless Reveler;Battlebond;Common;0.01;0.05;0.05;0.03;4954;1
+172;Aim High;Battlebond;Uncommon;0.02;0.05;0.04;0.02;2906;1
+173;Primal Huntbeast;Battlebond;Common;0.01;0.05;0.10;0.08;4756;1
+174;Stone Golem;Battlebond;Common;0.01;0.04;0.05;0.02;4859;1
+175;Yotian Soldier;Battlebond;Common;0.01;0.05;0.04;0.02;4799;1
+176;Doomed Traveler;Battlebond;Common;0.01;0.07;0.05;0.15;5038;1
+177;Saltwater Stalwart;Battlebond;Common;0.01;0.04;0.05;0.02;4923;1
+178;Saddleback Lagac;Battlebond;Common;0.01;0.03;0.04;0.10;4806;1
+179;Angelic Gift;Battlebond;Common;0.01;0.07;0.10;0.05;4764;1
+180;Blood Feud;Battlebond;Uncommon;0.01;0.04;0.05;0.05;3012;1
+181;Kiss of the Amesha;Battlebond;Uncommon;0.01;0.05;0.05;0.05;3077;1
+182;Rhox Brute;Battlebond;Common;0.01;0.02;0.03;0.10;4891;1
+183;Seer's Lantern;Battlebond;Common;0.01;0.06;0.05;0.02;4942;1
+184;Eager Construct;Battlebond;Common;0.01;0.03;0.03;0.02;5045;1
+185;Soulblade Renewer;Battlebond;Uncommon;0.02;0.10;0.11;0.03;3061;1
+186;Impetuous Protege;Battlebond;Uncommon;0.02;0.08;0.15;0.05;3028;1
+187;Stadium Vendors;Battlebond;Common;0.01;0.06;0.06;0.05;4980;1
+188;Jubilant Mascot;Battlebond;Uncommon;0.02;0.05;0.07;0.07;3047;1
+189;Bring Down;Battlebond;Uncommon;0.02;0.06;0.06;0.03;3030;1
+190;Pacifism;Battlebond;Common;0.01;0.03;0.03;0.05;4771;1
+191;Nimbus of the Isles;Battlebond;Common;0.01;0.02;0.03;0.05;4846;1
+192;Oracle's Insight;Battlebond;Uncommon;0.01;0.06;0.04;0.08;2936;1
+193;Assassin's Strike;Battlebond;Uncommon;0.02;0.04;0.04;0.07;3024;1
+194;Eyeblight Assassin;Battlebond;Common;0.01;0.03;0.02;0.02;4745;1
+195;Battle Rampart;Battlebond;Common;0.01;0.03;0.06;0.10;4860;1
+196;Daggerback Basilisk;Battlebond;Common;0.01;0.04;0.04;0.02;4856;1
+197;Jelenn Sphinx;Battlebond;Uncommon;0.02;0.06;0.14;0.32;2914;1
+198;Peace Strider;Battlebond;Common;0.01;0.03;0.05;0.05;4798;1
+199;Zombie Token (Black 2/2);Battlebond;Token;0.01;0.07;0.09;0.15;5049;1
+200;Charging Binox;Battlebond;Common;0.01;0.06;0.05;0.10;5258;1
+201;Proud Mentor;Battlebond;Uncommon;0.02;0.06;0.06;0.02;2914;1
+202;Kraken Hatchling;Battlebond;Common;0.01;0.12;0.21;0.05;4807;1
+203;Aurora Champion;Battlebond;Common;0.01;0.06;0.12;0.02;4912;1
+204;Loyal Pegasus;Battlebond;Uncommon;0.02;0.06;0.04;0.05;2905;1
+205;Rebuke;Battlebond;Common;0.01;0.03;0.05;0.05;4861;1
+206;Claustrophobia;Battlebond;Common;0.01;0.04;0.02;0.02;4741;1
+207;Kitesail Corsair;Battlebond;Common;0.01;0.04;0.05;0.05;4649;1
+208;Pathmaker Initiate;Battlebond;Common;0.01;0.03;0.03;0.02;4800;1
+209;Trumpet Blast;Battlebond;Uncommon;0.01;0.03;0.03;0.02;2943;1
+210;Lead by Example;Battlebond;Common;0.01;0.04;0.02;0.02;4824;1
+211;Relentless Hunter;Battlebond;Uncommon;0.01;0.05;0.04;0.04;2970;1
+212;Gold-Forged Sentinel;Battlebond;Uncommon;0.01;0.03;0.03;0.03;2926;1
+213;Tyrant's Machine;Battlebond;Common;0.01;0.03;0.04;0.05;4871;1
+214;Zombie Giant Token (Black 5/5);Battlebond;Token;0.01;0.12;0.07;0.02;2690;1
+215;Auger Spree;Battlebond;Common;0.01;0.04;0.03;0.19;5185;1
+216;Shoulder to Shoulder;Battlebond;Common;0.01;0.04;0.06;0.05;4847;1
+217;Sickle Dancer;Battlebond;Common;0.01;0.03;0.02;0.02;4906;1
+218;Chakram Slinger;Battlebond;Uncommon;0.02;0.10;0.13;0.08;2943;1
+219;Bloodborn Scoundrels;Battlebond;Common;0.01;0.02;0.03;0.02;4859;1
+220;Tandem Tactics;Battlebond;Common;0.01;0.03;0.02;0.02;4882;1
+221;Magma Hellion;Battlebond;Common;0.01;0.04;0.04;0.02;4993;1
+222;Raptor Companion;Battlebond;Common;0.01;0.03;0.02;0.10;4806;1
+223;Solemn Offering;Battlebond;Uncommon;0.02;0.06;0.05;0.04;2906;1
+224;Steppe Glider;Battlebond;Uncommon;0.01;0.03;0.02;0.02;3010;1
+225;Reckless Scholar;Battlebond;Uncommon;0.01;0.04;0.03;0.03;2980;1
+226;Fill with Fright;Battlebond;Common;0.01;0.03;0.03;0.02;4924;1
+227;Lightning Talons;Battlebond;Common;0.01;0.03;0.09;0.50;4874;1
+228;Thunder Strike;Battlebond;Common;0.01;0.03;0.02;0.02;4844;1
+229;Wrap in Flames;Battlebond;Common;0.01;0.04;0.03;0.05;4856;1
+230;Kraul Warrior;Battlebond;Common;0.01;0.02;0.04;0.19;4806;1
+231;Hexplate Golem;Battlebond;Common;0.01;0.03;0.02;0.02;4860;1
+232;Fan Favorite;Battlebond;Common;0.01;0.04;0.04;0.04;5022;1
+233;Expedition Raptor;Battlebond;Common;0.01;0.03;0.02;0.02;4910;1
+234;Skystreamer;Battlebond;Common;0.01;0.03;0.03;0.02;4927;1
+235;Spellweaver Duo;Battlebond;Common;0.01;0.03;0.03;0.10;5028;1
+236;Combo Attack;Battlebond;Common;0.01;0.04;0.05;0.10;4912;1
+237;Azra Bladeseeker;Battlebond;Common;0.01;0.04;0.05;0.02;4971;1
+238;Champion of Arashin;Battlebond;Common;0.01;0.05;0.10;0.02;4744;1
+239;Lightwalker;Battlebond;Common;0.01;0.04;0.02;0.02;4890;1
+240;Royal Trooper;Battlebond;Common;0.01;0.04;0.02;0.02;4883;1
+241;Silverchase Fox;Battlebond;Common;0.01;0.06;0.04;0.05;4842;1
+242;Sparring Mummy;Battlebond;Common;0.01;0.09;0.02;0.02;4911;1
+243;Take Up Arms;Battlebond;Uncommon;0.01;0.05;0.04;0.11;3011;1
+244;Benthic Giant;Battlebond;Common;0.01;0.05;0.08;0.32;4823;1
+245;Call to Heel;Battlebond;Common;0.01;0.04;0.04;0.01;4933;1
+246;Coralhelm Guide;Battlebond;Common;0.01;0.02;0.03;0.02;4804;1
+247;Frost Lynx;Battlebond;Common;0.01;0.04;0.05;0.05;4847;1
+248;Omenspeaker;Battlebond;Common;0.01;0.04;0.01;0.01;5042;1
+249;Totally Lost;Battlebond;Common;0.01;0.03;0.03;0.02;4905;1
+250;Watercourser;Battlebond;Common;0.01;0.03;0.03;0.02;4866;1
+251;Assassinate;Battlebond;Common;0.01;0.04;0.04;0.01;4867;1
+252;Screeching Buzzard;Battlebond;Common;0.01;0.03;0.06;0.15;4837;1
+253;Tavern Swindler;Battlebond;Uncommon;0.01;0.04;0.07;0.34;2928;1
+254;Battle-Rattle Shaman;Battlebond;Uncommon;0.02;0.03;0.04;0.04;2973;1
+255;Borderland Marauder;Battlebond;Common;0.01;0.03;0.03;0.02;4856;1
