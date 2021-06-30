@@ -787,8 +787,8 @@ if __name__ == "__main__":
                 log('Card page invalid: ' + driver.current_url)
                 log('Waiting and reconnecting... (cooldown '
                     + f'{round(wait_time, 1)} seconds)')
-                wait_time = exponential_wait(wait_time, 1.5)
-                if wait_time > 60.0:
+                wait_time = exponential_wait(wait_time, 1.6)
+                if wait_time > 40.0:
                     driver = restart_webdriver(driver)
 
         # Check if a recent record already exists
