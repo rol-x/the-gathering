@@ -1,0 +1,33 @@
+16:24:13: === Creation of this file ===
+16:24:13: == Add date ==
+16:24:13: Day: 			29
+16:24:13: Month: 			08
+16:24:13: Year: 			2021
+16:24:13: Date ID: 			3
+16:24:27: Webdriver ready
+16:24:28: Database connection established
+
+16:24:28: Task - Getting all card names from current expansion
+16:24:30: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:24:30: Done - All card names from Battlebond saved
+
+16:24:30:  == Skyshroud Claim == 	(1/264  0.38%)
+16:24:31: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+16:24:33:                 Expanding page...
+16:24:36: == Add card ==
+16:24:36: Card: 			Skyshroud Claim
+16:24:36: Card ID: 		268
+16:24:36:  = Sellers = 
+16:24:36: Task - Updating sellers list
+16:24:39: == Add seller ==
+16:24:39: Seller: 			GuilhermeBeja
+16:24:39: Seller ID: 		4849
+16:24:42: == Add seller ==
+16:24:42: Seller: 			Jonny68
+16:24:42: Seller ID: 		4850
+16:24:45: == Add seller ==
+16:24:45: Seller: 			Reliops
+16:24:45: Seller ID: 		4851
+16:24:48: == Add seller ==
+16:24:48: Seller: 			Illysium
+16:24:48: Seller ID: 		4852

@@ -1,264 +1,264 @@
 Skyshroud Claim
 Impulse
-Zndrsplt, Eye of Wisdom
-Chain Lightning
-Okaun, Eye of Chaos
-Spell Snare
-Fertile Ground
-Azra Oddsmaker
-Virtus's Maneuver
-Mindblade Render
-Greater Good
-Pir, Imaginative Rascal
-Swords to Plowshares
-Virtus the Veiled
-Generous Patron
 Stolen Strategy
-Spellseeker
-Sentinel Tower
-Tidespout Tyrant
+Azra Oddsmaker
+Chain Lightning
 Peregrine Drake
-Pir's Whim
-Genesis Chamber
-Vigor
-Plains
+Warrior Token (White 1/1)
+Fertile Ground
+Okaun, Eye of Chaos
+Spellseeker
+Toothy, Imaginary Friend
+Mindblade Render
+Sylvia Brightspear
 Bonus Round
-Luxury Suite
-Khorvath's Fury
-Beast Within
+Spell Snare
+Generous Patron
+Zndrsplt, Eye of Wisdom
+Pir, Imaginative Rascal
+Virtus's Maneuver
+Spire Garden
+War's Toll
+Swords to Plowshares
 Angelic Chorus
-Bountiful Promenade
-Morphic Pool
+Diabolic Intent
+Luxury Suite
+Pir's Whim
+Last One Standing
+Plains
+Sower of Temptation
 Kor Spiritdancer
 Sea of Clouds
-Last One Standing
-Diabolic Intent
-War's Toll
-Magus of the Candelabra
-Toothy, Imaginary Friend
-Spire Garden
-Sower of Temptation
-Thrilling Encore
+Bountiful Promenade
+Vigor
 Krav, the Unredeemed
 Mind's Eye
-Noosegraf Mob
-Mountain
-Sylvia Brightspear
-Magmatic Force
-Zndrsplt's Judgment
-Expedite
-Bramble Sovereign
-Warrior Token (White 1/1)
-Gwafa Hazid, Profiteer
-Forest
-Stunning Reversal
-Arena Rector
-Khorvath Brightflame
-Island
-Najeela, the Blade-Blossom
-Game Plan
-Seedborn Muse
-Chakram Retriever
-Regna, the Redeemer
-Play of the Game
-Evil Twin
-Archfiend of Despair
-Nirkana Revenant
-Elvish Visionary
-Savage Ventmaw
-Gorm the Great
-Mystic Confluence
-Fog Bank
-Myr Token (Artifact 1/1)
-Tenacious Dead
-Together Forever
-Brightling
-Culling Dais
-Archon of Valor's Reach
-Rushblade Commander
-Grothama, All-Devouring
-Long Road Home
-Apocalypse Hydra
-Regna's Sanction
-Ley Weaver
-Fumble
-Doubling Season
-Rowan Kenrith (V.1)
-Pulse of Murasa
-Nyxathid
-Will Kenrith (V.1)
-True-Name Nemesis
-Land Tax
-Negate
-Dragon Breath
-Karametra's Favor
-Beast Token (Green 3/3)
-Inner Demon
-Morbid Curiosity
-Feral Hydra
-Juggernaut
-Mycosynth Lattice
-Unflinching Courage
+Thrilling Encore
 Swamp
-Arcane Artisan
-Decorated Champion
-Battle Mastery
-Goblin Razerunners
-Dinrova Horror
-Shock
-Will Kenrith Emblem
-Veteran Explorer
+Tidespout Tyrant
+Regna, the Redeemer
+Sentinel Tower
+Play of the Game
+Seedborn Muse
+Magus of the Candelabra
+Expedite
+Arena Rector
+Virtus the Veiled
+Game Plan
+Genesis Chamber
+Khorvath Brightflame
+Khorvath's Fury
+Morphic Pool
+Fumble
+Nirkana Revenant
+Negate
+Rushblade Commander
+Stunning Reversal
+Ley Weaver
+Savage Ventmaw
+Najeela, the Blade-Blossom
+Zndrsplt's Judgment
+Mountain
+Archfiend of Despair
+Grothama, All-Devouring
+Nyxathid
+Apocalypse Hydra
+Bramble Sovereign
+Beast Within
+Noosegraf Mob
+Doubling Season
+Mycosynth Lattice
+Regna's Sanction
+Fog Bank
+Evil Twin
+Island
+Mystic Confluence
+Gwafa Hazid, Profiteer
+Gorm the Great
+Magmatic Force
+Culling Dais
 Thrasher Brute
-The Crowd Goes Wild
-Blaring Recruiter
-Victory Chimes
-Painful Lesson
-Blaring Captain
-Midnight Guard
-Canopy Spider
-Grotesque Mutation
-Swarm of Bloodflies
-Bathe in Dragonfire
-Pierce Strider
-Doomed Dissenter
-Out of Bounds
-Gang Up
-Lore Weaver
-Opportunity
-Phantom Warrior
-Quest for the Gravelord
-Shambling Ghoul
+Dragon Breath
 Dragon Hatchling
-Rowan Kenrith Emblem
-Jungle Wayfinder
-Oreskos Explorer
-Rotfeaster Maggot
-Fertilid
-Spectral Searchlight
-Spirit Token (White 1/1)
-Soulblade Corrupter
-Boldwyr Intimidator
-Mangara of Corondor
-Angel of Retribution
-Switcheroo
-Liturgy of Blood
-Slum Reaper
-Return to the Earth
-Riptide Crab
-Huddle Up
-Soaring Show-Off
-Dwarven Lightsmith
-Lava-Field Overlord
-Nimbus Champion
-Last Gasp
-Flamewave Invoker
-Giant Growth
-Plated Crusher
-Wandering Wolf
+Forest
+Unflinching Courage
+Will Kenrith (V.1)
+Archon of Valor's Reach
+Together Forever
+Inner Demon
+Chakram Retriever
+Rowan Kenrith (V.1)
+Veteran Explorer
+Land Tax
 Enduring Scalelord
-Consulate Skygate
-Centaur Healer
-Daggerdrome Imp
-Cheering Fanatic
-Bull-Rush Bruiser
-Vampire Charmseeker
-Hand of Silumgar
-Noxious Dragon
-Prakhata Club Security
-Blaze
-Ember Beast
-Enthralling Victor
-Reckless Reveler
-Aim High
-Primal Huntbeast
-Stone Golem
-Yotian Soldier
 Doomed Traveler
-Saltwater Stalwart
-Saddleback Lagac
-Angelic Gift
-Blood Feud
-Kiss of the Amesha
-Rhox Brute
-Seer's Lantern
-Eager Construct
-Soulblade Renewer
-Impetuous Protege
-Stadium Vendors
-Jubilant Mascot
-Bring Down
-Pacifism
-Nimbus of the Isles
-Oracle's Insight
-Assassin's Strike
+True-Name Nemesis
+Decorated Champion
+Midnight Guard
+Pulse of Murasa
+Victory Chimes
+Brightling
+Battle Mastery
+Quest for the Gravelord
+Blaze
+Elvish Visionary
+Greater Good
+Tenacious Dead
+Out of Bounds
+Morbid Curiosity
+Goblin Razerunners
+Feral Hydra
+Soaring Show-Off
+Oreskos Explorer
+Shock
+Dinrova Horror
+Beast Token (Green 3/3)
+Blaring Captain
+Arcane Artisan
+Long Road Home
+Myr Token (Artifact 1/1)
+Doomed Dissenter
+Gang Up
+Blaring Recruiter
+Giant Growth
+Cheering Fanatic
+Assassinate
 Eyeblight Assassin
-Battle Rampart
-Daggerback Basilisk
-Jelenn Sphinx
+Grotesque Mutation
+Slum Reaper
+Rowan Kenrith Emblem
+Will Kenrith Emblem
+Daggerdrome Imp
+Mangara of Corondor
+Frost Lynx
+Switcheroo
+Fertilid
+Wandering Wolf
 Peace Strider
 Zombie Token (Black 2/2)
-Charging Binox
-Proud Mentor
-Kraken Hatchling
-Aurora Champion
-Loyal Pegasus
-Rebuke
-Claustrophobia
-Kitesail Corsair
-Pathmaker Initiate
-Trumpet Blast
-Lead by Example
-Relentless Hunter
-Gold-Forged Sentinel
-Tyrant's Machine
-Zombie Giant Token (Black 5/5)
-Auger Spree
-Shoulder to Shoulder
-Sickle Dancer
-Chakram Slinger
+Lore Weaver
 Bloodborn Scoundrels
-Tandem Tactics
-Magma Hellion
-Raptor Companion
-Solemn Offering
+Angel of Retribution
+Loyal Pegasus
+Karametra's Favor
+Plated Crusher
+Primal Huntbeast
+Spectral Searchlight
+Lava-Field Overlord
 Steppe Glider
-Reckless Scholar
-Fill with Fright
-Lightning Talons
-Thunder Strike
-Wrap in Flames
-Kraul Warrior
-Hexplate Golem
-Fan Favorite
-Expedition Raptor
-Skystreamer
-Spellweaver Duo
-Combo Attack
-Azra Bladeseeker
-Champion of Arashin
-Lightwalker
-Royal Trooper
-Silverchase Fox
-Sparring Mummy
-Take Up Arms
+Last Gasp
+Swarm of Bloodflies
+Tavern Swindler
+Flamewave Invoker
+Consulate Skygate
+Huddle Up
+Stadium Vendors
+Tandem Tactics
+Vampire Charmseeker
+Angelic Gift
+Solemn Offering
 Benthic Giant
 Call to Heel
-Coralhelm Guide
-Frost Lynx
-Omenspeaker
+Opportunity
+Hunted Wumpus
+Pierce Strider
+Seer's Lantern
+Yotian Soldier
+The Crowd Goes Wild
+Chakram Slinger
+Aurora Champion
+Bull-Rush Bruiser
+Pacifism
+Silverchase Fox
+Lightning Talons
+Daggerback Basilisk
+Spirit Token (White 1/1)
+Zombie Giant Token (Black 5/5)
+Jungle Wayfinder
+Combo Attack
+Champion of Arashin
+Phantom Warrior
 Totally Lost
-Watercourser
-Assassinate
+Rotfeaster Maggot
+Enthralling Victor
+Kraul Warrior
+Juggernaut
+Auger Spree
+Boldwyr Intimidator
+Sickle Dancer
+Take Up Arms
+Coralhelm Guide
+Omenspeaker
+Assassin's Strike
+Hand of Silumgar
+Noxious Dragon
 Screeching Buzzard
-Tavern Swindler
+Battle Rampart
+Blood Feud
+Reckless Reveler
+Thunder Strike
+Aim High
+Jelenn Sphinx
+Relentless Hunter
+Millennial Gargoyle
+Tyrant's Machine
+Eager Construct
+Soulblade Corrupter
+Soulblade Renewer
+Impetuous Protege
+Proud Mentor
+Shoulder to Shoulder
+Kraken Hatchling
+Saltwater Stalwart
+Jubilant Mascot
+Saddleback Lagac
+Bring Down
+Nimbus Champion
+Azra Bladeseeker
+Raptor Companion
+Royal Trooper
+Kitesail Corsair
+Nimbus of the Isles
+Oracle's Insight
+Reckless Scholar
+Painful Lesson
+Bathe in Dragonfire
+Earth Elemental
+Wrap in Flames
+Kiss of the Amesha
+Riptide Crab
+Urborg Drake
+Gold-Forged Sentinel
+Stone Golem
+Fan Favorite
+Centaur Healer
+Charging Binox
+Expedition Raptor
+Dwarven Lightsmith
+Skystreamer
+Spellweaver Duo
+Magma Hellion
+Lightwalker
+Rebuke
+Sparring Mummy
+Claustrophobia
+Watercourser
+Fill with Fright
+Liturgy of Blood
+Prakhata Club Security
+Shambling Ghoul
 Battle-Rattle Shaman
 Borderland Marauder
-Earth Elemental
+Ember Beast
+Pathmaker Initiate
+Trumpet Blast
+Canopy Spider
 Charging Rhino
 Cowl Prowler
-Hunted Wumpus
-Urborg Drake
-Millennial Gargoyle
+Lead by Example
+Return to the Earth
+Rhox Brute
+Hexplate Golem
 Night Market Guard
 Will Kenrith (V.2)
 Rowan Kenrith (V.2)

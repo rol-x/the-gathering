@@ -1,0 +1,87 @@
+00:37:20: === Creation of this file ===
+00:37:25: Webdriver ready
+00:37:25: Database connection established
+
+00:37:25: Task - Getting all card names from current expansion
+00:37:26: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+00:37:26: Done - All card names from Battlebond saved
+
+00:37:26:  == Skyshroud Claim == 	(1/264  0.38%)
+00:37:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+00:37:29:                 Expanding page...
+
+00:37:31:  = Sellers = 
+00:37:31: Task - Updating sellers list
+00:37:33: Done - 0 new sellers added  (out of: 177, total: 5068)
+
+00:37:33:  = Offers = 
+00:37:33: Task - Updating sale offers
+00:37:36: Done - 0 new offers added  (out of: 177, total: 3898)
+
+00:37:36:  == Impulse == 	(2/264  0.76%)
+00:37:37: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+00:37:38:                 Expanding page...
+
+00:37:43: == Add card stats ==
+00:37:43: Card ID:            3
+00:37:43: Price from:         0.02
+00:37:43: 30-day avg:         0.19
+00:37:43: 7-day avg:          0.22
+00:37:43: 1-day avg:          0.05
+00:37:43: Amount:             2287
+00:37:43: Date ID:            5
+
+00:37:43:  = Sellers = 
+00:37:43: Task - Updating sellers list
+00:37:47: Done - 0 new sellers added  (out of: 392, total: 5068)
+
+00:37:47:  = Offers = 
+00:37:47: Task - Updating sale offers
+00:37:54: Done - 0 new offers added  (out of: 392, total: 3898)
+
+00:37:54:  == Stolen Strategy == 	(3/264  1.14%)
+00:37:55: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+00:37:56:                 Expanding page...
+
+00:37:57: == Add card stats ==
+00:37:57: Card ID:            5
+00:37:57: Price from:         8.99
+00:37:57: 30-day avg:         11.27
+00:37:57: 7-day avg:          12.00
+00:37:57: 1-day avg:          11.00
+00:37:57: Amount:             166
+00:37:57: Date ID:            5
+
+00:37:57:  = Sellers = 
+00:37:57: Task - Updating sellers list
+00:37:58: Done - 0 new sellers added  (out of: 88, total: 5068)
+
+00:37:58:  = Offers = 
+00:37:58: Task - Updating sale offers
+00:37:59: Done - 0 new offers added  (out of: 88, total: 3898)
+
+00:37:59:  == Azra Oddsmaker == 	(4/264  1.52%)
+00:38:00: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+00:38:01:                 Expanding page...
+
+00:38:04: == Add card stats ==
+00:38:04: Card ID:            6
+00:38:04: Price from:         0.02
+00:38:04: 30-day avg:         0.29
+00:38:04: 7-day avg:          0.28
+00:38:04: 1-day avg:          0.33
+00:38:04: Amount:             1022
+00:38:04: Date ID:            5
+
+00:38:04:  = Sellers = 
+00:38:04: Task - Updating sellers list
+00:38:06: Done - 0 new sellers added  (out of: 233, total: 5068)
+
+00:38:06:  = Offers = 
+00:38:06: Task - Updating sale offers
+00:38:09: Done - 0 new offers added  (out of: 233, total: 3898)
+
+00:38:09:  == Chain Lightning == 	(5/264  1.89%)
+00:38:10: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+00:38:11:                 Expanding page...
+

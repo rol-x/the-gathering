@@ -1,0 +1,58 @@
+08:31:15: === Creation of this file ===
+08:31:15: == Add date ==
+08:31:15: Day: 			01
+08:31:15: Month: 			07
+08:31:15: Year: 			2021
+08:31:15: Date ID: 			2
+08:31:20: Webdriver ready
+08:31:20: Database connection established
+
+08:31:20: Task - Getting all card names from current expansion
+08:31:21: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+08:31:21: Done - All card names from Battlebond saved
+
+08:31:21:  == Skyshroud Claim == 	(1/264  0.38%)
+08:31:21: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+08:31:24:                 Expanding page...
+08:31:27: == Add card ==
+08:31:27: Card: 			Skyshroud Claim
+08:31:27: Card ID: 		265
+08:31:27:  = Sellers = 
+08:31:27: Task - Updating sellers list
+08:31:30: == Add seller ==
+08:31:30: Seller: 			Mtggirl99
+08:31:30: Seller ID: 		4846
+08:31:33: == Add seller ==
+08:31:33: Seller: 			ermd2
+08:31:33: Seller ID: 		4847
+08:31:34: Done - 2 new sellers added  (out of: 229, total: 4847)
+
+08:31:34:  = Offers = 
+08:31:34: Task - Updating sale offers
+08:31:36: Done - 225 new offers added  (out of: 229, total: 219187)
+
+08:31:36:  == Impulse == 	(2/264  0.76%)
+08:31:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+08:31:38:                 Expanding page...
+08:31:45: == Add card ==
+08:31:45: Card: 			Impulse
+08:31:45: Card ID: 		266
+08:31:45:  = Sellers = 
+08:31:45: Task - Updating sellers list
+08:31:48: Done - 0 new sellers added  (out of: 408, total: 4847)
+
+08:31:49:  = Offers = 
+08:31:49: Task - Updating sale offers
+08:31:53: Done - 633 new offers added  (out of: 408, total: 219820)
+
+08:31:53:  == Zndrsplt, Eye of Wisdom == 	(3/264  1.14%)
+08:31:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+08:31:55:                 Expanding page...
+08:32:03: == Add card ==
+08:32:03: Card: 			Zndrsplt, Eye of Wisdom
+08:32:03: Card ID: 		267
+08:32:03:  = Sellers = 
+08:32:03: Task - Updating sellers list
+08:32:06: == Add seller ==
+08:32:06: Seller: 			tiagruppo94
+08:32:06: Seller ID: 		4848

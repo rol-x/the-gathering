@@ -1,4 +1,5 @@
 geckodriver.log
+__pycache__/
 *.pyproj
 .vscode
 .vscode/settings.json 
