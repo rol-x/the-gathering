@@ -56,7 +56,6 @@ def save_card_stats(card_ID, price_from, avg_30_price, avg_7_price,
 # Return whether stats given by card ID were saved that day.
 def are_card_stats_saved_today(card_ID):
     '''Return whether stats given by card ID were saved that day.'''
-    # TODO: Make it work (now it scrapes duplicates)
     card_stats_df = load_df('card_stats')
     sm = card_stats_df[(card_stats_df['card_ID'] == card_ID) &
                        (card_stats_df['date_ID'] == globals.current_date_ID)]

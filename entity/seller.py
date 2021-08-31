@@ -2,8 +2,6 @@ import globals
 from handlers.local_files_handler import load_df
 from handlers.log_handler import log, log_soup
 
-# TODO: Are all sale offers separate sellers? Change in summary.
-
 
 # Extract information about a seller from provided soup.
 def add_seller(seller_soup):

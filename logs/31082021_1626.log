@@ -1,0 +1,12 @@
+16:26:08: === Creation of this file ===
+16:26:12: Webdriver ready
+16:26:12: Database connection established
+
+16:26:12: Task - Getting all card names from current expansion
+16:26:14: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+16:26:14: Done - All card names from Battlebond saved
+
+16:26:14:  == Skyshroud Claim == 	(1/264  0.38%)
+16:26:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+16:26:17:                 Expanding page...
+

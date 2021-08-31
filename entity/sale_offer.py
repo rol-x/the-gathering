@@ -36,7 +36,7 @@ def add_offers(card_page):
 
     # Logging
     log(" = Offers = ")
-    log(f"Task - Updating sale offers")
+    log("Task - Updating sale offers")
 
     # Ensure the table has proper content
     if not (len(prices) / 2) == len(amounts) \

@@ -105,7 +105,7 @@ def click_load_more_button(driver):
                 log("Extending the sellers view timed out.")
                 break
     except common.exceptions.NoSuchElementException:
-        log(f"No button found on this page.")
+        log("No button found on this page.")
 
 
 # Return the given string in url-compatible form, like 'Spell-Snare'.

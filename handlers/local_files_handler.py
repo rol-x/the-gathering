@@ -39,7 +39,7 @@ def prepare_files():
 
     seller_csv = open('data/seller.csv', 'a+', encoding="utf-8")
     if not os.path.getsize('data/seller.csv'):
-        seller_csv.write('seller_ID;seller_name;type'
+        seller_csv.write('seller_ID;seller_name;seller_type'
                          + ';member_since;country;address\n')
     seller_csv.close()
 
@@ -50,7 +50,7 @@ def prepare_files():
 
     card_stats_csv = open('data/card_stats.csv', 'a+', encoding="utf-8")
     if not os.path.getsize('data/card_stats.csv'):
-        card_stats_csv.write('card_ID;30_avg_price;7_avg_price;'
+        card_stats_csv.write('card_ID;price_from;30_avg_price;7_avg_price;'
                              + '1_avg_price;available_items;date_ID\n')
     card_stats_csv.close()
 

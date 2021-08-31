@@ -10,8 +10,10 @@ from entity.seller import add_seller, get_seller_names, is_seller_saved
 from handlers.log_handler import log, log_url
 from handlers.web_handler import *
 
-# TODO: Better logging of new cards (as in sellers)
-# TODO: Try to clean up main
+# TODO: Better logging of new cards and card stats (as in sellers).
+# TODO: Are all sale offers by separate sellers? Change the summary.
+# TODO: Look into handling of wild Firefox processes.
+# TODO: Try to clean up main :)
 
 # Main function
 if __name__ == "__main__":
@@ -78,7 +80,7 @@ if __name__ == "__main__":
 
         # Get all sellers from the card page
         log(" = Sellers = ")
-        log(f"Task - Updating sellers list")
+        log("Task - Updating sellers list")
         sellers = get_seller_names(card_soup)
         sellers_before = len(local_files_handler.load_df('seller').index)
         read_sellers = len(sellers)
