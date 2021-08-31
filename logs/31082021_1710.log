@@ -1,0 +1,79 @@
+17:10:30: === Creation of this file ===
+17:10:34: Webdriver ready
+17:10:34: Database connection established
+
+17:10:34: Task - Getting all card names from current expansion
+17:10:35: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+17:10:35: Done - All card names from Battlebond saved
+
+17:10:35:  == Skyshroud Claim == 	(1/264  0.38%)
+17:10:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+17:10:38:                 Expanding page...
+
+17:10:41: Stats of Skyshroud Claim [1] already saved today
+
+17:10:41:  = Sellers = 
+17:10:41: Task - Updating sellers list
+17:10:43: Done - 0 new sellers added  (out of: 177, total: 5777)
+
+17:10:43:  = Offers = 
+17:10:43: Task - Updating sale offers
+17:10:58: Done - 0 new offers added  (out of: 177, total: 106355)
+
+17:10:58:  == Impulse == 	(2/264  0.76%)
+17:10:58: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+17:11:00:                 Expanding page...
+
+17:11:05: Stats of Impulse [3] already saved today
+
+17:11:05:  = Sellers = 
+17:11:05: Task - Updating sellers list
+17:11:08: Done - 0 new sellers added  (out of: 389, total: 5777)
+
+17:11:09:  = Offers = 
+17:11:09: Task - Updating sale offers
+17:11:47: Done - 0 new offers added  (out of: 389, total: 106355)
+
+17:11:47:  == Stolen Strategy == 	(3/264  1.14%)
+17:11:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+17:11:56:                 Expanding page...
+
+17:12:05: Stats of Stolen Strategy [5] already saved today
+
+17:12:05:  = Sellers = 
+17:12:05: Task - Updating sellers list
+17:12:06: Done - 0 new sellers added  (out of: 84, total: 5777)
+
+17:12:06:  = Offers = 
+17:12:06: Task - Updating sale offers
+17:12:13: Done - 0 new offers added  (out of: 84, total: 106355)
+
+17:12:13:  == Azra Oddsmaker == 	(4/264  1.52%)
+17:12:17: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+17:12:18:                 Expanding page...
+
+17:12:24: Stats of Azra Oddsmaker [6] already saved today
+
+17:12:24:  = Sellers = 
+17:12:24: Task - Updating sellers list
+17:12:28: Done - 0 new sellers added  (out of: 464, total: 5777)
+
+17:12:28:  = Offers = 
+17:12:28: Task - Updating sale offers
+17:13:07: Done - 0 new offers added  (out of: 464, total: 106355)
+
+17:13:07:  == Chain Lightning == 	(5/264  1.89%)
+17:13:12: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+17:13:12:                 Expanding page...
+
+17:13:22: Stats of Chain Lightning [5] already saved today
+
+17:13:22:  = Sellers = 
+17:13:22: Task - Updating sellers list
+17:13:27: Done - 0 new sellers added  (out of: 556, total: 5777)
+
+17:13:27:  = Offers = 
+17:13:27: Task - Updating sale offers
+17:14:03: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+17:14:03: Please check the correctness of data in sale_offer.csv!
+

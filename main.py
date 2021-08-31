@@ -75,8 +75,8 @@ if __name__ == "__main__":
         if not are_card_stats_saved_today(card_ID):
             add_card_stats(card_soup, card_ID)
         else:
-            if globals.verbose_mode:
-                log(f'Stats of {card_name} already saved today\n')
+            # if globals.verbose_mode:
+            log(f'Stats of {card_name} [{card_ID}] already saved today\n')
 
         # Get all sellers from the card page
         log(" = Sellers = ")

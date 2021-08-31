@@ -1,0 +1,60 @@
+17:08:31: === Creation of this file ===
+17:08:36: Webdriver ready
+17:08:36: Database connection established
+
+17:08:36: Task - Getting all card names from current expansion
+17:08:37: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+17:08:37: Done - All card names from Battlebond saved
+
+17:08:37:  == Skyshroud Claim == 	(1/264  0.38%)
+17:08:38: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+17:08:40:                 Expanding page...
+
+17:08:43:  = Sellers = 
+17:08:43: Task - Updating sellers list
+17:08:44: Done - 0 new sellers added  (out of: 177, total: 5777)
+
+17:08:44:  = Offers = 
+17:08:44: Task - Updating sale offers
+17:08:59: Done - 0 new offers added  (out of: 177, total: 106355)
+
+17:08:59:  == Impulse == 	(2/264  0.76%)
+17:09:00: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+17:09:02:                 Expanding page...
+
+17:09:07:  = Sellers = 
+17:09:07: Task - Updating sellers list
+17:09:10: Done - 0 new sellers added  (out of: 389, total: 5777)
+
+17:09:10:  = Offers = 
+17:09:10: Task - Updating sale offers
+17:09:46: Done - 0 new offers added  (out of: 389, total: 106355)
+
+17:09:46:  == Stolen Strategy == 	(3/264  1.14%)
+17:09:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+17:09:48:                 Expanding page...
+
+17:09:49:  = Sellers = 
+17:09:49: Task - Updating sellers list
+17:09:50: Done - 0 new sellers added  (out of: 84, total: 5777)
+
+17:09:50:  = Offers = 
+17:09:50: Task - Updating sale offers
+17:09:58: Done - 0 new offers added  (out of: 84, total: 106355)
+
+17:09:58:  == Azra Oddsmaker == 	(4/264  1.52%)
+17:09:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+17:10:00:                 Expanding page...
+
+17:10:02:  = Sellers = 
+17:10:02: Task - Updating sellers list
+17:10:04: Done - 0 new sellers added  (out of: 232, total: 5777)
+
+17:10:04:  = Offers = 
+17:10:04: Task - Updating sale offers
+17:10:26: Done - 0 new offers added  (out of: 232, total: 106355)
+
+17:10:26:  == Chain Lightning == 	(5/264  1.89%)
+17:10:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+17:10:27:                 Expanding page...
+
