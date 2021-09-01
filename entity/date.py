@@ -18,9 +18,9 @@ def prepare_log_files():
 
     logfile = open('logs/' + globals.log_filename, "a+", encoding="utf-8")
     if os.path.getsize('logs/' + globals.log_filename):
-        log("=== Another run of the code ===")
+        log("Separate code execution")
     else:
-        log("=== Creation of this file ===")
+        log("Creation of this file")
     logfile.close()
 
 

@@ -71,12 +71,14 @@ if __name__ == "__main__":
                 log(f'Card {card_name} already saved\n')
 
         # Save the card market statistics if not saved today
+        log(' = Card stats = ')
         card_ID = get_card_ID(card_name)
         log(f"Card ID:  {card_ID}")
         if not are_card_stats_saved_today(card_ID):
             add_card_stats(card_soup, card_ID)
+            log('Card stats added\n')
         else:
-            log(f'== Card stats ==\nAlready saved today.\n')
+            log('Already saved today\n')
 
         # Get all sellers from the card page
         log(" = Sellers = ")

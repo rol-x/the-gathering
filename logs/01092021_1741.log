@@ -1,0 +1,339 @@
+17:41:09: === Creation of this file ===
+17:41:14: Webdriver ready
+17:41:14: Database connection established
+
+17:41:14: Task - Getting all card names from current expansion
+17:41:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+17:41:15: Done - All card names from Battlebond saved
+
+17:41:15:  == Skyshroud Claim == 	(1/264  0.38%)
+17:41:16: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+17:41:18:                 Expanding page...
+
+17:41:21: Card ID:  1
+17:41:21: == Card stats ==
+17:41:21: Already saved today.
+
+17:41:21:  = Sellers = 
+17:41:21: Task - Updating sellers list
+17:41:23: Done - 0 new sellers added  (out of: 181, total: 5785)
+
+17:41:23:  = Offers = 
+17:41:23: Task - Updating sale offers
+17:41:40: Done - 0 new offers added  (out of: 181, total: 108146)
+
+17:41:40:  == Impulse == 	(2/264  0.76%)
+17:41:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+17:41:42:                 Expanding page...
+
+17:41:48: Card ID:  2
+17:41:48: == Add card stats ==
+17:41:48: Card ID:            2
+17:41:48: Price from:         0.02
+17:41:48: 30-day avg:         0.19
+17:41:48: 7-day avg:          0.24
+17:41:48: 1-day avg:          0.23
+17:41:48: Amount:             2274
+17:41:48: Date ID:            6
+
+17:41:48:  = Sellers = 
+17:41:48: Task - Updating sellers list
+17:41:51: Done - 0 new sellers added  (out of: 388, total: 5785)
+
+17:41:52:  = Offers = 
+17:41:52: Task - Updating sale offers
+17:42:25: Done - 388 new offers added  (out of: 388, total: 108534)
+
+17:42:25:  == Stolen Strategy == 	(3/264  1.14%)
+17:42:25: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+17:42:27:                 Expanding page...
+
+17:42:29: Card ID:  5
+17:42:29: == Add card stats ==
+17:42:29: Card ID:            5
+17:42:29: Price from:         8.99
+17:42:29: 30-day avg:         11.51
+17:42:29: 7-day avg:          12.28
+17:42:29: 1-day avg:          13.09
+17:42:29: Amount:             166
+17:42:29: Date ID:            6
+
+17:42:29:  = Sellers = 
+17:42:29: Task - Updating sellers list
+17:42:31: Seller added:  captainobvious88 [5786]
+17:42:34: Seller added:  ValhallaHelheim [5787]
+17:42:37: Seller added:  YouShallNotPass [5788]
+17:42:37: Done - 3 new sellers added  (out of: 90, total: 5788)
+
+17:42:38:  = Offers = 
+17:42:38: Task - Updating sale offers
+17:42:45: Done - 85 new offers added  (out of: 90, total: 108619)
+
+17:42:45:  == Azra Oddsmaker == 	(4/264  1.52%)
+17:42:46: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+17:42:48:                 Expanding page...
+
+17:42:51: Card ID:  6
+17:42:51: == Add card stats ==
+17:42:51: Card ID:            6
+17:42:51: Price from:         0.02
+17:42:51: 30-day avg:         0.29
+17:42:51: 7-day avg:          0.28
+17:42:51: 1-day avg:          0.33
+17:42:51: Amount:             1025
+17:42:51: Date ID:            6
+
+17:42:51:  = Sellers = 
+17:42:51: Task - Updating sellers list
+17:42:53: Done - 0 new sellers added  (out of: 240, total: 5788)
+
+17:42:53:  = Offers = 
+17:42:53: Task - Updating sale offers
+17:43:14: Done - 240 new offers added  (out of: 240, total: 108859)
+
+17:43:14:  == Chain Lightning == 	(5/264  1.89%)
+17:43:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+17:43:17:                 Expanding page...
+
+17:43:20: Card ID:  4
+17:43:20: == Add card stats ==
+17:43:20: Card ID:            4
+17:43:20: Price from:         1.00
+17:43:20: 30-day avg:         2.16
+17:43:20: 7-day avg:          2.36
+17:43:20: 1-day avg:          3.79
+17:43:20: Amount:             319
+17:43:20: Date ID:            6
+
+17:43:20:  = Sellers = 
+17:43:20: Task - Updating sellers list
+17:43:23: Seller added:  juza1980 [5789]
+17:43:24: Done - 1 new sellers added  (out of: 156, total: 5789)
+
+17:43:25:  = Offers = 
+17:43:25: Task - Updating sale offers
+17:43:40: Done - 155 new offers added  (out of: 156, total: 109014)
+
+17:43:40:  == Peregrine Drake == 	(6/264  2.27%)
+17:43:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Peregrine-Drake
+17:43:42:                 Expanding page...
+
+17:43:44: Card ID:  7
+17:43:44: == Add card stats ==
+17:43:44: Card ID:            7
+17:43:44: Price from:         0.15
+17:43:44: 30-day avg:         0.72
+17:43:44: 7-day avg:          0.77
+17:43:44: 1-day avg:          0.74
+17:43:44: Amount:             402
+17:43:44: Date ID:            6
+
+17:43:44:  = Sellers = 
+17:43:44: Task - Updating sellers list
+17:43:45: Done - 0 new sellers added  (out of: 117, total: 5789)
+
+17:43:45:  = Offers = 
+17:43:45: Task - Updating sale offers
+17:43:56: Done - 117 new offers added  (out of: 117, total: 109131)
+
+17:43:56:  == Warrior Token (White 1/1) == 	(7/264  2.65%)
+17:43:57: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Warrior-Token-White-11
+17:43:59:                 Expanding page...
+
+17:44:04: Card ID:  8
+17:44:04: == Add card stats ==
+17:44:04: Card ID:            8
+17:44:04: Price from:         0.01
+17:44:04: 30-day avg:         0.10
+17:44:04: 7-day avg:          0.17
+17:44:04: 1-day avg:          0.10
+17:44:04: Amount:             6874
+17:44:04: Date ID:            6
+
+17:44:04:  = Sellers = 
+17:44:04: Task - Updating sellers list
+17:44:07: Done - 0 new sellers added  (out of: 337, total: 5789)
+
+17:44:07:  = Offers = 
+17:44:07: Task - Updating sale offers
+17:44:38: Done - 333 new offers added  (out of: 337, total: 109464)
+
+17:44:38:  == Fertile Ground == 	(8/264  3.03%)
+17:44:39: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fertile-Ground
+17:44:41:                 Expanding page...
+
+17:44:49: Card ID:  9
+17:44:49: == Add card stats ==
+17:44:49: Card ID:            9
+17:44:49: Price from:         0.01
+17:44:49: 30-day avg:         0.10
+17:44:49: 7-day avg:          0.08
+17:44:49: 1-day avg:          0.07
+17:44:49: Amount:             4155
+17:44:49: Date ID:            6
+
+17:44:49:  = Sellers = 
+17:44:49: Task - Updating sellers list
+17:44:52: Done - 0 new sellers added  (out of: 495, total: 5789)
+
+17:44:53:  = Offers = 
+17:44:53: Task - Updating sale offers
+17:45:34: Done - 494 new offers added  (out of: 495, total: 109958)
+
+17:45:34:  == Okaun, Eye of Chaos == 	(9/264  3.41%)
+17:45:34: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+17:45:36:                 Expanding page...
+
+17:45:43: Card ID:  10
+17:45:43: == Add card stats ==
+17:45:43: Card ID:            10
+17:45:43: Price from:         0.10
+17:45:43: 30-day avg:         0.36
+17:45:43: 7-day avg:          0.48
+17:45:43: 1-day avg:          0.45
+17:45:43: Amount:             1179
+17:45:43: Date ID:            6
+
+17:45:43:  = Sellers = 
+17:45:43: Task - Updating sellers list
+17:45:46: Done - 0 new sellers added  (out of: 383, total: 5789)
+
+17:45:46:  = Offers = 
+17:45:46: Task - Updating sale offers
+17:46:18: Done - 382 new offers added  (out of: 383, total: 110340)
+
+17:46:18:  == Spellseeker == 	(10/264  3.79%)
+17:46:19: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spellseeker
+17:46:21:                 Expanding page...
+
+17:46:22: Card ID:  11
+17:46:22: == Add card stats ==
+17:46:22: Card ID:            11
+17:46:22: Price from:         24.00
+17:46:22: 30-day avg:         28.98
+17:46:22: 7-day avg:          29.29
+17:46:22: 1-day avg:          29.96
+17:46:22: Amount:             124
+17:46:22: Date ID:            6
+
+17:46:22:  = Sellers = 
+17:46:22: Task - Updating sellers list
+17:46:24: Seller added:  Zerato [5790]
+17:46:28: Seller added:  iomazas [5791]
+17:46:28: Done - 2 new sellers added  (out of: 99, total: 5791)
+
+17:46:28:  = Offers = 
+17:46:28: Task - Updating sale offers
+17:46:37: Done - 99 new offers added  (out of: 99, total: 110439)
+
+17:46:37:  == Toothy, Imaginary Friend == 	(11/264  4.17%)
+17:46:38: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Toothy-Imaginary-Friend
+17:46:40:                 Expanding page...
+
+17:46:42: Card ID:  12
+17:46:42: == Add card stats ==
+17:46:42: Card ID:            12
+17:46:42: Price from:         5.99
+17:46:42: 30-day avg:         7.01
+17:46:42: 7-day avg:          7.56
+17:46:42: 1-day avg:          7.68
+17:46:42: Amount:             225
+17:46:42: Date ID:            6
+
+17:46:42:  = Sellers = 
+17:46:42: Task - Updating sellers list
+17:46:46: Seller added:  Bismyan [5792]
+17:46:49: Seller added:  gasparfait [5793]
+17:46:50: Done - 2 new sellers added  (out of: 140, total: 5793)
+
+17:46:50:  = Offers = 
+17:46:50: Task - Updating sale offers
+17:47:02: Done - 140 new offers added  (out of: 140, total: 110579)
+
+17:47:02:  == Mindblade Render == 	(12/264  4.55%)
+17:47:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mindblade-Render
+17:47:04:                 Expanding page...
+
+17:47:07: Card ID:  13
+17:47:07: == Add card stats ==
+17:47:07: Card ID:            13
+17:47:07: Price from:         0.05
+17:47:07: 30-day avg:         0.77
+17:47:07: 7-day avg:          0.74
+17:47:07: 1-day avg:          0.50
+17:47:07: Amount:             433
+17:47:07: Date ID:            6
+
+17:47:07:  = Sellers = 
+17:47:07: Task - Updating sellers list
+17:47:09: Done - 0 new sellers added  (out of: 190, total: 5793)
+
+17:47:09:  = Offers = 
+17:47:09: Task - Updating sale offers
+17:47:24: Done - 190 new offers added  (out of: 190, total: 110769)
+
+17:47:24:  == Sylvia Brightspear == 	(13/264  4.92%)
+17:47:25: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sylvia-Brightspear
+17:47:28:                 Expanding page...
+
+17:47:33: Card ID:  14
+17:47:33: == Add card stats ==
+17:47:33: Card ID:            14
+17:47:33: Price from:         0.19
+17:47:33: 30-day avg:         0.46
+17:47:33: 7-day avg:          0.41
+17:47:33: 1-day avg:          0.50
+17:47:33: Amount:             758
+17:47:33: Date ID:            6
+
+17:47:33:  = Sellers = 
+17:47:33: Task - Updating sellers list
+17:47:35: Done - 0 new sellers added  (out of: 302, total: 5793)
+
+17:47:35:  = Offers = 
+17:47:35: Task - Updating sale offers
+17:48:01: Done - 300 new offers added  (out of: 302, total: 111069)
+
+17:48:01:  == Bonus Round == 	(14/264  5.3%)
+17:48:01: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Bonus-Round
+17:48:03:                 Expanding page...
+
+17:48:05: Card ID:  15
+17:48:05: == Add card stats ==
+17:48:05: Card ID:            15
+17:48:05: Price from:         3.50
+17:48:05: 30-day avg:         4.52
+17:48:05: 7-day avg:          4.53
+17:48:05: 1-day avg:          4.50
+17:48:05: Amount:             264
+17:48:05: Date ID:            6
+
+17:48:05:  = Sellers = 
+17:48:05: Task - Updating sellers list
+17:48:06: Done - 0 new sellers added  (out of: 132, total: 5793)
+
+17:48:06:  = Offers = 
+17:48:06: Task - Updating sale offers
+17:48:17: Done - 132 new offers added  (out of: 132, total: 111201)
+
+17:48:17:  == Spell Snare == 	(15/264  5.68%)
+17:48:18: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+17:48:20:                 Expanding page...
+
+17:48:30: Card ID:  16
+17:48:30: == Add card stats ==
+17:48:30: Card ID:            16
+17:48:30: Price from:         0.35
+17:48:30: 30-day avg:         0.89
+17:48:30: 7-day avg:          0.89
+17:48:30: 1-day avg:          1.66
+17:48:30: Amount:             1901
+17:48:30: Date ID:            6
+
+17:48:30:  = Sellers = 
+17:48:30: Task - Updating sellers list
+17:48:37: Seller added:  cristinalucre [5794]
+17:48:38: Done - 1 new sellers added  (out of: 553, total: 5794)
+
+17:48:38:  = Offers = 
+17:48:38: Task - Updating sale offers

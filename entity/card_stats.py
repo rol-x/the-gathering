@@ -31,14 +31,15 @@ def save_card_stats(card_ID, price_from, avg_30_price, avg_7_price,
     '''Save a single card statsistics to the dataframe in .csv file.'''
 
     # Logging
-    log('== Add card stats ==')
-    log('Card ID:            ' + str(card_ID))
-    log('Price from:         ' + str(price_from))
-    log('30-day avg:         ' + str(avg_30_price))
-    log('7-day avg:          ' + str(avg_7_price))
-    log('1-day avg:          ' + str(avg_1_price))
-    log('Amount:             ' + str(available_items))
-    log('Date ID:            ' + str(globals.current_date_ID) + '\n')
+    if globals.verbose_mode:
+        log('== Add card stats ==')
+        log('Card ID:            ' + str(card_ID))
+        log('Price from:         ' + str(price_from))
+        log('30-day avg:         ' + str(avg_30_price))
+        log('7-day avg:          ' + str(avg_7_price))
+        log('1-day avg:          ' + str(avg_1_price))
+        log('Amount:             ' + str(available_items))
+        log('Date ID:            ' + str(globals.current_date_ID) + '\n')
 
     # Writing to local file
     with open('data/card_stats.csv', 'a', encoding="utf-8") as card_csv:
