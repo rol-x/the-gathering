@@ -70,13 +70,13 @@ def save_seller(seller_ID, seller_name, s_type,
     log(f"Seller added:  {seller_name} [{seller_ID}]")
     if globals.verbose_mode:
         log('== Add seller ==')
-        log('Seller: \t\t\t' + str(seller_name))
-        log('Seller ID: \t\t' + str(seller_ID))
-        log('Type: \t\t\t' + str(s_type))
-        log('Member since: \t' + str(member_since))
-        log('Country: \t\t\t' + str(country))
-        log('Address: \t\t\t' + str(address))
-        log('Date ID: \t\t\t' + str(globals.current_date_ID))
+        log('Seller:        ' + str(seller_name))
+        log('Seller ID:     ' + str(seller_ID))
+        log('Type:          ' + str(s_type))
+        log('Member since:  ' + str(member_since))
+        log('Country:       ' + str(country))
+        log('Address:       ' + str(address))
+        log('Date ID:       ' + str(globals.current_date_ID))
 
     # Writing
     with open('data/seller.csv', 'a', encoding="utf-8") as seller_csv:
@@ -88,15 +88,6 @@ def save_seller(seller_ID, seller_name, s_type,
         seller_csv.write(member_since + ';')
         seller_csv.write(country + ';')
         seller_csv.write(address + '\n')
-
-
-# Return if a seller with the same name is present in the dataframe.
-def is_seller_saved(seller_name):
-    '''Return if a seller with the same name is present in the dataframe.'''
-    seller_df = load_df('seller')
-    if seller_name in seller_df['seller_name'].values:
-        return True
-    return False
 
 
 # Return a seller ID given its name.

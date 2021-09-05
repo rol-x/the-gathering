@@ -1,0 +1,18 @@
+19:59:05: Creation of this file
+19:59:10: Webdriver ready
+19:59:10: Database connection established
+
+19:59:10: Task - Getting all card names from current expansion
+19:59:11: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+19:59:11: Done - All card names from Battlebond saved
+
+19:59:11:  == Skyshroud Claim ==    (1/264  0.38%)
+19:59:11: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+19:59:13:                 Expanding page...
+
+19:59:16:  = Card stats = 
+19:59:16: Card ID:  1
+19:59:16: Already saved today
+
+19:59:16:  = Sellers = 
+19:59:16: Task - Updating sellers list

@@ -3,9 +3,11 @@ from time import sleep, time
 
 import globals
 from bs4 import BeautifulSoup
+from entity.seller import add_seller
 from selenium import common, webdriver
 from selenium.webdriver.firefox.options import Options
 
+from handlers.local_files_handler import load_df
 from handlers.log_handler import log, log_url
 
 
@@ -30,6 +32,36 @@ def restart_webdriver(driver):
     realistic_pause(0.3*globals.max_wait*globals.wait_coef)
     driver = create_webdriver()
     return driver
+
+
+# Add every new seller from a list of seller names.
+def add_sellers_from_list(driver, sellers):
+    '''Add every new seller from a list of seller names.'''
+    seller_df = load_df('seller')
+    sellers_before = len(seller_df)
+    read_sellers = len(sellers)
+    new_sellers = 0
+    for seller_name in sellers:
+        # Check if the record already exists
+        if seller_name not in seller_df['seller_name'].values:
+            realistic_pause(0.7*globals.max_wait*globals.wait_coef)
+            driver.get(globals.users_url + seller_name)
+            seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            add_seller(seller_soup)
+            new_sellers += 1
+        else:
+            if globals.verbose_mode:
+                log('Already saved:  ' + seller_name + '\n')
+
+    # Logging
+    total_sellers = sellers_before + new_sellers
+    log(f"Done - {new_sellers} new sellers added  "
+        + f"(out of: {read_sellers}, total: {total_sellers})\n")
+
+    if new_sellers == 0:
+        globals.speed_up()
+    else:
+        globals.wait_coef = 1.0
 
 
 # Return a list of all cards found in the expansion cards list.

@@ -70,12 +70,12 @@ def save_date(date_ID, day, month, year, weekday):
 
     # Logging
     log('== Add date ==')
-    log('Day: \t\t\t' + str(day))
-    log('Month: \t\t\t' + str(month))
-    log('Year: \t\t\t' + str(year))
-    log('Date ID: \t\t\t' + str(date_ID))
+    log('Day:           ' + str(day))
+    log('Month:         ' + str(month))
+    log('Year:          ' + str(year))
+    log('Date ID:       ' + str(date_ID))
     if globals.verbose_mode:
-        log('Log file name: \t' + str(globals.log_filename))
+        log('Log file name: ' + str(globals.log_filename))
 
     # Writing
     with open('data/date.csv', 'a', encoding="utf-8") as date_csv:

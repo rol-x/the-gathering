@@ -1,0 +1,58 @@
+20:07:53: Creation of this file
+20:07:58: Webdriver ready
+20:07:58: Database connection established
+
+20:07:58: Task - Getting all card names from current expansion
+20:07:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:07:59: Done - All card names from Battlebond saved
+
+20:07:59:  == Skyshroud Claim ==    (1/264  0.38%)
+20:07:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+20:08:02:                 Expanding page...
+
+20:08:04:  = Card stats = 
+20:08:04: Card ID:  1
+20:08:04: Already saved today
+
+20:08:04:  = Sellers = 
+20:08:04: Task - Updating sellers list
+20:08:04: Done - 0 new sellers added  (out of: 163, total: 5909)
+
+20:08:04:  = Offers = 
+20:08:04: Task - Updating sale offers
+20:09:19: Done - 6 new offers added  (out of: 189, total: 640126)
+
+20:09:19:  == Impulse ==    (2/264  0.76%)
+20:09:20: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+20:09:22:                 Expanding page...
+
+20:09:28:  = Card stats = 
+20:09:28: Card ID:  2
+20:09:28: Already saved today
+
+20:09:28:  = Sellers = 
+20:09:28: Task - Updating sellers list
+20:09:28: Done - 0 new sellers added  (out of: 341, total: 5909)
+
+20:09:28:  = Offers = 
+20:09:28: Task - Updating sale offers
+20:11:58: Done - 1 new offers added  (out of: 381, total: 640127)
+
+20:11:58:  == Stolen Strategy ==    (3/264  1.14%)
+20:12:00: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+20:12:01:                 Expanding page...
+
+20:12:03:  = Card stats = 
+20:12:03: Card ID:  5
+20:12:03: Already saved today
+
+20:12:03:  = Sellers = 
+20:12:03: Task - Updating sellers list
+20:12:06: Seller added:  Marzuz [5910]
+20:12:06: Done - 1 new sellers added  (out of: 83, total: 5910)
+
+20:12:06:  = Offers = 
+20:12:06: Task - Updating sale offers
+20:12:45: Error tokenizing data. C error: Calling read(nbytes) on source failed. Try engine='python'.
+20:12:45: Please check the correctness of data in sale_offer.csv!
+

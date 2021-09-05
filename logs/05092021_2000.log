@@ -1,0 +1,74 @@
+20:00:03: Creation of this file
+20:00:08: Webdriver ready
+20:00:08: Database connection established
+
+20:00:08: Task - Getting all card names from current expansion
+20:00:08: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:00:09: Done - All card names from Battlebond saved
+
+20:00:09:  == Skyshroud Claim ==    (1/264  0.38%)
+20:00:09: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+20:00:11:                 Expanding page...
+
+20:00:13:  = Card stats = 
+20:00:13: Card ID:  1
+20:00:13: Already saved today
+
+20:00:13:  = Sellers = 
+20:00:13: Task - Updating sellers list
+20:00:46: Separate code execution
+20:00:51: Webdriver ready
+20:00:51: Database connection established
+
+20:00:51: Task - Getting all card names from current expansion
+20:00:52: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+20:00:52: Done - All card names from Battlebond saved
+
+20:00:52:  == Skyshroud Claim ==    (1/264  0.38%)
+20:00:53: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+20:00:54:                 Expanding page...
+
+20:00:57:  = Card stats = 
+20:00:57: Card ID:  1
+20:00:57: Already saved today
+
+20:00:57:  = Sellers = 
+20:00:57: Task - Updating sellers list
+20:00:59: Seller added:  szernik [5910]
+20:01:02: Seller added:  SodGames [5911]
+20:01:05: Seller added:  GunCha [5912]
+20:01:08: Seller added:  Bjiarni [5913]
+20:01:11: Seller added:  elbonenet [5914]
+20:01:14: Seller added:  SpeedySeb [5915]
+20:01:17: Seller added:  LotusVale-Bochum [5916]
+20:01:20: Seller added:  maglaf88 [5917]
+20:01:23: Seller added:  Brenag [5918]
+20:01:26: Seller added:  dommedag [5919]
+20:01:29: Seller added:  SimonJack88 [5920]
+20:01:32: Seller added:  Kunstfreund [5921]
+20:01:35: Seller added:  Tzoon [5922]
+20:01:38: Seller added:  Games-Island [5923]
+20:01:41: Seller added:  Erceus [5924]
+20:01:44: Seller added:  Rawuzs [5925]
+20:01:47: Seller added:  Deprolloneon [5926]
+20:01:50: Seller added:  TCG-entertainment [5927]
+20:01:52: Seller added:  Carolins-Kartenwelt [5928]
+20:01:55: Seller added:  TimeaB [5929]
+20:01:58: Seller added:  Sadquatch [5930]
+20:02:01: Seller added:  Stradi [5931]
+20:02:04: Seller added:  AFGAMES [5932]
+20:02:07: Seller added:  Mutsch [5933]
+20:02:10: Seller added:  Zaki23 [5934]
+20:02:13: Seller added:  toycastle-D [5935]
+20:02:16: Seller added:  zalakke [5936]
+20:02:19: Seller added:  JJ-Finkleton [5937]
+20:02:22: Seller added:  ClemFr [5938]
+20:02:24: Seller added:  ishotya [5939]
+20:02:27: Seller added:  Rarehuntershop [5940]
+20:02:30: Seller added:  Antonius [5941]
+20:02:32: Seller added:  Mazvigosl [5942]
+20:02:36: Seller added:  Vorropohaiah [5943]
+20:02:39: Seller added:  House-of-Games [5944]
+20:02:42: Seller added:  Xtreme-Trades [5945]
+20:02:46: Seller added:  MagicTradeHouseNo1 [5946]
+20:02:48: Seller added:  DragonReikaiGames [5947]

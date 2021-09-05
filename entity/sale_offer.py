@@ -1,4 +1,5 @@
 import globals
+import numpy as np
 import pandas as pd
 from handlers.local_files_handler import load_df
 from handlers.log_handler import log
@@ -33,10 +34,6 @@ def add_offers(card_page):
 
     # Get the card ID (dependent on card_name and current_date_ID)
     card_ID = get_card_ID(card_name)
-
-    # Logging
-    log(" = Offers = ")
-    log("Task - Updating sale offers")
 
     # Ensure the table has proper content
     if not (len(prices) / 2) == len(amounts) \
@@ -75,8 +72,8 @@ def add_offers(card_page):
             condition = offer_attrs[0]
             card_lang = offer_attrs[1]
         else:
-            condition = 'NaN'
-            card_lang = 'NaN'
+            condition = np.nan
+            card_lang = np.nan
             log("A card in a sale offer has incomplete attributes"
                 + "(language, condition)")
 
@@ -102,14 +99,14 @@ def save_offer(seller_ID, price, card_ID, condition,
     # Logging
     if globals.verbose_mode:
         log('== Add sale offer ==')
-        log('Seller ID: \t\t' + str(seller_ID))
-        log('Price: \t\t\t' + str(price))
-        log('Card ID: \t\t\t' + str(card_ID))
-        log('Condition: \t\t' + condition)
-        log('Language: \t\t' + card_lang)
-        log('Is foiled: \t\t' + str(is_foiled))
-        log('Amount: \t\t\t' + str(amount))
-        log('Date ID: \t\t\t' + str(globals.current_date_ID) + '\n')
+        log('Seller ID:     ' + str(seller_ID))
+        log('Price:         ' + str(price))
+        log('Card ID:       ' + str(card_ID))
+        log('Condition:     ' + condition)
+        log('Language:      ' + card_lang)
+        log('Is foiled:     ' + str(is_foiled))
+        log('Amount:        ' + str(amount))
+        log('Date ID:       ' + str(globals.current_date_ID) + '\n')
 
     # Writing
     with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:

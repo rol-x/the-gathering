@@ -40,3 +40,11 @@ def log(msg):
         timestamp = datetime.now().strftime("%H:%M:%S")
         logfile.write(timestamp + ": " + msg + "\n")
     print(msg)
+
+
+# Log progress of gathered info (done card by card).
+def log_progress(card_name, progress, cards_total):
+    '''Log progress of gathered info (done card by card).'''
+    log(f" == {card_name} ==    ({progress}/{cards_total}  "
+        + str(round(100*progress/cards_total, 2))
+        + "%)")

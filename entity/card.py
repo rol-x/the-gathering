@@ -32,11 +32,11 @@ def save_card(card_ID, card_name, expansion_name, rarity):
 
     # Logging
     log('== Add card ==')
-    log('Card: \t\t\t' + str(card_name))
-    log('Card ID: \t\t' + str(card_ID) + '\n')
+    log('Card:          ' + str(card_name))
+    log('Card ID:       ' + str(card_ID) + '\n')
     if globals.verbose_mode:
-        log('Expansion: \t' + str(expansion_name))
-        log('Rarity: \t\t\t' + str(rarity) + '\n')
+        log('Expansion:     ' + str(expansion_name))
+        log('Rarity:        ' + str(rarity) + '\n')
 
     # Writing to the file
     with open('data/card.csv', 'a', encoding="utf-8") as card_csv:
