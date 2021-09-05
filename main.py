@@ -14,6 +14,7 @@ from handlers.web_handler import *
 # TODO: Are all sale offers by separate sellers? Change the summary.
 # TODO: Look into handling of wild Firefox processes.
 # TODO: Try to clean up main :)
+# TODO: Swap tabs to spaces to ensure good formatting in logs.
 
 # Main function
 if __name__ == "__main__":
