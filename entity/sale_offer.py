@@ -15,9 +15,8 @@ def add_offers(card_page):
                                    + "article-table "
                                    + "table-striped"})
     if table is None:
-        if globals.verbose_mode:
-            log("No offers found on page!")
-            log(card_page.find("title"))
+        log("No offers found on page!")
+        log(f'Page title:  {card_page.find("title")}')
         return
 
     # Get static and list info from the page
@@ -32,7 +31,7 @@ def add_offers(card_page):
                             "item-count small text-right"})
     attributes = table.findAll("div", {"class": "product-attributes col"})
 
-    # Get the card ID (dependent on card_name and current_date_ID)
+    # Get the card ID (dependent on card_name and this_date_ID)
     card_ID = get_card_ID(card_name)
 
     # Ensure the table has proper content
@@ -54,11 +53,7 @@ def add_offers(card_page):
 
         # Get card attributes
         for attr in attributes[i].findAll("span"):
-            if attr is None:
-                if globals.verbose_mode:
-                    log("Empty attribute!\n" + str(card_name)
-                        + " by " + seller_name + " for " + price)
-            else:
+            if attr is not None:
                 try:
                     offer_attrs.append(attr["data-original-title"])
                 except KeyError:
@@ -77,8 +72,7 @@ def add_offers(card_page):
         else:
             condition = np.nan
             card_lang = np.nan
-            log("A card in a sale offer has incomplete attributes"
-                + "(language, condition)")
+            log("Incomplete card attributes!")
 
         # Load the entry into the dictionary
         seller_ID = get_seller_ID(seller_name)
@@ -89,42 +83,26 @@ def add_offers(card_page):
         offers_dict['language'].append(card_lang)
         offers_dict['is_foiled'].append(is_foiled)
         offers_dict['amount'].append(amount)
-        offers_dict['date_ID'].append(globals.current_date_ID)
+        offers_dict['date_ID'].append(globals.this_date_ID)
 
     update_offers(offers_dict)
 
 
-# Take new offers after comparing to saved ones and update the file.
+# Take new offers and rewrite the dataframe with them today.
 def update_offers(offers_dict):
-    '''Take new offers after comparing to saved ones and update the file.'''
-    # Load and compare the local data
+    '''Take new offers and rewrite the dataframe with them today.'''
+
+    # Load and drop today's sales data for this card
     all = load_df('sale_offer')
     read = pd.DataFrame(offers_dict)
     this_card_today = all[(all['card_ID'] == read['card_ID'].values[0])
-                          & (all['date_ID'] == globals.current_date_ID)]
-    concated = pd.concat([this_card_today, read])
-    new_offers = concated.drop_duplicates(keep=False)  # reset_index(drop=True)
+                          & (all['date_ID'] == globals.this_date_ID)]
+    all.drop(this_card_today.index, inplace=True)
 
-    # Save the new sale offers in a local file
-    save_bulk_offers(new_offers)
+    # Concatenate the remaining and new offers and save to file
+    new_all = pd.concat([all, read]).reset_index(drop=True)
+    new_all.to_csv('data/sale_offer.csv', ';', index=False)
 
     # Log task finished
-    log(f"Done - {len(new_offers)} new offers added   "
-        + f"(out of: {len(read)}, total: {len(all) + len(new_offers)})\n\n")
-
-
-# Add a dataframe of offers to the local file.
-def save_bulk_offers(new_offers):
-    '''Add a dataframe of offers to the local file.'''
-    if globals.verbose_mode:
-        log('[write sale offer]' + '\n')
-    with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
-        for i in new_offers.index:
-            offers_csv.write(str(new_offers.loc[i]['seller_ID']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['price']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['card_ID']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['card_condition']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['language']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['is_foiled']) + ';')
-            offers_csv.write(str(new_offers.loc[i]['amount']) + ';')
-            offers_csv.write(str(globals.current_date_ID) + '\n')
+    log(f"Done - {len(read)} sale offers updated from {len(this_card_today)}"
+        + f"  (total: {len(new_all)})\n\n")
