@@ -11,6 +11,7 @@ from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
 # TODO: Find out why some offers are not added from read to new.
+# TODO: Offers changed during the day may appear separately after two runs.
 # TODO: Look into handling of wild Firefox processes.
 
 # Main function
@@ -51,6 +52,7 @@ if __name__ == "__main__":
                 log('Card page invalid: ' + driver.current_url)
                 log('Waiting and reconnecting...  (cooldown '
                     + f'{wait_time} seconds)')
+                realistic_pause(wait_time)
                 wait_time *= 2
                 if wait_time == 30.0:
                     globals.wait_coef *= 1.1
