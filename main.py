@@ -10,9 +10,7 @@ from entity.seller import get_seller_names
 from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
-# TODO: Speed up updating sale offers.
-# TODO: Are all sale offers by separate sellers? Change the summary.
-# TODO: Better logging of new cards and card stats (as in sellers).
+# TODO: Find out why some offers are not added from read to new.
 # TODO: Look into handling of wild Firefox processes.
 
 # Main function
@@ -33,15 +31,15 @@ if __name__ == "__main__":
         log_progress(card_name, progress, len(card_list))
 
         # Bang and scream at the door until they let you in
-        wait_time = 10.0
+        wait_time = 15.0
         card_url = globals.base_url + globals.expansion_name + '/'
         card_url += urlify(card_name)
 
         while True:
             # Open the card page and extend the view maximally
+            realistic_pause(globals.wait_coef)
             driver.get(card_url)
             log_url(driver.current_url)
-            realistic_pause(0.6*globals.max_wait*globals.wait_coef)
             log("                Expanding page...\n")
             click_load_more_button(driver)
 
@@ -52,9 +50,12 @@ if __name__ == "__main__":
             else:
                 log('Card page invalid: ' + driver.current_url)
                 log('Waiting and reconnecting...  (cooldown '
-                    + f'{round(wait_time, 1)} seconds)')
-                wait_time = exponential_wait(wait_time, 1.6)
-                if wait_time > 40.0:
+                    + f'{wait_time} seconds)')
+                wait_time *= 2
+                if wait_time == 30.0:
+                    globals.wait_coef *= 1.1
+                if wait_time == 60.0:
+                    globals.wait_coef *= 1.1
                     driver = restart_webdriver(driver)
 
         # Save the card if not saved already

@@ -91,90 +91,37 @@ def add_offers(card_page):
     update_offers(offers_dict)
 
 
-# Save a single offer row to the offer dataframe in .csv file.
-def save_offer(seller_ID, price, card_ID, condition,
-               card_lang, is_foiled, amount):
-    '''Save a single card row to the card dataframe in .csv file.'''
-
-    # Logging
-    if globals.verbose_mode:
-        log('== Add sale offer ==')
-        log('Seller ID:     ' + str(seller_ID))
-        log('Price:         ' + str(price))
-        log('Card ID:       ' + str(card_ID))
-        log('Condition:     ' + condition)
-        log('Language:      ' + card_lang)
-        log('Is foiled:     ' + str(is_foiled))
-        log('Amount:        ' + str(amount))
-        log('Date ID:       ' + str(globals.current_date_ID) + '\n')
-
-    # Writing
-    with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
-        if globals.verbose_mode:
-            log('[write sale offer]' + '\n')
-        offers_csv.write(str(seller_ID) + ';')
-        offers_csv.write(str(price) + ';')
-        offers_csv.write(str(card_ID) + ';')
-        offers_csv.write(condition + ';')
-        offers_csv.write(card_lang + ';')
-        offers_csv.write(str(is_foiled) + ';')
-        offers_csv.write(str(amount) + ';')
-        offers_csv.write(str(globals.current_date_ID) + '\n')
-
-
 # Take new offers after comparing to saved ones and update the file.
 def update_offers(offers_dict):
     '''Take new offers after comparing to saved ones and update the file.'''
     # Load and compare the local data
-    current_offers_df = load_df('sale_offer')
-    num_of_offers_before = len(current_offers_df.index)
-    read_offers_df = pd.DataFrame(offers_dict)
-    num_of_new_offers = 0
+    all = load_df('sale_offer')
+    read = pd.DataFrame(offers_dict)
+    this_card_today = all[(all['card_ID'] == read['card_ID'].values[0])
+                          & (all['date_ID'] == globals.current_date_ID)]
+    concated = pd.concat([this_card_today, read])
+    new_offers = concated.drop_duplicates(keep=False)  # reset_index(drop=True)
 
     # Save the new sale offers in a local file
-    for i in read_offers_df.index:
-        if not is_sale_offer_saved_today(read_offers_df.loc[i]):
-            save_offer(read_offers_df.loc[i]['seller_ID'],
-                       read_offers_df.loc[i]['price'],
-                       read_offers_df.loc[i]['card_ID'],
-                       read_offers_df.loc[i]['card_condition'],
-                       read_offers_df.loc[i]['language'],
-                       read_offers_df.loc[i]['is_foiled'],
-                       read_offers_df.loc[i]['amount'])
-            num_of_new_offers += 1
-
-    # Decide on requesting speed
-    if num_of_new_offers == 0:
-        globals.speed_up()
-    else:
-        globals.wait_coef = 1.0
+    save_bulk_offers(new_offers)
 
     # Log task finished
-    log(f"Done - {num_of_new_offers} new offers added "
-        + f" (out of: {len(read_offers_df)}, "
-        + f"total: {num_of_offers_before + num_of_new_offers})\n")
+    log(f"Done - {len(new_offers)} new offers added   "
+        + f"(out of: {len(read)}, total: {len(all) + len(new_offers)})\n\n")
 
 
-# Return whether the provided sale offer is already saved.
-def is_sale_offer_saved_today(df_row):
-    '''Return whether the provided sale offer is already saved.'''
-    seller_ID = df_row['seller_ID']
-    price = df_row['price']
-    card_ID = df_row['card_ID']
-    card_condition = df_row['card_condition']
-    language = df_row['language']
-    is_foiled = df_row['is_foiled']
-    amount = df_row['amount']
-
-    sale_offers_df = load_df('sale_offer')
-    sm = sale_offers_df[(sale_offers_df['seller_ID'] == seller_ID) &
-                        (sale_offers_df['price'] == price) &
-                        (sale_offers_df['card_ID'] == card_ID) &
-                        (sale_offers_df['card_condition'] == card_condition) &
-                        (sale_offers_df['language'] == language) &
-                        (sale_offers_df['is_foiled'] == is_foiled) &
-                        (sale_offers_df['amount'] == amount) &
-                        (sale_offers_df['date_ID'] == globals.current_date_ID)]
-    if len(sm) > 0:
-        return True
-    return False
+# Add a dataframe of offers to the local file.
+def save_bulk_offers(new_offers):
+    '''Add a dataframe of offers to the local file.'''
+    if globals.verbose_mode:
+        log('[write sale offer]' + '\n')
+    with open('data/sale_offer.csv', 'a', encoding="utf-8") as offers_csv:
+        for i in new_offers.index:
+            offers_csv.write(str(new_offers.loc[i]['seller_ID']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['price']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['card_ID']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['card_condition']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['language']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['is_foiled']) + ';')
+            offers_csv.write(str(new_offers.loc[i]['amount']) + ';')
+            offers_csv.write(str(globals.current_date_ID) + '\n')

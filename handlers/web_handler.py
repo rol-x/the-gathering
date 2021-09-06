@@ -29,7 +29,7 @@ def restart_webdriver(driver):
     log('Restarting the webdriver')
     driver.close()
     log('Closing the webdriver')
-    realistic_pause(0.3*globals.max_wait*globals.wait_coef)
+    realistic_pause(globals.wait_coef)
     driver = create_webdriver()
     return driver
 
@@ -44,7 +44,7 @@ def add_sellers_from_list(driver, sellers):
     for seller_name in sellers:
         # Check if the record already exists
         if seller_name not in seller_df['seller_name'].values:
-            realistic_pause(0.7*globals.max_wait*globals.wait_coef)
+            realistic_pause(0.8*globals.wait_coef)
             driver.get(globals.users_url + seller_name)
             seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
             add_seller(seller_soup)
@@ -57,11 +57,6 @@ def add_sellers_from_list(driver, sellers):
     total_sellers = sellers_before + new_sellers
     log(f"Done - {new_sellers} new sellers added  "
         + f"(out of: {read_sellers}, total: {total_sellers})\n")
-
-    if new_sellers == 0:
-        globals.speed_up()
-    else:
-        globals.wait_coef = 1.0
 
 
 # Return a list of all cards found in the expansion cards list.
@@ -106,7 +101,7 @@ def get_card_names(driver, expansion_name):
 
         # Advance to the next page
         page_no += 1
-        realistic_pause(0.2*globals.max_wait*globals.wait_coef)
+        realistic_pause(0.3*globals.wait_coef)
 
     # Save the complete cards list to a file
     exp_file = open('data/' + exp_filename + '.txt', 'w', encoding="utf-8")
@@ -131,13 +126,14 @@ def click_load_more_button(driver):
             driver.execute_script("arguments[0].click();", load_more_button)
             if globals.verbose_mode:
                 log('Extending the sellers view...')
-            realistic_pause(0.2*globals.max_wait*globals.wait_coef)
+            realistic_pause(0.2*globals.wait_coef)
             elapsed_t = time() - start_t
             if elapsed_t > 60.0:
-                log("Extending the sellers view timed out.")
+                log("Extending the sellers view timed out.\n")
+                globals.wait_coef *= 1.1
                 break
     except common.exceptions.NoSuchElementException:
-        log("No button found on this page.")
+        log("No button found on this page.\n")
 
 
 # Return the given string in url-compatible form, like 'Spell-Snare'.

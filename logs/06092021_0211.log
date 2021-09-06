@@ -1,0 +1,1398 @@
+02:11:07: Creation of this file
+02:11:11: Webdriver ready
+02:11:11: Database connection established
+
+02:11:11: Task - Getting all card names from current expansion
+02:11:12: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+02:11:12: Done - All card names from Battlebond saved
+
+02:11:12:  == Skyshroud Claim ==    (1/264  0.38%)
+02:11:16: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+02:11:16:                 Expanding page...
+
+02:11:19:  = Card stats =
+02:11:19: Card ID:  1
+02:11:19: Already saved today
+
+02:11:19:  = Sellers =
+02:11:19: Task - Updating sellers list
+02:11:19: Done - 0 new sellers added  (out of: 163, total: 5916)
+
+02:11:19:  = Offers =
+02:11:19: Task - Updating sale offers
+02:11:24: Done - 0 new offers added   (out of: 188, total: 641429)
+
+
+02:11:24:  == Impulse ==    (2/264  0.76%)
+02:11:28: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+02:11:28:                 Expanding page...
+
+02:11:34:  = Card stats =
+02:11:34: Card ID:  2
+02:11:34: Already saved today
+
+02:11:34:  = Sellers =
+02:11:34: Task - Updating sellers list
+02:11:34: Done - 0 new sellers added  (out of: 341, total: 5916)
+
+02:11:34:  = Offers =
+02:11:34: Task - Updating sale offers
+02:11:39: Done - 0 new offers added   (out of: 381, total: 641429)
+
+
+02:11:39:  == Stolen Strategy ==    (3/264  1.14%)
+02:11:42: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+02:11:42:                 Expanding page...
+
+02:11:45:  = Card stats =
+02:11:45: Card ID:  5
+02:11:45: Already saved today
+
+02:11:45:  = Sellers =
+02:11:45: Task - Updating sellers list
+02:11:45: Done - 0 new sellers added  (out of: 85, total: 5916)
+
+02:11:45:  = Offers =
+02:11:45: Task - Updating sale offers
+02:11:47: Done - 0 new offers added   (out of: 104, total: 641429)
+
+
+02:11:47:  == Azra Oddsmaker ==    (4/264  1.52%)
+02:11:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+02:11:51:                 Expanding page...
+
+02:11:55:  = Card stats =
+02:11:55: Card ID:  6
+02:11:55: Already saved today
+
+02:11:55:  = Sellers =
+02:11:55: Task - Updating sellers list
+02:11:56: Done - 0 new sellers added  (out of: 226, total: 5916)
+
+02:11:56:  = Offers =
+02:11:56: Task - Updating sale offers
+02:11:59: Done - 0 new offers added   (out of: 243, total: 641429)
+
+
+02:11:59:  == Chain Lightning ==    (5/264  1.89%)
+02:12:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+02:12:03:                 Expanding page...
+
+02:12:06:  = Card stats =
+02:12:06: Card ID:  4
+02:12:06: Already saved today
+
+02:12:06:  = Sellers =
+02:12:06: Task - Updating sellers list
+02:12:06: Done - 0 new sellers added  (out of: 148, total: 5916)
+
+02:12:06:  = Offers =
+02:12:06: Task - Updating sale offers
+02:12:09: Done - 0 new offers added   (out of: 155, total: 641429)
+
+
+02:12:09:  == Peregrine Drake ==    (6/264  2.27%)
+02:12:12: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Peregrine-Drake
+02:12:12:                 Expanding page...
+
+02:12:14:  = Card stats =
+02:12:14: Card ID:  7
+02:12:14: Already saved today
+
+02:12:14:  = Sellers =
+02:12:14: Task - Updating sellers list
+02:12:14: Done - 0 new sellers added  (out of: 120, total: 5916)
+
+02:12:14:  = Offers =
+02:12:14: Task - Updating sale offers
+02:12:16: Done - 0 new offers added   (out of: 128, total: 641429)
+
+
+02:12:16:  == Warrior Token (White 1/1) ==    (7/264  2.65%)
+02:12:20: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Warrior-Token-White-11
+02:12:20:                 Expanding page...
+
+02:12:25:  = Card stats =
+02:12:25: Card ID:  8
+02:12:25: Already saved today
+
+02:12:25:  = Sellers =
+02:12:25: Task - Updating sellers list
+02:12:26: Done - 0 new sellers added  (out of: 293, total: 5916)
+
+02:12:26:  = Offers =
+02:12:26: Task - Updating sale offers
+02:12:30: Done - 238 new offers added   (out of: 343, total: 641667)
+
+
+02:12:30:  == Fertile Ground ==    (8/264  3.03%)
+02:12:34: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fertile-Ground
+02:12:34:                 Expanding page...
+
+02:13:35: Extending the sellers view timed out.
+
+02:13:36:  = Card stats = 
+02:13:36: Card ID:  9
+02:13:36: Already saved today
+
+02:13:36:  = Sellers = 
+02:13:36: Task - Updating sellers list
+02:13:36: Done - 0 new sellers added  (out of: 373, total: 5916)
+
+02:13:36:  = Offers = 
+02:13:36: Task - Updating sale offers
+02:13:40: Done - 396 new offers added   (out of: 400, total: 642063)
+
+
+02:13:40:  == Okaun, Eye of Chaos ==    (9/264  3.41%)
+02:13:44: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+02:13:44:                 Expanding page...
+
+02:13:44: No button found on this page.
+
+02:13:44: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+02:13:44: Waiting and reconnecting...  (cooldown 10.0 seconds)
+02:13:59: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+02:13:59:                 Expanding page...
+
+02:13:59: No button found on this page.
+
+02:13:59: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+02:13:59: Waiting and reconnecting...  (cooldown 16.0 seconds)
+02:14:19: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+02:14:19:                 Expanding page...
+
+02:14:26:  = Card stats = 
+02:14:26: Card ID:  10
+02:14:26: Already saved today
+
+02:14:26:  = Sellers = 
+02:14:26: Task - Updating sellers list
+02:14:26: Done - 0 new sellers added  (out of: 335, total: 5916)
+
+02:14:26:  = Offers = 
+02:14:26: Task - Updating sale offers
+02:14:31: Done - 376 new offers added   (out of: 378, total: 642439)
+
+
+02:14:31:  == Spellseeker ==    (10/264  3.79%)
+02:14:35: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spellseeker
+02:14:35:                 Expanding page...
+
+02:14:38:  = Card stats = 
+02:14:38: Card ID:  11
+02:14:38: Already saved today
+
+02:14:38:  = Sellers = 
+02:14:38: Task - Updating sellers list
+02:14:38: Done - 0 new sellers added  (out of: 93, total: 5916)
+
+02:14:38:  = Offers = 
+02:14:38: Task - Updating sale offers
+02:14:39: Done - 100 new offers added   (out of: 100, total: 642539)
+
+
+02:14:39:  == Toothy, Imaginary Friend ==    (11/264  4.17%)
+02:14:43: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Toothy-Imaginary-Friend
+02:14:43:                 Expanding page...
+
+02:14:45:  = Card stats = 
+02:14:45: Card ID:  12
+02:14:45: Already saved today
+
+02:14:45:  = Sellers = 
+02:14:45: Task - Updating sellers list
+02:14:45: Done - 0 new sellers added  (out of: 119, total: 5916)
+
+02:14:45:  = Offers = 
+02:14:45: Task - Updating sale offers
+02:14:47: Done - 133 new offers added   (out of: 133, total: 642672)
+
+
+02:14:47:  == Mindblade Render ==    (12/264  4.55%)
+02:14:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mindblade-Render
+02:14:51:                 Expanding page...
+
+02:14:55:  = Card stats = 
+02:14:55: Card ID:  13
+02:14:55: Already saved today
+
+02:14:55:  = Sellers = 
+02:14:55: Task - Updating sellers list
+02:14:55: Done - 0 new sellers added  (out of: 179, total: 5916)
+
+02:14:55:  = Offers = 
+02:14:55: Task - Updating sale offers
+02:14:58: Done - 193 new offers added   (out of: 193, total: 642865)
+
+
+02:14:58:  == Sylvia Brightspear ==    (13/264  4.92%)
+02:15:02: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sylvia-Brightspear
+02:15:02:                 Expanding page...
+
+02:15:08:  = Card stats = 
+02:15:08: Card ID:  14
+02:15:08: Already saved today
+
+02:15:08:  = Sellers = 
+02:15:08: Task - Updating sellers list
+02:15:08: Done - 0 new sellers added  (out of: 274, total: 5916)
+
+02:15:08:  = Offers = 
+02:15:08: Task - Updating sale offers
+02:15:12: Done - 306 new offers added   (out of: 310, total: 643171)
+
+
+02:15:12:  == Bonus Round ==    (14/264  5.3%)
+02:15:16: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Bonus-Round
+02:15:16:                 Expanding page...
+
+02:15:18:  = Card stats = 
+02:15:18: Card ID:  15
+02:15:18: Already saved today
+
+02:15:18:  = Sellers = 
+02:15:18: Task - Updating sellers list
+02:15:18: Done - 0 new sellers added  (out of: 121, total: 5916)
+
+02:15:18:  = Offers = 
+02:15:18: Task - Updating sale offers
+02:15:21: Done - 135 new offers added   (out of: 135, total: 643306)
+
+
+02:15:21:  == Spell Snare ==    (15/264  5.68%)
+02:15:25: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+02:15:25:                 Expanding page...
+
+02:16:26: Extending the sellers view timed out.
+
+02:16:26:  = Card stats = 
+02:16:26: Card ID:  16
+02:16:26: Already saved today
+
+02:16:26:  = Sellers = 
+02:16:26: Task - Updating sellers list
+02:16:27: Done - 0 new sellers added  (out of: 455, total: 5916)
+
+02:16:27:  = Offers = 
+02:16:27: Task - Updating sale offers
+02:16:32: Done - 500 new offers added   (out of: 500, total: 643806)
+
+
+02:16:32:  == Generous Patron ==    (16/264  6.06%)
+02:16:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+02:16:36:                 Expanding page...
+
+02:16:36: No button found on this page.
+
+02:16:36: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+02:16:36: Waiting and reconnecting...  (cooldown 10.0 seconds)
+02:16:49: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+02:16:49:                 Expanding page...
+
+02:16:49: No button found on this page.
+
+02:16:49: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+02:16:49: Waiting and reconnecting...  (cooldown 16.0 seconds)
+02:17:05: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+02:17:05:                 Expanding page...
+
+02:17:07:  = Card stats = 
+02:17:07: Card ID:  17
+02:17:07: Card stats added
+
+02:17:07:  = Sellers = 
+02:17:07: Task - Updating sellers list
+02:17:07: Done - 0 new sellers added  (out of: 126, total: 5916)
+
+02:17:07:  = Offers = 
+02:17:07: Task - Updating sale offers
+02:17:09: Done - 141 new offers added   (out of: 141, total: 643947)
+
+
+02:17:09:  == Zndrsplt, Eye of Wisdom ==    (17/264  6.44%)
+02:17:13: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+02:17:13:                 Expanding page...
+
+02:17:20:  = Card stats = 
+02:17:20: Card ID:  3
+02:17:20: Card stats added
+
+02:17:20:  = Sellers = 
+02:17:20: Task - Updating sellers list
+02:17:20: Done - 0 new sellers added  (out of: 319, total: 5916)
+
+02:17:20:  = Offers = 
+02:17:20: Task - Updating sale offers
+02:17:25: Done - 367 new offers added   (out of: 369, total: 644314)
+
+
+02:17:25:  == Pir, Imaginative Rascal ==    (18/264  6.82%)
+02:17:29: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Pir-Imaginative-Rascal
+02:17:29:                 Expanding page...
+
+02:17:32:  = Card stats = 
+02:17:32: Card ID:  18
+02:17:32: Card stats added
+
+02:17:32:  = Sellers = 
+02:17:32: Task - Updating sellers list
+02:17:32: Done - 0 new sellers added  (out of: 94, total: 5916)
+
+02:17:32:  = Offers = 
+02:17:32: Task - Updating sale offers
+02:17:34: Done - 102 new offers added   (out of: 102, total: 644416)
+
+
+02:17:34:  == Virtus's Maneuver ==    (19/264  7.2%)
+02:17:38: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Virtuss-Maneuver
+02:17:38:                 Expanding page...
+
+02:17:44:  = Card stats = 
+02:17:44: Card ID:  19
+02:17:44: Card stats added
+
+02:17:44:  = Sellers = 
+02:17:44: Task - Updating sellers list
+02:17:47: Seller added:  Reapernl [5917]
+02:17:47: Done - 1 new sellers added  (out of: 266, total: 5917)
+
+02:17:47:  = Offers = 
+02:17:47: Task - Updating sale offers
+02:17:52: Done - 315 new offers added   (out of: 315, total: 644731)
+
+
+02:17:52:  == Spire Garden ==    (20/264  7.58%)
+02:17:56: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spire-Garden
+02:17:56:                 Expanding page...
+
+02:17:59:  = Card stats = 
+02:17:59: Card ID:  20
+02:17:59: Card stats added
+
+02:17:59:  = Sellers = 
+02:17:59: Task - Updating sellers list
+02:18:00: Done - 0 new sellers added  (out of: 146, total: 5917)
+
+02:18:00:  = Offers = 
+02:18:00: Task - Updating sale offers
+02:18:02: Done - 168 new offers added   (out of: 170, total: 644899)
+
+
+02:18:02:  == War's Toll ==    (21/264  7.95%)
+02:18:07: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Wars-Toll
+02:18:07:                 Expanding page...
+
+02:18:09:  = Card stats = 
+02:18:09: Card ID:  21
+02:18:09: Card stats added
+
+02:18:09:  = Sellers = 
+02:18:09: Task - Updating sellers list
+02:18:09: Done - 0 new sellers added  (out of: 124, total: 5917)
+
+02:18:09:  = Offers = 
+02:18:09: Task - Updating sale offers
+02:18:11: Done - 141 new offers added   (out of: 141, total: 645040)
+
+
+02:18:11:  == Swords to Plowshares ==    (22/264  8.33%)
+02:18:16: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Swords-to-Plowshares
+02:18:16:                 Expanding page...
+
+02:18:19:  = Card stats = 
+02:18:19: Card ID:  22
+02:18:19: Card stats added
+
+02:18:19:  = Sellers = 
+02:18:19: Task - Updating sellers list
+02:18:19: Done - 0 new sellers added  (out of: 144, total: 5917)
+
+02:18:19:  = Offers = 
+02:18:19: Task - Updating sale offers
+02:18:21: Done - 157 new offers added   (out of: 157, total: 645197)
+
+
+02:18:21:  == Angelic Chorus ==    (23/264  8.71%)
+02:18:24: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Angelic-Chorus
+02:18:24:                 Expanding page...
+
+02:18:29:  = Card stats = 
+02:18:29: Card ID:  23
+02:18:29: Card stats added
+
+02:18:29:  = Sellers = 
+02:18:29: Task - Updating sellers list
+02:18:29: Done - 0 new sellers added  (out of: 223, total: 5917)
+
+02:18:29:  = Offers = 
+02:18:29: Task - Updating sale offers
+02:18:33: Done - 253 new offers added   (out of: 255, total: 645450)
+
+
+02:18:33:  == Diabolic Intent ==    (24/264  9.09%)
+02:18:37: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Diabolic-Intent
+02:18:37:                 Expanding page...
+
+02:18:38:  = Card stats = 
+02:18:38: Card ID:  24
+02:18:38: Card stats added
+
+02:18:38:  = Sellers = 
+02:18:38: Task - Updating sellers list
+02:18:42: Seller added:  udolattek [5918]
+02:18:42: Done - 1 new sellers added  (out of: 85, total: 5918)
+
+02:18:42:  = Offers = 
+02:18:42: Task - Updating sale offers
+02:18:43: Done - 92 new offers added   (out of: 94, total: 645542)
+
+
+02:18:43:  == Luxury Suite ==    (25/264  9.47%)
+02:18:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Luxury-Suite
+02:18:47:                 Expanding page...
+
+02:18:49:  = Card stats = 
+02:18:49: Card ID:  25
+02:18:49: Card stats added
+
+02:18:49:  = Sellers = 
+02:18:49: Task - Updating sellers list
+02:18:49: Done - 0 new sellers added  (out of: 65, total: 5918)
+
+02:18:49:  = Offers = 
+02:18:49: Task - Updating sale offers
+02:18:50: Done - 75 new offers added   (out of: 75, total: 645617)
+
+
+02:18:50:  == Pir's Whim ==    (26/264  9.85%)
+02:18:53: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Pirs-Whim
+02:18:53:                 Expanding page...
+
+02:18:57:  = Card stats = 
+02:18:57: Card ID:  26
+02:18:57: Card stats added
+
+02:18:57:  = Sellers = 
+02:18:57: Task - Updating sellers list
+02:19:01: Seller added:  Mokij [5919]
+02:19:01: Done - 1 new sellers added  (out of: 189, total: 5919)
+
+02:19:01:  = Offers = 
+02:19:01: Task - Updating sale offers
+02:19:04: Done - 222 new offers added   (out of: 224, total: 645839)
+
+
+02:19:04:  == Last One Standing ==    (27/264  10.23%)
+02:19:09: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Last-One-Standing
+02:19:09:                 Expanding page...
+
+02:19:12:  = Card stats = 
+02:19:12: Card ID:  27
+02:19:12: Card stats added
+
+02:19:12:  = Sellers = 
+02:19:12: Task - Updating sellers list
+02:19:12: Done - 0 new sellers added  (out of: 109, total: 5919)
+
+02:19:12:  = Offers = 
+02:19:12: Task - Updating sale offers
+02:19:14: Done - 127 new offers added   (out of: 129, total: 645966)
+
+
+02:19:14:  == Plains ==    (28/264  10.61%)
+02:19:18: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Plains
+02:19:18:                 Expanding page...
+
+02:19:22:  = Card stats = 
+02:19:22: Card ID:  28
+02:19:22: Card stats added
+
+02:19:22:  = Sellers = 
+02:19:22: Task - Updating sellers list
+02:19:22: Done - 0 new sellers added  (out of: 190, total: 5919)
+
+02:19:22:  = Offers = 
+02:19:22: Task - Updating sale offers
+02:19:26: Done - 232 new offers added   (out of: 232, total: 646198)
+
+
+02:19:26:  == Sower of Temptation ==    (29/264  10.98%)
+02:19:30: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sower-of-Temptation
+02:19:30:                 Expanding page...
+
+02:19:35:  = Card stats = 
+02:19:35: Card ID:  29
+02:19:35: Card stats added
+
+02:19:35:  = Sellers = 
+02:19:35: Task - Updating sellers list
+02:19:35: Done - 0 new sellers added  (out of: 179, total: 5919)
+
+02:19:35:  = Offers = 
+02:19:35: Task - Updating sale offers
+02:19:38: Done - 202 new offers added   (out of: 202, total: 646400)
+
+
+02:19:38:  == Kor Spiritdancer ==    (30/264  11.36%)
+02:19:43: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Kor-Spiritdancer
+02:19:43:                 Expanding page...
+
+02:19:47:  = Card stats = 
+02:19:47: Card ID:  30
+02:19:47: Card stats added
+
+02:19:47:  = Sellers = 
+02:19:47: Task - Updating sellers list
+02:19:47: Done - 0 new sellers added  (out of: 213, total: 5919)
+
+02:19:47:  = Offers = 
+02:19:47: Task - Updating sale offers
+02:19:50: Done - 232 new offers added   (out of: 232, total: 646632)
+
+
+02:19:50:  == Sea of Clouds ==    (31/264  11.74%)
+02:19:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sea-of-Clouds
+02:19:54:                 Expanding page...
+
+02:19:57:  = Card stats = 
+02:19:57: Card ID:  31
+02:19:57: Card stats added
+
+02:19:57:  = Sellers = 
+02:19:57: Task - Updating sellers list
+02:19:57: Done - 0 new sellers added  (out of: 116, total: 5919)
+
+02:19:57:  = Offers = 
+02:19:57: Task - Updating sale offers
+02:19:59: Done - 131 new offers added   (out of: 133, total: 646763)
+
+
+02:19:59:  == Bountiful Promenade ==    (32/264  12.12%)
+02:20:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Bountiful-Promenade
+02:20:03:                 Expanding page...
+
+02:20:05:  = Card stats = 
+02:20:05: Card ID:  32
+02:20:05: Card stats added
+
+02:20:05:  = Sellers = 
+02:20:05: Task - Updating sellers list
+02:20:09: Seller added:  KonGo [5920]
+02:20:09: Done - 1 new sellers added  (out of: 113, total: 5920)
+
+02:20:09:  = Offers = 
+02:20:09: Task - Updating sale offers
+02:20:11: Done - 134 new offers added   (out of: 134, total: 646897)
+
+
+02:20:11:  == Vigor ==    (33/264  12.5%)
+02:20:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Vigor
+02:20:15:                 Expanding page...
+
+02:20:17:  = Card stats = 
+02:20:17: Card ID:  33
+02:20:17: Card stats added
+
+02:20:17:  = Sellers = 
+02:20:17: Task - Updating sellers list
+02:20:21: Seller added:  saturno3 [5921]
+02:20:21: Done - 1 new sellers added  (out of: 102, total: 5921)
+
+02:20:21:  = Offers = 
+02:20:21: Task - Updating sale offers
+02:20:22: Done - 118 new offers added   (out of: 118, total: 647015)
+
+
+02:20:22:  == Krav, the Unredeemed ==    (34/264  12.88%)
+02:20:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Krav-the-Unredeemed
+02:20:27:                 Expanding page...
+
+02:20:31:  = Card stats = 
+02:20:31: Card ID:  34
+02:20:31: Card stats added
+
+02:20:31:  = Sellers = 
+02:20:31: Task - Updating sellers list
+02:20:35: Seller added:  Valraen [5922]
+02:20:35: Done - 1 new sellers added  (out of: 161, total: 5922)
+
+02:20:35:  = Offers = 
+02:20:35: Task - Updating sale offers
+02:20:37: Done - 189 new offers added   (out of: 189, total: 647204)
+
+
+02:20:37:  == Mind's Eye ==    (35/264  13.26%)
+02:20:42: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Minds-Eye
+02:20:42:                 Expanding page...
+
+02:20:45:  = Card stats = 
+02:20:45: Card ID:  35
+02:20:45: Card stats added
+
+02:20:45:  = Sellers = 
+02:20:45: Task - Updating sellers list
+02:20:45: Done - 0 new sellers added  (out of: 142, total: 5922)
+
+02:20:45:  = Offers = 
+02:20:45: Task - Updating sale offers
+02:20:47: Done - 164 new offers added   (out of: 168, total: 647368)
+
+
+02:20:47:  == Thrilling Encore ==    (36/264  13.64%)
+02:20:53: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Thrilling-Encore
+02:20:53:                 Expanding page...
+
+02:20:56:  = Card stats = 
+02:20:56: Card ID:  36
+02:20:56: Card stats added
+
+02:20:56:  = Sellers = 
+02:20:56: Task - Updating sellers list
+02:20:56: Done - 0 new sellers added  (out of: 165, total: 5922)
+
+02:20:56:  = Offers = 
+02:20:56: Task - Updating sale offers
+02:20:58: Done - 190 new offers added   (out of: 190, total: 647558)
+
+
+02:20:58:  == Swamp ==    (37/264  14.02%)
+02:21:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Swamp
+02:21:03:                 Expanding page...
+
+02:21:07:  = Card stats = 
+02:21:07: Card ID:  37
+02:21:07: Card stats added
+
+02:21:07:  = Sellers = 
+02:21:07: Task - Updating sellers list
+02:21:07: Done - 0 new sellers added  (out of: 179, total: 5922)
+
+02:21:07:  = Offers = 
+02:21:07: Task - Updating sale offers
+02:21:10: Done - 223 new offers added   (out of: 223, total: 647781)
+
+
+02:21:10:  == Tidespout Tyrant ==    (38/264  14.39%)
+02:21:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Tidespout-Tyrant
+02:21:15:                 Expanding page...
+
+02:21:17:  = Card stats = 
+02:21:17: Card ID:  38
+02:21:17: Card stats added
+
+02:21:17:  = Sellers = 
+02:21:17: Task - Updating sellers list
+02:21:20: Seller added:  Kahmu [5923]
+02:21:20: Done - 1 new sellers added  (out of: 121, total: 5923)
+
+02:21:20:  = Offers = 
+02:21:20: Task - Updating sale offers
+02:21:22: Done - 130 new offers added   (out of: 130, total: 647911)
+
+
+02:21:22:  == Regna, the Redeemer ==    (39/264  14.77%)
+02:21:26: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Regna-the-Redeemer
+02:21:26:                 Expanding page...
+
+02:21:31:  = Card stats = 
+02:21:31: Card ID:  39
+02:21:31: Card stats added
+
+02:21:31:  = Sellers = 
+02:21:31: Task - Updating sellers list
+02:21:31: Done - 0 new sellers added  (out of: 238, total: 5923)
+
+02:21:31:  = Offers = 
+02:21:31: Task - Updating sale offers
+02:21:35: Done - 261 new offers added   (out of: 265, total: 648172)
+
+
+02:21:35:  == Sentinel Tower ==    (40/264  15.15%)
+02:21:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sentinel-Tower
+02:21:40:                 Expanding page...
+
+02:21:44:  = Card stats = 
+02:21:44: Card ID:  40
+02:21:44: Card stats added
+
+02:21:44:  = Sellers = 
+02:21:44: Task - Updating sellers list
+02:21:44: Done - 0 new sellers added  (out of: 226, total: 5923)
+
+02:21:44:  = Offers = 
+02:21:44: Task - Updating sale offers
+02:21:47: Done - 249 new offers added   (out of: 249, total: 648421)
+
+
+02:21:47:  == Play of the Game ==    (41/264  15.53%)
+02:21:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Play-of-the-Game
+02:21:51:                 Expanding page...
+
+02:22:01:  = Card stats = 
+02:22:01: Card ID:  41
+02:22:01: Card stats added
+
+02:22:01:  = Sellers = 
+02:22:01: Task - Updating sellers list
+02:22:01: Done - 0 new sellers added  (out of: 387, total: 5923)
+
+02:22:01:  = Offers = 
+02:22:01: Task - Updating sale offers
+02:22:06: Done - 444 new offers added   (out of: 452, total: 648865)
+
+
+02:22:06:  == Seedborn Muse ==    (42/264  15.91%)
+02:22:10: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Seedborn-Muse
+02:22:10:                 Expanding page...
+
+02:22:15:  = Card stats = 
+02:22:15: Card ID:  42
+02:22:15: Card stats added
+
+02:22:15:  = Sellers = 
+02:22:15: Task - Updating sellers list
+02:22:15: Done - 0 new sellers added  (out of: 186, total: 5923)
+
+02:22:15:  = Offers = 
+02:22:15: Task - Updating sale offers
+02:22:17: Done - 208 new offers added   (out of: 208, total: 649073)
+
+
+02:22:17:  == Magus of the Candelabra ==    (43/264  16.29%)
+02:22:24: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Magus-of-the-Candelabra
+02:22:24:                 Expanding page...
+
+02:22:33:  = Card stats = 
+02:22:33: Card ID:  43
+02:22:33: Card stats added
+
+02:22:33:  = Sellers = 
+02:22:33: Task - Updating sellers list
+02:22:33: Done - 0 new sellers added  (out of: 355, total: 5923)
+
+02:22:33:  = Offers = 
+02:22:33: Task - Updating sale offers
+02:22:38: Done - 403 new offers added   (out of: 408, total: 649476)
+
+
+02:22:38:  == Expedite ==    (44/264  16.67%)
+02:22:42: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Expedite
+02:22:42:                 Expanding page...
+
+02:23:43: Extending the sellers view timed out.
+
+02:23:44:  = Card stats = 
+02:23:44: Card ID:  44
+02:23:44: Card stats added
+
+02:23:44:  = Sellers = 
+02:23:44: Task - Updating sellers list
+02:23:44: Done - 0 new sellers added  (out of: 282, total: 5923)
+
+02:23:44:  = Offers = 
+02:23:44: Task - Updating sale offers
+02:23:47: Done - 298 new offers added   (out of: 300, total: 649774)
+
+
+02:23:47:  == Arena Rector ==    (45/264  17.05%)
+02:23:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Arena-Rector
+02:23:51:                 Expanding page...
+
+02:23:51: No button found on this page.
+
+02:23:51: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Arena-Rector
+02:23:51: Waiting and reconnecting...  (cooldown 10.0 seconds)
+02:24:03: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Arena-Rector
+02:24:03:                 Expanding page...
+
+02:24:03: No button found on this page.
+
+02:24:03: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Arena-Rector
+02:24:03: Waiting and reconnecting...  (cooldown 16.0 seconds)
+02:24:24: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Arena-Rector
+02:24:24:                 Expanding page...
+
+02:24:28:  = Card stats = 
+02:24:28: Card ID:  45
+02:24:28: Card stats added
+
+02:24:28:  = Sellers = 
+02:24:28: Task - Updating sellers list
+02:24:29: Done - 0 new sellers added  (out of: 185, total: 5923)
+
+02:24:29:  = Offers = 
+02:24:29: Task - Updating sale offers
+02:24:31: Done - 209 new offers added   (out of: 211, total: 649983)
+
+
+02:24:31:  == Virtus the Veiled ==    (46/264  17.42%)
+02:24:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Virtus-the-Veiled
+02:24:36:                 Expanding page...
+
+02:24:43:  = Card stats = 
+02:24:43: Card ID:  46
+02:24:43: Card stats added
+
+02:24:43:  = Sellers = 
+02:24:43: Task - Updating sellers list
+02:24:43: Done - 0 new sellers added  (out of: 312, total: 5923)
+
+02:24:43:  = Offers = 
+02:24:43: Task - Updating sale offers
+02:24:48: Done - 354 new offers added   (out of: 356, total: 650337)
+
+
+02:24:48:  == Game Plan ==    (47/264  17.8%)
+02:24:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Game-Plan
+02:24:54:                 Expanding page...
+
+02:25:01:  = Card stats = 
+02:25:01: Card ID:  47
+02:25:01: Card stats added
+
+02:25:01:  = Sellers = 
+02:25:01: Task - Updating sellers list
+02:25:01: Done - 0 new sellers added  (out of: 306, total: 5923)
+
+02:25:01:  = Offers = 
+02:25:01: Task - Updating sale offers
+02:25:06: Done - 353 new offers added   (out of: 359, total: 650690)
+
+
+02:25:06:  == Genesis Chamber ==    (48/264  18.18%)
+02:25:11: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Genesis-Chamber
+02:25:11:                 Expanding page...
+
+02:25:19:  = Card stats = 
+02:25:19: Card ID:  48
+02:25:19: Card stats added
+
+02:25:19:  = Sellers = 
+02:25:19: Task - Updating sellers list
+02:25:19: Done - 0 new sellers added  (out of: 329, total: 5923)
+
+02:25:19:  = Offers = 
+02:25:19: Task - Updating sale offers
+02:25:24: Done - 373 new offers added   (out of: 375, total: 651063)
+
+
+02:25:24:  == Khorvath Brightflame ==    (49/264  18.56%)
+02:25:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvath-Brightflame
+02:25:27:                 Expanding page...
+
+02:26:28: Extending the sellers view timed out.
+
+02:26:28:  = Card stats = 
+02:26:28: Card ID:  49
+02:26:28: Card stats added
+
+02:26:28:  = Sellers = 
+02:26:28: Task - Updating sellers list
+02:26:28: Done - 0 new sellers added  (out of: 284, total: 5923)
+
+02:26:28:  = Offers = 
+02:26:28: Task - Updating sale offers
+02:26:32: Done - 298 new offers added   (out of: 300, total: 651361)
+
+
+02:26:32:  == Khorvath's Fury ==    (50/264  18.94%)
+02:26:36: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvaths-Fury
+02:26:36:                 Expanding page...
+
+02:26:36: No button found on this page.
+
+02:26:36: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvaths-Fury
+02:26:36: Waiting and reconnecting...  (cooldown 10.0 seconds)
+02:26:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvaths-Fury
+02:26:51:                 Expanding page...
+
+02:26:51: No button found on this page.
+
+02:26:51: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvaths-Fury
+02:26:51: Waiting and reconnecting...  (cooldown 16.0 seconds)
+02:27:13: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Khorvaths-Fury
+02:27:13:                 Expanding page...
+
+02:27:17:  = Card stats = 
+02:27:17: Card ID:  50
+02:27:17: Card stats added
+
+02:27:17:  = Sellers = 
+02:27:17: Task - Updating sellers list
+02:27:17: Done - 0 new sellers added  (out of: 151, total: 5923)
+
+02:27:17:  = Offers = 
+02:27:17: Task - Updating sale offers
+02:27:19: Done - 172 new offers added   (out of: 172, total: 651533)
+
+
+02:27:19:  == Morphic Pool ==    (51/264  19.32%)
+02:27:24: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Morphic-Pool
+02:27:24:                 Expanding page...
+
+02:27:27:  = Card stats = 
+02:27:27: Card ID:  51
+02:27:27: Card stats added
+
+02:27:27:  = Sellers = 
+02:27:27: Task - Updating sellers list
+02:27:27: Done - 0 new sellers added  (out of: 87, total: 5923)
+
+02:27:27:  = Offers = 
+02:27:27: Task - Updating sale offers
+02:27:29: Done - 99 new offers added   (out of: 101, total: 651632)
+
+
+02:27:29:  == Fumble ==    (52/264  19.7%)
+02:27:33: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fumble
+02:27:33:                 Expanding page...
+
+02:27:45:  = Card stats = 
+02:27:45: Card ID:  52
+02:27:45: Card stats added
+
+02:27:45:  = Sellers = 
+02:27:45: Task - Updating sellers list
+02:27:45: Done - 0 new sellers added  (out of: 411, total: 5923)
+
+02:27:45:  = Offers = 
+02:27:45: Task - Updating sale offers
+02:27:51: Done - 476 new offers added   (out of: 482, total: 652108)
+
+
+02:27:51:  == Nirkana Revenant ==    (53/264  20.08%)
+02:27:57: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Nirkana-Revenant
+02:27:57:                 Expanding page...
+
+02:27:59:  = Card stats = 
+02:27:59: Card ID:  53
+02:27:59: Card stats added
+
+02:27:59:  = Sellers = 
+02:27:59: Task - Updating sellers list
+02:27:59: Done - 0 new sellers added  (out of: 76, total: 5923)
+
+02:27:59:  = Offers = 
+02:27:59: Task - Updating sale offers
+02:28:00: Done - 83 new offers added   (out of: 83, total: 652191)
+
+
+02:28:00:  == Negate ==    (54/264  20.45%)
+02:28:05: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Negate
+02:28:05:                 Expanding page...
+
+02:28:18:  = Card stats = 
+02:28:18: Card ID:  54
+02:28:18: Card stats added
+
+02:28:18:  = Sellers = 
+02:28:18: Task - Updating sellers list
+02:28:19: Done - 0 new sellers added  (out of: 475, total: 5923)
+
+02:28:19:  = Offers = 
+02:28:19: Task - Updating sale offers
+02:28:25: Done - 542 new offers added   (out of: 551, total: 652733)
+
+
+02:28:25:  == Rushblade Commander ==    (55/264  20.83%)
+02:28:30: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Rushblade-Commander
+02:28:30:                 Expanding page...
+
+02:28:41:  = Card stats = 
+02:28:41: Card ID:  55
+02:28:41: Card stats added
+
+02:28:41:  = Sellers = 
+02:28:41: Task - Updating sellers list
+02:28:41: Done - 0 new sellers added  (out of: 427, total: 5923)
+
+02:28:41:  = Offers = 
+02:28:41: Task - Updating sale offers
+02:28:48: Done - 486 new offers added   (out of: 497, total: 653219)
+
+
+02:28:48:  == Stunning Reversal ==    (56/264  21.21%)
+02:28:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stunning-Reversal
+02:28:54:                 Expanding page...
+
+02:29:00:  = Card stats = 
+02:29:00: Card ID:  56
+02:29:00: Card stats added
+
+02:29:00:  = Sellers = 
+02:29:00: Task - Updating sellers list
+02:29:00: Done - 0 new sellers added  (out of: 239, total: 5923)
+
+02:29:00:  = Offers = 
+02:29:00: Task - Updating sale offers
+02:29:04: Done - 275 new offers added   (out of: 275, total: 653494)
+
+
+02:29:04:  == Ley Weaver ==    (57/264  21.59%)
+02:29:07: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Ley-Weaver
+02:29:07:                 Expanding page...
+
+02:29:16:  = Card stats = 
+02:29:16: Card ID:  57
+02:29:16: Card stats added
+
+02:29:16:  = Sellers = 
+02:29:16: Task - Updating sellers list
+02:29:17: Done - 0 new sellers added  (out of: 335, total: 5923)
+
+02:29:17:  = Offers = 
+02:29:17: Task - Updating sale offers
+02:29:22: Done - 365 new offers added   (out of: 367, total: 653859)
+
+
+02:29:22:  == Savage Ventmaw ==    (58/264  21.97%)
+02:29:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Savage-Ventmaw
+02:29:27:                 Expanding page...
+
+02:29:35:  = Card stats = 
+02:29:35: Card ID:  58
+02:29:35: Card stats added
+
+02:29:35:  = Sellers = 
+02:29:35: Task - Updating sellers list
+02:29:35: Done - 0 new sellers added  (out of: 326, total: 5923)
+
+02:29:35:  = Offers = 
+02:29:35: Task - Updating sale offers
+02:29:40: Done - 349 new offers added   (out of: 352, total: 654208)
+
+
+02:29:40:  == Najeela, the Blade-Blossom ==    (59/264  22.35%)
+02:29:44: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Najeela-the-BladeBlossom
+02:29:44:                 Expanding page...
+
+02:29:48:  = Card stats = 
+02:29:48: Card ID:  59
+02:29:48: Card stats added
+
+02:29:48:  = Sellers = 
+02:29:48: Task - Updating sellers list
+02:29:53: Seller added:  Syraxan [5924]
+02:29:53: Done - 1 new sellers added  (out of: 152, total: 5924)
+
+02:29:53:  = Offers = 
+02:29:53: Task - Updating sale offers
+02:29:56: Done - 168 new offers added   (out of: 168, total: 654376)
+
+
+02:29:56:  == Zndrsplt's Judgment ==    (60/264  22.73%)
+02:30:01: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplts-Judgment
+02:30:01:                 Expanding page...
+
+02:30:13:  = Card stats = 
+02:30:13: Card ID:  60
+02:30:13: Card stats added
+
+02:30:13:  = Sellers = 
+02:30:13: Task - Updating sellers list
+02:30:13: Done - 0 new sellers added  (out of: 404, total: 5924)
+
+02:30:13:  = Offers = 
+02:30:13: Task - Updating sale offers
+02:30:20: Done - 478 new offers added   (out of: 484, total: 654854)
+
+
+02:30:20:  == Mountain ==    (61/264  23.11%)
+02:30:26: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mountain
+02:30:26:                 Expanding page...
+
+02:30:31:  = Card stats = 
+02:30:31: Card ID:  61
+02:30:31: Card stats added
+
+02:30:31:  = Sellers = 
+02:30:31: Task - Updating sellers list
+02:30:31: Done - 0 new sellers added  (out of: 167, total: 5924)
+
+02:30:31:  = Offers = 
+02:30:31: Task - Updating sale offers
+02:30:36: Done - 198 new offers added   (out of: 200, total: 655052)
+
+
+02:30:36:  == Archfiend of Despair ==    (62/264  23.48%)
+02:30:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Archfiend-of-Despair
+02:30:40:                 Expanding page...
+
+02:30:43:  = Card stats = 
+02:30:43: Card ID:  62
+02:30:43: Card stats added
+
+02:30:43:  = Sellers = 
+02:30:43: Task - Updating sellers list
+02:30:47: Seller added:  Izukaitz [5925]
+02:30:47: Done - 1 new sellers added  (out of: 94, total: 5925)
+
+02:30:47:  = Offers = 
+02:30:47: Task - Updating sale offers
+02:30:49: Done - 108 new offers added   (out of: 112, total: 655160)
+
+
+02:30:49:  == Grothama, All-Devouring ==    (63/264  23.86%)
+02:30:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Grothama-AllDevouring
+02:30:54:                 Expanding page...
+
+02:30:57:  = Card stats = 
+02:30:57: Card ID:  63
+02:30:57: Card stats added
+
+02:30:57:  = Sellers = 
+02:30:57: Task - Updating sellers list
+02:30:57: Done - 0 new sellers added  (out of: 106, total: 5925)
+
+02:30:57:  = Offers = 
+02:30:57: Task - Updating sale offers
+02:30:59: Done - 121 new offers added   (out of: 121, total: 655281)
+
+
+02:30:59:  == Nyxathid ==    (64/264  24.24%)
+02:31:04: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Nyxathid
+02:31:04:                 Expanding page...
+
+02:31:14:  = Card stats = 
+02:31:14: Card ID:  64
+02:31:14: Card stats added
+
+02:31:14:  = Sellers = 
+02:31:14: Task - Updating sellers list
+02:31:19: Seller added:  MemelGames [5926]
+02:31:19: Done - 1 new sellers added  (out of: 420, total: 5926)
+
+02:31:19:  = Offers = 
+02:31:19: Task - Updating sale offers
+02:31:26: Done - 490 new offers added   (out of: 492, total: 655771)
+
+
+02:31:26:  == Apocalypse Hydra ==    (65/264  24.62%)
+02:31:31: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Apocalypse-Hydra
+02:31:31:                 Expanding page...
+
+02:31:43:  = Card stats = 
+02:31:43: Card ID:  65
+02:31:43: Card stats added
+
+02:31:43:  = Sellers = 
+02:31:43: Task - Updating sellers list
+02:31:43: Done - 0 new sellers added  (out of: 403, total: 5926)
+
+02:31:43:  = Offers = 
+02:31:43: Task - Updating sale offers
+02:31:49: Done - 456 new offers added   (out of: 463, total: 656227)
+
+
+02:31:49:  == Bramble Sovereign ==    (66/264  25.0%)
+02:31:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Bramble-Sovereign
+02:31:54:                 Expanding page...
+
+02:31:56:  = Card stats = 
+02:31:56: Card ID:  66
+02:31:56: Card stats added
+
+02:31:56:  = Sellers = 
+02:31:56: Task - Updating sellers list
+02:31:56: Done - 0 new sellers added  (out of: 86, total: 5926)
+
+02:31:56:  = Offers = 
+02:31:56: Task - Updating sale offers
+02:31:57: Done - 98 new offers added   (out of: 98, total: 656325)
+
+
+02:31:57:  == Beast Within ==    (67/264  25.38%)
+02:32:02: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Beast-Within
+02:32:02:                 Expanding page...
+
+02:32:09:  = Card stats = 
+02:32:09: Card ID:  67
+02:32:09: Card stats added
+
+02:32:09:  = Sellers = 
+02:32:09: Task - Updating sellers list
+02:32:14: Seller added:  Citr0nV3rt [5927]
+02:32:14: Done - 1 new sellers added  (out of: 269, total: 5927)
+
+02:32:14:  = Offers = 
+02:32:14: Task - Updating sale offers
+02:32:18: Done - 286 new offers added   (out of: 288, total: 656611)
+
+
+02:32:18:  == Noosegraf Mob ==    (68/264  25.76%)
+02:32:23: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Noosegraf-Mob
+02:32:23:                 Expanding page...
+
+02:32:35:  = Card stats = 
+02:32:35: Card ID:  68
+02:32:35: Card stats added
+
+02:32:35:  = Sellers = 
+02:32:35: Task - Updating sellers list
+02:32:35: Done - 0 new sellers added  (out of: 433, total: 5927)
+
+02:32:35:  = Offers = 
+02:32:35: Task - Updating sale offers
+02:32:42: Done - 495 new offers added   (out of: 501, total: 657106)
+
+
+02:32:42:  == Doubling Season ==    (69/264  26.14%)
+02:32:47: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Doubling-Season
+02:32:47:                 Expanding page...
+
+02:32:49:  = Card stats = 
+02:32:49: Card ID:  69
+02:32:49: Card stats added
+
+02:32:49:  = Sellers = 
+02:32:49: Task - Updating sellers list
+02:32:49: Done - 0 new sellers added  (out of: 87, total: 5927)
+
+02:32:49:  = Offers = 
+02:32:49: Task - Updating sale offers
+02:32:50: Done - 101 new offers added   (out of: 101, total: 657207)
+
+
+02:32:50:  == Mycosynth Lattice ==    (70/264  26.52%)
+02:32:56: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mycosynth-Lattice
+02:32:56:                 Expanding page...
+
+02:32:58:  = Card stats = 
+02:32:58: Card ID:  70
+02:32:58: Card stats added
+
+02:32:58:  = Sellers = 
+02:32:58: Task - Updating sellers list
+02:33:03: Seller added:  gamerz-nexus [5928]
+02:33:08: Seller added:  TheBrainless [5929]
+02:33:08: Done - 2 new sellers added  (out of: 112, total: 5929)
+
+02:33:08:  = Offers = 
+02:33:08: Task - Updating sale offers
+02:33:10: Done - 119 new offers added   (out of: 119, total: 657326)
+
+
+02:33:10:  == Regna's Sanction ==    (71/264  26.89%)
+02:33:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Regnas-Sanction
+02:33:15:                 Expanding page...
+
+02:33:27:  = Card stats = 
+02:33:27: Card ID:  71
+02:33:27: Card stats added
+
+02:33:27:  = Sellers = 
+02:33:27: Task - Updating sellers list
+02:33:27: Done - 0 new sellers added  (out of: 423, total: 5929)
+
+02:33:27:  = Offers = 
+02:33:27: Task - Updating sale offers
+02:33:34: Done - 508 new offers added   (out of: 516, total: 657834)
+
+
+02:33:34:  == Fog Bank ==    (72/264  27.27%)
+02:33:38: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fog-Bank
+02:33:38:                 Expanding page...
+
+02:33:47:  = Card stats = 
+02:33:47: Card ID:  72
+02:33:47: Card stats added
+
+02:33:47:  = Sellers = 
+02:33:47: Task - Updating sellers list
+02:33:47: Done - 0 new sellers added  (out of: 333, total: 5929)
+
+02:33:47:  = Offers = 
+02:33:47: Task - Updating sale offers
+02:33:52: Done - 374 new offers added   (out of: 379, total: 658208)
+
+
+02:33:52:  == Evil Twin ==    (73/264  27.65%)
+02:33:57: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Evil-Twin
+02:33:57:                 Expanding page...
+
+02:34:05:  = Card stats = 
+02:34:05: Card ID:  73
+02:34:05: Card stats added
+
+02:34:05:  = Sellers = 
+02:34:05: Task - Updating sellers list
+02:34:05: Done - 0 new sellers added  (out of: 326, total: 5929)
+
+02:34:05:  = Offers = 
+02:34:05: Task - Updating sale offers
+02:34:10: Done - 366 new offers added   (out of: 366, total: 658574)
+
+
+02:34:10:  == Island ==    (74/264  28.03%)
+02:34:15: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Island
+02:34:15:                 Expanding page...
+
+02:34:21:  = Card stats = 
+02:34:21: Card ID:  74
+02:34:21: Card stats added
+
+02:34:21:  = Sellers = 
+02:34:21: Task - Updating sellers list
+02:34:21: Done - 0 new sellers added  (out of: 180, total: 5929)
+
+02:34:21:  = Offers = 
+02:34:21: Task - Updating sale offers
+02:34:24: Done - 211 new offers added   (out of: 211, total: 658785)
+
+
+02:34:24:  == Mystic Confluence ==    (75/264  28.41%)
+02:34:30: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mystic-Confluence
+02:34:30:                 Expanding page...
+
+02:34:39:  = Card stats = 
+02:34:39: Card ID:  75
+02:34:39: Card stats added
+
+02:34:39:  = Sellers = 
+02:34:39: Task - Updating sellers list
+02:34:40: Done - 0 new sellers added  (out of: 355, total: 5929)
+
+02:34:40:  = Offers = 
+02:34:40: Task - Updating sale offers
+02:34:45: Done - 413 new offers added   (out of: 417, total: 659198)
+
+
+02:34:45:  == Gwafa Hazid, Profiteer ==    (76/264  28.79%)
+02:34:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Gwafa-Hazid-Profiteer
+02:34:51:                 Expanding page...
+
+02:35:04:  = Card stats = 
+02:35:04: Card ID:  76
+02:35:04: Card stats added
+
+02:35:04:  = Sellers = 
+02:35:04: Task - Updating sellers list
+02:35:05: Done - 0 new sellers added  (out of: 430, total: 5929)
+
+02:35:05:  = Offers = 
+02:35:05: Task - Updating sale offers
+02:35:11: Done - 492 new offers added   (out of: 508, total: 659690)
+
+
+02:35:11:  == Gorm the Great ==    (77/264  29.17%)
+02:35:17: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Gorm-the-Great
+02:35:17:                 Expanding page...
+
+02:35:28:  = Card stats = 
+02:35:28: Card ID:  77
+02:35:28: Card stats added
+
+02:35:28:  = Sellers = 
+02:35:28: Task - Updating sellers list
+02:35:29: Done - 0 new sellers added  (out of: 406, total: 5929)
+
+02:35:29:  = Offers = 
+02:35:29: Task - Updating sale offers
+02:35:35: Done - 465 new offers added   (out of: 473, total: 660155)
+
+
+02:35:35:  == Magmatic Force ==    (78/264  29.55%)
+02:35:41: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Magmatic-Force
+02:35:41:                 Expanding page...
+
