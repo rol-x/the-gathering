@@ -10,9 +10,6 @@ from entity.seller import get_seller_names
 from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
-# TODO: Find out why some offers are not added from read to new.
-# TODO: Reconsider globals.verbose_mode.
-# TODO: Offers changed during the day may appear separately after two runs.
 # TODO: Look into handling of wild Firefox processes.
 
 # Main function
@@ -20,7 +17,7 @@ if __name__ == "__main__":
 
     # Setup
     local_files_handler.prepare_files()
-    globals.current_date_ID = add_date()
+    globals.this_date_ID = add_date()
     local_files_handler.prepare_expansion_list_file(globals.expansion_name)
     driver = create_webdriver()
     conn, cursor = db_handler.connect_to_local_db('gathering')
@@ -64,9 +61,6 @@ if __name__ == "__main__":
         # Save the card if not saved already
         if not is_card_saved(card_name):
             add_card(card_soup)
-        else:
-            if globals.verbose_mode:
-                log(f'Card {card_name} already saved\n')
 
         # Save the card market statistics if not saved today
         card_ID = get_card_ID(card_name)
@@ -74,7 +68,6 @@ if __name__ == "__main__":
         log(f"Card ID:  {card_ID}")
         if not are_card_stats_saved_today(card_ID):
             add_card_stats(card_soup, card_ID)
-            log('Card stats added\n')
         else:
             log('Already saved today\n')
 
@@ -84,7 +77,7 @@ if __name__ == "__main__":
         sellers = get_seller_names(card_soup)
 
         # Investigate and add only not added sellers
-        add_sellers_from_list(driver, set(sellers))
+        add_sellers_from_set(driver, sellers)
 
         # Get all sale offers from the page
         log(" = Offers = ")

@@ -68,20 +68,9 @@ def save_seller(seller_ID, seller_name, s_type,
 
     # Logging
     log(f"Seller added:  {seller_name} [{seller_ID}]")
-    if globals.verbose_mode:
-        log('== Add seller ==')
-        log('Seller:        ' + str(seller_name))
-        log('Seller ID:     ' + str(seller_ID))
-        log('Type:          ' + str(s_type))
-        log('Member since:  ' + str(member_since))
-        log('Country:       ' + str(country))
-        log('Address:       ' + str(address))
-        log('Date ID:       ' + str(globals.current_date_ID))
 
     # Writing
     with open('data/seller.csv', 'a', encoding="utf-8") as seller_csv:
-        if globals.verbose_mode:
-            log('[write seller]' + '\n')
         seller_csv.write(str(seller_ID) + ';')
         seller_csv.write(seller_name + ';')
         seller_csv.write(s_type + ';')
@@ -102,10 +91,10 @@ def get_seller_ID(seller_name):
     return int(this_seller['seller_ID'].values[0])
 
 
-# Return a list of all sellers found in a card page.
+# Return a set of all sellers found in a card page.
 def get_seller_names(card_soup):
-    '''Return a list of all sellers found in a card page.'''
+    '''Return a set of all sellers found in a card page.'''
     names_map = map(lambda x: str(x.find("a").string),
                     card_soup.findAll("span", {"class": "d-flex "
                                       + "has-content-centered " + "mr-1"}))
-    return list(names_map)
+    return set(names_map)

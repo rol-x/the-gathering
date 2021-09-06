@@ -10,8 +10,7 @@ def add_card_stats(card_soup, card_ID):
     # Get rows from the card information table
     card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
     if len(card_info) == 0:
-        if globals.verbose_mode:
-            log('No card info found on current page')
+        log('No card info found on current page')
         return
 
     # Get the attributes
@@ -31,27 +30,24 @@ def save_card_stats(card_ID, price_from, avg_30_price, avg_7_price,
     '''Save a single card statsistics to the dataframe in .csv file.'''
 
     # Logging
-    if globals.verbose_mode:
-        log('== Add card stats ==')
-        log('Card ID:            ' + str(card_ID))
-        log('Price from:         ' + str(price_from))
-        log('30-day avg:         ' + str(avg_30_price))
-        log('7-day avg:          ' + str(avg_7_price))
-        log('1-day avg:          ' + str(avg_1_price))
-        log('Amount:             ' + str(available_items))
-        log('Date ID:            ' + str(globals.current_date_ID) + '\n')
+    log('== Add card stats ==')
+    log('Card ID:       ' + str(card_ID))
+    log('Price from:    ' + str(price_from))
+    log('30-day avg:    ' + str(avg_30_price))
+    log('7-day avg:     ' + str(avg_7_price))
+    log('1-day avg:     ' + str(avg_1_price))
+    log('Amount:        ' + str(available_items))
+    log('Date ID:       ' + str(globals.this_date_ID) + '\n')
 
     # Writing to local file
     with open('data/card_stats.csv', 'a', encoding="utf-8") as card_csv:
-        if globals.verbose_mode:
-            log('[write card stats]' + '\n')
         card_csv.write(str(card_ID) + ';')
         card_csv.write(str(price_from) + ';')
         card_csv.write(str(avg_30_price) + ';')
         card_csv.write(str(avg_7_price) + ';')
         card_csv.write(str(avg_1_price) + ';')
         card_csv.write(str(available_items) + ';')
-        card_csv.write(str(globals.current_date_ID) + '\n')
+        card_csv.write(str(globals.this_date_ID) + '\n')
 
 
 # Return whether stats given by card ID were saved that day.
@@ -59,7 +55,7 @@ def are_card_stats_saved_today(card_ID):
     '''Return whether stats given by card ID were saved that day.'''
     card_stats_df = load_df('card_stats')
     sm = card_stats_df[(card_stats_df['card_ID'] == card_ID) &
-                       (card_stats_df['date_ID'] == globals.current_date_ID)]
+                       (card_stats_df['date_ID'] == globals.this_date_ID)]
 
     if len(sm) > 0:
         return True

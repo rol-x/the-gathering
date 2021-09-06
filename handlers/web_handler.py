@@ -14,8 +14,6 @@ from handlers.log_handler import log, log_url
 # Return the Firefox webdriver in headless mode.
 def create_webdriver():
     '''Return the Firefox webdriver in headless mode.'''
-    if globals.verbose_mode:
-        log('Opening the webdriver')
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
@@ -34,9 +32,9 @@ def restart_webdriver(driver):
     return driver
 
 
-# Add every new seller from a list of seller names.
-def add_sellers_from_list(driver, sellers):
-    '''Add every new seller from a list of seller names.'''
+# Add every new seller from a set of seller names.
+def add_sellers_from_set(driver, sellers):
+    '''Add every new seller from a set of seller names.'''
     seller_df = load_df('seller')
     sellers_before = len(seller_df)
     read_sellers = len(sellers)
@@ -49,14 +47,11 @@ def add_sellers_from_list(driver, sellers):
             seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
             add_seller(seller_soup)
             new_sellers += 1
-        else:
-            if globals.verbose_mode:
-                log('Already saved:  ' + seller_name + '\n')
 
-    # Logging
+    # Log task finished
     total_sellers = sellers_before + new_sellers
-    log(f"Done - {new_sellers} new sellers added  "
-        + f"(out of: {read_sellers}, total: {total_sellers})\n")
+    log(f"Done - {new_sellers} new sellers added out of {read_sellers}"
+        + f"  (total: {total_sellers})\n")
 
 
 # Return a list of all cards found in the expansion cards list.
@@ -124,8 +119,6 @@ def click_load_more_button(driver):
             if load_more_button.text == "":
                 break
             driver.execute_script("arguments[0].click();", load_more_button)
-            if globals.verbose_mode:
-                log('Extending the sellers view...')
             realistic_pause(0.2*globals.wait_coef)
             elapsed_t = time() - start_t
             if elapsed_t > 60.0:
@@ -153,25 +146,12 @@ def urlify(name):
 # Return whether the parsed page contains card info and offers info.
 def is_valid_card_page(card_soup):
     '''Return whether the parsed page contains card info and offers info.'''
-    card_name = card_soup.find("h1")
     card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
     table = card_soup.find("div", {"class": "table "
                                    + "article-table "
                                    + "table-striped"})
-    # For proper pages the execution ends here
     if len(card_info) > 0 and table is not None:
         return True
-    if len(card_info) == 0:
-        if globals.verbose_mode:
-            log("No card info found on page!")
-    if table is None:
-        if globals.verbose_mode:
-            log("No offers found on page!")
-
-    # Output for debugging
-    if card_name is not None:
-        if globals.verbose_mode:
-            log("Card name: " + str(card_name.string) + "\n")
     return False
 
 
@@ -180,8 +160,7 @@ def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
     std_val = mean_val * random() * 0.25 + 0.05
     sleep_time = abs(normalvariate(mean_val, std_val)) + 0.15
-    if globals.verbose_mode:
-        log(f'Sleeping for {round(sleep_time, 3)} seconds')
+    # log(f'Sleeping for {round(sleep_time, 2)} seconds\n')
     sleep(sleep_time)
 
 

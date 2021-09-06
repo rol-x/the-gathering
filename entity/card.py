@@ -13,8 +13,7 @@ def add_card(card_soup):
     # Get rows from the card information table
     card_info = card_soup.findAll("dd", {"class": "col-6 col-xl-7"})
     if len(card_info) == 0:
-        if globals.verbose_mode:
-            log('No card info found on current page')
+        log('No card info found on current page')
         return
 
     # Get the attributes
@@ -33,15 +32,12 @@ def save_card(card_ID, card_name, expansion_name, rarity):
     # Logging
     log('== Add card ==')
     log('Card:          ' + str(card_name))
-    log('Card ID:       ' + str(card_ID) + '\n')
-    if globals.verbose_mode:
-        log('Expansion:     ' + str(expansion_name))
-        log('Rarity:        ' + str(rarity) + '\n')
+    log('Card ID:       ' + str(card_ID))
+    log('Rarity:        ' + str(rarity))
+    log('Expansion:     ' + str(expansion_name) + '\n')
 
     # Writing to the file
     with open('data/card.csv', 'a', encoding="utf-8") as card_csv:
-        if globals.verbose_mode:
-            log('[write card]' + '\n')
         card_csv.write(str(card_ID) + ';')
         card_csv.write(card_name + ';')
         card_csv.write(expansion_name + ';')

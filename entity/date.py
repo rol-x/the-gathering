@@ -42,10 +42,7 @@ def add_date():
 
     # Create a log filename from the datetime
     # global globals.log_filename
-    globals.log_filename = now.strftime("%d%m%Y_%H%M")
-    if globals.verbose_mode:
-        globals.log_filename += "_verbose"
-    globals.log_filename += ".log"
+    globals.log_filename = now.strftime("%d%m%Y_%H%M") + ".log"
     prepare_log_files()
 
     # Check for the same datetime record
@@ -74,13 +71,9 @@ def save_date(date_ID, day, month, year, weekday):
     log('Month:         ' + str(month))
     log('Year:          ' + str(year))
     log('Date ID:       ' + str(date_ID))
-    if globals.verbose_mode:
-        log('Log file name: ' + str(globals.log_filename))
 
     # Writing
     with open('data/date.csv', 'a', encoding="utf-8") as date_csv:
-        if globals.verbose_mode:
-            log('[write date]')
         date_csv.write(str(date_ID) + ';')
         date_csv.write(str(day) + ';')
         date_csv.write(str(month) + ';')

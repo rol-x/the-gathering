@@ -12,8 +12,6 @@ def load_df(entity_name):
     '''Try to return a dataframe from the respective .csv file.'''
     try:
         df = pd.read_csv('data/' + entity_name + '.csv', sep=';')
-        if globals.verbose_mode:
-            log('[read ' + entity_name + ']')
     except pd.errors.EmptyDataError as empty:
         log(str(empty))
         log(f'Please prepare the headers in {entity_name}.csv!\n')
