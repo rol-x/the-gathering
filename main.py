@@ -30,7 +30,6 @@ if __name__ == "__main__":
         log_progress(card_name, progress, len(card_list))
 
         # Bang and scream at the door until they let you in
-        wait_time = 15.0
         card_url = globals.base_url + globals.expansion_name + '/'
         card_url += urlify(card_name)
 
@@ -48,15 +47,10 @@ if __name__ == "__main__":
                 break
             else:
                 log('Card page invalid: ' + driver.current_url)
-                log('Waiting and reconnecting...  (cooldown '
-                    + f'{wait_time} seconds)')
-                realistic_pause(wait_time)
-                wait_time *= 2
-                if wait_time == 30.0:
-                    globals.wait_coef *= 1.1
-                if wait_time == 60.0:
-                    globals.wait_coef *= 1.1
-                    driver = restart_webdriver(driver)
+                log('Waiting and reconnecting...  (cooldown for 30.0 seconds)')
+                realistic_pause(30.0)
+                globals.wait_coef *= 1.1
+                driver = restart_webdriver(driver)
 
         # Save the card if not saved already
         if not is_card_saved(card_name):
@@ -64,16 +58,16 @@ if __name__ == "__main__":
 
         # Save the card market statistics if not saved today
         card_ID = get_card_ID(card_name)
-        log(' = Card stats = ')
-        log(f"Card ID:  {card_ID}")
         if not are_card_stats_saved_today(card_ID):
             add_card_stats(card_soup, card_ID)
         else:
+            log(' = Card stats = ')
+            log(f"Card ID:  {card_ID}")
             log('Already saved today\n')
 
         # Get all sellers from the card page
         log(" = Sellers = ")
-        log("Task - Updating sellers list")
+        log(f"Task - Updating sellers")
         sellers = get_seller_names(card_soup)
 
         # Investigate and add only not added sellers

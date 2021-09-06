@@ -31,8 +31,8 @@ def save_card(card_ID, card_name, expansion_name, rarity):
 
     # Logging
     log('== Add card ==')
-    log('Card:          ' + str(card_name))
     log('Card ID:       ' + str(card_ID))
+    log('Card:          ' + str(card_name))
     log('Rarity:        ' + str(rarity))
     log('Expansion:     ' + str(expansion_name) + '\n')
 

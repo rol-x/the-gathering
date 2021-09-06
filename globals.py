@@ -2,6 +2,7 @@
 
 # Variables for user custom program configuration
 wait_coef = 3.0
+button_timeout = 120.0
 expansion_name = 'Battlebond'
 
 # Variables connected to this run of the code.

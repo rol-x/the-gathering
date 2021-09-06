@@ -100,9 +100,9 @@ def update_offers(offers_dict):
     all.drop(this_card_today.index, inplace=True)
 
     # Concatenate the remaining and new offers and save to file
-    new_all = pd.concat([all, read]).reset_index(drop=True)
+    new_all = pd.concat([all, read]).reset_index(drop=True).drop_duplicates()
     new_all.to_csv('data/sale_offer.csv', ';', index=False)
 
     # Log task finished
-    log(f"Done - {len(read)} sale offers updated from {len(this_card_today)}"
-        + f"  (total: {len(new_all)})\n\n")
+    log(f"Done - {len(new_all) - len(all)} sale offers saved  (before: "
+        + f"{len(this_card_today)}, total: {len(new_all)})\n\n")

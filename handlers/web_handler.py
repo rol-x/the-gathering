@@ -50,8 +50,8 @@ def add_sellers_from_set(driver, sellers):
 
     # Log task finished
     total_sellers = sellers_before + new_sellers
-    log(f"Done - {new_sellers} new sellers added out of {read_sellers}"
-        + f"  (total: {total_sellers})\n")
+    log(f"Done - {new_sellers} new sellers saved  (out of: "
+        + f"{read_sellers}, total: {total_sellers})\n")
 
 
 # Return a list of all cards found in the expansion cards list.
@@ -78,7 +78,7 @@ def get_card_names(driver, expansion_name):
 
         # Check if there are cards on the page
         if len(card_elements) == 0:
-            log("Last page reached\n")
+            log("Last page reached")
             break
 
         # Check if there is a saved complete list of cards from this expansion
@@ -105,15 +105,16 @@ def get_card_names(driver, expansion_name):
     exp_file.close()
 
     # Return the complete cards list
+    log(f"Done - All card names from {expansion_name} saved\n")
     return all_cards
 
 
 # Deplete the Load More button to have a complete list of card sellers.
 def click_load_more_button(driver):
     '''Deplete the Load More button to have a complete list of card sellers.'''
-    try:
-        start_t = time()
-        while True:
+    start_t = time()
+    while True:
+        try:
             load_more_button = driver \
                 .find_element_by_xpath('//button[@id="loadMoreButton"]')
             if load_more_button.text == "":
@@ -121,12 +122,12 @@ def click_load_more_button(driver):
             driver.execute_script("arguments[0].click();", load_more_button)
             realistic_pause(0.2*globals.wait_coef)
             elapsed_t = time() - start_t
-            if elapsed_t > 60.0:
+            if elapsed_t > globals.button_timeout:
                 log("Extending the sellers view timed out.\n")
-                globals.wait_coef *= 1.1
                 break
-    except common.exceptions.NoSuchElementException:
-        log("No button found on this page.\n")
+        except common.exceptions.NoSuchElementException:
+            globals.wait_coef *= 1.1
+            break
 
 
 # Return the given string in url-compatible form, like 'Spell-Snare'.
@@ -158,17 +159,9 @@ def is_valid_card_page(card_soup):
 # Wait about mean_val seconds before proceeding to the rest of the code.
 def realistic_pause(mean_val):
     '''Wait ~mean_val seconds before proceeding to the rest of the code.'''
-    std_val = mean_val * random() * 0.25 + 0.05
-    sleep_time = abs(normalvariate(mean_val, std_val)) + 0.15
-    # log(f'Sleeping for {round(sleep_time, 2)} seconds\n')
+    std_val = mean_val * random() * 0.3 + 0.1
+    sleep_time = abs(normalvariate(mean_val, std_val)) + 0.2
     sleep(sleep_time)
-
-
-# Wait for specified amount of seconds and return exp times the amount.
-def exponential_wait(wait_time, exponent):
-    '''Wait for specified amount of seconds and return exp times the amount.'''
-    realistic_pause(wait_time)
-    return exponent * wait_time
 
 
 # Return the number of cards in the search results.
