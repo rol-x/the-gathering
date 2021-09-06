@@ -1,8 +1,9 @@
 Skyshroud Claim
 Impulse
+Zndrsplt, Eye of Wisdom
+Chain Lightning
 Stolen Strategy
 Azra Oddsmaker
-Chain Lightning
 Peregrine Drake
 Warrior Token (White 1/1)
 Fertile Ground
@@ -14,7 +15,6 @@ Sylvia Brightspear
 Bonus Round
 Spell Snare
 Generous Patron
-Zndrsplt, Eye of Wisdom
 Pir, Imaginative Rascal
 Virtus's Maneuver
 Spire Garden
