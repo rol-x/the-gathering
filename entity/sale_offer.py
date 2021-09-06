@@ -54,12 +54,15 @@ def add_offers(card_page):
 
         # Get card attributes
         for attr in attributes[i].findAll("span"):
-            if attr is None:
+            if attr is None or len(attr) == 0:
                 if globals.verbose_mode:
                     log("Empty attribute!\n" + str(card_name)
                         + " by " + seller_name + " for " + price)
             else:
-                offer_attrs.append(attr["data-original-title"])
+                try:
+                    offer_attrs.append(attr["data-original-title"])
+                except KeyError:
+                    continue
             is_foiled = False
             foil = attributes[i].find("span", {"class":
                                                "icon st_SpecialIcon mr-1"})

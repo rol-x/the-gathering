@@ -11,6 +11,7 @@ from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
 # TODO: Find out why some offers are not added from read to new.
+# TODO: Reconsider globals.verbose_mode.
 # TODO: Offers changed during the day may appear separately after two runs.
 # TODO: Look into handling of wild Firefox processes.
 
