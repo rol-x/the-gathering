@@ -1,0 +1,329 @@
+19:22:21: Creation of this file
+19:22:26: Webdriver ready
+19:22:26: Database connection established
+
+19:22:26: Task - Getting all card names from current expansion
+19:22:27: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond?site=1
+19:22:27: Done - All card names from Battlebond saved
+
+19:22:27:  == Skyshroud Claim ==    (1/264  0.38%)
+19:22:31: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Skyshroud-Claim
+19:22:31:                 Expanding page...
+
+19:22:34:  = Card stats = 
+19:22:34: Card ID:  1
+19:22:34: Already saved today
+
+19:22:34:  = Sellers = 
+19:22:34: Task - Updating sellers
+19:22:34: Done - 0 new sellers saved  (out of: 158, total: 5941)
+
+19:22:34:  = Offers = 
+19:22:34: Task - Updating sale offers
+19:22:37: Done - 181 sale offers saved  (before: 182, total: 106471)
+
+
+19:22:37:  == Impulse ==    (2/264  0.76%)
+19:22:41: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Impulse
+19:22:41:                 Expanding page...
+
+19:22:48:  = Card stats = 
+19:22:48: Card ID:  2
+19:22:48: Already saved today
+
+19:22:48:  = Sellers = 
+19:22:48: Task - Updating sellers
+19:22:48: Done - 0 new sellers saved  (out of: 344, total: 5941)
+
+19:22:48:  = Offers = 
+19:22:48: Task - Updating sale offers
+19:22:53: Done - 384 sale offers saved  (before: 384, total: 106471)
+
+
+19:22:53:  == Zndrsplt, Eye of Wisdom ==    (3/264  1.14%)
+19:22:57: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Zndrsplt-Eye-of-Wisdom
+19:22:57:                 Expanding page...
+
+19:23:04:  = Card stats = 
+19:23:04: Card ID:  3
+19:23:04: Already saved today
+
+19:23:04:  = Sellers = 
+19:23:04: Task - Updating sellers
+19:23:04: Done - 0 new sellers saved  (out of: 321, total: 5941)
+
+19:23:04:  = Offers = 
+19:23:04: Task - Updating sale offers
+19:23:08: Done - 370 sale offers saved  (before: 369, total: 106472)
+
+
+19:23:08:  == Chain Lightning ==    (4/264  1.52%)
+19:23:12: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Chain-Lightning
+19:23:12:                 Expanding page...
+
+19:23:16:  = Card stats = 
+19:23:16: Card ID:  4
+19:23:16: Already saved today
+
+19:23:16:  = Sellers = 
+19:23:16: Task - Updating sellers
+19:23:16: Done - 0 new sellers saved  (out of: 147, total: 5941)
+
+19:23:16:  = Offers = 
+19:23:16: Task - Updating sale offers
+19:23:19: Done - 154 sale offers saved  (before: 155, total: 106471)
+
+
+19:23:19:  == Stolen Strategy ==    (5/264  1.89%)
+19:23:22: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Stolen-Strategy
+19:23:22:                 Expanding page...
+
+19:23:24:  = Card stats = 
+19:23:24: Card ID:  5
+19:23:24: Already saved today
+
+19:23:24:  = Sellers = 
+19:23:24: Task - Updating sellers
+19:23:24: Done - 0 new sellers saved  (out of: 82, total: 5941)
+
+19:23:24:  = Offers = 
+19:23:24: Task - Updating sale offers
+19:23:26: Done - 96 sale offers saved  (before: 97, total: 106470)
+
+
+19:23:26:  == Azra Oddsmaker ==    (6/264  2.27%)
+19:23:29: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Azra-Oddsmaker
+19:23:29:                 Expanding page...
+
+19:23:34:  = Card stats = 
+19:23:34: Card ID:  6
+19:23:34: Already saved today
+
+19:23:34:  = Sellers = 
+19:23:34: Task - Updating sellers
+19:23:34: Done - 0 new sellers saved  (out of: 227, total: 5941)
+
+19:23:34:  = Offers = 
+19:23:34: Task - Updating sale offers
+19:23:38: Done - 245 sale offers saved  (before: 50, total: 106665)
+
+
+19:23:38:  == Peregrine Drake ==    (7/264  2.65%)
+19:23:40: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Peregrine-Drake
+19:23:40:                 Expanding page...
+
+19:23:42:  = Card stats = 
+19:23:42: Card ID:  7
+19:23:42: Already saved today
+
+19:23:42:  = Sellers = 
+19:23:42: Task - Updating sellers
+19:23:42: Done - 0 new sellers saved  (out of: 118, total: 5941)
+
+19:23:42:  = Offers = 
+19:23:42: Task - Updating sale offers
+19:23:44: Done - 127 sale offers saved  (before: 128, total: 106664)
+
+
+19:23:44:  == Warrior Token (White 1/1) ==    (8/264  3.03%)
+19:23:48: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Warrior-Token-White-11
+19:23:48:                 Expanding page...
+
+19:23:53:  = Card stats = 
+19:23:53: Card ID:  8
+19:23:53: Already saved today
+
+19:23:53:  = Sellers = 
+19:23:53: Task - Updating sellers
+19:23:53: Done - 0 new sellers saved  (out of: 294, total: 5941)
+
+19:23:53:  = Offers = 
+19:23:53: Task - Updating sale offers
+19:23:57: Done - 340 sale offers saved  (before: 339, total: 106665)
+
+
+19:23:57:  == Fertile Ground ==    (9/264  3.41%)
+19:24:01: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Fertile-Ground
+19:24:01:                 Expanding page...
+
+19:26:01: Extending the sellers view timed out.
+
+19:26:02:  = Card stats = 
+19:26:02: Card ID:  9
+19:26:02: Already saved today
+
+19:26:02:  = Sellers = 
+19:26:02: Task - Updating sellers
+19:26:02: Done - 0 new sellers saved  (out of: 374, total: 5941)
+
+19:26:02:  = Offers = 
+19:26:02: Task - Updating sale offers
+19:26:06: Done - 398 sale offers saved  (before: 500, total: 106563)
+
+
+19:26:06:  == Okaun, Eye of Chaos ==    (10/264  3.79%)
+19:26:08: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+19:26:08:                 Expanding page...
+
+19:26:08: Card page invalid: https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+19:26:08: Waiting and reconnecting...  (cooldown for 30.0 seconds)
+19:26:40: Restarting the webdriver
+19:26:41: Closing the webdriver
+19:26:49: Webdriver ready
+19:26:54: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Okaun-Eye-of-Chaos
+19:26:54:                 Expanding page...
+
+19:27:02:  = Card stats = 
+19:27:02: Card ID:  10
+19:27:02: Already saved today
+
+19:27:02:  = Sellers = 
+19:27:02: Task - Updating sellers
+19:27:02: Done - 0 new sellers saved  (out of: 337, total: 5941)
+
+19:27:02:  = Offers = 
+19:27:02: Task - Updating sale offers
+19:27:07: Done - 379 sale offers saved  (before: 377, total: 106565)
+
+
+19:27:07:  == Spellseeker ==    (11/264  4.17%)
+19:27:11: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spellseeker
+19:27:11:                 Expanding page...
+
+19:27:14:  = Card stats = 
+19:27:14: Card ID:  11
+19:27:14: Already saved today
+
+19:27:14:  = Sellers = 
+19:27:14: Task - Updating sellers
+19:27:14: Done - 0 new sellers saved  (out of: 95, total: 5941)
+
+19:27:14:  = Offers = 
+19:27:14: Task - Updating sale offers
+19:27:16: Done - 101 sale offers saved  (before: 102, total: 106564)
+
+
+19:27:16:  == Toothy, Imaginary Friend ==    (12/264  4.55%)
+19:27:20: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Toothy-Imaginary-Friend
+19:27:20:                 Expanding page...
+
+19:27:23:  = Card stats = 
+19:27:23: Card ID:  12
+19:27:23: Already saved today
+
+19:27:23:  = Sellers = 
+19:27:23: Task - Updating sellers
+19:27:23: Done - 0 new sellers saved  (out of: 120, total: 5941)
+
+19:27:23:  = Offers = 
+19:27:23: Task - Updating sale offers
+19:27:24: Done - 135 sale offers saved  (before: 133, total: 106566)
+
+
+19:27:24:  == Mindblade Render ==    (13/264  4.92%)
+19:27:29: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Mindblade-Render
+19:27:29:                 Expanding page...
+
+19:27:31:  = Card stats = 
+19:27:31: Card ID:  13
+19:27:31: Already saved today
+
+19:27:31:  = Sellers = 
+19:27:31: Task - Updating sellers
+19:27:32: Done - 0 new sellers saved  (out of: 180, total: 5941)
+
+19:27:32:  = Offers = 
+19:27:32: Task - Updating sale offers
+19:27:35: Done - 194 sale offers saved  (before: 192, total: 106568)
+
+
+19:27:35:  == Sylvia Brightspear ==    (14/264  5.3%)
+19:27:39: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Sylvia-Brightspear
+19:27:39:                 Expanding page...
+
+19:27:46:  = Card stats = 
+19:27:46: Card ID:  14
+19:27:46: Already saved today
+
+19:27:46:  = Sellers = 
+19:27:46: Task - Updating sellers
+19:27:46: Done - 0 new sellers saved  (out of: 272, total: 5941)
+
+19:27:46:  = Offers = 
+19:27:46: Task - Updating sale offers
+19:27:51: Done - 306 sale offers saved  (before: 305, total: 106569)
+
+
+19:27:51:  == Bonus Round ==    (15/264  5.68%)
+19:27:56: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Bonus-Round
+19:27:56:                 Expanding page...
+
+19:27:58:  = Card stats = 
+19:27:58: Card ID:  15
+19:27:58: Already saved today
+
+19:27:58:  = Sellers = 
+19:27:58: Task - Updating sellers
+19:27:58: Done - 0 new sellers saved  (out of: 122, total: 5941)
+
+19:27:58:  = Offers = 
+19:27:58: Task - Updating sale offers
+19:28:00: Done - 137 sale offers saved  (before: 136, total: 106570)
+
+
+19:28:00:  == Spell Snare ==    (16/264  6.06%)
+19:28:04: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Spell-Snare
+19:28:04:                 Expanding page...
+
+19:28:17:  = Card stats = 
+19:28:17: Card ID:  16
+19:28:17: Already saved today
+
+19:28:17:  = Sellers = 
+19:28:17: Task - Updating sellers
+19:28:21: Seller added:  Scout0815 [5942]
+19:28:21: Done - 1 new sellers saved  (out of: 494, total: 5942)
+
+19:28:21:  = Offers = 
+19:28:21: Task - Updating sale offers
+19:28:29: Done - 560 sale offers saved  (before: 558, total: 106572)
+
+
+19:28:29:  == Generous Patron ==    (17/264  6.44%)
+19:28:34: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Generous-Patron
+19:28:34:                 Expanding page...
+
+19:28:36:  = Card stats = 
+19:28:36: Card ID:  17
+19:28:36: Already saved today
+
+19:28:36:  = Sellers = 
+19:28:36: Task - Updating sellers
+19:28:36: Done - 0 new sellers saved  (out of: 127, total: 5942)
+
+19:28:36:  = Offers = 
+19:28:36: Task - Updating sale offers
+19:28:38: Done - 142 sale offers saved  (before: 140, total: 106574)
+
+
+19:28:38:  == Pir, Imaginative Rascal ==    (18/264  6.82%)
+19:28:42: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Pir-Imaginative-Rascal
+19:28:42:                 Expanding page...
+
+19:28:44:  = Card stats = 
+19:28:44: Card ID:  18
+19:28:44: Already saved today
+
+19:28:44:  = Sellers = 
+19:28:44: Task - Updating sellers
+19:28:44: Done - 0 new sellers saved  (out of: 92, total: 5942)
+
+19:28:44:  = Offers = 
+19:28:44: Task - Updating sale offers
+19:28:46: Done - 99 sale offers saved  (before: 100, total: 106573)
+
+
+19:28:46:  == Virtus's Maneuver ==    (19/264  7.2%)
+19:28:51: URL change  ->  https://www.cardmarket.com/en/Magic/Products/Singles/Battlebond/Virtuss-Maneuver
+19:28:51:                 Expanding page...
+
