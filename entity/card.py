@@ -1,4 +1,3 @@
-import globals
 from handlers.local_files_handler import load_df
 from handlers.log_handler import log
 

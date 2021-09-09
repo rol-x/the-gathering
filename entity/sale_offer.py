@@ -101,7 +101,10 @@ def update_offers(offers_dict):
 
     # Concatenate the remaining and new offers and save to file
     new_all = pd.concat([all, read]).reset_index(drop=True).drop_duplicates()
-    new_all.to_csv('data/sale_offer.csv', ';', index=False)
+    filename = 'sale_offer{suffix}.csv' \
+        .format(suffix=f"_{globals.file_part}"
+                if globals.file_part > 1 else "")
+    new_all.to_csv(f'data/{filename}', ';', index=False)
 
     # Log task finished
     log(f"Done - {len(new_all) - len(all)} sale offers saved  (before: "
