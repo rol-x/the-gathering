@@ -10,6 +10,7 @@ from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
 # TODO: Look into handling of wild Firefox processes.
+# TODO: Change singular to plural in entities use, not in model.
 
 # Main function
 if __name__ == "__main__":
@@ -82,3 +83,8 @@ if __name__ == "__main__":
     # Close the webdriver
     driver.close()
     log("Webdriver closed")
+
+    # Validate the local data
+    removed = data_handler.validate_local_data()
+    log(f"Local data validated (removed {removed} records)\n")
+    log("=== Program execution finished ===")

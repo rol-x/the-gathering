@@ -7,6 +7,107 @@ import pandas as pd
 from handlers.log_handler import log
 
 
+# Load and validate local files, returning the number of removed rows.
+def validate_local_data():
+    '''Load and validate local files, returning the number of removed rows.'''
+
+    # Count the rows dropped
+    rows_dropped = 0
+
+    # Validate dates
+    date = pd.DataFrame(load_df('date'))
+    rows_dropped += drop_rows_with_nans(date)
+    rows_dropped += drop_duplicate_rows(date)
+    rows_dropped += drop_identical_records(date, 'date_ID')
+    reset_id(date, 'date_ID')
+
+    # Validate cards
+    card = load_df('card')
+    rows_dropped += drop_rows_with_nans(card)
+    rows_dropped += drop_duplicate_rows(card)
+    rows_dropped += drop_identical_records(card, 'card_ID')
+    reset_id(card, 'card_ID')
+
+    # Validate card stats
+    card_stats = load_df('card_stats')
+    rows_dropped += drop_rows_with_nans(card_stats)
+    rows_dropped += drop_duplicate_rows(card_stats)
+
+    # Validate sellers
+    seller = load_df('seller')
+    rows_dropped += drop_rows_with_nans(seller)
+    rows_dropped += drop_duplicate_rows(seller)
+    rows_dropped += drop_identical_records(seller, 'seller_ID')
+    reset_id(seller, 'seller_ID')
+
+    # Validate sale offers
+    sale_offer = load_df('sale_offer')
+    rows_dropped += drop_rows_with_nans(sale_offer)
+    rows_dropped += drop_duplicate_rows(sale_offer)
+
+    # Save the validated data
+    save_data(date, 'date')
+    save_data(card, 'card')
+    save_data(card_stats, 'card_stats')
+    save_data(seller, 'seller')
+    save_data(sale_offer, 'sale_offer')
+
+    # Return the number of rows dropped
+    return rows_dropped
+
+
+# Drop rows with NaNs.
+def drop_rows_with_nans(df):
+    '''Drop rows with NaNs.'''
+    tb_dropped = len(df.dropna().index) - len(df.index)
+    if tb_dropped > 0:
+        print("Dropping {tb_dropped} NaN rows")
+        df.dropna(inplace=True)
+        return tb_dropped
+    return 0
+
+
+# Drop duplicate rows.
+def drop_duplicate_rows(df):
+    '''Drop duplicate rows.'''
+    tb_dropped = len(df.drop_duplicates().index) - len(df.index)
+    if tb_dropped > 0:
+        print("Dropping {tb_dropped} duplicate rows")
+        df.drop_duplicates(inplace=True)
+        return tb_dropped
+    return 0
+
+
+# Drop logically identical records (same data).
+def drop_identical_records(df, id_col):
+    '''Drop logically identical records (same data).'''
+    tb_dropped = \
+        len(df.drop(id_col, 1).drop_duplicates().index) - len(df.index)
+    if tb_dropped > 0:
+        print("Dropping {tb_dropped} rows with the same data")
+        tb_saved = df.drop(id_col, 1).drop_duplicates()
+        tb_removed = pd.concat(df.drop(id_col, 1), tb_saved) \
+            .drop_duplicates(keep=None).index
+        df.drop(tb_removed, inplace=True)
+        return tb_dropped
+    return 0
+
+
+# Sort the data by ID and reset the date index.
+def reset_id(df, id_col):
+    '''Sort the data by ID and reset the date index.'''
+    df.sort_values(by=id_col, ascending=True, inplace=True)
+    df[id_col] = list(map(lambda x: x + 1, df.reset_index().index))
+
+
+# Save the dataframe replacing the existing file.
+def save_data(df, filename):
+    '''Save the dataframe replacing the existing file.'''
+    if filename == 'sale_offer' and globals.file_part > 1:
+        filename += f'_{globals.file_part}'
+    df.to_csv(f"data/{filename}.csv", sep=';', index=False)
+
+
 # Try to load a .csv file content into a dataframe.
 def load_df(entity_name):
     '''Try to return a dataframe from the respective .csv file.'''
