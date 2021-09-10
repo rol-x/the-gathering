@@ -35,7 +35,6 @@ def validate_local_data():
 
     # Validate sellers
     seller = load_df('seller')
-    rows_dropped += drop_rows_with_nans(seller)
     rows_dropped += drop_duplicate_rows(seller)
     rows_dropped += drop_identical_records(seller, 'seller_ID')
     reset_id(seller, 'seller_ID')
