@@ -1,4 +1,4 @@
-from handlers.local_files_handler import load_df
+from handlers.data_handler import load_df
 from handlers.log_handler import log, log_soup
 
 

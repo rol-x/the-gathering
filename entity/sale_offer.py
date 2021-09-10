@@ -1,7 +1,7 @@
 import globals
 import numpy as np
 import pandas as pd
-from handlers.local_files_handler import load_df
+from handlers.data_handler import load_df
 from handlers.log_handler import log
 
 from entity.card import get_card_ID

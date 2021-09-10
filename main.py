@@ -1,7 +1,6 @@
 """Scrape the card market website to get all the neccessary data."""
 import globals
-import handlers.database_handler as db_handler
-import handlers.local_files_handler as local_files_handler
+import handlers.data_handler as data_handler
 from entity.card import add_card, get_card_ID, is_card_saved
 from entity.card_stats import add_card_stats, are_card_stats_saved_today
 from entity.date import add_date
@@ -16,11 +15,10 @@ from handlers.web_handler import *
 if __name__ == "__main__":
 
     # Setup
-    local_files_handler.prepare_files()
+    data_handler.prepare_files()
     globals.this_date_ID = add_date()
-    local_files_handler.prepare_expansion_list_file(globals.expansion_name)
+    data_handler.prepare_expansion_list_file(globals.expansion_name)
     driver = create_webdriver()
-    conn, cursor = db_handler.connect_to_local_db('gathering')
 
     # Get card names and open each card's URL
     progress = 0
@@ -84,7 +82,3 @@ if __name__ == "__main__":
     # Close the webdriver
     driver.close()
     log("Webdriver closed")
-
-    # Close the connection to the database
-    conn.close()
-    log("Database connection closed")
