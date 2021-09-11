@@ -29,28 +29,36 @@ if __name__ == "__main__":
         progress += 1
         log_progress(card_name, progress, len(card_list))
 
-        # Bang and scream at the door until they let you in
+        # Compose the card page url from the card's name
         card_url = globals.base_url + globals.expansion_name + '/'
         card_url += urlify(card_name)
 
-        while True:
+        # Try to load the page 3 times
+        tries = 0
+        while tries < globals.max_tries:
             # Open the card page and extend the view maximally
             realistic_pause(globals.wait_coef)
             driver.get(card_url)
             log_url(driver.current_url)
             log("                Expanding page...\n")
-            click_load_more_button(driver)
-
-            # Validate and save the parsed page content for later use
-            card_soup = BeautifulSoup(driver.page_source, 'html.parser')
-            if is_valid_card_page(card_soup):
-                break
+            is_page_expanded = click_load_more_button(driver)
+            if is_page_expanded:
+                # Validate and save the parsed page content for later use
+                card_soup = BeautifulSoup(driver.page_source, 'html.parser')
+                if is_valid_card_page(card_soup):
+                    break
+                else:
+                    log('Card page invalid')
+                    driver = restart_webdriver(driver)
+                    log('Waiting and reconnecting...  (cooldown for 20.0 sec)')
+                    realistic_pause(20.0)
             else:
-                log('Card page invalid: ' + driver.current_url)
-                log('Waiting and reconnecting...  (cooldown for 30.0 seconds)')
-                realistic_pause(30.0)
-                globals.wait_coef *= 1.1
+                log("Expanding the offers list timed out")
                 driver = restart_webdriver(driver)
+                log('Waiting and reconnecting...  (cooldown for 20.0 sec)')
+                realistic_pause(20.0)
+                globals.wait_coef *= 1.1
+            tries += 1
 
         # Save the card if not saved already
         if not is_card_saved(card_name):
@@ -88,4 +96,4 @@ if __name__ == "__main__":
     # Validate the local data
     removed = data_handler.validate_local_data()
     log(f"Local data validated (removed {removed} records)\n")
-    log("=== Program execution finished ===")
+    log(" = Program execution finished = ")

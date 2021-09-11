@@ -17,7 +17,7 @@ def create_webdriver():
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
-    log('Webdriver ready')
+    log('Webdriver ready\n')
     return driver
 
 
@@ -26,8 +26,7 @@ def restart_webdriver(driver):
     '''Return the Firefox webdriver in headless mode.'''
     log('Restarting the webdriver')
     driver.close()
-    log('Closing the webdriver')
-    realistic_pause(globals.wait_coef)
+    realistic_pause(2*globals.wait_coef)
     driver = create_webdriver()
     return driver
 
@@ -112,22 +111,30 @@ def get_card_names(driver, expansion_name):
 # Deplete the Load More button to have a complete list of card sellers.
 def click_load_more_button(driver):
     '''Deplete the Load More button to have a complete list of card sellers.'''
+    elapsed_t = 0.0
     start_t = time()
     while True:
         try:
+            # Locate the button element
             load_more_button = driver \
                 .find_element_by_xpath('//button[@id="loadMoreButton"]')
+
+            # Confirm the button is not an empty object
             if load_more_button.text == "":
-                break
+                return True
+
+            # Click the button and wait
             driver.execute_script("arguments[0].click();", load_more_button)
             realistic_pause(0.2*globals.wait_coef)
+
+            # Check for timeout
             elapsed_t = time() - start_t
             if elapsed_t > globals.button_timeout:
-                log("Extending the sellers view timed out.\n")
-                break
+                return False
+
+        # When there is no button
         except common.exceptions.NoSuchElementException:
-            globals.wait_coef *= 1.1
-            break
+            return True
 
 
 # Return the given string in url-compatible form, like 'Spell-Snare'.

@@ -135,7 +135,6 @@ def prepare_files():
     '''Prepare .csv files for storing the scraped data locally.'''
     if not os.path.exists('data'):
         os.mkdir('data')
-        print("Data directory created")
 
     seller_csv = open('data/seller.csv', 'a+', encoding="utf-8")
     if not os.path.getsize('data/seller.csv'):
@@ -165,9 +164,6 @@ def prepare_files():
         sale_offer_csv.write('seller_ID;price;card_ID;card_condition;'
                              + 'language;is_foiled;amount;date_ID\n')
     sale_offer_csv.close()
-
-    # Console logging
-    print('Local files ready')
 
 
 # Scan local files to chose the file part for sale offers.

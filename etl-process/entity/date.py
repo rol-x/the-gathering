@@ -18,9 +18,9 @@ def prepare_log_files():
 
     logfile = open('logs/' + globals.log_filename, "a+", encoding="utf-8")
     if os.path.getsize('logs/' + globals.log_filename):
-        log("Separate code execution\n")
+        log(" = Separate code execution = \n")
     else:
-        log("Creation of this file")
+        log(" = Creation of this file = \n")
     logfile.close()
 
 
@@ -50,8 +50,8 @@ def add_date():
                         & (date_df['month'] == int(month))
                         & (date_df['year'] == int(year))]['date_ID']
     if(len(same_date) > 0):
-        print(f'Date [{day}/{month}/{year}] '
-              + f'already added (date_ID: {same_date.values[0]})')
+        log(f'Date {day}/{month}/{year} '
+            + f'already added (date ID: {same_date.values[0]})')
         return same_date.values[0]
 
     # Save the date locally
@@ -70,7 +70,7 @@ def save_date(date_ID, day, month, year, weekday):
     log('Day:           ' + str(day))
     log('Month:         ' + str(month))
     log('Year:          ' + str(year))
-    log('Date ID:       ' + str(date_ID))
+    log('Date ID:       ' + str(date_ID) + '\n')
 
     # Writing
     with open('data/date.csv', 'a', encoding="utf-8") as date_csv:
