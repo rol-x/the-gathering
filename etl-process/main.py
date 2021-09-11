@@ -9,6 +9,7 @@ from entity.seller import get_seller_names
 from handlers.log_handler import log, log_url, log_progress
 from handlers.web_handler import *
 
+# TODO: Exceeding the timeout in extending the offers should result in retry.
 # TODO: Look into handling of wild Firefox processes.
 # TODO: Change singular to plural in entities use, not in model.
 
