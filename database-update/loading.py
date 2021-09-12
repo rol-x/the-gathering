@@ -1,85 +1,132 @@
-import dbconfig
+from flask.globals import session
+from  dbconfig import db, dates, cards, sellers, cards_stats, sale_offers
 import pandas as pd
 import json
+from sqlalchemy import desc
 
 def dates_load():
 
-    dates = pd.read_csv('data/date.csv', sep=';')
-    count = dbconfig.dates.query.filter_by().count()
-    relevant = dates[dates.date_ID > count]
-    for i in relevant.index:
+    datesdf = pd.read_csv('data/date.csv', sep=';')
+    count = dates.query.count()
+    last_id = dates.query.order_by(desc(dates.date_ID)).first()
+    try:
 
-        parsed = json.loads(relevant.loc[i].to_json())
+        relevantdf = datesdf[datesdf.date_ID > last_id.date_ID] if last_id.date_ID == count else datesdf
+
+    except AttributeError:
+
+        relevantdf = datesdf
+
+    for i in relevantdf.index:
+        
+        parsed = json.loads(relevantdf.loc[i].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
-        check = dbconfig.dates.query.filter_by(**criteria).one_or_none()
+        check = dates.query.filter_by(**criteria).one_or_none()
         if check == None:
 
-            date = dbconfig.dates(**criteria)
-            dbconfig.db.session.add(date)
-            dbconfig.db.session.commit()
+            date = dates(**criteria)
+            db.session.add(date)
+            db.session.commit()
 
 def cards_load():
 
-    cards = pd.read_csv('data/card.csv', sep=';')
-    count = dbconfig.cards.query.filter_by().count()
-    relevant = cards[cards.card_ID > count]
-    for i in relevant.index:
+    cardsdf = pd.read_csv('data/card.csv', sep=';')
+    last_id = cards.query.order_by(desc(cards.card_ID)).first()
+    count = cards.query.count()
+    try:
+        
+        relevantdf = cardsdf[cardsdf.card_ID > last_id.card_ID] if last_id.card_ID == count else cardsdf
+    
+    except AttributeError:
 
-        parsed = json.loads(relevant.loc[i].to_json())
+        relevantdf = cardsdf
+
+    for i in relevantdf.index:
+        
+        parsed = json.loads(relevantdf.loc[i].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
-        check = dbconfig.cards.query.filter_by(**criteria).one_or_none()
+        check = cards.query.filter_by(**criteria).one_or_none()
         if check == None:
 
-            card = dbconfig.cards(**criteria)
-            dbconfig.db.session.add(card)
-            dbconfig.db.session.commit()
+            card = cards(**criteria)
+            db.session.add(card)
+            db.session.commit()
 
 def cards_stats_load():
 
-    stats = pd.read_csv('data/card_stats.csv', sep=';')
-    check = dbconfig.cards_stats.query.distinct(dbconfig.cards_stats.date_ID).count()
-    scndcheck = dbconfig.cards_stats.query.filter_by(date_ID = check).distinct(dbconfig.cards_stats.card_ID).count()
-    firstrelevant = stats[stats.date_ID >= check]
-    relevant = firstrelevant[stats.card_ID > scndcheck]
-    for row in relevant.iterrows():
+    statsdf = pd.read_csv('data/card_stats.csv', sep=';')
+    last_id = cards_stats.query.order_by(desc(cards_stats.stat_ID)).first()
+    count = cards_stats.query.count()
+    try:
+        
+        relevantdf = statsdf[statsdf.row[0] > last_id.stat_ID-1] if last_id.stat_ID == count else statsdf
+    
+    except AttributeError:
 
-        parsed = json.loads(relevant.loc[row[0]].to_json())
+        relevantdf = statsdf
+
+    for row in relevantdf.iterrows():
+        
+        parsed = json.loads(relevantdf.loc[row[0]].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
         criteria['avg_price_30'] = criteria.pop('30_avg_price')
         criteria['avg_price_7'] = criteria.pop('7_avg_price')
         criteria['avg_price_1'] = criteria.pop('1_avg_price')
-        check = dbconfig.cards_stats.query.filter_by(**criteria).one_or_none()
+        criteria['stat_ID'] = row[0] + 1
+        check = cards_stats.query.filter_by(**criteria).one_or_none()
         if check == None:
 
-            stats = dbconfig.cards_stats(**criteria)
-            dbconfig.db.session.add(stats)
-            dbconfig.db.session.commit()
+            stats = cards_stats(**criteria)
+            db.session.add(stats)
+            db.session.commit()
 
 def sellers_load():
 
-    sellers = pd.read_csv('data/seller.csv', sep=';')
-    count = dbconfig.sellers.query.filter_by().count()
-    relevant = sellers[sellers.seller_ID > count]
-    for i in relevant.index:
+    sellersdf = pd.read_csv('data/seller.csv', sep=';')
+    last_id = sellers.query.order_by(desc(sellers.seller_ID)).first()
+    count = sellers.query.count()
+    try:
+    
+        relevantdf = sellersdf[sellersdf.seller_ID > last_id.seller_ID] if count == last_id.seller_ID else sellersdf
+    
+    except AttributeError:
 
-        parsed = json.loads(relevant.loc[i].to_json())
+        relevantdf = sellersdf
+
+    print(relevantdf)
+    for i in relevantdf.index:
+        
+        parsed = json.loads(relevantdf.loc[i].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
-        check = dbconfig.sellers.query.filter_by(**criteria).one_or_none()
+        check = sellers.query.filter_by(**criteria).one_or_none()
         if check == None:
 
-            seller = dbconfig.sellers(**criteria)
-            dbconfig.db.session.add(seller)
-            dbconfig.db.session.commit()
+            seller = sellers(**criteria)
+            db.session.add(seller)
+            db.session.commit()
 
 def offers_load():
 
-    offers = pd.read_csv('data/sale_offer.csv', sep=';')
-    relevant = offers[offers.card_ID < 1]
-    relevant.to_csv('data/errors.csv', sep=';')
-    relevant = offers[offers.card_ID > 0]
+    offersdf = pd.read_csv('data/sale_offer.csv', sep=';')
+    last_id = sale_offers.query.order_by(desc(sale_offers.offer_ID)).first()
+    count = sale_offers.query.count()
+    try:
+        
+        relevantdf = offersdf[offersdf.row[0] > last_id.stat_ID-1] if last_id.stat_ID == count else offersdf
+    
+    except AttributeError:
 
-def test():
+        relevantdf = offersdf
 
-    offers = pd.read_csv('data/sale_offer.csv', sep=';')
-    relevant = offers[offers.card_ID < 1]
-    print(relevant)
+    for row in relevantdf.iterrows():
+        
+        parsed = json.loads(relevantdf.loc[row[0]].to_json())
+        criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
+        criteria['offer_ID'] = row[0] + 1
+        criteria['is_foiled'] = 'True' if criteria['is_foiled'] else 'False'
+        check = sale_offers.query.filter_by(**criteria).one_or_none()
+        if check == None:
+
+            stats = sale_offers(**criteria)
+            db.session.add(stats)
+            db.session.commit()
