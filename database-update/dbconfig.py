@@ -37,13 +37,14 @@ class cards(db.Model):
 
 class cards_stats(db.Model):
 
-    card_ID = db.Column(INTEGER(unsigned = True), ForeignKey('cards.card_ID'), primary_key = True, nullable = False)
+    stat_ID = db.Column(INTEGER(unsigned = True), primary_key = True, nullable = False, unique = True)
+    card_ID = db.Column(INTEGER(unsigned = True), ForeignKey('cards.card_ID'), nullable = False)
     price_from = db.Column(DECIMAL(19,2), nullable = False)
     avg_price_30 = db.Column(DECIMAL(19,2), nullable = False)
     avg_price_7 = db.Column(DECIMAL(19,2), nullable = False)
     avg_price_1 = db.Column(DECIMAL(19,2), nullable = False)
     available_items = db.Column(INTEGER(unsigned = True), nullable = False)
-    date_ID = db.Column(INTEGER(unsigned = True), ForeignKey('dates.date_ID'), primary_key = True, nullable = False)
+    date_ID = db.Column(INTEGER(unsigned = True), ForeignKey('dates.date_ID'), nullable = False)
 
     def __repr__(self):
 
@@ -67,18 +68,22 @@ class sellers(db.Model):
         seller_name = {self.seller_name}, type = {self.type},\
         country = {self.country}, address = {self.address})"
 
-'''class sale_offer(db.Model):
+class sale_offers(db.Model):
 
-    seller_id = db.Column(INTEGER(unsigned = True), foreign_key = True, nullable = False)
+    offer_ID = db.Column(INTEGER(unsigned = True), primary_key = True, nullable = False, unique = True)
+    seller_ID = db.Column(INTEGER(unsigned = True), ForeignKey('sellers.seller_ID'), nullable = False)
     price = db.Column(DECIMAL(19,2), nullable = False)
-    card_id = db.Column(INTEGER(unsigned = True), foreign_key = True, nullable = False)
+    card_ID = db.Column(INTEGER(unsigned = True), ForeignKey('cards.card_ID'), nullable = False)
     card_condition = db.Column(db.String(20), nullable = False)
-    is_foiled = db.Column(TINYINT(1), nullable = True)
-    date_id = db.Column(INTEGER(unsigned = True), foreign_key = True, nullable = False)
+    language = db.Column(db.String(20), nullable = False)
+    is_foiled = db.Column(db.Enum('True', 'False'), nullable = True)
+    amount = db.Column(INTEGER(unsigned = True), nullable = False)
+    date_ID = db.Column(INTEGER(unsigned = True), ForeignKey('dates.date_ID'), nullable = False)
 
     def __repr__(self):
 
-        return f"offer(seller_id = {self.seller_id}, \
-            price = {self.price}, card_id = {self.card_id},\
+        return f"offer(seller_id = {self.seller_ID}, \
+            price = {self.price}, card_id = {self.card_ID},\
             card_condition = {self.card_condition}, \
-            is_foiled = {self.is_foiled}, date_id = {self.date_id})"'''
+            is_foiled = {self.is_foiled}, date_id = {self.date_ID})"
+    

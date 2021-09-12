@@ -1,12 +1,12 @@
-import loading
-import dbconfig
+from  loading import dates_load, cards_load, sellers_load, cards_stats_load, offers_load
+from dbconfig import db
 
 if __name__ == "__main__":
 
-    #dbconfig.db.create_all()
-    #loading.dates_load()
-    #loading.cards_load()
-    #loading.cards_stats_load()
-    #loading.sellers_load()
-    #loading.test()
-    loading.offers_load()
+    db.create_all() 
+    #dates_load()
+    #cards_load()
+    #cards_stats_load()
+    #sellers_load()
+    offers_load()
+    #test()
