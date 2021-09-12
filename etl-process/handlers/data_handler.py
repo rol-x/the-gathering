@@ -96,7 +96,8 @@ def drop_identical_records(df, id_col):
 def reset_id(df, id_col):
     '''Sort the data by ID and reset the date index.'''
     df.sort_values(by=id_col, ascending=True, inplace=True)
-    df[id_col] = list(map(lambda x: x + 1, df.reset_index().index))
+    df.reset_index(drop=True, inplace=True)
+    df[id_col] = list(map(lambda x: x + 1, df.index))
 
 
 # Save the dataframe replacing the existing file.
