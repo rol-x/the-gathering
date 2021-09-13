@@ -82,7 +82,7 @@ class sale_offers(db.Model):
 
     def __repr__(self):
 
-        return f"offer(seller_id = {self.seller_ID}, \
+        return f"offer(offer_id = {self.offer_ID}, seller_id = {self.seller_ID}, \
             price = {self.price}, card_id = {self.card_ID},\
             card_condition = {self.card_condition}, \
             is_foiled = {self.is_foiled}, date_id = {self.date_ID})"
