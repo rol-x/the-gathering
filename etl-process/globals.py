@@ -5,6 +5,7 @@ wait_coef = 3.0
 button_timeout = 120.0
 expansion_name = 'Battlebond'
 max_tries = 3
+start_from = 222
 
 # Variables connected to this run of the code.
 log_filename = 'init.log'

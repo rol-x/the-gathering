@@ -27,6 +27,8 @@ if __name__ == "__main__":
     card_list = get_card_names(driver, globals.expansion_name)
     for card_name in card_list:
         progress += 1
+        if progress < globals.start_from:
+            continue
         log_progress(card_name, progress, len(card_list))
 
         # Compose the card page url from the card's name
