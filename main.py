@@ -1,15 +1,14 @@
 """Scrape the card market website to get all the neccessary data."""
-import globals
-import handlers.data_handler as data_handler
-from entity.card import add_card, get_card_ID, is_card_saved
-from entity.card_stats import add_card_stats, are_card_stats_saved_today
-from entity.date import add_date
-from entity.sale_offer import add_offers
-from entity.seller import get_seller_names
-from handlers.log_handler import log, log_url, log_progress
-from handlers.web_handler import *
+import etl.globals as globals
+import etl.handlers.data_handler as data_handler
+from etl.entity.card import add_card, get_card_ID, is_card_saved
+from etl.entity.card_stats import add_card_stats, are_card_stats_saved_today
+from etl.entity.date import add_date
+from etl.entity.sale_offer import add_offers
+from etl.entity.seller import get_seller_names
+from etl.handlers.log_handler import log, log_progress, log_url
+from etl.handlers.web_handler import *
 
-# TODO: Exceeding the timeout in extending the offers should result in retry.
 # TODO: Look into handling of wild Firefox processes.
 # TODO: Change singular to plural in entities use, not in model.
 

@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from random import randint
 
-import globals
+import etl.globals as globals
 
 
 # Log a soup to a separate file for inspection.

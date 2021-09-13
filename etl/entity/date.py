@@ -1,9 +1,9 @@
 import os
 from datetime import datetime
 
-import globals
-from handlers.data_handler import load_df
-from handlers.log_handler import log
+import etl.globals as globals
+from etl.handlers.data_handler import load_df
+from etl.handlers.log_handler import log
 
 
 # Prepare the local log files.

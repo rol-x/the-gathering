@@ -1,5 +1,5 @@
-from handlers.data_handler import load_df
-from handlers.log_handler import log, log_soup
+from etl.handlers.data_handler import load_df
+from etl.handlers.log_handler import log, log_soup
 
 
 # Extract information about a seller from provided soup.

@@ -1,14 +1,13 @@
 from random import normalvariate, random
 from time import sleep, time
 
-import globals
+import etl.globals as globals
 from bs4 import BeautifulSoup
-from entity.seller import add_seller
+from etl.entity.seller import add_seller
+from etl.handlers.data_handler import load_df
+from etl.handlers.log_handler import log, log_url
 from selenium import common, webdriver
 from selenium.webdriver.firefox.options import Options
-
-from handlers.data_handler import load_df
-from handlers.log_handler import log, log_url
 
 
 # Return the Firefox webdriver in headless mode.
