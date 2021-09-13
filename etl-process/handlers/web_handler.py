@@ -113,6 +113,7 @@ def click_load_more_button(driver):
     '''Deplete the Load More button to have a complete list of card sellers.'''
     elapsed_t = 0.0
     start_t = time()
+    realistic_pause(0.5*globals.wait_coef)
     while True:
         try:
             # Locate the button element
@@ -135,6 +136,16 @@ def click_load_more_button(driver):
         # When there is no button
         except common.exceptions.NoSuchElementException:
             return True
+
+        # Other related errors
+        except common.exceptions.ElementNotVisibleException:
+            return False
+        except common.exceptions.NoSuchAttributeException:
+            return False
+        except common.exceptions.ErrorInResponseException:
+            return False
+        except common.exceptions.WebDriverException:
+            return False
 
 
 # Return the given string in url-compatible form, like 'Spell-Snare'.
