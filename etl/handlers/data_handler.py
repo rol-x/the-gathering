@@ -65,6 +65,18 @@ def drop_rows_with_nans(df):
     return 0
 
 
+# Drop rows with negative indices.
+def drop_negative_index(df, id_col):
+    '''Drop rows with negative indices.'''
+    tb_dropped = len(df[df[id_col] > 0].index) - len(df.index)
+    if tb_dropped > 0:
+        print("Dropping {tb_dropped} rows with negative index")
+        df = df[df[id_col] > 0]
+        df.reset_index(drop=True)
+        return tb_dropped
+    return 0
+
+
 # Drop duplicate rows.
 def drop_duplicate_rows(df):
     '''Drop duplicate rows.'''
@@ -147,8 +159,8 @@ def prepare_files():
         card_csv.write('card_ID;card_name;expansion_name;rarity\n')
     card_csv.close()
 
-    card_stats_csv = open(f'data/card_stats.csv', 'a+', encoding="utf-8")
-    if not os.path.getsize(f'data/card_stats.csv'):
+    card_stats_csv = open('data/card_stats.csv', 'a+', encoding="utf-8")
+    if not os.path.getsize('data/card_stats.csv'):
         card_stats_csv.write('card_ID;price_from;30_avg_price;7_avg_price;'
                              + '1_avg_price;available_items;date_ID\n')
     card_stats_csv.close()
