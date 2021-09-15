@@ -67,7 +67,6 @@ def drop_rows_with_nans(df):
     '''Drop rows with NaNs.'''
     tb_dropped = len(df.index) - len(df.dropna().index)
     if tb_dropped > 0:
-        print("Dropping {tb_dropped} NaN rows")
         df.dropna(inplace=True)
         return tb_dropped
     return 0
@@ -78,7 +77,6 @@ def drop_negative_index(df, id_col):
     '''Drop rows with negative indices.'''
     tb_dropped = len(df.index) - len(df[df[id_col] > 0].index)
     if tb_dropped > 0:
-        print("Dropping {tb_dropped} rows with negative index")
         df = df[df[id_col] > 0]
         df.reset_index(drop=True)
         return tb_dropped
@@ -90,7 +88,6 @@ def drop_duplicate_rows(df):
     '''Drop duplicate rows.'''
     tb_dropped = len(df.index) - len(df.drop_duplicates().index)
     if tb_dropped > 0:
-        print("Dropping {tb_dropped} duplicate rows")
         df.drop_duplicates(inplace=True)
         return tb_dropped
     return 0
@@ -102,7 +99,6 @@ def drop_identical_records(df, id_col):
     tb_dropped = len(df.index) - \
         len(df.drop(id_col, 1).drop_duplicates().index)
     if tb_dropped > 0:
-        print("Dropping {tb_dropped} rows with the same data")
         tb_saved = df.drop(id_col, 1).drop_duplicates()
         tb_removed = pd.concat(df.drop(id_col, 1), tb_saved) \
             .drop_duplicates(keep=None).index
