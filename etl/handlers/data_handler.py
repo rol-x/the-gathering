@@ -137,9 +137,11 @@ def load_df(entity_name):
     except pd.errors.EmptyDataError as empty:
         log(str(empty))
         log(f'Please prepare the headers in {entity_name}.csv!\n')
+        return None
     except pd.errors.ParserError as wrong_data:
         log(str(wrong_data))
         log(f'Please check the correctness of data in {entity_name}.csv!\n')
+        return None
     return df
 
 
