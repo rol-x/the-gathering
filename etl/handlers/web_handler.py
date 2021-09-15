@@ -44,7 +44,7 @@ def add_sellers_from_set(driver, sellers):
     for seller_name in sellers:
 
         # Check if the record already exists
-        if seller_name not in seller_df['seller_name'].values or not seller_ok:
+        if seller_name not in seller_df['seller_name'].values:
 
             # Try to get seller data from page
             while tries < globals.max_tries:
