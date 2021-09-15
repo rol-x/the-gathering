@@ -17,6 +17,7 @@ def validate_local_data():
     date = pd.DataFrame(load_df('date'))
     rows_dropped += drop_rows_with_nans(date)
     rows_dropped += drop_duplicate_rows(date)
+    rows_dropped += drop_negative_index(date, 'date_ID')
     rows_dropped += drop_identical_records(date, 'date_ID')
     reset_id(date, 'date_ID')
 
@@ -24,6 +25,7 @@ def validate_local_data():
     card = load_df('card')
     rows_dropped += drop_rows_with_nans(card)
     rows_dropped += drop_duplicate_rows(card)
+    rows_dropped += drop_negative_index(card, 'card_ID')
     rows_dropped += drop_identical_records(card, 'card_ID')
     reset_id(card, 'card_ID')
 
@@ -31,17 +33,23 @@ def validate_local_data():
     card_stats = load_df('card_stats')
     rows_dropped += drop_rows_with_nans(card_stats)
     rows_dropped += drop_duplicate_rows(card_stats)
+    rows_dropped += drop_negative_index(card_stats, 'card_ID')
+    rows_dropped += drop_negative_index(card_stats, 'date_ID')
 
     # Validate sellers
     seller = load_df('seller')
     rows_dropped += drop_duplicate_rows(seller)
     rows_dropped += drop_identical_records(seller, 'seller_ID')
+    rows_dropped += drop_negative_index(seller, 'seller_ID')
     reset_id(seller, 'seller_ID')
 
     # Validate sale offers
     sale_offer = load_df('sale_offer')
     rows_dropped += drop_rows_with_nans(sale_offer)
     rows_dropped += drop_duplicate_rows(sale_offer)
+    rows_dropped += drop_negative_index(sale_offer, 'seller_ID')
+    rows_dropped += drop_negative_index(sale_offer, 'card_ID')
+    rows_dropped += drop_negative_index(sale_offer, 'date_ID')
 
     # Save the validated data
     save_data(date, 'date')
@@ -57,7 +65,7 @@ def validate_local_data():
 # Drop rows with NaNs.
 def drop_rows_with_nans(df):
     '''Drop rows with NaNs.'''
-    tb_dropped = len(df.dropna().index) - len(df.index)
+    tb_dropped = len(df.index) - len(df.dropna().index)
     if tb_dropped > 0:
         print("Dropping {tb_dropped} NaN rows")
         df.dropna(inplace=True)
@@ -68,7 +76,7 @@ def drop_rows_with_nans(df):
 # Drop rows with negative indices.
 def drop_negative_index(df, id_col):
     '''Drop rows with negative indices.'''
-    tb_dropped = len(df[df[id_col] > 0].index) - len(df.index)
+    tb_dropped = len(df.index) - len(df[df[id_col] > 0].index)
     if tb_dropped > 0:
         print("Dropping {tb_dropped} rows with negative index")
         df = df[df[id_col] > 0]
@@ -80,7 +88,7 @@ def drop_negative_index(df, id_col):
 # Drop duplicate rows.
 def drop_duplicate_rows(df):
     '''Drop duplicate rows.'''
-    tb_dropped = len(df.drop_duplicates().index) - len(df.index)
+    tb_dropped = len(df.index) - len(df.drop_duplicates().index)
     if tb_dropped > 0:
         print("Dropping {tb_dropped} duplicate rows")
         df.drop_duplicates(inplace=True)
@@ -91,8 +99,8 @@ def drop_duplicate_rows(df):
 # Drop logically identical records (same data).
 def drop_identical_records(df, id_col):
     '''Drop logically identical records (same data).'''
-    tb_dropped = \
-        len(df.drop(id_col, 1).drop_duplicates().index) - len(df.index)
+    tb_dropped = len(df.index) - \
+        len(df.drop(id_col, 1).drop_duplicates().index)
     if tb_dropped > 0:
         print("Dropping {tb_dropped} rows with the same data")
         tb_saved = df.drop(id_col, 1).drop_duplicates()

@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
         # Get all sellers from the card page
         log(" = Sellers = ")
-        log(f"Task - Updating sellers")
+        log("Task - Updating sellers")
         sellers = get_seller_names(card_soup)
 
         # Investigate and add only not added sellers
