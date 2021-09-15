@@ -54,7 +54,7 @@ if __name__ == "__main__":
                     log('Waiting and reconnecting...  (cooldown for 20.0 sec)')
                     realistic_pause(20.0)
             else:
-                log("Expanding the offers list timed out")
+                log('Expanding the offers list timed out')
                 driver = restart_webdriver(driver)
                 log('Waiting and reconnecting...  (cooldown for 20.0 sec)')
                 realistic_pause(20.0)

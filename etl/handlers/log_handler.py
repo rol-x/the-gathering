@@ -1,28 +1,7 @@
 """Scrape the card market website to get all the neccessary data."""
-import os
 from datetime import datetime
-from random import randint
 
 import etl.globals as globals
-
-
-# Log a soup to a separate file for inspection.
-def log_soup(soup):
-    '''Log a soup to a separate file for inspection.'''
-    # Chose available soup identification number and create a filename
-    soup_names = os.listdir('logs/soups')
-    while True:
-        soup_id = randint(100000, 999999)
-        filename = str(soup_id) + '.log'
-        if filename not in soup_names:
-            break
-
-    # Create a file and dump the soup inside
-    with open('logs/soups/' + filename, 'w+', encoding="utf-8") as soup_file:
-        soup_file.write(str(soup))
-
-    # Return the soup identification number for diagnostic purposes
-    return soup_id
 
 
 # Log the current url to the console and log file.

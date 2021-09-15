@@ -1,5 +1,5 @@
 from etl.handlers.data_handler import load_df
-from etl.handlers.log_handler import log, log_soup
+from etl.handlers.log_handler import log
 
 
 # Extract information about a seller from provided soup.
@@ -11,10 +11,7 @@ def add_seller(seller_soup):
 
     # User not loaded correctly
     if seller_name is None:
-        log('Seller dropped!')
-        log(f'Bad page soup dumped to logs/soups/{log_soup(seller_soup)}.log'
-            + '\n')
-        return
+        return False
 
     # Seller name
     seller_name = str(seller_name.string)
@@ -58,6 +55,8 @@ def add_seller(seller_soup):
         address = ''
 
     save_seller(seller_ID, seller_name, s_type, member_since, country, address)
+
+    return True
 
 
 # Save a single seller row to the seller dataframe in .csv file.

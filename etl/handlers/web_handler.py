@@ -36,15 +36,29 @@ def add_sellers_from_set(driver, sellers):
     seller_df = load_df('seller')
     sellers_before = len(seller_df)
     read_sellers = len(sellers)
+
+    # Define loop-control variables and iterate over every seller
     new_sellers = 0
+    tries = 0
+    seller_ok = False
     for seller_name in sellers:
+
         # Check if the record already exists
-        if seller_name not in seller_df['seller_name'].values:
-            realistic_pause(0.8*globals.wait_coef)
-            driver.get(globals.users_url + seller_name)
-            seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
-            add_seller(seller_soup)
-            new_sellers += 1
+        if seller_name not in seller_df['seller_name'].values or not seller_ok:
+
+            # Try to get seller data from page
+            while tries < globals.max_tries:
+                realistic_pause(0.8*globals.wait_coef)
+                driver.get(globals.users_url + seller_name)
+                seller_soup = BeautifulSoup(driver.page_source, 'html.parser')
+                seller_ok = add_seller(seller_soup)
+                if seller_ok:
+                    tries = globals.max_tries
+                    new_sellers += 1
+                else:
+                    tries += 1
+                    realistic_pause(globals.wait_coef)
+            tries = 0
 
     # Log task finished
     total_sellers = sellers_before + new_sellers
@@ -144,6 +158,9 @@ def click_load_more_button(driver):
         except common.exceptions.ErrorInResponseException:
             return False
         except common.exceptions.WebDriverException:
+            return False
+        except common.exceptions.InvalidSessionIdException:
+            realistic_pause(globals.wait_coef)
             return False
 
 
