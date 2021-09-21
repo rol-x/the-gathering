@@ -12,9 +12,6 @@ def prepare_log_files():
     if not os.path.exists('logs'):
         os.mkdir('logs')
         print("Logs directory created")
-    if not os.path.exists('logs/soups'):
-        os.mkdir('logs/soups')
-        print("Soups directory created")
 
     logfile = open('logs/' + globals.log_filename, "a+", encoding="utf-8")
     if os.path.getsize('logs/' + globals.log_filename):
