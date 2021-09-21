@@ -130,14 +130,29 @@ def load_df(entity_name):
         entity_name += f'_{globals.file_part}'
     try:
         df = pd.read_csv('data/' + entity_name + '.csv', sep=';')
-    except pd.errors.EmptyDataError as empty:
-        log(str(empty))
-        log(f'Please prepare the headers in {entity_name}.csv!\n')
+    except pd.errors.EmptyDataError as empty_err:
+        log(f'Please prepare the headers and data in {entity_name}.csv!\n')
+        log(str(empty_err))
         return None
-    except pd.errors.ParserError as wrong_data:
-        log(str(wrong_data))
-        log(f'Please check the correctness of data in {entity_name}.csv!\n')
+    except pd.errors.ParserError as parser_err:
+        log(f'Parser error while loading {entity_name}.csv\n')
+        log(str(parser_err))
+        return secure_load_df(entity_name)
+    except Exception as e:
+        log(f'Exception occured while loading {entity_name}.csv\n')
+        log(str(e))
         return None
+    return df
+
+
+# Try to securely load a dataframe from a .csv file.
+def secure_load_df(entity_name):
+    '''Try to securely load a dataframe from a .csv file.'''
+    try:
+        df = pd.read_csv('data' + entity_name + '.csv', sep=';',
+                         error_bad_lines=False, chunk_size=20000)
+    except pd.errors.ParserError as parser_err:
+        os.system.exit("Importing data from csv failed - aborting.\n")
     return df
 
 

@@ -9,6 +9,7 @@ from etl.entity.seller import get_seller_names
 from etl.handlers.log_handler import log, log_progress, log_url
 from etl.handlers.web_handler import *
 
+# TODO: Count the number of rows removed, again.
 # TODO: Look into handling of wild Firefox processes.
 # TODO: Change singular to plural in entities use, not in model.
 
@@ -20,6 +21,10 @@ if __name__ == "__main__":
     globals.this_date_ID = add_date()
     data_handler.prepare_expansion_list_file(globals.expansion_name)
     driver = create_webdriver()
+
+    # Validate the local data (pre-acquisition)
+    removed = data_handler.validate_local_data()
+    log(f"Local data validated (removed {removed} records)\n")
 
     # Get card names and open each card's URL
     progress = 0
@@ -94,7 +99,7 @@ if __name__ == "__main__":
     driver.close()
     log("Webdriver closed")
 
-    # Validate the local data
+    # Validate the local data (post-acquisition)
     removed = data_handler.validate_local_data()
     log(f"Local data validated (removed {removed} records)\n")
     log(" = Program execution finished = ")
