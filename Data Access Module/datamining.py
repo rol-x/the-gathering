@@ -1,0 +1,270 @@
+"""Create connection to database and execute queries"""
+import mysql.connector
+from mysql.connector import Error
+def create_db_connection(host_name, user_name, user_password, db_name):
+    connection = None
+    try:
+        connection = mysql.connector.connect(
+            host=host_name,
+            user=user_name,
+            passwd=user_password,
+            database=db_name,
+        )
+        print("MySQL Database connection successful")
+    except Error as err:
+        print(f"Error: '{err}'")
+
+    return connection
+
+def execute_query(connection, query):
+    cursor = connection.cursor()
+    try:
+        cursor.execute(query)
+        connection.commit()
+        print("Query successful")
+    except Error as err:
+        print(f"Error: '{err}'")
+
+def read_query(connection, query):
+    cursor = connection.cursor()
+    result = None
+    try:
+        cursor.execute(query)
+        result = cursor.fetchall()
+        return result
+    except Error as err:
+        print(f"Error: '{err}'")
+
+#Find offer with card of choice with smallest price with regards to average prices, previous dates minimum etc, and return list of the sellers with best offer
+def execute_task_1(connection, card_condition, is_foiled, language, card_IDs):
+    query = f"""select max(date_ID) from dates"""
+    result = read_query(connection, query)
+    for i in result:
+        date_id = i[0]
+    print (date_id)
+    query = """
+        CREATE OR REPLACE view F2_P1 as 
+        select offer_ID, seller_ID, cards_stats.date_ID, price, sale_offers.card_ID, card_condition, language, is_foiled, amount,  
+        avg_price_30, avg_price_7
+        from sale_offers join cards_stats
+        where sale_offers.card_ID in (""" + str(card_IDs) +""")"""
+    if card_condition != "":
+        query += """ and card_condition = \"""" + card_condition + """\""""
+    if is_foiled != "":
+        query += """ and is_foiled = \"""" + is_foiled +"""\""""
+    if language != "":
+        query += """ and language = \"""" + language +"""\""""
+    
+    query += """ group by seller_id, cards_stats.date_id;"""
+    execute_query(connection, query)
+    query = """
+    CREATE OR REPLACE view F2_P2 as 
+    select seller_id, price from F2_P1
+    where date_id = \"""" + str(date_id) +"""\";
+    """
+    execute_query(connection, query)
+    query ="""
+    CREATE OR REPLACE view F2_P3 as 
+    select F2_P1.seller_id, avg(F2_P1.price) as Average_Price, min(F2_P1.price) as Minimum_Price, 
+    F2_P1.avg_price_30, F2_P1.avg_price_7, F2_P2.price from F2_P1 join F2_P2 on F2_P1.seller_id=F2_P2.seller_id
+    group by seller_id; """
+    execute_query(connection, query)
+
+    query =""" 
+    CREATE OR REPLACE view F2_P4 as 
+    select sellers.seller_name, F2_P3.seller_id, F2_P3.price from F2_P3 left join sellers on  F2_P3.seller_id= sellers.seller_id
+    where price <= Average_Price and price <= Minimum_Price and price <= avg_price_30 and price <= avg_price_7;
+    """
+    execute_query(connection, query)
+    query = """ 
+    CREATE OR REPLACE view F2_P5 as 
+    select min(price) as min_price from F2_P4;
+        """
+    execute_query(connection, query)
+
+    query ="""
+    select seller_name, price from F2_P4 join F2_P5
+    where price = F2_P5.min_price"""
+
+    results = read_query(connection, query)
+    for i in results:
+        toret = i
+        break
+    return toret
+
+#For Bulk Buyres - Find seller that can sell you most amount of cards within given cost limitation
+def execute_task_2(connection, card_condition, is_foiled, language, money_limit):
+    query = f"""select max(date_ID) from dates"""
+    result = read_query(connection, query)
+    for i in result:
+        date_id = i[0]
+    query = f"""
+            CREATE OR REPLACE view F3_P1 as
+            select seller_id, card_id, min(price) from sale_offers
+            where date_id = "{date_id}" and price < {money_limit}"""
+    if card_condition != "": 
+        query += f""" and card_condition = \"{card_condition}\""""
+    if card_condition != "": 
+        query += f""" and is_foiled = \"{is_foiled}\""""
+    if language != "": 
+        query += f""" and language = \"{language}\""""
+    query += ''' group by seller_id, card_id
+            order by seller_id, min(price);'''
+    execute_query(connection, query)
+    query = """ 
+    select * from F3_P1
+    """
+    offers = read_query(connection, query)
+    t_money_limit = money_limit
+    cards_count = 0
+    temp_seller_id = offers[0][0]
+    list_of_not_null_seller_sets = []
+    for offer_number in offers:
+        current_seller_id = offer_number[0]
+        if(current_seller_id !=temp_seller_id and cards_count != 0):
+            list_of_not_null_seller_sets.append([temp_seller_id, cards_count, money_limit - t_money_limit])
+            temp_seller_id = current_seller_id
+            cards_count = 0
+            t_money_limit = money_limit
+        if (t_money_limit >= offer_number[2] and current_seller_id == temp_seller_id):
+            t_money_limit -= offer_number[2]
+            cards_count += 1
+        else:
+            temp_seller_id = current_seller_id
+    max_values = [0,0,0]
+    for index in list_of_not_null_seller_sets:
+        if index[1] > max_values[1] or (index[1] == max_values[1] and index[2] < max_values[2]):
+            max_values = index
+
+    return max_values
+
+#Find seller, who sells cards of parameters given by the user, and find the cheapest offer from one seller with whole set available
+def execute_task_3(connection, card_condition, is_foiled, language, card_IDs):
+    query = f"""select max(date_ID) from dates"""
+    result = read_query(connection, query)
+    for i in result:
+        date_id = i[0]
+    query = """
+        CREATE OR REPLACE view F1_P1 as select * from sale_offers
+        where card_ID in (""" + card_IDs +""") and date_id = \"""" +date_id +"""\""""
+    if card_condition != "":
+        query += f""" and card_condition = \"""" + card_condition + """\""""
+    if is_foiled != "":
+        query += f""" and is_foiled = \"""" + is_foiled +"""\""""
+    if language != "":
+        query += f"""and  language = \"""" + language +"""\""""
+    execute_query(connection, query)
+    query = """
+    CREATE OR REPLACE view F1_P2 as
+    select seller_ID, count(distinct card_ID) as Available  from F1_P1
+    group by seller_ID;
+    """
+    execute_query(connection, query)
+    query ="""
+    CREATE OR REPLACE view F1_P3 as
+    select F1_P1.offer_id, F1_P1.seller_id, F1_P1.card_id, F1_P1.card_condition, 
+           min(F1_P1.price) as price
+    from F1_P1 inner join F1_P2 
+    On F1_P1.seller_id = F1_P2.seller_id
+    where Available ="2"
+    group by seller_id, card_id; """
+    execute_query(connection, query)
+
+    query =""" 
+    CREATE OR REPLACE view F1_P4 as
+    select seller_id, sum(price) as total_price from F1_P3
+    group by seller_id;"""
+    execute_query(connection, query)
+
+    query ="""
+    select sellers.seller_name, min(F1_P4.total_price) from sellers left join F1_P4 
+    on sellers.seller_id = F1_P4.seller_id"""
+
+    return read_query(connection, query)
+
+#Analyze all the sellers offerts, based on their average prices, and determine, which seller is the best one when browsing for cheap cards
+def execute_task_4(connection):
+    query = f"""select max(date_ID) from dates"""
+    result = read_query(connection, query)
+    for i in result:
+        date_id = i[0]
+    query = f"""
+    select card_id, seller_id, avg(price) from sale_offers
+    where seller_id in (
+        SELECT seller_id  FROM sale_offers
+        where date_id = {date_id}
+        group by seller_id
+        having count(distinct card_id)>50
+    ) and date_id = {date_id}
+    group by card_id, seller_id
+    order by card_id, price
+    """
+    source = read_query(connection, query)
+    current_ranking_card = 0
+    penelty = 1
+    # df = pd.read_csv('data/seller.csv', sep=';')
+    # max_seller = df["seller_ID"].max()
+    query = f"""select max(seller_ID) from sellers"""
+    result = read_query(connection, query)
+    for i in result:
+        max_seller = i[0]
+    sellers_ranking = [0]*max_seller
+    current_lowest_price = 0
+
+    for index in source:
+        if( current_ranking_card == 0):
+            current_ranking_card = index[0]
+            current_lowest_price = index[2]
+        if (index[0] == current_ranking_card):
+            if current_lowest_price == index[2]:
+                penelty -=1
+            sellers_ranking[index[1]] += penelty
+            penelty +=1
+        else:
+            penelty = 1
+            current_ranking_card =index[0]
+            current_lowest_price = index[2]
+    query = f"""
+        select count(distinct card_id ) from sale_offers
+        where seller_id in (
+        SELECT seller_id  FROM sale_offers
+        where date_id = {date_id}
+        group by seller_id
+        having count(distinct card_id)>50
+        ) and date_id = {date_id}
+        group by seller_ID;
+        """
+    source = read_query(connection, query)
+    total_car_amount = [i[0] for i in source]
+    results = []
+    i=0
+    for s_id in range(max_seller):
+        if (sellers_ranking[s_id] != 0):
+            results.append([s_id, sellers_ranking[s_id]/total_car_amount[i]])
+            i+=1
+
+    results.sort(key = lambda x: x[1])
+
+    winner_id = [i[0] for i in results]
+
+    query = f"""
+        select seller_name from sellers where seller_id ={winner_id[0]} """
+
+    almost_done = read_query(connection, query)
+    str1 = ""
+    for ele in almost_done:
+        str1 += ele[0]
+    return str1
+
+if __name__ == "__main__":
+
+    connection = create_db_connection("localhost", "root", "root", "gathering")
+    condition = "Excellent"
+    is_foiled = "false"
+    language = "English"
+    cards_ids = "\"2\""
+    current_date_id = "7"
+    results = execute_task_1(connection, condition, is_foiled, language, cards_ids)
+
+    for i in results:
+        print(i)
