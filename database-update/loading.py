@@ -42,14 +42,15 @@ def cards_stats_load():
     statsdf = pd.read_csv('data/card_stats.csv', sep=';')
     last_id = cards_stats.query.order_by(desc(cards_stats.stat_ID)).first()
     count = cards_stats.query.count()
-    if last_id.stat_ID == count:
-        statsdf = statsdf.query('(date_ID == ' + str(last_id.date_ID) + ' and card_ID >= ' \
-            + str(last_id.card_ID) + ') or date_ID > ' + str(last_id.date_ID))
-        for row in statsdf.iterrows():
-            if row[0] <= last_id.stat_ID:
-                statsdf = statsdf.drop(row[0])
-            else:
-                break
+    if last_id is not None:
+        if last_id.stat_ID == count:
+            statsdf = statsdf.query('(date_ID == ' + str(last_id.date_ID) + ' and card_ID >= ' \
+                + str(last_id.card_ID) + ') or date_ID > ' + str(last_id.date_ID))
+            for row in statsdf.iterrows():
+                if row[0] <= last_id.stat_ID:
+                    statsdf = statsdf.drop(row[0])
+                else:
+                    break
     for row in statsdf.iterrows():
         parsed = json.loads(statsdf.loc[row[0]].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
@@ -71,7 +72,7 @@ def sellers_load():
         relevantdf = sellersdf[sellersdf.seller_ID > last_id.seller_ID] if count == last_id.seller_ID else sellersdf
     except AttributeError:
         relevantdf = sellersdf
-    for i in relevantdf.index: 
+    for i in relevantdf.index:
         parsed = json.loads(relevantdf.loc[i].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))
         check = sellers.query.filter_by(**criteria).one_or_none()
@@ -84,14 +85,15 @@ def offers_load():
     offersdf = pd.read_csv('data/sale_offer.csv', sep=';')
     last_id = sale_offers.query.order_by(desc(sale_offers.offer_ID)).first()
     count = sale_offers.query.count()
-    if last_id.offer_ID == count:
-        offersdf = offersdf.query('(date_ID == ' + str(last_id.date_ID) + ' and card_ID >= ' \
-            + str(last_id.card_ID) + ') or date_ID > ' + str(last_id.date_ID))
-        for row in offersdf.iterrows():
-            if row[0] <= last_id.offer_ID:
-                offersdf = offersdf.drop(row[0])
-            else:
-                break
+    if last_id is not None:
+        if last_id.offer_ID == count:
+            offersdf = offersdf.query('(date_ID == ' + str(last_id.date_ID) + ' and card_ID >= ' \
+                + str(last_id.card_ID) + ') or date_ID > ' + str(last_id.date_ID))
+            for row in offersdf.iterrows():
+                if row[0] <= last_id.offer_ID:
+                    offersdf = offersdf.drop(row[0])
+                else:
+                    break
     for row in offersdf.iterrows():
         parsed = json.loads(offersdf.loc[row[0]].to_json())
         criteria = dict(filter(lambda v: (v[0], v[1]) if v[1] is not None else None, parsed.items()))

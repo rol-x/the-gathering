@@ -2,9 +2,10 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.dialects.mysql import INTEGER, DECIMAL, TINYINT
 from sqlalchemy import ForeignKey
+from urllib.parse import quote_plus
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:root@localhost/gathering"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:%s@localhost/gathering" % quote_plus('P@ssword')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -86,4 +87,3 @@ class sale_offers(db.Model):
             price = {self.price}, card_id = {self.card_ID},\
             card_condition = {self.card_condition}, \
             is_foiled = {self.is_foiled}, date_id = {self.date_ID})"
-    

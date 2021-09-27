@@ -43,8 +43,8 @@ def execute_task_1(connection, card_condition, is_foiled, language, card_IDs):
         date_id = i[0]
     print (date_id)
     query = """
-        CREATE OR REPLACE view F2_P1 as 
-        select offer_ID, seller_ID, cards_stats.date_ID, price, sale_offers.card_ID, card_condition, language, is_foiled, amount,  
+        CREATE OR REPLACE view F2_P1 as
+        select offer_ID, seller_ID, cards_stats.date_ID, price, sale_offers.card_ID, card_condition, language, is_foiled, amount,
         avg_price_30, avg_price_7
         from sale_offers join cards_stats
         where sale_offers.card_ID in (""" + str(card_IDs) +""")"""
@@ -54,30 +54,30 @@ def execute_task_1(connection, card_condition, is_foiled, language, card_IDs):
         query += """ and is_foiled = \"""" + is_foiled +"""\""""
     if language != "":
         query += """ and language = \"""" + language +"""\""""
-    
+
     query += """ group by seller_id, cards_stats.date_id;"""
     execute_query(connection, query)
     query = """
-    CREATE OR REPLACE view F2_P2 as 
+    CREATE OR REPLACE view F2_P2 as
     select seller_id, price from F2_P1
     where date_id = \"""" + str(date_id) +"""\";
     """
     execute_query(connection, query)
     query ="""
-    CREATE OR REPLACE view F2_P3 as 
-    select F2_P1.seller_id, avg(F2_P1.price) as Average_Price, min(F2_P1.price) as Minimum_Price, 
+    CREATE OR REPLACE view F2_P3 as
+    select F2_P1.seller_id, avg(F2_P1.price) as Average_Price, min(F2_P1.price) as Minimum_Price,
     F2_P1.avg_price_30, F2_P1.avg_price_7, F2_P2.price from F2_P1 join F2_P2 on F2_P1.seller_id=F2_P2.seller_id
     group by seller_id; """
     execute_query(connection, query)
 
-    query =""" 
-    CREATE OR REPLACE view F2_P4 as 
+    query ="""
+    CREATE OR REPLACE view F2_P4 as
     select sellers.seller_name, F2_P3.seller_id, F2_P3.price from F2_P3 left join sellers on  F2_P3.seller_id= sellers.seller_id
     where price <= Average_Price and price <= Minimum_Price and price <= avg_price_30 and price <= avg_price_7;
     """
     execute_query(connection, query)
-    query = """ 
-    CREATE OR REPLACE view F2_P5 as 
+    query = """
+    CREATE OR REPLACE view F2_P5 as
     select min(price) as min_price from F2_P4;
         """
     execute_query(connection, query)
@@ -102,16 +102,16 @@ def execute_task_2(connection, card_condition, is_foiled, language, money_limit)
             CREATE OR REPLACE view F3_P1 as
             select seller_id, card_id, min(price) from sale_offers
             where date_id = "{date_id}" and price < {money_limit}"""
-    if card_condition != "": 
+    if card_condition != "":
         query += f""" and card_condition = \"{card_condition}\""""
-    if card_condition != "": 
+    if card_condition != "":
         query += f""" and is_foiled = \"{is_foiled}\""""
-    if language != "": 
+    if language != "":
         query += f""" and language = \"{language}\""""
     query += ''' group by seller_id, card_id
             order by seller_id, min(price);'''
     execute_query(connection, query)
-    query = """ 
+    query = """
     select * from F3_P1
     """
     offers = read_query(connection, query)
@@ -162,22 +162,22 @@ def execute_task_3(connection, card_condition, is_foiled, language, card_IDs):
     execute_query(connection, query)
     query ="""
     CREATE OR REPLACE view F1_P3 as
-    select F1_P1.offer_id, F1_P1.seller_id, F1_P1.card_id, F1_P1.card_condition, 
+    select F1_P1.offer_id, F1_P1.seller_id, F1_P1.card_id, F1_P1.card_condition,
            min(F1_P1.price) as price
-    from F1_P1 inner join F1_P2 
+    from F1_P1 inner join F1_P2
     On F1_P1.seller_id = F1_P2.seller_id
     where Available ="2"
     group by seller_id, card_id; """
     execute_query(connection, query)
 
-    query =""" 
+    query ="""
     CREATE OR REPLACE view F1_P4 as
     select seller_id, sum(price) as total_price from F1_P3
     group by seller_id;"""
     execute_query(connection, query)
 
     query ="""
-    select sellers.seller_name, min(F1_P4.total_price) from sellers left join F1_P4 
+    select sellers.seller_name, min(F1_P4.total_price) from sellers left join F1_P4
     on sellers.seller_id = F1_P4.seller_id"""
 
     return read_query(connection, query)
@@ -258,7 +258,7 @@ def execute_task_4(connection):
 
 if __name__ == "__main__":
 
-    connection = create_db_connection("localhost", "root", "root", "gathering")
+    connection = create_db_connection("localhost", "root", "P@ssword", "gathering")
     condition = "Excellent"
     is_foiled = "false"
     language = "English"

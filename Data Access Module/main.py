@@ -77,7 +77,7 @@ def first_function_result(old, card_name, language, is_foiled, condition):
 
     text = f"The best price for {card_name} is from \nseller {solution[0]} for {str(solution[1])}."
     resultlabel = label(win, text, ['Arial', 14], 140, 200, 1)
-    
+
     # ///////////////////////////////////////////////////////////////////////////////////////
 
     backbutton = button(win, "Back", mainscreen, 270, 400, 100, 30)
@@ -126,7 +126,7 @@ def second_function(old):
     #go back button
     backbutton = button(win, "Back", mainscreen, 270, 410, 100, 30)
 
-    win.show()    
+    win.show()
 
 def second_function_result(old, budget ,language, is_foiled, condition):
     old.close()
@@ -137,7 +137,7 @@ def second_function_result(old, budget ,language, is_foiled, condition):
     if budget.find(',') > -1:
         budget = budget.replace(',','.')
     result = execute_task_2(connection, condition, is_foiled, language, Decimal(budget))
-    query = f"""select seller_name from sellers where seller_ID = {result[0]}""" 
+    query = f"""select seller_name from sellers where seller_ID = {result[0]}"""
     sellers = read_query(connection, query)
     for i in sellers:
        seller = i[0]
@@ -146,8 +146,8 @@ def second_function_result(old, budget ,language, is_foiled, condition):
 
     backbutton = button(win, "Back", mainscreen, 270, 400, 100, 30)
 
-    win.show()    
-    
+    win.show()
+
 def third_function(old):
     old.close()
     win = QMainWindow()
@@ -211,9 +211,9 @@ def third_function_result(old, cards, language, is_foil, condition):
     backbutton = button(win, "Back", mainscreen, 270, 440, 100, 30)
 
     win.show()
-    
+
 def fourth_function(old):
-    
+
     old.close()
     win = QMainWindow()
     sizentitle(win)
@@ -225,11 +225,11 @@ def fourth_function(old):
 
     backbutton = button(win, "Back", mainscreen, 270, 400, 100, 30)
 
-    win.show()    
-    
+    win.show()
+
 if __name__ == "__main__":
 
-    connection = create_db_connection("localhost", "root", "root", "gathering")
+    connection = create_db_connection("localhost", "root", "P@ssword", "gathering")
     data_app = QApplication(sys.argv)
     old = QMainWindow()
     mainscreen(old)
